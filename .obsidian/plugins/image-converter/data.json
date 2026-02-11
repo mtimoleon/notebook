@@ -221,7 +221,7 @@
   "modalBehavior": "never",
   "singleImageModalSettings": {
     "conversionPresetName": "None",
-    "outputFormat": "NONE",
+    "outputFormat": "PNG",
     "quality": 100,
     "colorDepth": 1,
     "resizeMode": "None",

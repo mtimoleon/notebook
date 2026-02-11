@@ -1,13 +1,13 @@
 [
-  "settings-search",
-  "manual-sorting",
   "obsidian-git",
   "image-converter",
   "obsidian-excalidraw-plugin",
   "obsidian-importer",
-  "colored-tags",
-  "editing-toolbar",
-  "obsidian-custom-attachment-location",
   "folder-notes",
-  "editor-width-slider"
+  "obsidian-regex-replace",
+  "tag-wrangler",
+  "settings-search",
+  "obsidian-outliner",
+  "obsidian-editor-shortcuts",
+  "obsidian-custom-attachment-location"
 ]

@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "46a1852872f0cd14",
+        "id": "65729a20c64b3ccc",
         "type": "tabs",
         "children": [
           {
-            "id": "26a98ca6d257ec43",
+            "id": "7d64851de9c352b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Categories/Software.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Software"
             }
           }
         ]
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#categories",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -74,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 271.5
   },
   "right": {
     "id": "ed3f7e0552712392",
@@ -83,6 +97,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
+        "dimension": 64.24418604651163,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -90,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Developer/General/ChatGPT Codex.md",
+                "file": "_current/Drawing 2026-02-10 10.15.10.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ChatGPT Codex"
+              "title": "Backlinks for Drawing 2026-02-10 10.15.10.excalidraw"
             }
           },
           {
@@ -109,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Developer/General/ChatGPT Codex.md",
+                "file": "_current/Drawing 2026-02-10 10.15.10.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ChatGPT Codex"
+              "title": "Outgoing links from Drawing 2026-02-10 10.15.10.excalidraw"
             }
           },
           {
@@ -124,7 +139,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "alphabetical",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -138,7 +153,7 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -152,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Developer/General/ChatGPT Codex.md",
+                "file": "Categories/Software.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ChatGPT Codex"
+              "title": "Outline of Software"
             }
           },
           {
@@ -167,10 +182,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Developer/General/ChatGPT Codex.md"
+                "file": "Categories/Software.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for ChatGPT Codex"
+              "title": "File properties for Software"
             }
           },
           {
@@ -179,7 +194,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Developer/General/ChatGPT Codex.md"
+                "file": "_current/Drawing 2026-02-10 10.15.10.excalidraw.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -191,6 +206,7 @@
       {
         "id": "1114442bb95cf4fa",
         "type": "tabs",
+        "dimension": 35.75581395348838,
         "children": [
           {
             "id": "4a8b8a265069ca66",
@@ -218,13 +234,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 365.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
+      "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
@@ -234,54 +251,54 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "26a98ca6d257ec43",
+  "active": "7d64851de9c352b2",
   "lastOpenFiles": [
-    "assets/OneNote/Interests/AI/Models/TPU-KNN paper.md",
-    "assets/OneNote/Interests/AI/Models/Synthetic Intelligence Beyond A.I. and Robotics.md",
-    "assets/OneNote/Interests/AI/Models/SatCLIP paper.md",
-    "assets/OneNote/Interests/AI/Models/https--www.perplexity.ai-page-what-is-chain-of-thought-promp-JtoLvuAnTpmuW0W2xewHjw.md",
-    "assets/OneNote/Interests/AI/Models/https--hackernoon.com-from-data-silos-to-intelligent-systems-rag-and-knowledge-graph-synergy.md",
-    "assets/OneNote/Interests/AI/Models/How to choose the right AI model.md",
-    "assets/OneNote/Interests/AI/Models/Generative AI for discovering porous oxide materials.md",
-    "assets/OneNote/Interests/AI/Models/FLAN paper.md",
-    "assets/OneNote/Interests/AI/Linear Algebra/Statistical machine learning.md",
-    "assets/OneNote/Interests/AI/Linear Algebra/Book basic of Linear Algebra.md",
-    "assets/OneNote/Interests/AI/Linear Algebra",
-    "assets/OneNote/Interests/AI/General/The AI Renaissance How Machines are Transforming Art, Music, and Literature  HackerNoon.md",
-    "assets/OneNote/Interests/AI/General/News-Ideas.md",
-    "assets/OneNote/Interests/AI/General/Difference Between Algorithm and Model in Machine Learning - MachineLearningMastery.com.md",
-    "assets/OneNote/Interests/AI/General/Chain-of-Thought.md",
-    "assets/OneNote/Interests/AI/General/Apple paper.md",
-    "assets/OneNote/Interests/AI/General/_General notes.md",
-    "assets/OneNote/Interests/AI/General",
-    "assets/OneNote/Interests/AI/Courses/Coursera - Generative AI with Large Language Models.md",
-    "assets/OneNote/Interests/AI/Courses",
-    "assets/OneNote/Interests/AI/Algorithms/Model compression/Scaling Laws for Neural Language Models.md",
-    "assets/OneNote/Interests/AI/Algorithms/Model compression/Model compression.md",
-    "assets/OneNote/Interests/AI/Algorithms/Model compression/Distilling the Knowledge in a Neural Network.md",
-    "assets/OneNote/Interests/AI/Algorithms/Model compression",
-    "assets/OneNote/Interests/AI/Algorithms/Markov Decision Process/The Mathematics of 2048 Optimal Play with Markov Decision Processes.md",
-    "assets/OneNote/Interests/AI/Algorithms/Markov Decision Process",
-    "assets/OneNote/Interests/AI/Algorithms/MachineLearningAlgorithms Cource Mind map.md",
-    "assets/OneNote/Interests/AI/Algorithms/Machine learning/Demystifying 6 key machine learning algorithms.md",
-    "assets/OneNote/Interests/AI/Algorithms/Machine learning/Data science.md",
-    "assets/OneNote/Interests/AI/Algorithms/Machine learning",
-    "assets/OneNote/Interests/AI/Algorithms/How to Build an AI-Powered Web Application With Next.js and TensorFlow.js A Guide  HackerNoon.md",
-    "assets/OneNote/Interests/AI/Algorithms/Google AI.md",
-    "assets/OneNote/Interests/AI/Algorithms/Data science",
-    "assets/OneNote/Interests/AI/Algorithms",
-    "assets/OneNote/Interests/AI/Models/FLAN paper.md/Exported image 20260209131505-0.png",
-    "assets/OneNote/Interests/AI/Models/Looking Artificial Analysis and LMArena leaderboards.md/image.png",
-    "assets/OneNote/Interests/AI/Models",
-    "assets/OneNote/Interests/AI",
-    "assets/OneNote/Interests/AI/Models/FLAN paper.md/Exported image 20260209132500-49.png",
-    "assets/OneNote/Interests/AI/Models/TPU-KNN paper.md/Exported image 20260209133006-15.png",
-    "assets/OneNote/Interests/AI/Models/TPU-KNN paper.md/Exported image 20260209133005-14.png",
-    "assets/OneNote/Interests/AI/Models/TPU-KNN paper.md/Exported image 20260209133003-13.png",
-    "assets/OneNote/Interests/AI/Models/TPU-KNN paper.md/Exported image 20260209132959-12.png",
-    "assets/OneNote/Interests/AI/Models/TPU-KNN paper.md/Exported image 20260209132958-11.png",
-    "assets/OneNote/Interests/AI/Models/TPU-KNN paper.md/Exported image 20260209132956-10.png",
-    "assets/OneNote/Interests/AI/Models/TPU-KNN paper.md/Exported image 20260209132955-9.png",
+    "Categories/Companies.md",
+    "Categories/Software.md",
+    "Clippings/Επίσημα templates Obsidian.md",
+    "Templates/Software Template.md",
+    "CategoryAdd.prompt.md",
+    "Templates/Bases/Software.base",
+    "Templates/Bases/Genre.base",
+    "Templates/Bases/Companies.base",
+    "Notes/OneNote/Intelligen/Gantt/Completed issues/Completed issues.md",
+    "_current/Untitled.md",
+    "_current/Drawing 2026-02-10 10.15.10.excalidraw.md",
+    "_assets/_current/Drawing 2026-02-10 10.15.10.excalidraw.md/Pasted Image 20260211135044_529.png",
+    "_assets/_current/Drawing 2026-02-10 10.15.10.excalidraw.md/Pasted Image 20260211134914_280.png",
+    "_assets/_current/Drawing 2026-02-10 10.15.10.excalidraw.md/Pasted Image 20260211130148_027.png",
+    "_current/2026-02-11.md",
+    "_assets/_current/Drawing 2026-02-10 10.15.10.excalidraw.md/Pasted Image 20260211125618_060.png",
+    "_assets/_current/Drawing 2026-02-10 10.15.10.excalidraw.md",
+    "_current/Games.base",
+    "Templates/Bases",
+    "Categories",
+    "_assets/_current/2026-02-11.md",
+    "Notes/Καζαλτζής/ti-soft/TiSoft - Πίνακας πυκνωτών διόρθωσης συνφ.md",
+    "Clippings/–.md",
+    "Notes/Καζαλτζής/ti-soft/Πίνακας πυκνωτών διόρθωσης συνφ.md",
+    "Notes/Καζαλτζής/Διάφορα/Βαθμός προστασίας IP κώδικας » GeoV Solutions.md",
+    "Notes/Developer/Linux/The UNIX Filesystem Commands.md",
+    "Notes/Developer/General/The HTTP2 protocol.md",
+    "Notes/Developer/General/Push Notifications and ASP.NET Core - Part 1 (Push API)/Push Notifications and ASP.NET Core - Part 4 (Queueing requesting delivery in background).md",
+    "Notes/Developer/General/Push Notifications and ASP.NET Core - Part 1 (Push API)/Push Notifications and ASP.NET Core - Part 3 (Replacing Messages & Urgency).md",
+    "Notes/Developer/General/Push Notifications and ASP.NET Core - Part 1 (Push API)/Push Notifications and ASP.NET Core - Part 2 (Requesting Delivery).md",
+    "Notes/Developer/General/Push Notifications and ASP.NET Core - Part 1 (Push API)/Push Notifications and ASP.NET Core - Part 1 (Push API).md",
+    "Notes/Test/Perplexity.md",
+    "_assets/Notes/Developer/UI/Frame0  Sketch your app ideas without hassle.md",
+    "_assets/Notes/Developer/UI",
+    "_assets/Notes/Developer/sj-project/Diagrams.md",
+    "_assets/Notes/Developer/sj-project/Amaze_Services_Prices.md",
+    "_assets/Notes/Developer/sj-project",
+    "_assets/Notes/Developer/Linux/The Linux Filesystem Explained - Linux.com.md",
+    "_assets/Notes/Developer/Linux",
+    "_assets/Notes/Developer/Error Responses",
+    "_assets/_current/2026-02-11.md/image-4.png",
+    "_assets/_current/2026-02-11.md/image-3.png",
+    "_assets/_current/2026-02-11.md/image-2.png",
+    "_assets/_current/2026-02-11.md/image-1.png",
+    "_assets/_current/2026-02-11.md/image.png",
+    "assets/image-13.png",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

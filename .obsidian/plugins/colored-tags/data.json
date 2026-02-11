@@ -1,8 +1,8 @@
 {
   "palette": {
     "seed": 0,
-    "selected": "adaptive-soft",
-    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+    "selected": "custom",
+    "custom": "6c6c6c-302424-b41c1c-eeccc9-f44434-d03522-f4a498-8c6c64-f47c5e-e45010-543c30-f66012-a48c7c-f47c0c-fcb44c-fca824-fc9c04-fcc61e-fcd44c-f6e490-ece139-e9e6ae-eaea66-f8f8c4-b8c030-6c8020-849c30-94c858-346c1c-99bc8c-64b04c-d6e4d6-44a444-348438-64bc6c-22483a-047c6c-84ccc4-0c928c-b0d8d7-205c5c-0494a4-4cd4e4-04bcd4-04acc4-24c4dc-94a4ac-6c99b1-58bcf4-0f97e7-38acf4-8ecaf0-5c7484-116ec6-c0d4f4-2048a2-3c54b4-5c6cc4-29268c-4424a4-643cb4-7c54c4-e6e1ee-4c148c-6626a8-a870cc-be9ec9-9424b0-ac44bc-debcd1-b81858-f478a4-ec447c-e62e5e-7c3949"
   },
   "mixColors": true,
   "transition": true,
@@ -10,12 +10,16 @@
     "highTextContrast": false
   },
   "knownTags": {
-    "005bb5": 1,
-    "0070f3": 2,
+    "chatgpt": 1,
     "clippings": 1,
     "excalidraw": 2,
     "important": 3,
-    "prompts": 3
+    "keycloak": 4,
+    "obsidian": 5,
+    "prompts": 3,
+    "stream": 5,
+    "chatgpt/conversation": 1,
+    "obsidian/web-clipper": 1
   },
   "tagColors": {},
   "_version": 4

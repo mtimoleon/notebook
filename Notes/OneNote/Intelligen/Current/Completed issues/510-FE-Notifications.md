@@ -1,0 +1,1 @@
+- [x] Remove params aggregation from messages service

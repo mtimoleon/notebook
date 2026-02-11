@@ -1,0 +1,2 @@
+- [x] Fix service registrations in startup  
+- [x] Fix sessions in production

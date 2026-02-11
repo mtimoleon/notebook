@@ -2,7 +2,7 @@
   "copyLinkToElemenetAnchorTo100": false,
   "copyFrameLinkByName": false,
   "disableDoubleClickTextEditing": false,
-  "folder": "",
+  "folder": "_current",
   "cropFolder": "",
   "annotateFolder": "",
   "embedUseExcalidrawFolder": true,

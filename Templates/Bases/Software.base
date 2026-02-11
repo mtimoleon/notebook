@@ -1,0 +1,56 @@
+filters:
+  and:
+    - categories.contains(link("Software"))
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Software
+  note.year:
+    displayName: Year
+  note.maker:
+    displayName: Maker
+  note.rating:
+    displayName: Rating
+  note.genre:
+    displayName: Genre
+  note.last:
+    displayName: Last played
+views:
+  - type: table
+    name: Software
+    order:
+      - file.name
+      - maker
+      - genre
+      - year
+      - rating
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Company
+    filters:
+      and:
+        - list(maker).contains(this)
+    order:
+      - file.name
+      - maker
+      - genre
+      - year
+      - rating
+      - last
+    sort:
+      - property: file.name
+        direction: DESC
+  - type: table
+    name: Genre
+    filters:
+      and:
+        - list(genre).contains(this)
+    order:
+      - file.name
+      - maker
+      - genre
+      - year
+      - rating
+      - last

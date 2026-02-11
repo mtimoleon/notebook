@@ -1,10 +1,17 @@
 {
-  "attachmentFolderPath": "attachments",
+  "attachmentFolderPath": "_assets",
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
-  "trashOption": "local",
+  "trashOption": "system",
   "propertiesInDocument": "visible",
   "showLineNumber": false,
   "readableLineLength": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_current",
+  "foldHeading": true,
+  "foldIndent": true,
+  "showIndentGuide": false,
+  "useTab": true,
+  "showInlineTitle": true
 }

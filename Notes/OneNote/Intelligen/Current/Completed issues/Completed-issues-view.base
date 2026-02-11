@@ -1,0 +1,20 @@
+formulas:
+  Untitled: ""
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - '!file.path.contains("assets")'
+        - file.folder.contains("Completed issues")
+        - file.folder.startsWith("OneNote/Intelligen")
+    order:
+      - file.ctime
+      - file.name
+      - file.folder
+      - file.path
+    sort:
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      file.ctime: 189

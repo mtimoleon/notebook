@@ -1,5 +1,12 @@
 {
   "baseFontSizeAction": true,
   "textFontFamily": "Lato",
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "monospaceFontFamily": "Cascadia Mono",
+  "enabledCssSnippets": [
+    "no-strike-through-on-todo-check"
+  ],
+  "theme": "moonstone",
+  "nativeMenus": false,
+  "showViewHeader": true
 }

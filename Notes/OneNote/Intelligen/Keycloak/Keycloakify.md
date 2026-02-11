@@ -1,0 +1,1 @@
+[https://docs.keycloakify.dev/testing-your-theme/inside-of-keycloak#running-keycloak-in-docker](https://docs.keycloakify.dev/testing-your-theme/inside-of-keycloak#running-keycloak-in-docker)
