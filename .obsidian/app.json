@@ -6,7 +6,7 @@
   "propertiesInDocument": "visible",
   "showLineNumber": false,
   "readableLineLength": true,
-  "promptDelete": false,
+  "promptDelete": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "Current",
   "foldHeading": true,

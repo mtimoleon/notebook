@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "9df275896a679fc5",
+        "id": "b4213a460b8bdad5",
         "type": "tabs",
         "children": [
           {
-            "id": "4aa324c37e8a2522",
+            "id": "1e3f451fc60b67a5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Auth/RAISE/Architecture/Architecture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Architecture"
             }
           }
         ]
@@ -49,10 +63,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "263-im",
+                "query": "tag:#important",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
               },
@@ -74,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 373.5
   },
   "right": {
     "id": "ed3f7e0552712392",
@@ -83,7 +97,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 64.24418604651163,
+        "dimension": 37.7541142303969,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -91,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_current/Drawing 2026-02-10 10.15.10.excalidraw.md",
+                "file": "Notes/Auth/RAISE/Architecture/Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Drawing 2026-02-10 10.15.10.excalidraw"
+              "title": "Backlinks for Architecture"
             }
           },
           {
@@ -110,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_current/Drawing 2026-02-10 10.15.10.excalidraw.md",
+                "file": "Notes/Auth/RAISE/Architecture/Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Drawing 2026-02-10 10.15.10.excalidraw"
+              "title": "Outgoing links from Architecture"
             }
           },
           {
@@ -148,27 +162,17 @@
             }
           },
           {
-            "id": "43b65ca38b37f2a8",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
             "id": "031e2a453ae393a2",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Notes/Developer/Linux/The UNIX Filesystem Commands.md"
+              },
+              "pinned": true,
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for The UNIX Filesystem Commands"
             }
           },
           {
@@ -183,13 +187,34 @@
               "title": "Footnotes"
             }
           }
-        ],
-        "currentTab": 2
+        ]
+      },
+      {
+        "id": "c159d314176b7de8",
+        "type": "tabs",
+        "dimension": 27.879961277831562,
+        "children": [
+          {
+            "id": "43b65ca38b37f2a8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/Auth/RAISE/Architecture/Architecture.md",
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Architecture"
+            }
+          }
+        ]
       },
       {
         "id": "1114442bb95cf4fa",
         "type": "tabs",
-        "dimension": 35.75581395348838,
+        "dimension": 34.36592449177154,
         "children": [
           {
             "id": "4a8b8a265069ca66",
@@ -217,7 +242,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 397.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,57 +256,58 @@
       "graph:Open graph view": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-importer:Open Importer": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4aa324c37e8a2522",
+  "active": "1e3f451fc60b67a5",
   "lastOpenFiles": [
-    "Attachments/Notes/Home/Υγεία/Συνταγή οφθαλμίατρος Μιχάλης.md",
-    "Attachments/Notes/Home/Υγεία/Σύνδρομο Παγωμένου Ώμου — Οδηγός Ασκήσεων.md",
-    "Attachments/Notes/Home/Υγεία/SYBIL/SYBIL.md",
-    "Attachments/Notes/Home/Υγεία/SYBIL",
-    "Attachments/Notes/Home/Υγεία/https--www.perplexity.ai-page-briacell-says-breast-cancer-pa-Xs0peTfcTByb5FVCUyw2mQ.md",
-    "Attachments/Notes/Home/Υγεία",
-    "Attachments/Notes/Home/ΤΣΜΕΔΕ/Επικοινωνία  e-ΕΦΚΑ.md",
-    "Attachments/Notes/Home/ΤΣΜΕΔΕ",
-    "Attachments/Notes/Home/Ταξίδι/Περιοχές του Παρισιού.md",
-    "Attachments/Notes/Home/Ταξίδι/Ασφάλεια-2.md",
-    "Attachments/Notes/Home/Ταξίδι/Ασφάλεια-1.md",
-    "Attachments/Notes/Home/Ταξίδι/Αρχικό/28-4 Nuremberg.md",
-    "Attachments/Notes/Home/Ταξίδι/Αρχικό/27-4 Vienna.md",
-    "Attachments/Notes/Home/Ταξίδι/Αρχικό/26-4 Βελιγράδι.md",
-    "Attachments/Notes/Home/Ταξίδι/Αρχικό/16-5 Βελιγράδι.md",
-    "Attachments/Notes/Home/Ταξίδι/Αρχικό/15-5 Vienna.md",
-    "Attachments/Notes/Home/Ταξίδι/Αρχικό/14-5 Stuttgart.md",
-    "Attachments/Notes/Home/Ταξίδι/Αρχικό",
-    "Attachments/Notes/Home/Ταξίδι/Paris bus lines.md",
-    "Attachments/Notes/Home/Ταξίδι/Furkot.md",
-    "Attachments/Notes/Home/Ταξίδι/4-10-15-10 Wageningen.md",
-    "Attachments/Notes/Home/Ταξίδι/1-10 Belgrade.md",
-    "Attachments/Notes/Home/Ταξίδι",
-    "Attachments/Notes/Home/Συντάξεις/Σύνταξη.md",
-    "Attachments/Notes/Home/Συντάξεις/Σύνταξη για τους ελεύθερους επαγγελματίες - syntaxeis.com.md",
-    "Attachments/Notes/Home/Συντάξεις/Συνοπτικό ιστορικό Μιχάλη.md",
-    "Attachments/Notes/Home/Συντάξεις/Συνοπτικό ιστορικό Μάγδας.md",
-    "Attachments/Notes/Home/Συντάξεις/Ένσημα Μάγδας.md",
-    "Attachments/Notes/Home/Συντάξεις/ΕΛΕΥΘΕΡΟΙ ΕΠΑΓΓΕΛΜΑΤΙΕΣ.md",
-    "Attachments/Notes/Home/Συντάξεις",
-    "Attachments/Notes/Home/Σπίτι/Υλικά/ΝΕΟΤΕΧ.md",
-    "Attachments/Notes/Home/Σπίτι/Υλικά/Έκπτωση φόρου για ανακαίνιση.pdf.md",
-    "Attachments/Notes/Home/Σπίτι/Υλικά",
-    "Attachments/Notes/Home/Σπίτι/Τεντοπέργκολα",
-    "Attachments/Notes/Home/Σπίτι/Μόνωση μπαλκόνι",
-    "Attachments/Notes/Home/Σπίτι/Κουφώματα",
-    "Attachments/Notes/Home/Quick notes/Mεταβίβαση μοτοποδηλάτου/Mεταβίβαση μοτοποδηλάτου ΚΕΠ.md/file-2026-02-11.png",
-    "Attachments/Notes/Home/Quick notes/Mεταβίβαση μοτοποδηλάτου/Mεταβίβαση μοτοποδηλάτου ΚΕΠ.md/image.png",
-    "Attachments/Notes/Home/Υγεία/https--www.perplexity.ai-page-briacell-says-breast-cancer-pa-Xs0peTfcTByb5FVCUyw2mQ.md/Exported image 20260211200310-0.png",
-    "Attachments/Notes/Home/Υγεία/Συνταγή οφθαλμίατρος Μιχάλης.md/Exported image 20260211200259-0.png",
-    "Attachments/Notes/Home/Υγεία/SYBIL/SYBIL.md/Exported image 20260211200248-8.png",
-    "Attachments/Notes/Home/Υγεία/SYBIL/SYBIL.md/Exported image 20260211200243-7.png",
-    "Attachments/Notes/Home/Υγεία/SYBIL/SYBIL.md/Exported image 20260211200240-6.png",
-    "Attachments/Notes/Home/Υγεία/SYBIL/SYBIL.md/Exported image 20260211200238-5.png",
-    "Attachments/Notes/Home/Υγεία/SYBIL/SYBIL.md/Exported image 20260211200236-4.png",
-    "Attachments/Notes/Home/Υγεία/SYBIL/SYBIL.md/Exported image 20260211200234-3.png",
+    "Notes/Auth/RAISE/Architecture/2024-04-24_RAISE_InfoPack-Antonio.md",
+    "Notes/Auth/RAISE/Architecture/Architecture.md",
+    "Notes/Auth/RAISE/RAISE Notes.md",
+    "Attachments/Notes/Auth/RAISE/RAI PID NOTES/RAI PID NOTES.md/ODINWP4WorkflowInteroperability00021_0.pdf",
+    "Notes/Auth/RAISE/RAI PID NOTES/RAI PID NOTES.md",
+    "Templates/Interest Template.md",
+    "Templates/Work Template.md",
+    "Templates/Company Template.md",
+    "Notes/Interests/AI/Algorithms/Google AI.md",
+    "Current/Drawing 2026-02-10 10.15.10.excalidraw.md",
+    "Templates/Home Note Template.md",
+    "Templates/Clipping Template.md",
+    "Templates/Documentation Template.md",
+    "Templates/Issue Template.md",
+    "Templates/Bases/Clippings.base",
+    "Templates/Bases/Documentation.base",
+    "Templates/Bases/Issues.base",
+    "Templates/Bases/Interests.base",
+    "Templates/Bases/Work.base",
+    "Templates/Bases/Home.base",
+    "Categories/Clippings.md",
+    "Categories/Documentation.md",
+    "Categories/Issues.md",
+    "Categories/Interests.md",
+    "Categories/Home.md",
+    "Categories/Work.md",
+    "Current/2026-02-11.md",
+    "Current/Untitled.md",
+    "Notes/Developer/Linux/The UNIX Filesystem Commands.md",
+    "Attachments/Notes/Cleverapps/Esdi/esdi-pages/Untitled-20230608.md",
+    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/2023.md",
+    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/__temp__2025/Special Court search Competition.md",
+    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/__temp__2025/Reports.md",
+    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/__temp__2025",
+    "Notes/Electric-engineer",
+    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/2025",
+    "Attachments/Exported image 20260209000036-0.jpeg",
+    "Attachments/Exported image 20260208235746-0.jpeg",
+    "Attachments/Exported image 20260209000011-0.png",
+    "Attachments/Exported image 20260209000009-0.jpeg",
+    "Attachments/Exported image 20260208235958-4.gif",
+    "Attachments/Exported image 20260208235957-3.gif",
+    "Attachments/Exported image 20260208235956-2.gif",
+    "Attachments/Exported image 20260208235952-1.gif",
+    "Attachments/Exported image 20260208235951-0.gif",
+    "Attachments/Notes/Intelligen/Current/Completed issues/405-Resource-ordering-and-visibility.md/Drawing 2026-02-09 16.58.02.excalidraw.md/Pasted Image 20260209165836_953.png",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"
