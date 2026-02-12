@@ -1,6 +1,7 @@
----
+﻿---
 categories:
   - "[[Work]]"
+created: 2021-10-05T21:24
 tags:
   - intelligen
 ---
@@ -10,3 +11,7 @@ tags:
 
 ![Hosted applicationsapps Development tools, databas...](Exported%20image%2020260209140514-1.png)     
 ![Monitoring Storage Services Streaming Services Doc...](Exported%20image%2020260209140516-2.png)   ![Application code repo SCC ode pos h Inner loop Cod...](Exported%20image%2020260209140518-3.png)
+
+
+
+

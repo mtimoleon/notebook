@@ -1,6 +1,7 @@
----
+﻿---
 categories:
   - "[[Work]]"
+created: 2021-11-06T01:13
 tags:
   - intelligen
 ---
@@ -18,3 +19,7 @@ Clipped from: [https://www.dddcommunity.org/wp-content/uploads/files/pdf_article
 ![and description attributes. We cant imagine name a...](Exported%20image%2020260209135448-4.png)
 
 ![So a new use case may lead to insights that push u...](Exported%20image%2020260209135451-5.png)
+
+
+
+

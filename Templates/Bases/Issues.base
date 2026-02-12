@@ -32,13 +32,20 @@ views:
       - status
       - product
       - component
+      - file.ctime
       - file.path
     sort:
+      - property: product
+        direction: ASC
+      - property: file.ctime
+        direction: DESC
       - property: file.name
         direction: ASC
       - property: file.mtime
         direction: DESC
     limit: 200
+    columnSize:
+      file.ctime: 98
   - type: table
     name: Current
     filters:

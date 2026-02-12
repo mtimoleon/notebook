@@ -1,4 +1,10 @@
+﻿---
+component: Keycloak
+tags:
+  - intelligen
 ---
+ο»Ώ---
+created: 2025-05-08T10:04
 tags:
   - keycloak
   - intelligen
@@ -13,9 +19,9 @@ categories:
 
 - **In Active directory server**
 - **Disable "Email Verified" and related Required Actions**
-    - Go to **Realm Settings** → **Login**
+    - Go to **Realm Settings** Ξ²β€ β€™ **Login**
     - Uncheck:
-        - ☑ Verify email on login
+        - Ξ²Ββ€ Verify email on login
 
 - **Add LDAP provider with the following settings:**
   User federation/ldap_card_click/settings
@@ -28,7 +34,7 @@ categories:
 ![[image-24.png|897x202]]
 
 ---
-> Ο **DN (Distinguished Name)** του LDAP admin είναι η πλήρης «διεύθυνση» της εγγραφής του χρήστη στον LDAP directory που θα χρησιμοποιηθεί από το Keycloak για να συνδεθεί και να εκτελεί λειτουργίες (bind) στον LDAP server.
+> ΞΒ **DN (Distinguished Name)** Ξβ€ΞΞΞβ€¦ LDAP admin ΞΒµΞβ€•ΞΒ½ΞΒ±ΞΞ‰ ΞΒ· Ξβ‚¬ΞΒ»ΞΒ®ΞΒΞΒ·Ξβ€ Ξ’Β«ΞΞ„ΞΞ‰ΞΒµΞΒΞΞΞβ€¦ΞΒ½ΞΖ’ΞΒ·Ξ’Β» Ξβ€ΞΒ·Ξβ€ ΞΒµΞΒ³ΞΒ³ΞΒΞΒ±Ξβ€ ΞΒ®Ξβ€ Ξβ€ΞΞΞβ€¦ Ξβ€΅ΞΒΞΒ®ΞΖ’Ξβ€ΞΒ· ΞΖ’Ξβ€ΞΞΞΒ½ LDAP directory Ξβ‚¬ΞΞΞβ€¦ ΞΞΞΒ± Ξβ€΅ΞΒΞΒ·ΞΖ’ΞΞ‰ΞΞΞΞΞβ‚¬ΞΞΞΞ‰ΞΒ·ΞΞΞΒµΞβ€• ΞΒ±Ξβ‚¬ΞΒ Ξβ€ΞΞ Keycloak ΞΒ³ΞΞ‰ΞΒ± ΞΒ½ΞΒ± ΞΖ’Ξβ€¦ΞΒ½ΞΞ„ΞΒµΞΞΞΒµΞβ€• ΞΞΞΒ±ΞΞ‰ ΞΒ½ΞΒ± ΞΒµΞΞΞβ€ΞΒµΞΒ»ΞΒµΞβ€• ΞΒ»ΞΒµΞΞ‰Ξβ€ΞΞΞβ€¦ΞΒΞΒ³Ξβ€•ΞΒµΞβ€ (bind) ΞΖ’Ξβ€ΞΞΞΒ½ LDAP server.
 
 ---
 ![[image-25.png]]
@@ -58,8 +64,8 @@ The **sAMAccountName** is for only the user name like user1
 	After user creation optionaly create admins group and add the user:
 	Create an AD Group
 	In Active Directory:
-		○ Open Active Directory Users and Computers
-		○ Create a new group:
+		Ξ²β€”β€Ή Open Active Directory Users and Computers
+		Ξ²β€”β€Ή Create a new group:
 			 - Name: ScpCloudAdmins
 			 - Scope: Global
 			 - Type: Security
@@ -133,9 +139,9 @@ The **sAMAccountName** is for only the user name like user1
 	```
 	
 	Also check the following:
-		○ Add to ID token: ✅
-		○ Add to Access token: ✅
-		○ Add to userinfo: ✅
+		Ξ²β€”β€Ή Add to ID token: Ξ²Ββ€¦
+		Ξ²β€”β€Ή Add to Access token: Ξ²Ββ€¦
+		Ξ²β€”β€Ή Add to userinfo: Ξ²Ββ€¦
 	
 	==The above is disabled for security reasons that is why we ended to have groups instead.==
 
@@ -143,24 +149,24 @@ The **sAMAccountName** is for only the user name like user1
   	Keycloak requires Bind DN and Bind Credentials to authenticate with the LDAP server and perform user synchronization or authentication tasks. Here's a breakdown of their roles and requirements:
 	Why These Fields Are Required
 		**1. Bind Type**
-			○ Defines the authentication method for the LDAP connection.
-			○ Simple is the most common choice, using a username/password (Bind DN + Credentials) to authenticate Keycloak to the LDAP server369.
+			Ξ²β€”β€Ή Defines the authentication method for the LDAP connection.
+			Ξ²β€”β€Ή Simple is the most common choice, using a username/password (Bind DN + Credentials) to authenticate Keycloak to the LDAP server369.
 		**2. Bind DN**
-			○ The Distinguished Name (DN) of a service account with read access to the LDAP directory.
-			○ Example: cn=service-account,ou=users,dc=example,dc=com138.
-			○ Keycloak uses this account to search for users, validate credentials, and sync data59.
+			Ξ²β€”β€Ή The Distinguished Name (DN) of a service account with read access to the LDAP directory.
+			Ξ²β€”β€Ή Example: cn=service-account,ou=users,dc=example,dc=com138.
+			Ξ²β€”β€Ή Keycloak uses this account to search for users, validate credentials, and sync data59.
 		**3. Bind Credentials**
-			○ The password for the service account specified in Bind DN.
-			○ Without this, Keycloak cannot authenticate to the LDAP server368.
+			Ξ²β€”β€Ή The password for the service account specified in Bind DN.
+			Ξ²β€”β€Ή Without this, Keycloak cannot authenticate to the LDAP server368.
 	**Account Requirements for "Simple" Bind Type**
 	The account linked to the Bind DN must:
-		• Have read access to the LDAP directory subtree where users/groups are stored359.
-		• Be a dedicated service account (not a regular user account) to avoid permission issues68.
-		• Use a non-expiring password to prevent authentication failures6.
+		Ξ²β‚¬Ξ† Have read access to the LDAP directory subtree where users/groups are stored359.
+		Ξ²β‚¬Ξ† Be a dedicated service account (not a regular user account) to avoid permission issues68.
+		Ξ²β‚¬Ξ† Use a non-expiring password to prevent authentication failures6.
 	**Security Considerations**
-		• Avoid hardcoding credentials: Use environment variables or secrets management tools (e.g., Kubernetes Secrets) to inject credentials at runtime2.
-		• Restrict LDAP permissions: Ensure the service account has minimal privileges (e.g., read-only access)38.
-		• Encrypt connections: Use ldaps:// instead of ldap:// to protect credentials in transit35.
+		Ξ²β‚¬Ξ† Avoid hardcoding credentials: Use environment variables or secrets management tools (e.g., Kubernetes Secrets) to inject credentials at runtime2.
+		Ξ²β‚¬Ξ† Restrict LDAP permissions: Ensure the service account has minimal privileges (e.g., read-only access)38.
+		Ξ²β‚¬Ξ† Encrypt connections: Use ldaps:// instead of ldap:// to protect credentials in transit35.
 	Example Configuration
 		
 		```text
@@ -196,29 +202,29 @@ The **sAMAccountName** is for only the user name like user1
 	To check whether a simple user in your Active Directory domain can see other users by default, you need to verify the effective permissions that user has on the relevant AD containers or objects (such as the Users container or organizational units).
 	How to Check if a User Can See Other Users in AD
 		**1. Use Active Directory Users and Computers (ADUC)**
-			○ Open ADUC on a machine with the appropriate admin tools installed.
-			○ Navigate to the container or OU where user accounts reside (e.g., Users or a specific OU).
-			○ Right-click the container and select Properties.
-			○ Go to the Security tab, then click Advanced.
-			○ Switch to the Effective Access (or Effective Permissions) tab.
-			○ Enter the username of the simple user account you want to check.
-			○ Click View effective access to see what permissions this user has on that container or object.
+			Ξ²β€”β€Ή Open ADUC on a machine with the appropriate admin tools installed.
+			Ξ²β€”β€Ή Navigate to the container or OU where user accounts reside (e.g., Users or a specific OU).
+			Ξ²β€”β€Ή Right-click the container and select Properties.
+			Ξ²β€”β€Ή Go to the Security tab, then click Advanced.
+			Ξ²β€”β€Ή Switch to the Effective Access (or Effective Permissions) tab.
+			Ξ²β€”β€Ή Enter the username of the simple user account you want to check.
+			Ξ²β€”β€Ή Click View effective access to see what permissions this user has on that container or object.
 			This will show you if the user has permissions such as "List contents" or "Read all properties," which would allow them to see other users57.
 		**2. Test Directly with LDAP Queries or Commands**
-			○ You can log in as the simple user and try to list users using commands like:
-				§ net user /domain (on Windows command prompt)
-				§ LDAP query tools (e.g., ldapsearch) targeting the user container.
-			○ If the user can retrieve a list of users, they have read/list permissions in AD3.
+			Ξ²β€”β€Ή You can log in as the simple user and try to list users using commands like:
+				Ξ’Β§ net user /domain (on Windows command prompt)
+				Ξ’Β§ LDAP query tools (e.g., ldapsearch) targeting the user container.
+			Ξ²β€”β€Ή If the user can retrieve a list of users, they have read/list permissions in AD3.
 		**3. Use Third-Party Tools for Permission Auditing**
-			○ Tools like Active Directory ACL Scanner or SolarWinds Permissions Analyzer can scan your domain and report who has what permissions on AD objects, including delegated read rights68.
-			○ These tools provide user-friendly reports and can help identify if the default permissions allow user enumeration.
+			Ξ²β€”β€Ή Tools like Active Directory ACL Scanner or SolarWinds Permissions Analyzer can scan your domain and report who has what permissions on AD objects, including delegated read rights68.
+			Ξ²β€”β€Ή These tools provide user-friendly reports and can help identify if the default permissions allow user enumeration.
 	**Why This Happens**
-		• ==By default, Active Directory grants Authenticated Users the ability to read most user attributes and list user objects in the directory to support common network and application functions.==
-		• This means a normal user often can see other users' basic information unless the domain has been hardened or permissions explicitly restricted3.
+		Ξ²β‚¬Ξ† ==By default, Active Directory grants Authenticated Users the ability to read most user attributes and list user objects in the directory to support common network and application functions.==
+		Ξ²β‚¬Ξ† This means a normal user often can see other users' basic information unless the domain has been hardened or permissions explicitly restricted3.
 	Summary
-		• To confirm if your simple user can see other users, check Effective Access on the user container in ADUC for that user account57.
-		• Testing with LDAP queries or commands as that user can also verify visibility3.
-		• Use permission auditing tools for a comprehensive view if needed68.
+		Ξ²β‚¬Ξ† To confirm if your simple user can see other users, check Effective Access on the user container in ADUC for that user account57.
+		Ξ²β‚¬Ξ† Testing with LDAP queries or commands as that user can also verify visibility3.
+		Ξ²β‚¬Ξ† Use permission auditing tools for a comprehensive view if needed68.
 	This approach will give you a clear picture of the actual permissions and visibility your users have in your AD domain.
 	Citations:
 		1. https://docs.delinea.com/online-help/server-suite/eval/nix-eval/preparing-hardware-and-software-for-an-evaluation/verifying-you-have-active-directory-permissions.htm
@@ -234,22 +240,22 @@ The **sAMAccountName** is for only the user name like user1
 	
 	```
 		DC=test,DC=local
-		├── OU=AllUsers
-		│   ├── adminUser
-		│   ├── anotherUser
-		│   ├── user1
-		│   ├── user2
-		│   ├── jane.doe
-		│   ├── Group: ScpCloud_staff (members from AllUsers)
-		│   │   └── adminUser
-		│   │   └── user1
-		│   │   └── Group: ScpCloudAdmins (members users from AllUsers)
-		│   │       └── adminUser
-		│   │       └── keycloaksvc
-		│   └── Group: ScpCloudOther (members users from AllUsers)
-		└── OU=Keycloak
-		    └── keycloaksvc
-		    └── keycloak
+		Ξ²β€ΒΞ²β€β‚¬Ξ²β€β‚¬ OU=AllUsers
+		Ξ²β€β€   Ξ²β€ΒΞ²β€β‚¬Ξ²β€β‚¬ adminUser
+		Ξ²β€β€   Ξ²β€ΒΞ²β€β‚¬Ξ²β€β‚¬ anotherUser
+		Ξ²β€β€   Ξ²β€ΒΞ²β€β‚¬Ξ²β€β‚¬ user1
+		Ξ²β€β€   Ξ²β€ΒΞ²β€β‚¬Ξ²β€β‚¬ user2
+		Ξ²β€β€   Ξ²β€ΒΞ²β€β‚¬Ξ²β€β‚¬ jane.doe
+		Ξ²β€β€   Ξ²β€ΒΞ²β€β‚¬Ξ²β€β‚¬ Group: ScpCloud_staff (members from AllUsers)
+		Ξ²β€β€   Ξ²β€β€   Ξ²β€β€Ξ²β€β‚¬Ξ²β€β‚¬ adminUser
+		Ξ²β€β€   Ξ²β€β€   Ξ²β€β€Ξ²β€β‚¬Ξ²β€β‚¬ user1
+		Ξ²β€β€   Ξ²β€β€   Ξ²β€β€Ξ²β€β‚¬Ξ²β€β‚¬ Group: ScpCloudAdmins (members users from AllUsers)
+		Ξ²β€β€   Ξ²β€β€       Ξ²β€β€Ξ²β€β‚¬Ξ²β€β‚¬ adminUser
+		Ξ²β€β€   Ξ²β€β€       Ξ²β€β€Ξ²β€β‚¬Ξ²β€β‚¬ keycloaksvc
+		Ξ²β€β€   Ξ²β€β€Ξ²β€β‚¬Ξ²β€β‚¬ Group: ScpCloudOther (members users from AllUsers)
+		Ξ²β€β€Ξ²β€β‚¬Ξ²β€β‚¬ OU=Keycloak
+		    Ξ²β€β€Ξ²β€β‚¬Ξ²β€β‚¬ keycloaksvc
+		    Ξ²β€β€Ξ²β€β‚¬Ξ²β€β‚¬ keycloak
 		
 	```
 	
@@ -262,3 +268,7 @@ The **sAMAccountName** is for only the user name like user1
 	Creating new LDAP Store for the LDAP storage provider: 'ldap', LDAP Configuration: {fullSyncPeriod=[-1], pagination=[false], startTls=[false], connectionPooling=[true], usersDn=[OU=AllUsers, DC=test, DC=local], cachePolicy=[DEFAULT], useKerberosForPasswordAuthentication=[false], importEnabled=[false], enabled=[true], bindDn=[TEST\keycloak_ldap], usernameLDAPAttribute=[userPrincipalName], changedSyncPeriod=[-1], vendor=[ad], uuidLDAPAttribute=[objectGUID], allowKerberosAuthentication=[false], connectionUrl=[ldap://192.168.1.207], syncRegistrations=[false], authType=[simple], krbPrincipalAttribute=[userPrincipalName], customUserSearchFilter=[(memberOf=CN=ScpCloud_staff, OU=AllUsers,DC=test,DC=local)], searchScope=[2], useTruststoreSpi=[always], usePasswordModifyExtendedOp=[false], trustEmail=[false], userObjectClasses=[person, organizationalPerson, user], rdnLDAPAttribute=[cn], editMode=[READ_ONLY], validatePasswordPolicy=[false]}, binaryAttributes: []
 
  
+
+
+
+

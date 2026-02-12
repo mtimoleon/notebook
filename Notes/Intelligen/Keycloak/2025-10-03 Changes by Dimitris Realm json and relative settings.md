@@ -1,6 +1,7 @@
----
+﻿---
 categories:
   - "[[Work]]"
+created: 2025-10-07T10:47
 tags:
   - intelligen
   - keycloak
@@ -2798,4 +2799,8 @@ Contains roles and scope changes
 =="email":== =="admin2@domain.com",==  
 =="username":== =="admin2"==  
 ==}==
- \> Από \<[https://www.jwt.io/](https://www.jwt.io/)\>
+ \> Ξ‘Ο€Ο \<[https://www.jwt.io/](https://www.jwt.io/)\>
+
+
+
+

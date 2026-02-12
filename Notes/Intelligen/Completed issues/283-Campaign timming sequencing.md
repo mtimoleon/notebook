@@ -11,13 +11,13 @@ product: ScpCloud
 
 - [x] --\> getCampaignPanelById
  
-	Ξ ΟΞΏΟƒΞΈΞ®ΞΊΞµΟ‚ CampaignPanelDto  
-	Ξ›Ξ―ΟƒΟ„Ξ± ΞΌΞµ CampaignReleaseTimeOwnOperationsType (batch startall ,user defined etc.)  
-	Ξ›Ξ―ΟƒΟ„Ξ± ΞΌΞµ CampaignDueTimeOwnOperationsType (all ,user defined etc.)  
-	Ξ›Ξ―ΟƒΟ„Ξ± ΞΌΞµ CampaignTimingModes (fixed,BatchStartOfAnotherCampaign etc.)
+	ΞΒ ΞΒΞΞΞΖ’ΞΞΞΒ®ΞΞΞΒµΞβ€ CampaignPanelDto  
+	Ξβ€ΊΞβ€•ΞΖ’Ξβ€ΞΒ± ΞΞΞΒµ CampaignReleaseTimeOwnOperationsType (batch startall ,user defined etc.)  
+	Ξβ€ΊΞβ€•ΞΖ’Ξβ€ΞΒ± ΞΞΞΒµ CampaignDueTimeOwnOperationsType (all ,user defined etc.)  
+	Ξβ€ΊΞβ€•ΞΖ’Ξβ€ΞΒ± ΞΞΞΒµ CampaignTimingModes (fixed,BatchStartOfAnotherCampaign etc.)
    
 
-- [x] Ξ ΟΞΏΟƒΞΈΞ®ΞΊΞµΟ‚ CampaignDto  
+- [x] ΞΒ ΞΒΞΞΞΖ’ΞΞΞΒ®ΞΞΞΒµΞβ€ CampaignDto  
 	TimeShift value  
 	timeUnit
 	 
@@ -29,7 +29,7 @@ product: ScpCloud
 	DueTimingMode (one of CampaignTimingModes)
    
 
-- [x] --\> Ξ¥Ξ»ΞΏΟ€ΞΏΞ―Ξ·ΟƒΞ· Getcampaigns ΞΌΞµ searchString (Ξ΄ΞµΟ‚ GetEquipmentTypes) (edited)
+- [x] --\> ΞΒ¥ΞΒ»ΞΞΞβ‚¬ΞΞΞβ€•ΞΒ·ΞΖ’ΞΒ· Getcampaigns ΞΞΞΒµ searchString (ΞΞ„ΞΒµΞβ€ GetEquipmentTypes) (edited)
  
 - [x] **TimeShift**: Denotes that the campaign start must be shifted by a given  
 	We need to initalize the time shift in constructor of campaign to 0 hours
@@ -43,7 +43,7 @@ if (hasReleaseTime)
 	if (releaseTimeMode === 1) 
 	{  
 		if (scheduleBackward && releaseTime \> dueTime)  
-		Β Β Β Β ReleaseTimeMustBeBeforeDueTime
+		Ξ’Β Ξ’Β Ξ’Β Ξ’Β ReleaseTimeMustBeBeforeDueTime
 	 
 		if (releaseTime \< new Date(scpCloudContext.selectedSchedulingBoard.start))  
 			ReleaseTimeMustBeAfterSBStart
@@ -53,7 +53,7 @@ if (hasReleaseTime)
 	}
  
 	if (releaseTimeMode !== 1) 
-	{Β Β Β Β Β Β Β Β Β Β Β Β Β Β Β Β   
+	{Ξ’Β Ξ’Β Ξ’Β Ξ’Β Ξ’Β Ξ’Β Ξ’Β Ξ’Β Ξ’Β Ξ’Β Ξ’Β Ξ’Β Ξ’Β Ξ’Β Ξ’Β Ξ’Β   
 		if(releaseTimeReferenceCampaign === null)  
 			FieldRequired  
 	}  
@@ -66,7 +66,7 @@ if (scheduleBackward)
 	if (dueTimeMode === 1 && dueTime === null)  
 		FieldRequired
 	  	 
-	if (dueTimeMode !== 1)Β Β  
+	if (dueTimeMode !== 1)Ξ’Β Ξ’Β  
 	{  
 		if (dueTimeReferenceCampaign === null)  
 			FieldRequired  
@@ -74,7 +74,11 @@ if (scheduleBackward)
 }
 ```
 
-\> Ξ‘Ο€Ο \<[https://app.slack.com/client/T02V40ZQGKG/D02VAN5L9DH](https://app.slack.com/client/T02V40ZQGKG/D02VAN5L9DH)\>
+\> Ξβ€Ξβ‚¬ΞΒ \<[https://app.slack.com/client/T02V40ZQGKG/D02VAN5L9DH](https://app.slack.com/client/T02V40ZQGKG/D02VAN5L9DH)\>
+
+
+
+
 
 
 

@@ -1,4 +1,4 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Issues]]"
@@ -75,20 +75,20 @@ Planning.Api.Application.Commands.WorkspaceCommands
   =="sid": "1997f359-a5c8-4d56-a907-a027f3a674d0",==
   =="isAdmin": "true"==
 
-Από < https://www.jwt.io/> 
+Ξ‘Ο€Ο < https://www.jwt.io/> 
 
-	• Add attributes to token
-		Αναφορά εδώ https://chatgpt.com/share/68ad8840-a270-8012-825f-ab2c99cc7283
+	β€Ά Add attributes to token
+		Ξ‘Ξ½Ξ±Ο†ΞΏΟΞ¬ ΞµΞ΄Ο https://chatgpt.com/share/68ad8840-a270-8012-825f-ab2c99cc7283
 	
-		Έτσι όπως είναι τα attributes τώρα στην εφαρμογή είναι unamanged, δλδ ο κάθε user τα έχει κατά την ώρα που δημιουργείται από την admin εφαρμογή και δεν έχουμε user profile ενεργό στο keycloak
+		ΞΟ„ΟƒΞΉ ΟΟ€Ο‰Ο‚ ΞµΞ―Ξ½Ξ±ΞΉ Ο„Ξ± attributes Ο„ΟΟΞ± ΟƒΟ„Ξ·Ξ½ ΞµΟ†Ξ±ΟΞΌΞΏΞ³Ξ® ΞµΞ―Ξ½Ξ±ΞΉ unamanged, Ξ΄Ξ»Ξ΄ ΞΏ ΞΊΞ¬ΞΈΞµ user Ο„Ξ± Ξ­Ο‡ΞµΞΉ ΞΊΞ±Ο„Ξ¬ Ο„Ξ·Ξ½ ΟΟΞ± Ο€ΞΏΟ… Ξ΄Ξ·ΞΌΞΉΞΏΟ…ΟΞ³ΞµΞ―Ο„Ξ±ΞΉ Ξ±Ο€Ο Ο„Ξ·Ξ½ admin ΞµΟ†Ξ±ΟΞΌΞΏΞ³Ξ® ΞΊΞ±ΞΉ Ξ΄ΞµΞ½ Ξ­Ο‡ΞΏΟ…ΞΌΞµ user profile ΞµΞ½ΞµΟΞ³Ο ΟƒΟ„ΞΏ keycloak
 		
-		Για να φανούν τα attributes των user στο token πρέπει να γίνουν map από το user.
+		Ξ“ΞΉΞ± Ξ½Ξ± Ο†Ξ±Ξ½ΞΏΟΞ½ Ο„Ξ± attributes Ο„Ο‰Ξ½ user ΟƒΟ„ΞΏ token Ο€ΟΞ­Ο€ΞµΞΉ Ξ½Ξ± Ξ³Ξ―Ξ½ΞΏΟ…Ξ½ map Ξ±Ο€Ο Ο„ΞΏ user.
 		
-		Για την εφαρμογή πηγαίνεις στο Clients/scpCloud/Client details και από εκεί
-		επιλέγεις καρτέλα Client scopes  και από τη λίστα scpCloud-dedicated και μετά mappers. Εκει φτιάχνεις mappers για τα attributes. Δες πρώτα στα buildin αν υπάρχει κάτι έτοιμο.
-		Έτοιμα είναι (πιθανόν να θέλουν κάποιες αλλαγές, email, firstName, lastName)
+		Ξ“ΞΉΞ± Ο„Ξ·Ξ½ ΞµΟ†Ξ±ΟΞΌΞΏΞ³Ξ® Ο€Ξ·Ξ³Ξ±Ξ―Ξ½ΞµΞΉΟ‚ ΟƒΟ„ΞΏ Clients/scpCloud/Client details ΞΊΞ±ΞΉ Ξ±Ο€Ο ΞµΞΊΞµΞ―
+		ΞµΟ€ΞΉΞ»Ξ­Ξ³ΞµΞΉΟ‚ ΞΊΞ±ΟΟ„Ξ­Ξ»Ξ± Client scopes  ΞΊΞ±ΞΉ Ξ±Ο€Ο Ο„Ξ· Ξ»Ξ―ΟƒΟ„Ξ± scpCloud-dedicated ΞΊΞ±ΞΉ ΞΌΞµΟ„Ξ¬ mappers. Ξ•ΞΊΞµΞΉ Ο†Ο„ΞΉΞ¬Ο‡Ξ½ΞµΞΉΟ‚ mappers Ξ³ΞΉΞ± Ο„Ξ± attributes. Ξ”ΞµΟ‚ Ο€ΟΟΟ„Ξ± ΟƒΟ„Ξ± buildin Ξ±Ξ½ Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ ΞΊΞ¬Ο„ΞΉ Ξ­Ο„ΞΏΞΉΞΌΞΏ.
+		ΞΟ„ΞΏΞΉΞΌΞ± ΞµΞ―Ξ½Ξ±ΞΉ (Ο€ΞΉΞΈΞ±Ξ½ΟΞ½ Ξ½Ξ± ΞΈΞ­Ξ»ΞΏΟ…Ξ½ ΞΊΞ¬Ο€ΞΏΞΉΞµΟ‚ Ξ±Ξ»Ξ»Ξ±Ξ³Ξ­Ο‚, email, firstName, lastName)
 		
-		Τελικό token:
+		Ξ¤ΞµΞ»ΞΉΞΊΟ token:
 		
 		{
 		  "exp": 1756206595,
@@ -117,9 +117,9 @@ Planning.Api.Application.Commands.WorkspaceCommands
 		}
 		```
 		
-		Κανονικά θα χρειαστεί να φτιαχτούν και mappers για το ldap
+		ΞΞ±Ξ½ΞΏΞ½ΞΉΞΊΞ¬ ΞΈΞ± Ο‡ΟΞµΞΉΞ±ΟƒΟ„ΞµΞ― Ξ½Ξ± Ο†Ο„ΞΉΞ±Ο‡Ο„ΞΏΟΞ½ ΞΊΞ±ΞΉ mappers Ξ³ΞΉΞ± Ο„ΞΏ ldap
 	
-Εδώ είναι το token ενός user που δεν έχει όλα τα attributes
+Ξ•Ξ΄Ο ΞµΞ―Ξ½Ξ±ΞΉ Ο„ΞΏ token ΞµΞ½ΟΟ‚ user Ο€ΞΏΟ… Ξ΄ΞµΞ½ Ξ­Ο‡ΞµΞΉ ΟΞ»Ξ± Ο„Ξ± attributes
 
 {
   "exp": 1756206830,
@@ -147,7 +147,7 @@ Planning.Api.Application.Commands.WorkspaceCommands
 
 
 > [!Warning] Warning
-> Όταν δεν είναι τα attributes set στο user, δλδ δεν υπάρχουν, τότε δεν εμφανίζονται καθόλου στο token.
+> ΞΟ„Ξ±Ξ½ Ξ΄ΞµΞ½ ΞµΞ―Ξ½Ξ±ΞΉ Ο„Ξ± attributes set ΟƒΟ„ΞΏ user, Ξ΄Ξ»Ξ΄ Ξ΄ΞµΞ½ Ο…Ο€Ξ¬ΟΟ‡ΞΏΟ…Ξ½, Ο„ΟΟ„Ξµ Ξ΄ΞµΞ½ ΞµΞΌΟ†Ξ±Ξ½Ξ―Ξ¶ΞΏΞ½Ο„Ξ±ΞΉ ΞΊΞ±ΞΈΟΞ»ΞΏΟ… ΟƒΟ„ΞΏ token.
 
 globalAdmin
 organizationAdmin
@@ -189,11 +189,15 @@ localAdmin
 	}
 },
 
-Για να περάσεις τις αλλαγές του realm.json σε ήδη υπάρχον έχεις τις παρακάτω επιλογές:
-	1. Σβήσιμο βάσης keycloak (όχι καλό)
-	2. explicetly import μέσω docker file
-	3. Partial import μέσω keycloak UI (το δοκίμασα και δούλεψε)
-	4. Ειδικό script γι αυτή την εργασία
+Ξ“ΞΉΞ± Ξ½Ξ± Ο€ΞµΟΞ¬ΟƒΞµΞΉΟ‚ Ο„ΞΉΟ‚ Ξ±Ξ»Ξ»Ξ±Ξ³Ξ­Ο‚ Ο„ΞΏΟ… realm.json ΟƒΞµ Ξ®Ξ΄Ξ· Ο…Ο€Ξ¬ΟΟ‡ΞΏΞ½ Ξ­Ο‡ΞµΞΉΟ‚ Ο„ΞΉΟ‚ Ο€Ξ±ΟΞ±ΞΊΞ¬Ο„Ο‰ ΞµΟ€ΞΉΞ»ΞΏΞ³Ξ­Ο‚:
+	1. Ξ£Ξ²Ξ®ΟƒΞΉΞΌΞΏ Ξ²Ξ¬ΟƒΞ·Ο‚ keycloak (ΟΟ‡ΞΉ ΞΊΞ±Ξ»Ο)
+	2. explicetly import ΞΌΞ­ΟƒΟ‰ docker file
+	3. Partial import ΞΌΞ­ΟƒΟ‰ keycloak UI (Ο„ΞΏ Ξ΄ΞΏΞΊΞ―ΞΌΞ±ΟƒΞ± ΞΊΞ±ΞΉ Ξ΄ΞΏΟΞ»ΞµΟΞµ)
+	4. Ξ•ΞΉΞ΄ΞΉΞΊΟ script Ξ³ΞΉ Ξ±Ο…Ο„Ξ® Ο„Ξ·Ξ½ ΞµΟΞ³Ξ±ΟƒΞ―Ξ±
 https://chatgpt.com/share/68c9083e-6c5c-8012-8772-8e9528227f67
+
+
+
+
 
 

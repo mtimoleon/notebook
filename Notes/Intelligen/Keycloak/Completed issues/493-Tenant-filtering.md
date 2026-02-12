@@ -1,4 +1,4 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Issues]]"
@@ -18,7 +18,7 @@ component: Keycloak
 - [x] Update keycloak token claims in code (client scope mappers)  
 - [x] Rename OrganizationId to TenantId in Workspace entity (needs migration)  
 - [x] Check how tenantId goes to production db to create db in mongo  
-- [x] In mongo remove the o-β€¦ from database names  
+- [x] In mongo remove the o-Ξ²β‚¬Β¦ from database names  
 - [x] _productionSchedulingBoardServiceContract.PublishSchedulingBoardAsync  
 - [x] _productionSchedulingBoardServiceContract.RepublishTrackingToProductionSchedulingBoardAsync  
 - [x] _productionSchedulingBoardServiceContract.TrackingSyncSchedulingBoardAsync  
@@ -57,11 +57,11 @@ component: Keycloak
 |Service|1||Read|reads operation entries|
    
 
-Inside providers we get **organizationId**Β from token organizationId claim, but when it comes to user update info we are searching for **organizationName**
+Inside providers we get **organizationId**Ξ’Β from token organizationId claim, but when it comes to user update info we are searching for **organizationName**
  
 |   |   |   |   |   |
 |---|---|---|---|---|
-|**ADMIN REGISTRATION**|**PLANNING DB****οΏΌ****USER**|**PLANNING API RequestInfoProvider**|**PRODUCTION API****οΏΌ****RequestInfoProvider**|**TOKEN**|
+|**ADMIN REGISTRATION**|**PLANNING DB****ΞΏΞΞ****USER**|**PLANNING API RequestInfoProvider**|**PRODUCTION API****ΞΏΞΞ****RequestInfoProvider**|**TOKEN**|
 |Id|||||
 |==UserId==|==Id==|||==sub==|
 ||ConcurrencyToken||||
@@ -827,4 +827,8 @@ public static class ExpressionComposer
 	}
 }
 ```
+
+
+
+
 

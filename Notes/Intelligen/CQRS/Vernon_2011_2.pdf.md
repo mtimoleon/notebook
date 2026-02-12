@@ -1,6 +1,7 @@
----
+﻿---
 categories:
   - "[[Work]]"
+created: 2021-11-06T01:11
 tags:
   - intelligen
 ---
@@ -16,3 +17,7 @@ Clipped from: [https://www.dddcommunity.org/wp-content/uploads/files/pdf_article
 ![Reasons To Break the Rules An experienced DDD prac...](Exported%20image%2020260209135508-3.png)
 
 ![mit transactions. This is one of those situations ...](Exported%20image%2020260209135509-4.png)
+
+
+
+

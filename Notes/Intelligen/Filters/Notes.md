@@ -1,6 +1,7 @@
----
+﻿---
 categories:
   - "[[Work]]"
+created: 2022-05-02T19:20
 tags:
   - intelligen
 ---
@@ -26,3 +27,7 @@ tags:
 637895144730000000
  
 {((Convert(Param_0.DateTime_Column, DateTime).CompareTo(29/05/2022 13:18:39) \>= 0) And (Convert(Param_0.DateTime_Column, DateTime).CompareTo(30/05/2022 13:18:39) \<= 0))}
+
+
+
+

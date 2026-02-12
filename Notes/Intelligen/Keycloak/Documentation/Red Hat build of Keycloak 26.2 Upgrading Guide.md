@@ -1,7 +1,8 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
+created: 2025-10-08T21:59
 tags:
   - intelligen
   - keycloak
@@ -12,3 +13,7 @@ tags:
 [https://docs.redhat.com/en/documentation/red_hat_build_of_keycloak/26.2](https://docs.redhat.com/en/documentation/red_hat_build_of_keycloak/26.2)  
 [https://docs.redhat.com/en/documentation/red_hat_build_of_keycloak/24.0/html/upgrading_guide/index](https://docs.redhat.com/en/documentation/red_hat_build_of_keycloak/24.0/html/upgrading_guide/index)  
 [https://docs.redhat.com/en/documentation/red_hat_build_of_keycloak/26.0/html/upgrading_guide/index](https://docs.redhat.com/en/documentation/red_hat_build_of_keycloak/26.0/html/upgrading_guide/index)
+
+
+
+

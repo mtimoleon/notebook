@@ -1,4 +1,25 @@
-**Flow**
+---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+product:
+  - Gantt
+component:
+ticket:
+status: current
+created: 2026-02-11
+tags:
+  - intelligen
+  - gantt
+---
+#### Requirements  
+##### - scroll with timeline
+- `scrollWithTimeline` = true ⇒ το chart “ακολουθεί” το timelineTime κάνοντας auto-scroll **μόνο όταν** το scrollLeft είναι null (δηλ. δεν είναι controlled).
+- Δεν κάνει re-center κάθε tick: όταν ενεργοποιείται, ξεκινά να ακολουθεί **από το τρέχον viewport** (anchor) και μετά μετακινείται με βάση το Δ(timelineTime) σε pixels.
+- Αν ο χρήστης κάνει manual οριζόντιο scroll ενώ είναι ενεργό, το auto-follow **συνεχίζει** από τη νέα θέση (δηλ. τοποθετεί το anchor στο νέο scrollLeft).
+- Αν γίνει scrollToDateTime (π.χ. με timelineTime) και το time είναι μέσα στα min/max (clamped), κάνει jump/center εκεί και μετά, αν scrollWithTimeline είναι true, συνεχίζει να ακολουθεί κανονικά.
+
+#### Flow
 - `EocApp` δίνει στο `Gantt`:
   - `scrollLeft` (controlled, αν όχι `null`)
   - `scrollWithTimeline` (auto-follow mode)
@@ -65,3 +86,4 @@
   - πρώτα κάνει paint εκεί
   - μετά `EocApp` βάζει `scrollLeft=null`
   - άρα auto-follow συνεχίζει από restored θέση, όχι από center.
+

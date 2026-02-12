@@ -1,7 +1,8 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
+created: 2021-11-19T22:06
 tags:
   - intelligen
 ---
@@ -52,3 +53,7 @@ tags:
 ![Exported image](Exported%20image%2020260209140828-0.png) ![Exported image](Exported%20image%2020260209140829-1.png)
 
 ![[Materials - Ink.svg]]
+
+
+
+

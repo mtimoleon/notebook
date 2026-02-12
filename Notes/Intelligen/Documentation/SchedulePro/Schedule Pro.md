@@ -1,7 +1,8 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
+created: 2021-11-19T21:36
 tags:
   - intelligen
 ---
@@ -39,9 +40,9 @@ Concurrency
 1. Add predictions for the production rate    
 
 ==What will happen to events in memory if the system fall?==
-       24. ==Q:== _Why Item AR is called ItemManagement but PO AR is called just PurchaseOrder?_
+       24. ==Q:==Β _Why Item AR is called ItemManagement but PO AR is called just PurchaseOrder?_
 
-==The namespace name reflects the name of the context you are in. So in the context of item management, the Item is the root and it is placed in the ItemManagement namespace. You can also think of ItemManagement as the== **Aggregate** ==and Item as the== **Root** ==of this aggregate. I'm not sure if this answers your question.==
+==The namespace name reflects the name of the context you are in. So in the context of item management, the Item is the root and it is placed in the ItemManagement namespace. You can also think of ItemManagement as the==Β **Aggregate**Β ==and Item as the==Β **Root**Β ==of this aggregate. I'm not sure if this answers your question.==
     
 Schedule application will allow users to collaboratively develop their process models and create/refine their schedules.
             
@@ -50,3 +51,7 @@ Schedule application will allow users to collaboratively develop their process m
    
 
 **IDEAS**
+
+
+
+

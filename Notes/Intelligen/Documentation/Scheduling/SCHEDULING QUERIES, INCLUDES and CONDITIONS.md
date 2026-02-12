@@ -1,7 +1,8 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
+created: 2023-11-30T12:09
 tags:
   - intelligen
 ---
@@ -24,19 +25,23 @@ too much to "burden" the query we perform instead.
 |   |   |   |   |   |
 |---|---|---|---|---|
 |||Recipe|Campaign<br><br>  <br><br>To Procedures Entries|Campaign<br><br>  <br><br>In Full|
-|Schedule|Unscheduled Campaigns|✔️ where campaign != scheduled|✔️ where campaign != scheduled|✔️ where campaign == scheduled|
-||Campaign|✔️ where campaign == reference campaign|✔️ where campaign == reference campaign|✔️ where campaign != reference campaign|
-||From Campaign|✔️ where order \>= reference order|✔️ where order \>= reference order|✔️ where order \< reference order|
-||To Campaign|✔️ where order \<= reference order|✔️ where order \<= reference order|✔️ where order \> reference order|
-|Reschedule|All Campaigns|✔️|✔️||
-||Campaign|✔️ where campaign == reference campaign|✔️ where campaign == reference campaign|✔️ where campaign != reference campaign|
-||From Campaign|✔️ where order \>= reference order|✔️ where order \>= reference order|✔️ where order \< reference order|
-||To Campaign|✔️ where order \<= reference order|✔️ where order \<= reference order|✔️ where order \> reference order|
-|Unschedule|All Campaigns||✔️||
-||Campaign||✔️all instead of (where campaign == reference campaign)|✔️ where campaign != reference campaign|
-||From Campaign||✔️all instead of (where order \>= reference order)|✔️ where order \< reference order|
-||To Campaign||✔️all instead of (where order \<= reference order)|✔️ where order \> reference order|
-|Resolve Conflicts|Batch||✔️all instead of (where order \> batch.Campaign order)|✔️ where order \<= batch.Campaign order|
-||Campaign||✔️all instead of (where order \> reference order)|✔️ where order \<= reference order|
-||From Campaign|||✔️|
-||To Campaign||✔️all instead of (where order \> reference order)|✔️ where order \<= reference order|
+|Schedule|Unscheduled Campaigns|β”οΈ where campaign != scheduled|β”οΈ where campaign != scheduled|β”οΈ where campaign == scheduled|
+||Campaign|β”οΈ where campaign == reference campaign|β”οΈ where campaign == reference campaign|β”οΈ where campaign != reference campaign|
+||From Campaign|β”οΈ where order \>= reference order|β”οΈ where order \>= reference order|β”οΈ where order \< reference order|
+||To Campaign|β”οΈ where order \<= reference order|β”οΈ where order \<= reference order|β”οΈ where order \> reference order|
+|Reschedule|All Campaigns|β”οΈ|β”οΈ||
+||Campaign|β”οΈ where campaign == reference campaign|β”οΈ where campaign == reference campaign|β”οΈ where campaign != reference campaign|
+||From Campaign|β”οΈ where order \>= reference order|β”οΈ where order \>= reference order|β”οΈ where order \< reference order|
+||To Campaign|β”οΈ where order \<= reference order|β”οΈ where order \<= reference order|β”οΈ where order \> reference order|
+|Unschedule|All Campaigns||β”οΈ||
+||Campaign||β”οΈall instead of (where campaign == reference campaign)|β”οΈ where campaign != reference campaign|
+||From Campaign||β”οΈall instead of (where order \>= reference order)|β”οΈ where order \< reference order|
+||To Campaign||β”οΈall instead of (where order \<= reference order)|β”οΈ where order \> reference order|
+|Resolve Conflicts|Batch||β”οΈall instead of (where order \> batch.Campaign order)|β”οΈ where order \<= batch.Campaign order|
+||Campaign||β”οΈall instead of (where order \> reference order)|β”οΈ where order \<= reference order|
+||From Campaign|||β”οΈ|
+||To Campaign||β”οΈall instead of (where order \> reference order)|β”οΈ where order \<= reference order|
+
+
+
+

@@ -77,3 +77,7 @@ docker exec -it sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "pas
 
 
 
+
+
+
+

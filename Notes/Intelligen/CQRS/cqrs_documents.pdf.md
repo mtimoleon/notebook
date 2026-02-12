@@ -1,6 +1,7 @@
----
+﻿---
 categories:
   - "[[Work]]"
+created: 2021-11-01T23:46
 tags:
   - intelligen
 ---
@@ -118,3 +119,7 @@ Clipped from: [https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf](http
 ![CQRS Documents by Greg Young extremely beneficial ...](Exported%20image%2020260209135431-54.png)
 
 ![CQRS Documents by Greg Young A company can save la...](Exported%20image%2020260209135436-55.png)
+
+
+
+

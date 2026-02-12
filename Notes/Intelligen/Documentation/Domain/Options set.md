@@ -1,7 +1,8 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
+created: 2023-06-20T16:14
 tags:
   - intelligen
 ---
@@ -15,3 +16,7 @@ Contains
 5. Selectable calendar
 6. Skill
 7.
+
+
+
+

@@ -1,7 +1,8 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
+created: 2025-10-30T12:39
 tags:
   - intelligen
   - keycloak
@@ -29,10 +30,14 @@ Initial setup
 ```
  },  
 
- 
+Β 
 
 ![Exported image](Exported%20image%2020260209140450-0.png)  
 
 - **The current settings to recover:**
 
 ![Exported image](Exported%20image%2020260209140451-1.png)
+
+
+
+

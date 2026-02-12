@@ -1,9 +1,11 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
+created: 2024-01-25T10:05
 tags:
   - intelligen
+product: ScpCloud
 ---
 
 Backup
@@ -25,3 +27,7 @@ Copy From
 |Lists (IManyToMany)|new items|
 |==Lists (Other)==|==copyFrom==|
 |Other classes|copy ref|
+
+
+
+

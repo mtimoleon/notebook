@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6c8562c02c52b2ca",
+        "id": "e7a3a0399d39ad99",
         "type": "tabs",
         "children": [
           {
-            "id": "5e51b2cbe9a3ffd2",
+            "id": "7dfd200b99fb62b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Keycloak/Completed issues/419-Add-user-from-token keycloak.md",
+                "file": "Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "419-Add-user-from-token keycloak"
+              "title": "263-Import-Export"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:intelligen",
+                "query": "tag:#intelligen",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 399.5
   },
   "right": {
     "id": "ed3f7e0552712392",
@@ -97,7 +97,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 38.23814133591481,
+        "dimension": 32.4298160696999,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Keycloak/Completed issues/419-Add-user-from-token keycloak.md",
+                "file": "Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 419-Add-user-from-token keycloak"
+              "title": "Backlinks for Πίνακες"
             }
           },
           {
@@ -124,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Intelligen/Keycloak/Completed issues/419-Add-user-from-token keycloak.md",
+                "file": "Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 419-Add-user-from-token keycloak"
+              "title": "Outgoing links from Πίνακες"
             }
           },
           {
@@ -167,19 +167,19 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Notes/Intelligen/Keycloak/Completed issues/419-Add-user-from-token keycloak.md"
+                "file": "Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 419-Add-user-from-token keycloak"
+              "title": "File properties for 263-Import-Export"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 27.97676669893514,
+        "dimension": 31.268151016456926,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Keycloak/Completed issues/419-Add-user-from-token keycloak.md",
+                "file": "Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md",
                 "followCursor": true,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 419-Add-user-from-token keycloak"
+              "title": "Outline of 263-Import-Export"
             }
           },
           {
@@ -202,7 +202,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Notes/Intelligen/Keycloak/Completed issues/419-Add-user-from-token keycloak.md"
+                "file": "Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -213,7 +213,7 @@
       {
         "id": "1114442bb95cf4fa",
         "type": "tabs",
-        "dimension": 33.78509196515005,
+        "dimension": 36.30203291384318,
         "children": [
           {
             "id": "4a8b8a265069ca66",
@@ -241,7 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 434.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,54 +259,54 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "5e51b2cbe9a3ffd2",
+  "active": "4a8b8a265069ca66",
   "lastOpenFiles": [
-    "Notes/Intelligen/Keycloak/Completed issues/493-Tenant-filtering.md",
-    "Notes/Intelligen/Keycloak/Completed issues/508-Add-user-roles.md",
-    "Attachments/Notes/Intelligen/Keycloak/Completed issues/508-Add-user-roles.md/image.png",
-    "Notes/Intelligen/Current issues/Hovione.md",
-    "Notes/Intelligen/Keycloak/Completed issues/461-Keycloak-realm-scope-and-roles/461-Keycloak-realm-scope-and-roles.md",
-    "Notes/Intelligen/Gantt/Completed issues/101-Show-multiple-layers-of-data-bars.md",
-    "Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md",
-    "Categories/Issues.md",
-    "Notes/Intelligen/Algorithms/Scheduling service.md",
     "Notes/Intelligen/Algorithms/Round-robin scheduling - Wikipedia.md",
+    "Notes/Intelligen/Algorithms/Round-robin scheduling - Wikipedia.md",
+    "Notes/Intelligen/Algorithms/Topological sorting - Wikipedia.md",
+    "Notes/Intelligen/Current issues/Hovione.md",
+    "Notes/Intelligen/Algorithms/Scheduling service.md",
     "Notes/Intelligen/Algorithms/Calculate operation timing.md",
-    "Notes/Intelligen/Completed issues/266-Scheduling board horizon.md",
-    "Notes/Intelligen/Current issues/Undo-history.md",
-    "Notes/Intelligen/Current issues/Undo.md",
-    "Notes/Intelligen/Current issues/Testing-recipe.md",
-    "Notes/Intelligen/Current issues/Telemetry.md",
-    "Notes/Intelligen/Εργασία/Πώς υπολογίζεται η ετήσια άδεια και το επίδομα.md",
-    "Notes/Intelligen/Εργασία/Αργίες 2025.md",
-    "Notes/Intelligen/Εργασία/Άδειες.md",
-    "Notes/Intelligen/Εργασία/Άδεια αναψυχής Πόση δικαιούστε, πώς μπορείτε να την υπολογίσετε.md",
-    "Notes/Intelligen/Εργασία/https--www.euro2day.gr-news-economy-article-2254879-pos-ypologizetai-h-ethsia-adeia-kai-to-epidoma.html.md",
-    "Notes/Intelligen/Backlog.md",
-    "Notes/Intelligen/Completed issues/294-Export-campaign-to-production.md",
-    "Templates/Issue Template.md",
-    "Templates/Home Note Template.md",
-    "Templates/Interest Template.md",
-    "Templates/Bases/Issues.base",
-    "Clippings/Επίσημα templates Obsidian.md",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-pages/Completed issues",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-pages",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/Completed issues/2025",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/Completed issues",
-    "Attachments/Notes/Cleverapps/Cleverapps/Esdi/esdi-pages",
-    "Notes/CleverApps/Esdi/esdi-pages/Completed issues",
-    "Attachments/Notes/Cleverapps/Cleverapps/Esdi/esdi-clerks",
-    "Attachments/Notes/Cleverapps/Cleverapps/Esdi",
-    "Attachments/Notes/Cleverapps/Cleverapps",
-    "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md/image-1.png",
+    "Notes/Intelligen/Algorithms/Topological sorting - Wikipedia.md",
+    "Attachments/~$heduleTiming.docx",
+    "Attachments/ScheduleTiming.docx",
+    "Current/127-Scroll-improvements.md",
+    "Categories/Issues.md",
+    "Notes/Intelligen/Notes/Introduction to cloud-native applications  Microsoft Docs.md",
+    "Notes/Intelligen/Notes/DDD_Reference_2015-03.md",
+    "Notes/Intelligen/Documentation/GRPC communication/Bff-Grpc flow.md",
+    "Categories/Documentation.md",
+    "Notes/Intelligen/Documentation/Backup-Copy/Backup-Copy Differences.md",
+    "Notes/Intelligen/Gantt/Documentation/Create library package/File export as Module.md",
+    "Notes/Intelligen/Keycloak/Documentation/Windows authentication/Windows authentication.md",
+    "Attachments/image-1.png",
+    "Notes/Intelligen/Keycloak/Documentation/Docs.md",
+    "Notes/Intelligen/Keycloak/Documentation/Documentation - Update realm.md",
     "Attachments/image.png",
-    "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md/image.png",
-    "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md/image 1.png",
-    "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md/image-1.png",
-    "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md/image-2.png",
-    "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md/image-3.png",
-    "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md/Exported image 20260209135850-0.png",
-    "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md/Exported image 20260209135851-1.png",
+    "Attachments/Notes/Intelligen/Keycloak/Documentation/Documentation - Update realm.md/image.png",
+    "Notes/Intelligen/CQRS/Clarified CQRS.md",
+    "Notes/Intelligen/CQRS/Applying CQRS and CQS approaches in a DDD microservice in eShopOnContainers  Microsoft Docs.md",
+    "Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md",
+    "Current/2026-02-11.md",
+    "Attachments/Notes/Intelligen/Current issues/Telemetry.md/Exported image 20260209140001-5.png",
+    "orphan-attachments-report-20260212-152742.txt",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Εργασία/Άδεια αναψυχής Πόση δικαιούστε, πώς μπορείτε να την υπολογίσετε.md/Exported image 20260209140849-2.png",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Εργασία/Άδεια αναψυχής Πόση δικαιούστε, πώς μπορείτε να την υπολογίσετε.md",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Εργασία",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Keycloak/Documentation/Windows authentication/Keycloak ldap settings.md/Exported image 20260209140239-10.png",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Keycloak/Documentation/Windows authentication/Keycloak ldap settings.md/Exported image 20260209140238-9.png",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Keycloak/Documentation/Windows authentication/Keycloak ldap settings.md/Exported image 20260209140234-8.png",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Keycloak/Documentation/Windows authentication/Keycloak ldap settings.md/Exported image 20260209140232-7.png",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Keycloak/Documentation/Windows authentication/Keycloak ldap settings.md/Exported image 20260209140231-6.png",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Keycloak/Documentation/Windows authentication/Keycloak ldap settings.md",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Keycloak/Documentation/Windows authentication",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Keycloak/Documentation/Docs.md",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Keycloak/Documentation",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Keycloak/Completed issues/493-Tenant-filtering.md",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Keycloak/Completed issues",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Keycloak",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Current issues",
+    "Attachments/_orphaned/2026-02-12/Notes/Intelligen/Completed issues",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

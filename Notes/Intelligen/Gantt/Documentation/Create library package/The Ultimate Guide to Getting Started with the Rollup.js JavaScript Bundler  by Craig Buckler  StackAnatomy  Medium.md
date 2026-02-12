@@ -1,7 +1,8 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
+created: 2024-05-14T20:56
 tags:
   - intelligen
   - gantt
@@ -22,7 +23,7 @@ The benefits of using Rollup.js include:
 6. The final production bundle can have whitespace and logging removed to minify the file size.
 
 Rollup.js has some competition with build tools such as [webpack](https://webpack.js.org/), [Snowpack](https://www.snowpack.dev/), and [Parcel](https://parceljs.org/). As well as JavaScript module bundling, these can handle other aspects of your site such as HTML templates, CSS preprocessing, and image optimization. The downside is they can be more difficult to configure if you have custom requirements.  
-Rollup.js primarily concentrates on JavaScript so it’s fast and lightweight. It’s easy to get started but you’ll discover plugins for HTML, CSS, images, and other options as you become familiar with the tool. Let’s get started…
+Rollup.js primarily concentrates on JavaScript so itβ€™s fast and lightweight. Itβ€™s easy to get started but youβ€™ll discover plugins for HTML, CSS, images, and other options as you become familiar with the tool. Letβ€™s get startedβ€¦
 
 # Rollup.js Installation
 
@@ -31,7 +32,7 @@ npm install rollup --global
 You can then execute the rollup command from any project directory.  
 You can also install Rollup.js in a Node.js project folder using:  
 npm install rollup --save-dev  
-This manages the installation in npm’s package.json file to ensure all developers on your team are using the same version to avoid compatibility issues. You can run Rollup.js with npx rollup or add commands to the "scripts" section of package.json, e.g.  
+This manages the installation in npmβ€™s package.json file to ensure all developers on your team are using the same version to avoid compatibility issues. You can run Rollup.js with npx rollup or add commands to the "scripts" section of package.json, e.g.  
 "scripts": {  
 "rollup:help": "rollup --help"  
 },  
@@ -104,7 +105,7 @@ The example above introduces the basic Rollup.js [command-line options](https://
     iifeoutput an Immediately Invoked Function Expression (function () { ... }());  
     esstandard ES6  
     cjsCommonJS for Node.js  
-    umd[Universal Module Definition](https://github.com/umdjs/umd)￼amd[Asynchronous Module Definition](https://github.com/amdjs)￼system[SystemJS modules](https://github.com/systemjs/systemjs)
+    umd[Universal Module Definition](https://github.com/umdjs/umd)οΏΌamd[Asynchronous Module Definition](https://github.com/amdjs)οΏΌsystem[SystemJS modules](https://github.com/systemjs/systemjs)
 - If in doubt, use es6. iife may be practical if you need to support older browsers which do not support modules.
 - --environment \<values\>: set one or more comma-separated environment variables, e.g. --environment NODE_ENV:development,VAR1,VAR2:abc which sets NODE_ENV to development, VAR1 to true, and VAR2 to abc.
 - --sourcemap: create a source map so you can reference the original source files in browser DevTools. The bundled file will link to a .map file in build folder, e.g. build/bundle.js.map.
@@ -117,7 +118,7 @@ The example above introduces the basic Rollup.js [command-line options](https://
 
 Commands can become cumbersome when adding options and flags. A Rollup.js [configuration file](https://rollupjs.org/guide/en/#configuration-files) is a better alternative:
 
-1. it’s easier to read and edit
+1. itβ€™s easier to read and edit
 2. you can define more than one bundle process, and
 3. the configuration file is an ES6 module which can execute other functionality. For example, you can conditionally process development or production builds according to the environment where Rollup.js runs.
 
@@ -133,7 +134,7 @@ Set the Rollup.js --config (or -c) flag to use this configuration file:
 npx rollup --config  
 You can also pass a filename if you want to move or rename the configuration file, e.g.  
 npx rollup --config ./rollup/config1.js  
-The configuration above exports an array with a single object which defines one bundle process. An array isn’t necessary for one object but it allows you to define further processes later, e.g.  
+The configuration above exports an array with a single object which defines one bundle process. An array isnβ€™t necessary for one object but it allows you to define further processes later, e.g.  
 // rollup.config.js  
 export default [ // ES6 bundle  
 { input: './src/main.js', output: {  
@@ -287,7 +288,7 @@ format: 'es'
 ];  
 Install an example CommonJS library such as [Lodash](https://lodash.com/):  
 npm install lodash --save-dev  
-and use one of its methods — such as capitalize() in :  
+and use one of its methods β€” such as capitalize() in :  
 import * as _ from 'lodash/string';export function hello() {  
 console.log(_.capitalize('hello from a.js '));  
 }  
@@ -298,11 +299,11 @@ _Be aware that Rollup.js cannot tree-shake Lodash because it exports a single ob
 
 # Open Source Session Replay
 
-Debugging a web application in production may be challenging and time-consuming. [OpenReplay](https://github.com/openreplay/openreplay) is an Open-source alternative to FullStory, LogRocket and Hotjar. It allows you to monitor and replay everything your users do and shows how your app behaves for every issue. It’s like having your browser’s inspector open while looking over your user’s shoulder. OpenReplay is the only open-source alternative currently available.
+Debugging a web application in production may be challenging and time-consuming. [OpenReplay](https://github.com/openreplay/openreplay) is an Open-source alternative to FullStory, LogRocket and Hotjar. It allows you to monitor and replay everything your users do and shows how your app behaves for every issue. Itβ€™s like having your browserβ€™s inspector open while looking over your userβ€™s shoulder. OpenReplay is the only open-source alternative currently available.
 
 ![SSO Sr sruns vtt6](Exported%20image%2020260209140139-1.png)
 
-Happy debugging, for modern frontend teams — [Start monitoring your web app for free](https://github.com/openreplay/openreplay).
+Happy debugging, for modern frontend teams β€” [Start monitoring your web app for free](https://github.com/openreplay/openreplay).
 
 # Transpile ES6 to ES5 Using Babel
 
@@ -313,7 +314,7 @@ console.log('hello from a.js ');
 console.log('goodbye from a.js');  
 };export { hello, goodbye };  
 The resulting bundle will run in all modern browsers but fail in legacy applications such as Internet Explorer 11 and below. This may not be of concern: IE11 has a minimal market share and those users can still see content if your site functions reasonably well without JavaScript.  
-You can transpile your code to ES5 using [Babel](https://babeljs.io/) if you’re unfortunate enough to have a reasonably high number of IE11 users. The resulting code _should_ work in any browser (although you may still require Polyfills to add missing functionality in IE11).  
+You can transpile your code to ES5 using [Babel](https://babeljs.io/) if youβ€™re unfortunate enough to have a reasonably high number of IE11 users. The resulting code _should_ work in any browser (although you may still require Polyfills to add missing functionality in IE11).  
 Bundling two files from the same source is a better option. You can produce a small ES6 version loaded by all browsers which support ES modules and a larger ES5 fallback version for older browsers.  
 Install Babel locally:  
 npm install [@rollup/plugin-babel](http://twitter.com/rollup/plugin-babel) [@babel/core](http://twitter.com/babel/core) [@babel/preset-env](http://twitter.com/babel/preset-env) --save-dev  
@@ -368,4 +369,8 @@ Modern browsers will load and run the ES6 module contained in ./build/bundle.js.
 # Rolling Your Own
 
 Rollup.js requires a little more initial effort than build tools such as Webpack and Parcel but ongoing configuration is easier and more flexible. Your resulting bundles should be smaller and faster.  
-For more information, refer to the [Rollupjs.org website](https://rollupjs.org/). The [big list of Rollup.js options](https://rollupjs.org/guide/en/#big-list-of-options) describes all the command line switches and you can browse the [awesome list of Rollup.js plugins](https://github.com/rollup/awesome). You’ll find dozens of plugins for building and optimizing HTML, CSS, files, images, TypeScript, data URIs, code quality, and more. You can also integrate Rollup.js with Deno, Grunt, Gulp, React, Angular, Vue, and Svelte projects. I recommend you keep your configuration simple at first then add further configuration options as your knowledge of Rollup.js grows.
+For more information, refer to the [Rollupjs.org website](https://rollupjs.org/). The [big list of Rollup.js options](https://rollupjs.org/guide/en/#big-list-of-options) describes all the command line switches and you can browse the [awesome list of Rollup.js plugins](https://github.com/rollup/awesome). Youβ€™ll find dozens of plugins for building and optimizing HTML, CSS, files, images, TypeScript, data URIs, code quality, and more. You can also integrate Rollup.js with Deno, Grunt, Gulp, React, Angular, Vue, and Svelte projects. I recommend you keep your configuration simple at first then add further configuration options as your knowledge of Rollup.js grows.
+
+
+
+

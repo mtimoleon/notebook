@@ -1,7 +1,8 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
+created: 2023-05-19T11:28
 tags:
   - intelligen
   - keycloak
@@ -18,11 +19,15 @@ User registration flow
 - After user email verification, user can use the app
   
 ```
-        private Guid GetUser()
-        {
-            string id = User.Claims.First(i =\> i.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier").Value.ToString();
-            return Guid.Parse(id);
-        }
+Β Β Β Β Β Β Β Β privateΒ GuidΒ GetUser()
+Β Β Β Β Β Β Β Β {
+Β Β Β Β Β Β Β Β Β Β Β Β stringΒ idΒ =Β User.Claims.First(iΒ =\>Β i.TypeΒ ==Β "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier").Value.ToString();
+Β Β Β Β Β Β Β Β Β Β Β Β returnΒ Guid.Parse(id);
+Β Β Β Β Β Β Β Β }
 ```
 
 [https://github.com/keycloak/keycloak/blob/main/testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/admin/UserTest.java#L304](https://github.com/keycloak/keycloak/blob/main/testsuite/integration-arquillian/tests/base/src/test/java/org/keycloak/testsuite/admin/UserTest.java#L304)
+
+
+
+

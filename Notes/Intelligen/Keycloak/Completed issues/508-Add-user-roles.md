@@ -1,4 +1,4 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Issues]]"
@@ -203,6 +203,10 @@ Test plan
 TestsCommon.Helpers.AuthHandler
 
 @channel Now that we introduce user roles (task 508) you need to be aware of how we assign user for the test requests. Currently all the tests run with "admin" role user and assigned "tenantId" to 1 (though this does not matter for admin). You can see the setting in TestsCommon.Helpers.AuthHandler. But there are some cases where we want to perform the test as another user, for example with role "planner". For such cases we expose the ClaimsPrincipal of AuthHandler so before any request we can set a different user role (See planning Authorization tests on how to do this). Now you must remember to always return the user role to "admin" after this specific test run otherwise other tests that run susequently may break. To reset the user role to admin you just set "AuthHandler.ClaimsPrincipal = null;" and the AuthHandler will take the default principals. If it is convinient you can add this in tests constructor as it is in WorkspaceTests so for every test it starts with user having "admin" role.
+
+
+
+
 
 
 

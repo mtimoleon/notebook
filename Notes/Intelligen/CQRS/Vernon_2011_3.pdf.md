@@ -1,6 +1,7 @@
----
+﻿---
 categories:
   - "[[Work]]"
+created: 2021-11-06T01:13
 tags:
   - intelligen
 ---
@@ -16,3 +17,7 @@ Clipped from: [https://www.dddcommunity.org/wp-content/uploads/files/pdf_article
 ![Implementing Eventual Consistency Here is how it c...](Exported%20image%2020260209135527-3.png)
 
 ![configure a work flow preference. They arent going...](Exported%20image%2020260209135530-4.png)
+
+
+
+

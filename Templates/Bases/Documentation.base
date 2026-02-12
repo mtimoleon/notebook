@@ -35,6 +35,8 @@ views:
       - component
       - file.path
     sort:
+      - property: file.name
+        direction: ASC
       - property: org
         direction: DESC
       - property: file.mtime

@@ -1,6 +1,7 @@
----
+﻿---
 categories:
   - "[[Work]]"
+created: 2021-10-05T21:33
 tags:
   - intelligen
 ---
@@ -330,3 +331,7 @@ The thread 0x837 has exited with code 0 (0x0).
 ```
 
 ![[General notes - Ink.svg]]
+
+
+
+

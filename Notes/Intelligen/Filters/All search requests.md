@@ -1,6 +1,7 @@
----
+﻿---
 categories:
   - "[[Work]]"
+created: 2022-06-03T22:18
 tags:
   - intelligen
 ---
@@ -51,3 +52,7 @@ public int FacilityId { get; set; }
 public string SearchString { get; set; }  
 public int? Offset { get; set; }  
 public int? Limit { get; set; }
+
+
+
+

@@ -1,7 +1,8 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
+created: 2022-11-10T12:57
 tags:
   - intelligen
 ---
@@ -36,3 +37,7 @@ Rules that must be applied
 -controller -\> add validation in annotation in poco  
 -behaviour in domain  
 -handler for db etc
+
+
+
+

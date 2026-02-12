@@ -1,6 +1,6 @@
 {
   "attachmentFolderPath": "Attachments/${noteFilePath}",
-  "attachmentRenameMode": "All",
+  "attachmentRenameMode": "Only pasted images",
   "collectAttachmentUsedByMultipleNotesMode": "Skip",
   "collectedAttachmentFileName": "",
   "convertImagesToJpegMode": "None",
@@ -11,7 +11,7 @@
   "emptyFolderBehavior": "DeleteWithEmptyParents",
   "excludePaths": [],
   "excludePathsFromAttachmentCollecting": [],
-  "generatedAttachmentFileName": "file-${date:{momentJsFormat:'YYYY-MM-DD'}}",
+  "generatedAttachmentFileName": "file-${date:{momentJsFormat:'YYYYMMDDHHmmssSSS'}}",
   "includePaths": [],
   "jpegQuality": 0.8,
   "markdownUrlFormat": "",
@@ -26,7 +26,7 @@
   "specialCharactersReplacement": "-",
   "timeoutInSeconds": 5,
   "treatAsAttachmentExtensions": [
-    ".excalidraw"
+    ".excalidraw.md"
   ],
   "version": "10.3.1"
 }

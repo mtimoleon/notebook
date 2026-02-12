@@ -1,21 +1,21 @@
 {
   "workspaces": {
-    "Current-workspace": {
+    "Current": {
       "main": {
         "id": "9aaea94abae46692",
         "type": "split",
         "children": [
           {
-            "id": "b4213a460b8bdad5",
+            "id": "6c8562c02c52b2ca",
             "type": "tabs",
             "children": [
               {
-                "id": "1e3f451fc60b67a5",
+                "id": "5e51b2cbe9a3ffd2",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Current/2026-02-11.md",
+                    "file": "Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -30,7 +30,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "2026-02-11"
+                  "title": "Πίνακες"
                 }
               }
             ]
@@ -65,7 +65,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "tag:intelligen",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": true,
@@ -86,12 +86,11 @@
                   "title": "Bookmarks"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 384.5
+        "width": 373.5
       },
       "right": {
         "id": "ed3f7e0552712392",
@@ -100,7 +99,7 @@
           {
             "id": "3cee5bdb12ecd31b",
             "type": "tabs",
-            "dimension": 37.7541142303969,
+            "dimension": 38.23814133591481,
             "children": [
               {
                 "id": "349422fd7dc42d3b",
@@ -108,7 +107,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "_current/Drawing 2026-02-10 10.15.10.excalidraw.md",
+                    "file": "Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Drawing 2026-02-10 10.15.10.excalidraw"
+                  "title": "Backlinks for Πίνακες"
                 }
               },
               {
@@ -127,12 +126,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Current/2026-02-11.md",
+                    "file": "Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from 2026-02-11"
+                  "title": "Outgoing links from Πίνακες"
                 }
               },
               {
@@ -167,15 +166,36 @@
               {
                 "id": "031e2a453ae393a2",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "Notes/Developer/Linux/The UNIX Filesystem Commands.md"
+                    "file": "Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md"
                   },
-                  "pinned": true,
                   "icon": "lucide-info",
-                  "title": "File properties for The UNIX Filesystem Commands"
+                  "title": "File properties for Πίνακες"
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "c159d314176b7de8",
+            "type": "tabs",
+            "dimension": 27.97676669893514,
+            "children": [
+              {
+                "id": "43b65ca38b37f2a8",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md",
+                    "followCursor": true,
+                    "showSearch": true,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Πίνακες"
                 }
               },
               {
@@ -184,33 +204,10 @@
                 "state": {
                   "type": "footnotes",
                   "state": {
-                    "file": "_current/Drawing 2026-02-10 10.15.10.excalidraw.md"
+                    "file": "Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md"
                   },
                   "icon": "lucide-file-signature",
                   "title": "Footnotes"
-                }
-              }
-            ],
-            "currentTab": 4
-          },
-          {
-            "id": "c159d314176b7de8",
-            "type": "tabs",
-            "dimension": 34.36592449177154,
-            "children": [
-              {
-                "id": "43b65ca38b37f2a8",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Current/2026-02-11.md",
-                    "followCursor": true,
-                    "showSearch": true,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of 2026-02-11"
                 }
               }
             ]
@@ -218,7 +215,7 @@
           {
             "id": "1114442bb95cf4fa",
             "type": "tabs",
-            "dimension": 27.879961277831562,
+            "dimension": 33.78509196515005,
             "children": [
               {
                 "id": "4a8b8a265069ca66",
@@ -246,7 +243,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 397.5
+        "width": 430.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -264,9 +261,9 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "b3aa72244326d278",
-      "mtime": "2026-02-11T21:43:33+02:00"
+      "active": "5e51b2cbe9a3ffd2",
+      "mtime": "2026-02-12T09:52:41+02:00"
     }
   },
-  "active": "Current-workspace"
+  "active": "Current"
 }

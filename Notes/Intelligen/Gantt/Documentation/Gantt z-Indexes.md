@@ -1,7 +1,8 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
+created: 2025-12-08T15:32
 tags:
   - intelligen
   - gantt
@@ -25,3 +26,7 @@ tags:
 |     |                              |
 
 ![Exported image](Exported%20image%2020260209140150-0.png)
+
+
+
+

@@ -1,7 +1,13 @@
+﻿---
+product: ScpCloud
+tags:
+  - intelligen
 ---
+ο»Ώ---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
+created: 2022-11-08T16:15
 tags:
   - intelligen
 ---
@@ -30,3 +36,7 @@ In cases where we have same unit for a number of properties we should use Physic
  
 29/3/2023  
 When we update an entity that contains a value object, we send id and value flatten in the dto, eg for area we send faltten areaUnitId, areaUnitValue. We put \<area\> as prefix to distinguish many different value objects
+
+
+
+
