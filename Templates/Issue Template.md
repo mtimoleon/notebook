@@ -1,12 +1,12 @@
-﻿---
+---
 categories:
   - "[[Issues]]"
-org:
+  - "[[Work]]"
 product: []
-component: []
+component:
 ticket:
-status: []
-created: {{date}}
+status:
+created:
 tags: []
 ---
 

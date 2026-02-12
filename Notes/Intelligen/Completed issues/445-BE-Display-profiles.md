@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-09-23T10:34
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 DisplayProfile under scheduling board or workspace?
  
 Specify resources tab -\> opos to Specify equipment/staff sto production  
@@ -36,3 +47,6 @@ createDisplayProfile
 - [x] Validation
  
 - [x] Add a service FilterLookupService
+
+
+

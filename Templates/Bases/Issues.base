@@ -2,11 +2,12 @@ filters:
   and:
     - or:
         - categories.contains(link("Issues"))
-        - file.path.contains("Notes/Intelligen/Current/")
+        - file.path.contains("Notes/Intelligen/Current issues/")
         - file.path.contains("Notes/Intelligen/Gantt/")
         - file.path.contains("Notes/Intelligen/Keycloak/")
         - file.path.contains("Notes/Auth/Current/")
     - '!file.name.contains("Template")'
+    - '!file.path.contains("Attachments/")'
 properties:
   file.name:
     displayName: Issue
@@ -16,8 +17,6 @@ properties:
     displayName: Created
   note.status:
     displayName: Status
-  note.org:
-    displayName: Org
   note.product:
     displayName: Product
   note.component:
@@ -31,11 +30,66 @@ views:
       - file.name
       - ticket
       - status
-      - org
       - product
       - component
       - file.path
     sort:
+      - property: file.name
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    limit: 200
+  - type: table
+    name: Current
+    filters:
+      and:
+        - note.status.contains("current")
+    order:
+      - file.name
+      - ticket
+      - status
+      - product
+      - component
+      - file.path
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    limit: 200
+  - type: table
+    name: Backlog
+    filters:
+      and:
+        - note.status.contains("backlog")
+    order:
+      - file.name
+      - ticket
+      - status
+      - product
+      - component
+      - file.path
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    limit: 200
+  - type: table
+    name: Completed
+    filters:
+      and:
+        - note.status.contains("completed")
+    order:
+      - file.name
+      - ticket
+      - status
+      - product
+      - component
+      - file.path
+    sort:
+      - property: file.name
+        direction: ASC
       - property: file.mtime
         direction: DESC
     limit: 200
@@ -50,8 +104,12 @@ views:
       - status
       - product
       - component
-      - file.path
+      - file.folder
     sort:
+      - property: status
+        direction: ASC
+      - property: file.name
+        direction: ASC
       - property: file.mtime
         direction: DESC
     limit: 200
@@ -67,6 +125,8 @@ views:
       - component
       - file.path
     sort:
+      - property: file.name
+        direction: ASC
       - property: file.mtime
         direction: DESC
     limit: 200
@@ -83,6 +143,8 @@ views:
       - component
       - file.path
     sort:
+      - property: file.name
+        direction: ASC
       - property: file.mtime
         direction: DESC
     limit: 200

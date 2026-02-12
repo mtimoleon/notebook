@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 Clipped from: [https://medium.com/swlh/creating-a-simple-real-time-chat-with-net-core-reactjs-and-signalr-6367dcadd2c6](https://medium.com/swlh/creating-a-simple-real-time-chat-with-net-core-reactjs-and-signalr-6367dcadd2c6)
 
 ![Exported image](Exported%20image%2020260209140815-0.jpeg)

@@ -7,6 +7,7 @@ filters:
         - file.path.contains("Notes/CleverApps/")
         - file.path.contains("Notes/Electric-engineer/")
     - '!file.name.contains("Template")'
+    - '!file.path.contains("Attachments/")'
 properties:
   file.name:
     displayName: Note

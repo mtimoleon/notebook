@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "605a88f494b069f8",
+        "id": "6c8562c02c52b2ca",
         "type": "tabs",
         "children": [
           {
-            "id": "d384ac5f537902a5",
+            "id": "5e51b2cbe9a3ffd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/CleverApps/Esdi/esdi-pages/Completed issues/2023-06-08.md",
+                "file": "Notes/Intelligen/Keycloak/Completed issues/419-Add-user-from-token keycloak.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2023-06-08"
+              "title": "419-Add-user-from-token keycloak"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:intelligen",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/CleverApps/Esdi/esdi-pages/Completed issues/2023-06-08.md",
+                "file": "Notes/Intelligen/Keycloak/Completed issues/419-Add-user-from-token keycloak.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2023-06-08"
+              "title": "Backlinks for 419-Add-user-from-token keycloak"
             }
           },
           {
@@ -124,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/CleverApps/Esdi/esdi-pages/Completed issues/2023-06-08.md",
+                "file": "Notes/Intelligen/Keycloak/Completed issues/419-Add-user-from-token keycloak.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2023-06-08"
+              "title": "Outgoing links from 419-Add-user-from-token keycloak"
             }
           },
           {
@@ -139,7 +139,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "alphabetical",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -167,19 +167,19 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Notes/CleverApps/Esdi/esdi-pages/Completed issues/2023-06-08.md"
+                "file": "Notes/Intelligen/Keycloak/Completed issues/419-Add-user-from-token keycloak.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2023-06-08"
+              "title": "File properties for 419-Add-user-from-token keycloak"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 28.267182962245883,
+        "dimension": 27.97676669893514,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/CleverApps/Esdi/esdi-pages/Completed issues/2023-06-08.md",
+                "file": "Notes/Intelligen/Keycloak/Completed issues/419-Add-user-from-token keycloak.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2023-06-08"
+              "title": "Outline of 419-Add-user-from-token keycloak"
             }
           },
           {
@@ -202,7 +202,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Notes/CleverApps/Esdi/esdi-pages/Completed issues/2023-06-08.md"
+                "file": "Notes/Intelligen/Keycloak/Completed issues/419-Add-user-from-token keycloak.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -213,7 +213,7 @@
       {
         "id": "1114442bb95cf4fa",
         "type": "tabs",
-        "dimension": 33.494675701839306,
+        "dimension": 33.78509196515005,
         "children": [
           {
             "id": "4a8b8a265069ca66",
@@ -259,44 +259,45 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d6f834d67aedd82d",
+  "active": "5e51b2cbe9a3ffd2",
   "lastOpenFiles": [
-    "Attachments/Notes/Cleverapps/Esdi/esdi-pages/Completed issues/2023-06-08.md",
+    "Notes/Intelligen/Keycloak/Completed issues/493-Tenant-filtering.md",
+    "Notes/Intelligen/Keycloak/Completed issues/508-Add-user-roles.md",
+    "Attachments/Notes/Intelligen/Keycloak/Completed issues/508-Add-user-roles.md/image.png",
+    "Notes/Intelligen/Current issues/Hovione.md",
+    "Notes/Intelligen/Keycloak/Completed issues/461-Keycloak-realm-scope-and-roles/461-Keycloak-realm-scope-and-roles.md",
+    "Notes/Intelligen/Gantt/Completed issues/101-Show-multiple-layers-of-data-bars.md",
+    "Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md",
+    "Categories/Issues.md",
+    "Notes/Intelligen/Algorithms/Scheduling service.md",
+    "Notes/Intelligen/Algorithms/Round-robin scheduling - Wikipedia.md",
+    "Notes/Intelligen/Algorithms/Calculate operation timing.md",
+    "Notes/Intelligen/Completed issues/266-Scheduling board horizon.md",
+    "Notes/Intelligen/Current issues/Undo-history.md",
+    "Notes/Intelligen/Current issues/Undo.md",
+    "Notes/Intelligen/Current issues/Testing-recipe.md",
+    "Notes/Intelligen/Current issues/Telemetry.md",
+    "Notes/Intelligen/Εργασία/Πώς υπολογίζεται η ετήσια άδεια και το επίδομα.md",
+    "Notes/Intelligen/Εργασία/Αργίες 2025.md",
+    "Notes/Intelligen/Εργασία/Άδειες.md",
+    "Notes/Intelligen/Εργασία/Άδεια αναψυχής Πόση δικαιούστε, πώς μπορείτε να την υπολογίσετε.md",
+    "Notes/Intelligen/Εργασία/https--www.euro2day.gr-news-economy-article-2254879-pos-ypologizetai-h-ethsia-adeia-kai-to-epidoma.html.md",
+    "Notes/Intelligen/Backlog.md",
+    "Notes/Intelligen/Completed issues/294-Export-campaign-to-production.md",
+    "Templates/Issue Template.md",
+    "Templates/Home Note Template.md",
+    "Templates/Interest Template.md",
+    "Templates/Bases/Issues.base",
+    "Clippings/Επίσημα templates Obsidian.md",
     "Attachments/Notes/Cleverapps/Esdi/esdi-pages/Completed issues",
     "Attachments/Notes/Cleverapps/Esdi/esdi-pages",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/Completed issues/2025/Special Court search Competition.md",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/Completed issues/2025/Reports.md",
     "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/Completed issues/2025",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/Completed issues/2023.md",
     "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/Completed issues",
-    "Notes/CleverApps/Esdi/esdi-pages/Completed issues/2025.md",
-    "Attachments/Notes/Cleverapps/Cleverapps/Esdi/esdi-pages/Untitled-20230608.md",
     "Attachments/Notes/Cleverapps/Cleverapps/Esdi/esdi-pages",
-    "Notes/CleverApps/Esdi/esdi-clerks/Completed issues/2025/2025.md",
     "Notes/CleverApps/Esdi/esdi-pages/Completed issues",
-    "Notes/CleverApps/Esdi/esdi-clerks/Completed issues/2023.md",
-    "Attachments/Notes/Cleverapps/Cleverapps/Esdi/esdi-clerks/2023.md",
     "Attachments/Notes/Cleverapps/Cleverapps/Esdi/esdi-clerks",
     "Attachments/Notes/Cleverapps/Cleverapps/Esdi",
     "Attachments/Notes/Cleverapps/Cleverapps",
-    "Notes/CleverApps/Esdi/esdi-clerks/Completed issues/2025/Clerks Requirements.md",
-    "Notes/CleverApps/Esdi/esdi-clerks/Completed issues/2025/Judges Requirements.md",
-    "Notes/CleverApps/Esdi/esdi-clerks/Completed issues/2025/Reports.md",
-    "Notes/CleverApps/Esdi/esdi-clerks/Completed issues/2025/Special Court search Competition.md",
-    "Notes/CleverApps/Esdi/esdi-clerks/Completed issues",
-    "Notes/Developer/General/ChatGPT Codex.md",
-    "Attachments/Notes/Developer/General/Anyone can Access Deleted and Private Repository Data on GitHub Truffle Security Co.md",
-    "Notes/Developer/General/Anyone can Access Deleted and Private Repository Data on GitHub Truffle Security Co.md",
-    "Notes/Developer/General/Push Notifications and ASP.NET Core - Part 1 (Push API)/Push Notifications and ASP.NET Core - Part 5 (Special Cases).md",
-    "Notes/Developer/General/Push Notifications and ASP.NET Core - Part 1 (Push API)/Push Notifications and ASP.NET Core - Part 4 (Queueing requesting delivery in background).md",
-    "Notes/Developer/General/Push Notifications and ASP.NET Core - Part 1 (Push API)/Push Notifications and ASP.NET Core - Part 3 (Replacing Messages & Urgency).md",
-    "Notes/Developer/General/Push Notifications and ASP.NET Core - Part 1 (Push API)/Push Notifications and ASP.NET Core - Part 2 (Requesting Delivery).md",
-    "Notes/Developer/General/Push Notifications and ASP.NET Core - Part 1 (Push API)/Push Notifications and ASP.NET Core - Part 1 (Push API).md",
-    "Notes/Intelligen/Documentation/Scheduling/SCHEDULING QUERIES, INCLUDES and CONDITIONS.md",
-    "Attachments/Notes/Intelligen/Gantt/Documentation/Gantt z-Indexes.md",
-    "Notes/Intelligen/Documentation/Registration/Registration flow.md",
-    "Notes/Intelligen/Documentation/Name conventions/Dto names and uses.md",
-    "Notes/Intelligen/Documentation/GRPC communication/Bff-Grpc flow.md",
     "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md/image-1.png",
     "Attachments/image.png",
     "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md/image.png",
@@ -306,7 +307,6 @@
     "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md/image-3.png",
     "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md/Exported image 20260209135850-0.png",
     "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md/Exported image 20260209135851-1.png",
-    "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες.md/Exported image 20260209135853-2.png",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

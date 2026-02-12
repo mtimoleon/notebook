@@ -1,3 +1,12 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+  - keycloak
+---
+
 Container for LDAP-Kerberos
 ```sh
 docker run -d --name ldap-kerberos \  

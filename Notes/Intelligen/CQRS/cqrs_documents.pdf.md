@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 Clipped from: [https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf](https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf)
 
 ![CQRS Documents by Greg Young Contents A Stereotypi...](Exported%20image%2020260209135216-0.png)

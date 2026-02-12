@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 Clipped from: [https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_1.pdf](https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_1.pdf)
 
 ![Effective Aggregate Design Part l Modeling a Singl...](Exported%20image%2020260209135440-0.png)

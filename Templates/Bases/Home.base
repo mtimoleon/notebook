@@ -4,6 +4,7 @@
         - categories.contains(link("Home"))
         - file.path.contains("Notes/Home/")
     - '!file.name.contains("Template")'
+    - '!file.path.contains("Attachments/")'
 properties:
   file.name:
     displayName: Note

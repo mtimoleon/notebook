@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-06-10T10:35
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 [https://learn.microsoft.com/en-us/aspnet/core/signalr/introduction?view=aspnetcore-9.0](https://learn.microsoft.com/en-us/aspnet/core/signalr/introduction?view=aspnetcore-9.0)
  
 ## Overview
@@ -24,23 +35,23 @@ Mermaid: [https://mermaid.live/](https://mermaid.live/)
 %%{init: {"themeVariables": {"fontSize": "10px"}} }%%
 graph TD
     %% Users and their devices (clients)
-    subgraph "👤 ADMIN"
-        UA1["🖥️ Web Browser (Conn A1)"]
-        UA2["📱 Mobile App (Conn A2)"]
+    subgraph "π‘¤ ADMIN"
+        UA1["π–¥οΈ Web Browser (Conn A1)"]
+        UA2["π“± Mobile App (Conn A2)"]
     end
-    subgraph "👤 PLANNER"
-        UB1["🖥️ Web Browser (Conn B1)"]
+    subgraph "π‘¤ PLANNER"
+        UB1["π–¥οΈ Web Browser (Conn B1)"]
     end
-    subgraph "👤 OPERATOR"
-        UC1["💻 Desktop App (Conn C1)"]
-        UC2["📱 Tablet App (Conn C2)"]
+    subgraph "π‘¤ OPERATOR"
+        UC1["π’» Desktop App (Conn C1)"]
+        UC2["π“± Tablet App (Conn C2)"]
     end
     %% Connections mapped to Groups
-    subgraph "👥 Planning group"
+    subgraph "π‘¥ Planning group"
         G1A1["Conn A1"]
         G1B1["Conn B1"]
     end
-    subgraph "👥 Production Group"
+    subgraph "π‘¥ Production Group"
         G2A2["Conn A2"]
         G2C1["Conn C1"]
         G2C2["Conn C2"]
@@ -52,8 +63,8 @@ graph TD
     UC1 --> G2C1
     UC2 --> G2C2
     %% Optional notes
-    G1B1 -.-> N1["💬 Message to Group 1 ➜ Notifies Conn A1 & Conn B1"]
-    G2C2 -.-> N2["💬 Message to Group 2 ➜ Notifies Conn A2, C1 & C2"]
+    G1B1 -.-> N1["π’¬ Message to Group 1 β Notifies Conn A1 & Conn B1"]
+    G2C2 -.-> N2["π’¬ Message to Group 2 β Notifies Conn A2, C1 & C2"]
 ```
 ``
   
@@ -78,22 +89,22 @@ Sample code for the connection:
  
 ```js
 const connection = new signalR.HubConnectionBuilder()
-    .withUrl("https://localhost:5232/fullProductionSync")
-    .build();
+Β  Β  .withUrl("https://localhost:5232/fullProductionSync")
+Β  Β  .build();
 
      withUrl(url: string, options: IHttpConnectionOptions): HubConnectionBuilder;
 
      /** An {@link @microsoft/signalr.HttpTransportType} value specifying the transport to use for t
      *                                                   he connection. 
      */
-    transport?: HttpTransportType | ITransport;
+Β  Β  transport?: HttpTransportType | ITransport;
 
     /** A function that provides an access token required for HTTP Bearer authentication.
-     *
-     * @returns {string | Promise\<string\>} A string containing the access token, or a Promise that resolves 
+Β  Β  Β *
+Β  Β  Β * @returns {string | Promise\<string\>} A string containing the access token, or a Promise that resolves 
      *                                     to a string containing the access token.
-     */
-    accessTokenFactory?(): string | Promise\<string\>;
+Β  Β  Β */
+Β  Β  accessTokenFactory?(): string | Promise\<string\>;
   
 
 
@@ -161,7 +172,7 @@ const connection = builder.build();
 
 ### Groups
 
-To create a group in a SignalR hub for tracking order status changes using an order object's unique identifier, you can define methods within your hub class. Here’s an example:
+To create a group in a SignalR hub for tracking order status changes using an order object's unique identifier, you can define methods within your hub class. Hereβ€™s an example:
  
 ```csharp
 public class OrderHub : Hub  
@@ -182,7 +193,7 @@ In this example, the JoinOrderGroup method allows clients to join a group identi
  
 ## Authentication & Authorization
 
-**To implement authorization for groups in SignalR**, you can use ASP.NET Core's built-in authentication and authorization features. Here’s a general approach:
+**To implement authorization for groups in SignalR**, you can use ASP.NET Core's built-in authentication and authorization features. Hereβ€™s a general approach:
  
 Define Policies: Create authorization policies in your Startup.cs file that specify the requirements for accessing certain groups.  
 Authorize Hub Methods: Use the [Authorize] attribute on your hub methods to enforce these policies. This ensures that only authenticated users who meet the policy requirements can join or interact with specific groups.  
@@ -222,10 +233,10 @@ In this example, the JoinOrderGroup method checks if the user is authorized to j
 
 
 > [!NOTE] Note
-> Hubs are [transient](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#transient):
+> Hubs areΒ [transient](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#transient):
 >  - Don't store state in a property of the hub class. Each hub method call is executed on a new hub instance.
->  - Don't instantiate a hub directly via dependency injection. To send messages to a client from elsewhere in your application  use an [IHubContext](https://learn.microsoft.com/en-us/aspnet/core/signalr/hubcontext?view=aspnetcore-9.0).
-> - Use ==await== when calling asynchronous methods that depend on the hub staying alive. For example, a method such as ==Clients.All.SendAsync(...)== can fail if it's called without ==await== and the hub method completes before ==SendAsync== finishes.
+>  - Don't instantiate a hub directly via dependency injection. To send messages to a client from elsewhere in your application  use anΒ [IHubContext](https://learn.microsoft.com/en-us/aspnet/core/signalr/hubcontext?view=aspnetcore-9.0).
+> - UseΒ ==await==Β when calling asynchronous methods that depend on the hub staying alive. For example, a method such asΒ ==Clients.All.SendAsync(...)==Β can fail if it's called withoutΒ ==await==Β and the hub method completes beforeΒ ==SendAsync==Β finishes.
 
   
 **The Context object**  
@@ -326,3 +337,6 @@ For the preceding code example:
 Web Locks are experimental. The conditional check confirms that the browser supports Web Locks.  
 The promise resolver, lockResolver, is stored so that the lock can be released when it's acceptable for the tab to sleep.  
 When closing the connection, the lock is released by calling lockResolver(). When the lock is released, the tab is allowed to sleep.
+
+
+

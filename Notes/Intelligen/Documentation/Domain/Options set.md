@@ -1,3 +1,11 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+---
+
 Contains
  
 1. Equipment type

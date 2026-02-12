@@ -1,3 +1,11 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+  - keycloak
+---
+
 ```
 {
   "id": "ScpCloud",

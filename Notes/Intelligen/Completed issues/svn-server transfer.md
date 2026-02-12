@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2026-01-16T12:12
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 - [x] Add user mtimoleon  
 - [x] Add webmin  
 - [x] Install svn  
@@ -34,7 +45,7 @@ Scope
 
 - New Ubuntu server (no prior SVN / Trac installation)
 - Apache as frontend
-- SVN repositories restored from `svnadmin hotcopy`
+- SVN repositories restored fromΒ `svnadmin hotcopy`
 - Trac environments restored fully (SQLite)
 - HTTPS enabled with self-signed or existing certificates
 - Authentication via Apache Basic Auth
@@ -42,12 +53,12 @@ Scope
  
 1. Assumptions
 
-- Old server still exists **or** valid `svnadmin hotcopy` backups exist
-- Trac version ≥ 1.6
+- Old server still existsΒ **or**Β validΒ `svnadmin hotcopy`Β backups exist
+- Trac version β‰¥ 1.6
 - Target filesystem paths:
-    - SVN: `/var/lib/svn`
-    - Trac: `/var/lib/trac`
-- Apache user: `www-data`
+    - SVN:Β `/var/lib/svn`
+    - Trac:Β `/var/lib/trac`
+- Apache user:Β `www-data`
 - OS: Ubuntu Server (22.04 / 24.04)
  
 2. Base System Preparation  
@@ -98,11 +109,11 @@ openssl req -new -newkey rsa:2048 -nodes \
 ```
  
 5. Apache Virtual Hosts  
-File _/etc/apache2/apache2.conf_  
-Add line `ServerName \<your-server-ip\>`
+FileΒ _/etc/apache2/apache2.conf_  
+Add lineΒ `ServerName \<your-server-ip\>`
  
 HTTP (80)  
-`/etc/apache2/sites-available/000-default.conf` (Standard, unchanged)
+`/etc/apache2/sites-available/000-default.conf`Β (Standard, unchanged)
  
 HTTPS (443)  
 
@@ -278,11 +289,11 @@ chown -R www-data:www-data /var/lib/svn/SchedulePro
 svnadmin verify /var/lib/svn/SchedulePro
 
 ```
- If this fails → **stop**. Re-take hotcopy from the old server with all services stopped.
+ If this fails β†’Β **stop**. Re-take hotcopy from the old server with all services stopped.
  
 8. Restore Trac Environments  
-Restore **entire environments**, not just `trac.ini`.  
-Also copy `/var/www/trac.wsgi` to the new machine (same place).  
+RestoreΒ **entire environments**, not justΒ `trac.ini`.  
+Also copyΒ `/var/www/trac.wsgi`Β to the new machine (same place).  
 
 ```
 rsync -a SchedulePro /var/lib/trac/
@@ -344,12 +355,12 @@ chown -R root:root /var/lib/backup
 chmod -R 755 /var/lib/backup
 
 ```
- Copy backup scripts from the old machine into `/var/lib/backup/scripts` (at minimum `hotcopy.sh` and `backup_rotated_30.sh`) and ensure they are executable.  
-`backup_rotated_30.sh` is the wrapper that:
+ Copy backup scripts from the old machine intoΒ `/var/lib/backup/scripts`Β (at minimumΒ `hotcopy.sh`Β andΒ `backup_rotated_30.sh`) and ensure they are executable.  
+`backup_rotated_30.sh`Β is the wrapper that:
 
-- runs `/var/lib/backup/scripts/hotcopy.sh`
-- archives `/var/lib/backup/hotcopy` into `/var/lib/backup/hotcopy-backups/${hostname}-YYYY-MM-DD.tgz`
-- enforces 30-day retention in `/var/lib/backup/hotcopy-backups` (deletes files older than 30 days)
+- runsΒ `/var/lib/backup/scripts/hotcopy.sh`
+- archivesΒ `/var/lib/backup/hotcopy`Β intoΒ `/var/lib/backup/hotcopy-backups/${hostname}-YYYY-MM-DD.tgz`
+- enforces 30-day retention inΒ `/var/lib/backup/hotcopy-backups`Β (deletes files older than 30 days)
 - NOTE: if it runs multiple times per day it will overwrite the same daily filename unless you include time in the archive name
 
 Make scripts executable:  
@@ -359,7 +370,7 @@ chmod 755 /var/lib/backup/scripts/*.sh
 
 ```
  _CAUTION: svnadmin needs the projects folder to exist in order to perform hotcopy. So you need to take care the folders creation before script run or fix it inside the script._  
-Create a daily cron job (runs as `root`) at 07:00:  
+Create a daily cron job (runs asΒ `root`) at 07:00:  
 
 ```
 cat \> /etc/cron.d/svn-trac-hotcopy \<\<'EOF'
@@ -368,42 +379,42 @@ EOF
 chmod 644 /etc/cron.d/svn-trac-hotcopy
 
 ```
- If you create cronjob wihtin webmin you will find it under `/var/spool/cron/crontabs` inside `root` file.
+ If you create cronjob wihtin webmin you will find it underΒ `/var/spool/cron/crontabs`Β insideΒ `root`Β file.
  
 12. Common Failure Causes (Post-mortem)
 
 - Hotcopy taken while SVN was active
-- SSL vhost not enabled → HTTP on port 443 → `wrong version number`
-- Authz file blocks root access → `/svn` returns 403
+- SSL vhost not enabled β†’ HTTP on port 443 β†’Β `wrong version number`
+- Authz file blocks root access β†’Β `/svn`Β returns 403
  
 13. Final Conclusion  
-If **all of the following are true**, the migration is correct:
+IfΒ **all of the following are true**, the migration is correct:
 
-14. `svnadmin verify` passes
+14. `svnadmin verify`Β passes
 15. ```
     https://server/svn/
     ```
     
-     is browsable with auth
+    Β is browsable with auth
 16. ```
     https://server/trac
     ```
     
-     loads and shows commits
+    Β loads and shows commits
    
 
-Παρακάτω είναι συγκεντρωμένες, πρακτικές οδηγίες για **καθαρή νέα εγκατάσταση SVN + Trac** και **μεταφορά repos από hotcopy backup**.
+Ξ Ξ±ΟΞ±ΞΊΞ¬Ο„Ο‰ ΞµΞ―Ξ½Ξ±ΞΉ ΟƒΟ…Ξ³ΞΊΞµΞ½Ο„ΟΟ‰ΞΌΞ­Ξ½ΞµΟ‚, Ο€ΟΞ±ΞΊΟ„ΞΉΞΊΞ­Ο‚ ΞΏΞ΄Ξ·Ξ³Ξ―ΞµΟ‚ Ξ³ΞΉΞ± **ΞΊΞ±ΞΈΞ±ΟΞ® Ξ½Ξ­Ξ± ΞµΞ³ΞΊΞ±Ο„Ξ¬ΟƒΟ„Ξ±ΟƒΞ· SVN + Trac** ΞΊΞ±ΞΉ **ΞΌΞµΟ„Ξ±Ο†ΞΏΟΞ¬ repos Ξ±Ο€Ο hotcopy backup**.
  
-**Στόχος εγκατάστασης**
+**Ξ£Ο„ΟΟ‡ΞΏΟ‚ ΞµΞ³ΞΊΞ±Ο„Ξ¬ΟƒΟ„Ξ±ΟƒΞ·Ο‚**
 
-1. SVN repositories κάτω από /var/lib/svn
-2. Trac environments κάτω από /var/lib/trac
-3. Apache ως front-end (DAV SVN + Trac μέσω mod_wsgi ή CGI)
-4. Μεταφορά **αυτούσιων repos** από svnadmin hotcopy
-5. Έλεγχος και μεταφορά μόνο των ουσιαστικών ρυθμίσεων από το παλιό μηχάνημα
+1. SVN repositories ΞΊΞ¬Ο„Ο‰ Ξ±Ο€Ο /var/lib/svn
+2. Trac environments ΞΊΞ¬Ο„Ο‰ Ξ±Ο€Ο /var/lib/trac
+3. Apache Ο‰Ο‚ front-end (DAV SVN + Trac ΞΌΞ­ΟƒΟ‰ mod_wsgi Ξ® CGI)
+4. ΞΞµΟ„Ξ±Ο†ΞΏΟΞ¬ **Ξ±Ο…Ο„ΞΏΟΟƒΞΉΟ‰Ξ½ repos** Ξ±Ο€Ο svnadmin hotcopy
+5. ΞΞ»ΞµΞ³Ο‡ΞΏΟ‚ ΞΊΞ±ΞΉ ΞΌΞµΟ„Ξ±Ο†ΞΏΟΞ¬ ΞΌΟΞ½ΞΏ Ο„Ο‰Ξ½ ΞΏΟ…ΟƒΞΉΞ±ΟƒΟ„ΞΉΞΊΟΞ½ ΟΟ…ΞΈΞΌΞ―ΟƒΞµΟ‰Ξ½ Ξ±Ο€Ο Ο„ΞΏ Ο€Ξ±Ξ»ΞΉΟ ΞΌΞ·Ο‡Ξ¬Ξ½Ξ·ΞΌΞ±
  
-**1. Προαπαιτούμενα πακέτα (Ubuntu Server)**  
-Ελάχιστα και κλασικά:
+**1. Ξ ΟΞΏΞ±Ο€Ξ±ΞΉΟ„ΞΏΟΞΌΞµΞ½Ξ± Ο€Ξ±ΞΊΞ­Ο„Ξ± (Ubuntu Server)**  
+Ξ•Ξ»Ξ¬Ο‡ΞΉΟƒΟ„Ξ± ΞΊΞ±ΞΉ ΞΊΞ»Ξ±ΟƒΞΉΞΊΞ¬:
 
 - subversion
 - apache2
@@ -411,49 +422,49 @@ If **all of the following are true**, the migration is correct:
 - trac
 - python3
 - python3-pip
-- (αν Trac με WSGI) libapache2-mod-wsgi-py3
+- (Ξ±Ξ½ Trac ΞΌΞµ WSGI) libapache2-mod-wsgi-py3
 
-Δεν χρειάζεσαι database server αν το Trac είναι με SQLite (default και προτείνεται).
+Ξ”ΞµΞ½ Ο‡ΟΞµΞΉΞ¬Ξ¶ΞµΟƒΞ±ΞΉ database server Ξ±Ξ½ Ο„ΞΏ Trac ΞµΞ―Ξ½Ξ±ΞΉ ΞΌΞµ SQLite (default ΞΊΞ±ΞΉ Ο€ΟΞΏΟ„ΞµΞ―Ξ½ΞµΟ„Ξ±ΞΉ).
  
-**2. Δομή φακέλων (σταθερή – μην την αλλάξεις)**  
+**2. Ξ”ΞΏΞΌΞ® Ο†Ξ±ΞΊΞ­Ξ»Ο‰Ξ½ (ΟƒΟ„Ξ±ΞΈΞµΟΞ® β€“ ΞΌΞ·Ξ½ Ο„Ξ·Ξ½ Ξ±Ξ»Ξ»Ξ¬ΞΎΞµΞΉΟ‚)**  
 /var/lib/
- ├── svn/
- │ ├── repo1/
- │ ├── repo2/
- │ └── ...
- └── trac/
- ├── project1/
- ├── project2/
- └── ...
+ β”β”€β”€ svn/
+ β”‚ β”β”€β”€ repo1/
+ β”‚ β”β”€β”€ repo2/
+ β”‚ β””β”€β”€ ...
+ β””β”€β”€ trac/
+ β”β”€β”€ project1/
+ β”β”€β”€ project2/
+ β””β”€β”€ ...
   
-Ιδιοκτήτης:  
+Ξ™Ξ΄ΞΉΞΏΞΊΟ„Ξ®Ο„Ξ·Ο‚:  
 chown -R www-data:www-data /var/lib/svn /var/lib/trac
 chmod -R 750 /var/lib/svn /var/lib/trac
   
-Αν στο παλιό σύστημα έτρεχε με svn user αντί για www-data, το **ελέγχεις πρώτα** (βλ. ενότητα 6).
+Ξ‘Ξ½ ΟƒΟ„ΞΏ Ο€Ξ±Ξ»ΞΉΟ ΟƒΟΟƒΟ„Ξ·ΞΌΞ± Ξ­Ο„ΟΞµΟ‡Ξµ ΞΌΞµ svn user Ξ±Ξ½Ο„Ξ― Ξ³ΞΉΞ± www-data, Ο„ΞΏ **ΞµΞ»Ξ­Ξ³Ο‡ΞµΞΉΟ‚ Ο€ΟΟΟ„Ξ±** (Ξ²Ξ». ΞµΞ½ΟΟ„Ξ·Ο„Ξ± 6).
  
-**3. Μεταφορά SVN repositories (hotcopy)**  
-Αφού τα backup είναι svnadmin hotcopy, ΔΕΝ κάνεις dump/load.  
-**Βήματα**
+**3. ΞΞµΟ„Ξ±Ο†ΞΏΟΞ¬ SVN repositories (hotcopy)**  
+Ξ‘Ο†ΞΏΟ Ο„Ξ± backup ΞµΞ―Ξ½Ξ±ΞΉ svnadmin hotcopy, Ξ”Ξ•Ξ ΞΊΞ¬Ξ½ΞµΞΉΟ‚ dump/load.  
+**Ξ’Ξ®ΞΌΞ±Ο„Ξ±**
 
-1. Αντιγραφή repos:
+1. Ξ‘Ξ½Ο„ΞΉΞ³ΟΞ±Ο†Ξ® repos:
 
 rsync -a repo1 /var/lib/svn/
 
 
-1. Έλεγχος:
+1. ΞΞ»ΞµΞ³Ο‡ΞΏΟ‚:
 
 svnadmin verify /var/lib/svn/repo1
 
 
-1. Διόρθωση permissions (απαραίτητο):
+1. Ξ”ΞΉΟΟΞΈΟ‰ΟƒΞ· permissions (Ξ±Ο€Ξ±ΟΞ±Ξ―Ο„Ξ·Ο„ΞΏ):
 
 chown -R www-data:www-data /var/lib/svn/repo1
   
-Αν αποτύχει το verify → σταματάς εδώ. Δεν πας παρακάτω.
+Ξ‘Ξ½ Ξ±Ο€ΞΏΟ„ΟΟ‡ΞµΞΉ Ο„ΞΏ verify β†’ ΟƒΟ„Ξ±ΞΌΞ±Ο„Ξ¬Ο‚ ΞµΞ΄Ο. Ξ”ΞµΞ½ Ο€Ξ±Ο‚ Ο€Ξ±ΟΞ±ΞΊΞ¬Ο„Ο‰.
  
 **4. Apache + SVN (mod_dav_svn)**  
-**Ελάχιστο VirtualHost παράδειγμα**  
+**Ξ•Ξ»Ξ¬Ο‡ΞΉΟƒΟ„ΞΏ VirtualHost Ο€Ξ±ΟΞ¬Ξ΄ΞµΞΉΞ³ΞΌΞ±**  
 \<Location /svn\>
  DAV svn
  SVNParentPath /var/lib/svn
@@ -464,14 +475,14 @@ AuthType Basic
  Require valid-user
 \</Location\>
   
-==Ενεργοποίηση modules:==  
+==Ξ•Ξ½ΞµΟΞ³ΞΏΟ€ΞΏΞ―Ξ·ΟƒΞ· modules:==  
 a2enmod dav
 a2enmod dav_svn
 systemctl reload apache2
 
  
-**5. Trac – νέα εγκατάσταση & σύνδεση με υπάρχον SVN**  
-**Δημιουργία Trac environment**  
+**5. Trac β€“ Ξ½Ξ­Ξ± ΞµΞ³ΞΊΞ±Ο„Ξ¬ΟƒΟ„Ξ±ΟƒΞ· & ΟƒΟΞ½Ξ΄ΞµΟƒΞ· ΞΌΞµ Ο…Ο€Ξ¬ΟΟ‡ΞΏΞ½ SVN**  
+**Ξ”Ξ·ΞΌΞΉΞΏΟ…ΟΞ³Ξ―Ξ± Trac environment**  
 trac-admin /var/lib/trac/project1 initenv
 
 
@@ -479,10 +490,10 @@ trac-admin /var/lib/trac/project1 initenv
 - Repository type: svn
 - Repository path: /var/lib/svn/repo1
 
-Μετά:  
+ΞΞµΟ„Ξ¬:  
 chown -R www-data:www-data /var/lib/trac/project1
   
-**Apache – Trac μέσω WSGI (προτεινόμενο)**  
+**Apache β€“ Trac ΞΌΞ­ΟƒΟ‰ WSGI (Ο€ΟΞΏΟ„ΞµΞΉΞ½ΟΞΌΞµΞ½ΞΏ)**  
 WSGIDaemonProcess trac user=www-data group=www-data threads=5
 WSGIProcessGroup trac
   
@@ -493,22 +504,22 @@ WSGIScriptAlias /trac /var/lib/trac/project1/cgi-bin/trac.wsgi
 \</Directory\>
 
  
-**6. Τι ΠΡΕΠΕΙ να ελέγξεις από την παλιά εγκατάσταση (πολύ σημαντικό)**  
+**6. Ξ¤ΞΉ Ξ Ξ΅Ξ•Ξ Ξ•Ξ™ Ξ½Ξ± ΞµΞ»Ξ­Ξ³ΞΎΞµΞΉΟ‚ Ξ±Ο€Ο Ο„Ξ·Ξ½ Ο€Ξ±Ξ»ΞΉΞ¬ ΞµΞ³ΞΊΞ±Ο„Ξ¬ΟƒΟ„Ξ±ΟƒΞ· (Ο€ΞΏΞ»Ο ΟƒΞ·ΞΌΞ±Ξ½Ο„ΞΉΞΊΟ)**  
 **A. SVN repositories**  
-Στο παλιό μηχάνημα:
+Ξ£Ο„ΞΏ Ο€Ξ±Ξ»ΞΉΟ ΞΌΞ·Ο‡Ξ¬Ξ½Ξ·ΞΌΞ±:
 
 1. **Hooks**
 
 hooks/
- ├── pre-commit
- ├── post-commit
- └── start-commit
+ β”β”€β”€ pre-commit
+ β”β”€β”€ post-commit
+ β””β”€β”€ start-commit
 
 
-- Αν υπάρχουν custom scripts → πρέπει να μεταφερθούν.
-- Έλεγξε paths hardcoded (π.χ. /usr/bin/python, mailer paths).
+- Ξ‘Ξ½ Ο…Ο€Ξ¬ΟΟ‡ΞΏΟ…Ξ½ custom scripts β†’ Ο€ΟΞ­Ο€ΞµΞΉ Ξ½Ξ± ΞΌΞµΟ„Ξ±Ο†ΞµΟΞΈΞΏΟΞ½.
+- ΞΞ»ΞµΞ³ΞΎΞµ paths hardcoded (Ο€.Ο‡. /usr/bin/python, mailer paths).
 - **svnserve.conf / authz**
-- Αν χρησιμοποιούσες file-based authz:
+- Ξ‘Ξ½ Ο‡ΟΞ·ΟƒΞΉΞΌΞΏΟ€ΞΏΞΉΞΏΟΟƒΞµΟ‚ file-based authz:
 
 conf/authz
 conf/svnserve.conf
@@ -518,27 +529,27 @@ conf/svnserve.conf
 
 svnadmin info /path/to/repo
   
-Αν είναι FSFS (99% πιθανό), δεν σε νοιάζει.
+Ξ‘Ξ½ ΞµΞ―Ξ½Ξ±ΞΉ FSFS (99% Ο€ΞΉΞΈΞ±Ξ½Ο), Ξ΄ΞµΞ½ ΟƒΞµ Ξ½ΞΏΞΉΞ¬Ξ¶ΞµΞΉ.
  
-**B. Apache configs (παλιά μηχανή)**  
-Ψάχνεις ΜΟΝΟ αυτά:  
+**B. Apache configs (Ο€Ξ±Ξ»ΞΉΞ¬ ΞΌΞ·Ο‡Ξ±Ξ½Ξ®)**  
+Ξ¨Ξ¬Ο‡Ξ½ΞµΞΉΟ‚ ΞΞΞΞ Ξ±Ο…Ο„Ξ¬:  
 grep -R "SVN" /etc/apache2
 grep -R "trac" /etc/apache2
   
-Κράτα:
+ΞΟΞ¬Ο„Ξ±:
 
 - SVNParentPath
 - AuthUserFile
 - AuthzSVNAccessFile
 - custom \<Location\> blocks
 
-ΜΗΝ μεταφέρεις ολόκληρα conf αρχεία στα τυφλά.
+ΞΞ—Ξ ΞΌΞµΟ„Ξ±Ο†Ξ­ΟΞµΞΉΟ‚ ΞΏΞ»ΟΞΊΞ»Ξ·ΟΞ± conf Ξ±ΟΟ‡ΞµΞ―Ξ± ΟƒΟ„Ξ± Ο„Ο…Ο†Ξ»Ξ¬.
  
-**C. Trac configs (παλιά μηχανή)**  
-Από κάθε project:  
+**C. Trac configs (Ο€Ξ±Ξ»ΞΉΞ¬ ΞΌΞ·Ο‡Ξ±Ξ½Ξ®)**  
+Ξ‘Ο€Ο ΞΊΞ¬ΞΈΞµ project:  
 /var/lib/trac/project/conf/trac.ini
   
-Κρίσιμα sections:
+ΞΟΞ―ΟƒΞΉΞΌΞ± sections:
 
 - [components] (plugins)
 - [trac]
@@ -547,24 +558,24 @@ grep -R "trac" /etc/apache2
 - [browser]
 - [logging]
 
-Αν έχεις plugins:  
+Ξ‘Ξ½ Ξ­Ο‡ΞµΞΉΟ‚ plugins:  
 plugins/
   
-→ πρέπει να αντιγραφούν ή να επανεγκατασταθούν.
+β†’ Ο€ΟΞ­Ο€ΞµΞΉ Ξ½Ξ± Ξ±Ξ½Ο„ΞΉΞ³ΟΞ±Ο†ΞΏΟΞ½ Ξ® Ξ½Ξ± ΞµΟ€Ξ±Ξ½ΞµΞ³ΞΊΞ±Ο„Ξ±ΟƒΟ„Ξ±ΞΈΞΏΟΞ½.
  
-**7. Permissions & SELinux (αν υπάρχει)**
+**7. Permissions & SELinux (Ξ±Ξ½ Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ)**
 
-- Σε Ubuntu συνήθως **δεν υπάρχει SELinux**.
-- Αν είναι enabled → θέλει context για Apache access (σπάνιο).
+- Ξ£Ξµ Ubuntu ΟƒΟ…Ξ½Ξ®ΞΈΟ‰Ο‚ **Ξ΄ΞµΞ½ Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ SELinux**.
+- Ξ‘Ξ½ ΞµΞ―Ξ½Ξ±ΞΉ enabled β†’ ΞΈΞ­Ξ»ΞµΞΉ context Ξ³ΞΉΞ± Apache access (ΟƒΟ€Ξ¬Ξ½ΞΉΞΏ).
  
-**8. Τελικά checks**
+**8. Ξ¤ΞµΞ»ΞΉΞΊΞ¬ checks**
 
 1. Apache:
 
 apachectl configtest
 
 
-1. SVN μέσω browser:
+1. SVN ΞΌΞ­ΟƒΟ‰ browser:
 
 [http://server/svn/repo1](http://server/svn/repo1)
 
@@ -574,61 +585,61 @@ apachectl configtest
 [http://server/trac](http://server/trac)
 
 
-1. Trac ↔ SVN sync:
+1. Trac β†” SVN sync:
 
 trac-admin /var/lib/trac/project1 resync
 
  
-**Συμπέρασμα (ξεκάθαρο)**
+**Ξ£Ο…ΞΌΟ€Ξ­ΟΞ±ΟƒΞΌΞ± (ΞΎΞµΞΊΞ¬ΞΈΞ±ΟΞΏ)**
 
-1. Hotcopy → απλή αντιγραφή + verify, όχι dump/load.
-2. Όλη η ουσία είναι:
+1. Hotcopy β†’ Ξ±Ο€Ξ»Ξ® Ξ±Ξ½Ο„ΞΉΞ³ΟΞ±Ο†Ξ® + verify, ΟΟ‡ΞΉ dump/load.
+2. ΞΞ»Ξ· Ξ· ΞΏΟ…ΟƒΞ―Ξ± ΞµΞ―Ξ½Ξ±ΞΉ:
     - hooks
     - apache auth / paths
     - trac.ini
-3. Κράτα **ίδια paths** (/var/lib/...) για να μην κυνηγάς hardcoded ρυθμίσεις.
-4. Μην μεταφέρεις configs wholesale. Παίρνεις μόνο ό,τι εξυπηρετεί.
+3. ΞΟΞ¬Ο„Ξ± **Ξ―Ξ΄ΞΉΞ± paths** (/var/lib/...) Ξ³ΞΉΞ± Ξ½Ξ± ΞΌΞ·Ξ½ ΞΊΟ…Ξ½Ξ·Ξ³Ξ¬Ο‚ hardcoded ΟΟ…ΞΈΞΌΞ―ΟƒΞµΞΉΟ‚.
+4. ΞΞ·Ξ½ ΞΌΞµΟ„Ξ±Ο†Ξ­ΟΞµΞΉΟ‚ configs wholesale. Ξ Ξ±Ξ―ΟΞ½ΞµΞΉΟ‚ ΞΌΟΞ½ΞΏ Ο,Ο„ΞΉ ΞµΞΎΟ…Ο€Ξ·ΟΞµΟ„ΞµΞ―.
 
-Αν θέλεις, επόμενο βήμα:
+Ξ‘Ξ½ ΞΈΞ­Ξ»ΞµΞΉΟ‚, ΞµΟ€ΟΞΌΞµΞ½ΞΏ Ξ²Ξ®ΞΌΞ±:
 
-- να μου δώσεις **ένα παλιό trac.ini** και **ένα apache \<Location\> block** και να σου πω τι κρατάς και τι πετάς.
- \> Από \<[https://chatgpt.com/g/g-p-68cbbce7e5548191a60334ef85b4335f/c/696a3d12-7bc8-8325-8fcd-ff83b5ec0b03](https://chatgpt.com/g/g-p-68cbbce7e5548191a60334ef85b4335f/c/696a3d12-7bc8-8325-8fcd-ff83b5ec0b03)\>     
+- Ξ½Ξ± ΞΌΞΏΟ… Ξ΄ΟΟƒΞµΞΉΟ‚ **Ξ­Ξ½Ξ± Ο€Ξ±Ξ»ΞΉΟ trac.ini** ΞΊΞ±ΞΉ **Ξ­Ξ½Ξ± apache \<Location\> block** ΞΊΞ±ΞΉ Ξ½Ξ± ΟƒΞΏΟ… Ο€Ο‰ Ο„ΞΉ ΞΊΟΞ±Ο„Ξ¬Ο‚ ΞΊΞ±ΞΉ Ο„ΞΉ Ο€ΞµΟ„Ξ¬Ο‚.
+ \> Ξ‘Ο€Ο \<[https://chatgpt.com/g/g-p-68cbbce7e5548191a60334ef85b4335f/c/696a3d12-7bc8-8325-8fcd-ff83b5ec0b03](https://chatgpt.com/g/g-p-68cbbce7e5548191a60334ef85b4335f/c/696a3d12-7bc8-8325-8fcd-ff83b5ec0b03)\>     
 
-**Τι βλέπω από το trac.ini που έστειλες**
+**Ξ¤ΞΉ Ξ²Ξ»Ξ­Ο€Ο‰ Ξ±Ο€Ο Ο„ΞΏ trac.ini Ο€ΞΏΟ… Ξ­ΟƒΟ„ΞµΞΉΞ»ΞµΟ‚**
 
-1. Το Trac είναι **SQLite**:
+1. Ξ¤ΞΏ Trac ΞµΞ―Ξ½Ξ±ΞΉ **SQLite**:
 2. \[trac] database = sqlite:db/trac.db
-3. Έχεις ορισμένο **ένα SVN repository** με όνομα SchedulePro:
+3. ΞΟ‡ΞµΞΉΟ‚ ΞΏΟΞΉΟƒΞΌΞ­Ξ½ΞΏ **Ξ­Ξ½Ξ± SVN repository** ΞΌΞµ ΟΞ½ΞΏΞΌΞ± SchedulePro:
 4. \[repositories] SchedulePro.dir = /var/lib/svn/SchedulePro
 5. \[versioncontrol] default_repository = SchedulePro
-6. Το SVN integration είναι ενεργό:
+6. Ξ¤ΞΏ SVN integration ΞµΞ―Ξ½Ξ±ΞΉ ΞµΞ½ΞµΟΞ³Ο:
 7. \[components] tracopt.versioncontrol.svn.* = enabled
-8. Δεν χρησιμοποιείς Trac-side authz:
-9. \[svn] authz_file = (κενό)
-10. Δεν φαίνεται κάτι “περίεργο”/custom σε plugins (δεν έχεις \[components] entries εκτός του svn), άρα μάλλον **vanilla Trac** χωρίς extra plugins.
+8. Ξ”ΞµΞ½ Ο‡ΟΞ·ΟƒΞΉΞΌΞΏΟ€ΞΏΞΉΞµΞ―Ο‚ Trac-side authz:
+9. \[svn] authz_file = (ΞΊΞµΞ½Ο)
+10. Ξ”ΞµΞ½ Ο†Ξ±Ξ―Ξ½ΞµΟ„Ξ±ΞΉ ΞΊΞ¬Ο„ΞΉ β€Ο€ΞµΟΞ―ΞµΟΞ³ΞΏβ€/custom ΟƒΞµ plugins (Ξ΄ΞµΞ½ Ξ­Ο‡ΞµΞΉΟ‚ \[components] entries ΞµΞΊΟ„ΟΟ‚ Ο„ΞΏΟ… svn), Ξ¬ΟΞ± ΞΌΞ¬Ξ»Ξ»ΞΏΞ½ **vanilla Trac** Ο‡Ο‰ΟΞ―Ο‚ extra plugins.
 
-Συμπέρασμα: το trac.ini αυτό μεταφέρεται σχεδόν αυτούσιο. Το κρίσιμο είναι να **υπάρχει repo στο ίδιο path** /var/lib/svn/SchedulePro στο νέο μηχάνημα (όπως είπες ότι θα στήσεις κάτω από /var/lib).
+Ξ£Ο…ΞΌΟ€Ξ­ΟΞ±ΟƒΞΌΞ±: Ο„ΞΏ trac.ini Ξ±Ο…Ο„Ο ΞΌΞµΟ„Ξ±Ο†Ξ­ΟΞµΟ„Ξ±ΞΉ ΟƒΟ‡ΞµΞ΄ΟΞ½ Ξ±Ο…Ο„ΞΏΟΟƒΞΉΞΏ. Ξ¤ΞΏ ΞΊΟΞ―ΟƒΞΉΞΌΞΏ ΞµΞ―Ξ½Ξ±ΞΉ Ξ½Ξ± **Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ repo ΟƒΟ„ΞΏ Ξ―Ξ΄ΞΉΞΏ path** /var/lib/svn/SchedulePro ΟƒΟ„ΞΏ Ξ½Ξ­ΞΏ ΞΌΞ·Ο‡Ξ¬Ξ½Ξ·ΞΌΞ± (ΟΟ€Ο‰Ο‚ ΞµΞ―Ο€ΞµΟ‚ ΟΟ„ΞΉ ΞΈΞ± ΟƒΟ„Ξ®ΟƒΞµΞΉΟ‚ ΞΊΞ¬Ο„Ο‰ Ξ±Ο€Ο /var/lib).
  
-**Τι πρέπει να κρατήσεις/αντιγράψεις αυτούσιο**
+**Ξ¤ΞΉ Ο€ΟΞ­Ο€ΞµΞΉ Ξ½Ξ± ΞΊΟΞ±Ο„Ξ®ΟƒΞµΞΉΟ‚/Ξ±Ξ½Ο„ΞΉΞ³ΟΞ¬ΟΞµΞΉΟ‚ Ξ±Ο…Ο„ΞΏΟΟƒΞΉΞΏ**
 
-1. Όλο το trac.ini όπως είναι (εκτός αν αλλάξει hostname/base_url αργότερα).
-2. Το Trac environment folder (αν θέλεις πλήρη μεταφορά tickets/wiki):
-3. ΟΧΙ μόνο trac.ini.
-4. Χρειάζεσαι και db/trac.db, files/attachments, htdocs, κ.λπ.
+1. ΞΞ»ΞΏ Ο„ΞΏ trac.ini ΟΟ€Ο‰Ο‚ ΞµΞ―Ξ½Ξ±ΞΉ (ΞµΞΊΟ„ΟΟ‚ Ξ±Ξ½ Ξ±Ξ»Ξ»Ξ¬ΞΎΞµΞΉ hostname/base_url Ξ±ΟΞ³ΟΟ„ΞµΟΞ±).
+2. Ξ¤ΞΏ Trac environment folder (Ξ±Ξ½ ΞΈΞ­Ξ»ΞµΞΉΟ‚ Ο€Ξ»Ξ®ΟΞ· ΞΌΞµΟ„Ξ±Ο†ΞΏΟΞ¬ tickets/wiki):
+3. ΞΞ§Ξ™ ΞΌΟΞ½ΞΏ trac.ini.
+4. Ξ§ΟΞµΞΉΞ¬Ξ¶ΞµΟƒΞ±ΞΉ ΞΊΞ±ΞΉ db/trac.db, files/attachments, htdocs, ΞΊ.Ξ»Ο€.
 
-Αν θες “μεταφορά έργου” και όχι “νέο κενό Trac”, τότε κάνεις rsync όλο το env.
+Ξ‘Ξ½ ΞΈΞµΟ‚ β€ΞΌΞµΟ„Ξ±Ο†ΞΏΟΞ¬ Ξ­ΟΞ³ΞΏΟ…β€ ΞΊΞ±ΞΉ ΟΟ‡ΞΉ β€Ξ½Ξ­ΞΏ ΞΊΞµΞ½Ο Tracβ€, Ο„ΟΟ„Ξµ ΞΊΞ¬Ξ½ΞµΞΉΟ‚ rsync ΟΞ»ΞΏ Ο„ΞΏ env.
  
-**Μεταφορά Trac project από παλιό μηχάνημα (σωστός τρόπος)**  
-Ας πούμε ότι το παλιό env είναι:  
+**ΞΞµΟ„Ξ±Ο†ΞΏΟΞ¬ Trac project Ξ±Ο€Ο Ο€Ξ±Ξ»ΞΉΟ ΞΌΞ·Ο‡Ξ¬Ξ½Ξ·ΞΌΞ± (ΟƒΟ‰ΟƒΟ„ΟΟ‚ Ο„ΟΟΟ€ΞΏΟ‚)**  
+Ξ‘Ο‚ Ο€ΞΏΟΞΌΞµ ΟΟ„ΞΉ Ο„ΞΏ Ο€Ξ±Ξ»ΞΉΟ env ΞµΞ―Ξ½Ξ±ΞΉ:  
 /var/lib/trac/SchedulePro  
-Στο νέο:
+Ξ£Ο„ΞΏ Ξ½Ξ­ΞΏ:
 
-1. Δημιουργείς φάκελο προορισμού:
+1. Ξ”Ξ·ΞΌΞΉΞΏΟ…ΟΞ³ΞµΞ―Ο‚ Ο†Ξ¬ΞΊΞµΞ»ΞΏ Ο€ΟΞΏΞΏΟΞΉΟƒΞΌΞΏΟ:
 
 mkdir -p /var/lib/trac
 
 
-1. Αντιγράφεις ΟΛΟ:
+1. Ξ‘Ξ½Ο„ΞΉΞ³ΟΞ¬Ο†ΞµΞΉΟ‚ ΞΞ›Ξ:
 
 rsync -a /path/to/backup/SchedulePro /var/lib/trac/
 
@@ -639,7 +650,7 @@ chown -R www-data:www-data /var/lib/trac/SchedulePro
 chmod -R 750 /var/lib/trac/SchedulePro
 
 
-1. Upgrade (ανάλογα με έκδοση Trac, καλό είναι να το τρέξεις):
+1. Upgrade (Ξ±Ξ½Ξ¬Ξ»ΞΏΞ³Ξ± ΞΌΞµ Ξ­ΞΊΞ΄ΞΏΟƒΞ· Trac, ΞΊΞ±Ξ»Ο ΞµΞ―Ξ½Ξ±ΞΉ Ξ½Ξ± Ο„ΞΏ Ο„ΟΞ­ΞΎΞµΞΉΟ‚):
 
 trac-admin /var/lib/trac/SchedulePro upgrade
 trac-admin /var/lib/trac/SchedulePro wiki upgrade
@@ -650,19 +661,19 @@ trac-admin /var/lib/trac/SchedulePro wiki upgrade
 trac-admin /var/lib/trac/SchedulePro resync
 
  
-**Μεταφορά SVN repo (hotcopy) ώστε να ταιριάξει με trac.ini**  
-Το trac.ini ζητά:  
+**ΞΞµΟ„Ξ±Ο†ΞΏΟΞ¬ SVN repo (hotcopy) ΟΟƒΟ„Ξµ Ξ½Ξ± Ο„Ξ±ΞΉΟΞΉΞ¬ΞΎΞµΞΉ ΞΌΞµ trac.ini**  
+Ξ¤ΞΏ trac.ini Ξ¶Ξ·Ο„Ξ¬:  
 /var/lib/svn/SchedulePro  
-Άρα στο νέο πρέπει να έχεις:  
+Ξ†ΟΞ± ΟƒΟ„ΞΏ Ξ½Ξ­ΞΏ Ο€ΟΞ­Ο€ΞµΞΉ Ξ½Ξ± Ξ­Ο‡ΞµΞΉΟ‚:  
 /var/lib/svn/SchedulePro  
-Βήματα:  
+Ξ’Ξ®ΞΌΞ±Ο„Ξ±:  
 mkdir -p /var/lib/svn
 rsync -a /path/to/hotcopy/SchedulePro /var/lib/svn/
 chown -R www-data:www-data /var/lib/svn/SchedulePro
 svnadmin verify /var/lib/svn/SchedulePro
 
  
-**Apache config που πρέπει να έχεις για να “κουμπώσει” με αυτό το setup**  
+**Apache config Ο€ΞΏΟ… Ο€ΟΞ­Ο€ΞµΞΉ Ξ½Ξ± Ξ­Ο‡ΞµΞΉΟ‚ Ξ³ΞΉΞ± Ξ½Ξ± β€ΞΊΞΏΟ…ΞΌΟ€ΟΟƒΞµΞΉβ€ ΞΌΞµ Ξ±Ο…Ο„Ο Ο„ΞΏ setup**  
 **A. SVN location (parent path)**  
 \<Location /svn\>
  DAV svn
@@ -674,13 +685,13 @@ AuthType Basic
  Require valid-user
 \</Location\>
   
-Αυτό θα δώσει URL:
+Ξ‘Ο…Ο„Ο ΞΈΞ± Ξ΄ΟΟƒΞµΞΉ URL:
 
 - /svn/SchedulePro
 
-Το Trac όμως ΔΕΝ χρειάζεται να βλέπει το repo από HTTP. Το βλέπει από filesystem (/var/lib/svn/SchedulePro), όπως ήδη έχεις.  
+Ξ¤ΞΏ Trac ΟΞΌΟ‰Ο‚ Ξ”Ξ•Ξ Ο‡ΟΞµΞΉΞ¬Ξ¶ΞµΟ„Ξ±ΞΉ Ξ½Ξ± Ξ²Ξ»Ξ­Ο€ΞµΞΉ Ο„ΞΏ repo Ξ±Ο€Ο HTTP. Ξ¤ΞΏ Ξ²Ξ»Ξ­Ο€ΞµΞΉ Ξ±Ο€Ο filesystem (/var/lib/svn/SchedulePro), ΟΟ€Ο‰Ο‚ Ξ®Ξ΄Ξ· Ξ­Ο‡ΞµΞΉΟ‚.  
 **B. Trac via WSGI**  
-Θέλεις κάτι σαν:  
+ΞΞ­Ξ»ΞµΞΉΟ‚ ΞΊΞ¬Ο„ΞΉ ΟƒΞ±Ξ½:  
 WSGIDaemonProcess trac user=www-data group=www-data threads=5
 WSGIProcessGroup trac
   
@@ -691,40 +702,43 @@ WSGIScriptAlias /trac /var/lib/trac/SchedulePro/cgi-bin/trac.wsgi
 \</Directory\>
 
  
-**Τι να ψάξεις στην παλιά εγκατάσταση για SVN + Apache (λίστα “μόνο τα κρίσιμα”)**
+**Ξ¤ΞΉ Ξ½Ξ± ΟΞ¬ΞΎΞµΞΉΟ‚ ΟƒΟ„Ξ·Ξ½ Ο€Ξ±Ξ»ΞΉΞ¬ ΞµΞ³ΞΊΞ±Ο„Ξ¬ΟƒΟ„Ξ±ΟƒΞ· Ξ³ΞΉΞ± SVN + Apache (Ξ»Ξ―ΟƒΟ„Ξ± β€ΞΌΟΞ½ΞΏ Ο„Ξ± ΞΊΟΞ―ΟƒΞΉΞΌΞ±β€)**
 
-1. Apache conf blocks που αφορούν svn/trac:
+1. Apache conf blocks Ο€ΞΏΟ… Ξ±Ο†ΞΏΟΞΏΟΞ½ svn/trac:
 2. /etc/apache2/sites-available/*
 3. /etc/apache2/conf-available/*
-4. /etc/apache2/mods-enabled/dav_svn.conf (ή custom)
-5. Στο \<Location /svn\> κοίτα:
-6. SVNParentPath ή SVNPath (αν ήταν single repo)
-7. AuthUserFile (πού είναι το password file)
-8. AuthzSVNAccessFile (αν είχες per-path permissions)
+4. /etc/apache2/mods-enabled/dav_svn.conf (Ξ® custom)
+5. Ξ£Ο„ΞΏ \<Location /svn\> ΞΊΞΏΞ―Ο„Ξ±:
+6. SVNParentPath Ξ® SVNPath (Ξ±Ξ½ Ξ®Ο„Ξ±Ξ½ single repo)
+7. AuthUserFile (Ο€ΞΏΟ ΞµΞ―Ξ½Ξ±ΞΉ Ο„ΞΏ password file)
+8. AuthzSVNAccessFile (Ξ±Ξ½ ΞµΞ―Ο‡ΞµΟ‚ per-path permissions)
 9. Require rules
-10. SVNListParentPath (αν εμφανίζει λίστα repos)
+10. SVNListParentPath (Ξ±Ξ½ ΞµΞΌΟ†Ξ±Ξ½Ξ―Ξ¶ΞµΞΉ Ξ»Ξ―ΟƒΟ„Ξ± repos)
 11. Password file:
-12. συνήθως /etc/apache2/svn.passwd ή /etc/subversion/passwd
-13. το μεταφέρεις αυτούσιο (είναι htpasswd hash file)
-14. Hooks στα repos:
+12. ΟƒΟ…Ξ½Ξ®ΞΈΟ‰Ο‚ /etc/apache2/svn.passwd Ξ® /etc/subversion/passwd
+13. Ο„ΞΏ ΞΌΞµΟ„Ξ±Ο†Ξ­ΟΞµΞΉΟ‚ Ξ±Ο…Ο„ΞΏΟΟƒΞΉΞΏ (ΞµΞ―Ξ½Ξ±ΞΉ htpasswd hash file)
+14. Hooks ΟƒΟ„Ξ± repos:
 15. /var/lib/svn/SchedulePro/hooks/*
-16. αυτά δεν τα “καλύπτει” το hotcopy αν τα έχεις στο repo hotcopy ναι, αλλά θέλεις να βεβαιωθείς ότι υπάρχουν και δουλεύουν (mail commit, integration, κ.λπ.)
+16. Ξ±Ο…Ο„Ξ¬ Ξ΄ΞµΞ½ Ο„Ξ± β€ΞΊΞ±Ξ»ΟΟ€Ο„ΞµΞΉβ€ Ο„ΞΏ hotcopy Ξ±Ξ½ Ο„Ξ± Ξ­Ο‡ΞµΞΉΟ‚ ΟƒΟ„ΞΏ repo hotcopy Ξ½Ξ±ΞΉ, Ξ±Ξ»Ξ»Ξ¬ ΞΈΞ­Ξ»ΞµΞΉΟ‚ Ξ½Ξ± Ξ²ΞµΞ²Ξ±ΞΉΟ‰ΞΈΞµΞ―Ο‚ ΟΟ„ΞΉ Ο…Ο€Ξ¬ΟΟ‡ΞΏΟ…Ξ½ ΞΊΞ±ΞΉ Ξ΄ΞΏΟ…Ξ»ΞµΟΞΏΟ…Ξ½ (mail commit, integration, ΞΊ.Ξ»Ο€.)
  
-**Το μόνο “red flag” στο trac.ini σου**
+**Ξ¤ΞΏ ΞΌΟΞ½ΞΏ β€red flagβ€ ΟƒΟ„ΞΏ trac.ini ΟƒΞΏΟ…**
 
-1. \[project] footer έχει link στο trac.edgewall (default). Δεν είναι πρόβλημα.
-2. base_url είναι κενό. Αν θες σωστά links σε notifications, κάποια στιγμή θα το ορίσεις (αλλά αφού πρώτα σηκώσεις το σύστημα).
+1. \[project] footer Ξ­Ο‡ΞµΞΉ link ΟƒΟ„ΞΏ trac.edgewall (default). Ξ”ΞµΞ½ ΞµΞ―Ξ½Ξ±ΞΉ Ο€ΟΟΞ²Ξ»Ξ·ΞΌΞ±.
+2. base_url ΞµΞ―Ξ½Ξ±ΞΉ ΞΊΞµΞ½Ο. Ξ‘Ξ½ ΞΈΞµΟ‚ ΟƒΟ‰ΟƒΟ„Ξ¬ links ΟƒΞµ notifications, ΞΊΞ¬Ο€ΞΏΞΉΞ± ΟƒΟ„ΞΉΞ³ΞΌΞ® ΞΈΞ± Ο„ΞΏ ΞΏΟΞ―ΟƒΞµΞΉΟ‚ (Ξ±Ξ»Ξ»Ξ¬ Ξ±Ο†ΞΏΟ Ο€ΟΟΟ„Ξ± ΟƒΞ·ΞΊΟΟƒΞµΞΉΟ‚ Ο„ΞΏ ΟƒΟΟƒΟ„Ξ·ΞΌΞ±).
  
-**Συμπέρασμα**
+**Ξ£Ο…ΞΌΟ€Ξ­ΟΞ±ΟƒΞΌΞ±**
 
-1. Αυτό το trac.ini δείχνει ότι θες:
-2. SVN repo στο /var/lib/svn/SchedulePro
-3. Trac env που έχει το sqlite DB μέσα (db/trac.db)
-4. Για πραγματική μεταφορά έργου:
-5. αντιγράφεις **ολόκληρο** το Trac environment directory, όχι μόνο config.
-6. Apache config στο νέο μηχάνημα:
-7. ένα /svn Location με SVNParentPath /var/lib/svn
-8. ένα /trac WSGI προς /var/lib/trac/SchedulePro/cgi-bin/trac.wsgi
+1. Ξ‘Ο…Ο„Ο Ο„ΞΏ trac.ini Ξ΄ΞµΞ―Ο‡Ξ½ΞµΞΉ ΟΟ„ΞΉ ΞΈΞµΟ‚:
+2. SVN repo ΟƒΟ„ΞΏ /var/lib/svn/SchedulePro
+3. Trac env Ο€ΞΏΟ… Ξ­Ο‡ΞµΞΉ Ο„ΞΏ sqlite DB ΞΌΞ­ΟƒΞ± (db/trac.db)
+4. Ξ“ΞΉΞ± Ο€ΟΞ±Ξ³ΞΌΞ±Ο„ΞΉΞΊΞ® ΞΌΞµΟ„Ξ±Ο†ΞΏΟΞ¬ Ξ­ΟΞ³ΞΏΟ…:
+5. Ξ±Ξ½Ο„ΞΉΞ³ΟΞ¬Ο†ΞµΞΉΟ‚ **ΞΏΞ»ΟΞΊΞ»Ξ·ΟΞΏ** Ο„ΞΏ Trac environment directory, ΟΟ‡ΞΉ ΞΌΟΞ½ΞΏ config.
+6. Apache config ΟƒΟ„ΞΏ Ξ½Ξ­ΞΏ ΞΌΞ·Ο‡Ξ¬Ξ½Ξ·ΞΌΞ±:
+7. Ξ­Ξ½Ξ± /svn Location ΞΌΞµ SVNParentPath /var/lib/svn
+8. Ξ­Ξ½Ξ± /trac WSGI Ο€ΟΞΏΟ‚ /var/lib/trac/SchedulePro/cgi-bin/trac.wsgi
 
-Αν μου δώσεις από το παλιό μηχάνημα το Apache block που είχες (το \<Location /svn\> και το κομμάτι Trac), σου λέω ακριβώς τι μεταφέρεις και τι αλλάζεις χωρίς να το ξαναστήσεις από την αρχή.
- \> Από \<[https://chatgpt.com/g/g-p-68cbbce7e5548191a60334ef85b4335f/c/696a3d12-7bc8-8325-8fcd-ff83b5ec0b03](https://chatgpt.com/g/g-p-68cbbce7e5548191a60334ef85b4335f/c/696a3d12-7bc8-8325-8fcd-ff83b5ec0b03)\>
+Ξ‘Ξ½ ΞΌΞΏΟ… Ξ΄ΟΟƒΞµΞΉΟ‚ Ξ±Ο€Ο Ο„ΞΏ Ο€Ξ±Ξ»ΞΉΟ ΞΌΞ·Ο‡Ξ¬Ξ½Ξ·ΞΌΞ± Ο„ΞΏ Apache block Ο€ΞΏΟ… ΞµΞ―Ο‡ΞµΟ‚ (Ο„ΞΏ \<Location /svn\> ΞΊΞ±ΞΉ Ο„ΞΏ ΞΊΞΏΞΌΞΌΞ¬Ο„ΞΉ Trac), ΟƒΞΏΟ… Ξ»Ξ­Ο‰ Ξ±ΞΊΟΞΉΞ²ΟΟ‚ Ο„ΞΉ ΞΌΞµΟ„Ξ±Ο†Ξ­ΟΞµΞΉΟ‚ ΞΊΞ±ΞΉ Ο„ΞΉ Ξ±Ξ»Ξ»Ξ¬Ξ¶ΞµΞΉΟ‚ Ο‡Ο‰ΟΞ―Ο‚ Ξ½Ξ± Ο„ΞΏ ΞΎΞ±Ξ½Ξ±ΟƒΟ„Ξ®ΟƒΞµΞΉΟ‚ Ξ±Ο€Ο Ο„Ξ·Ξ½ Ξ±ΟΟ‡Ξ®.
+ \> Ξ‘Ο€Ο \<[https://chatgpt.com/g/g-p-68cbbce7e5548191a60334ef85b4335f/c/696a3d12-7bc8-8325-8fcd-ff83b5ec0b03](https://chatgpt.com/g/g-p-68cbbce7e5548191a60334ef85b4335f/c/696a3d12-7bc8-8325-8fcd-ff83b5ec0b03)\>
+
+
+

@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-07-07T16:47
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 ### 407-BE-Resource-ordering-and-visibility
  - UI
 
@@ -67,3 +78,6 @@ List\<int\> Ids, ExcludeFromStaffPool
 
 
 ![[Drawing 2026-02-09 16.58.02.excalidraw|800]]
+
+
+

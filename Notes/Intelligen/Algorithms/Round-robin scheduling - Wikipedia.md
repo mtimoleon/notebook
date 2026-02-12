@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 Clipped from: [https://en.wikipedia.org/wiki/Round-robin_scheduling](https://en.wikipedia.org/wiki/Round-robin_scheduling)
 
 [Jump to navigation](https://en.wikipedia.org/wiki/Round-robin_scheduling#mw-head) [Jump to search](https://en.wikipedia.org/wiki/Round-robin_scheduling#searchInput)

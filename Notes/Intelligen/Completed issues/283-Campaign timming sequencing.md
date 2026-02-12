@@ -1,12 +1,23 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-01-21T11:26
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 - [x] --\> getCampaignPanelById
  
-	Προσθήκες CampaignPanelDto  
-	Λίστα με CampaignReleaseTimeOwnOperationsType (batch startall ,user defined etc.)  
-	Λίστα με CampaignDueTimeOwnOperationsType (all ,user defined etc.)  
-	Λίστα με CampaignTimingModes (fixed,BatchStartOfAnotherCampaign etc.)
+	Ξ ΟΞΏΟƒΞΈΞ®ΞΊΞµΟ‚ CampaignPanelDto  
+	Ξ›Ξ―ΟƒΟ„Ξ± ΞΌΞµ CampaignReleaseTimeOwnOperationsType (batch startall ,user defined etc.)  
+	Ξ›Ξ―ΟƒΟ„Ξ± ΞΌΞµ CampaignDueTimeOwnOperationsType (all ,user defined etc.)  
+	Ξ›Ξ―ΟƒΟ„Ξ± ΞΌΞµ CampaignTimingModes (fixed,BatchStartOfAnotherCampaign etc.)
    
 
-- [x] Προσθήκες CampaignDto  
+- [x] Ξ ΟΞΏΟƒΞΈΞ®ΞΊΞµΟ‚ CampaignDto  
 	TimeShift value  
 	timeUnit
 	 
@@ -18,7 +29,7 @@
 	DueTimingMode (one of CampaignTimingModes)
    
 
-- [x] --\> Υλοποίηση Getcampaigns με searchString (δες GetEquipmentTypes) (edited)
+- [x] --\> Ξ¥Ξ»ΞΏΟ€ΞΏΞ―Ξ·ΟƒΞ· Getcampaigns ΞΌΞµ searchString (Ξ΄ΞµΟ‚ GetEquipmentTypes) (edited)
  
 - [x] **TimeShift**: Denotes that the campaign start must be shifted by a given  
 	We need to initalize the time shift in constructor of campaign to 0 hours
@@ -32,7 +43,7 @@ if (hasReleaseTime)
 	if (releaseTimeMode === 1) 
 	{  
 		if (scheduleBackward && releaseTime \> dueTime)  
-		    ReleaseTimeMustBeBeforeDueTime
+		Β Β Β Β ReleaseTimeMustBeBeforeDueTime
 	 
 		if (releaseTime \< new Date(scpCloudContext.selectedSchedulingBoard.start))  
 			ReleaseTimeMustBeAfterSBStart
@@ -42,7 +53,7 @@ if (hasReleaseTime)
 	}
  
 	if (releaseTimeMode !== 1) 
-	{                  
+	{Β Β Β Β Β Β Β Β Β Β Β Β Β Β Β Β   
 		if(releaseTimeReferenceCampaign === null)  
 			FieldRequired  
 	}  
@@ -55,7 +66,7 @@ if (scheduleBackward)
 	if (dueTimeMode === 1 && dueTime === null)  
 		FieldRequired
 	  	 
-	if (dueTimeMode !== 1)   
+	if (dueTimeMode !== 1)Β Β  
 	{  
 		if (dueTimeReferenceCampaign === null)  
 			FieldRequired  
@@ -63,4 +74,7 @@ if (scheduleBackward)
 }
 ```
 
-\> Από \<[https://app.slack.com/client/T02V40ZQGKG/D02VAN5L9DH](https://app.slack.com/client/T02V40ZQGKG/D02VAN5L9DH)\>
+\> Ξ‘Ο€Ο \<[https://app.slack.com/client/T02V40ZQGKG/D02VAN5L9DH](https://app.slack.com/client/T02V40ZQGKG/D02VAN5L9DH)\>
+
+
+

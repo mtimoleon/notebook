@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 Clipped from: [https://udidahan.com/2009/12/09/clarified-cqrs/](https://udidahan.com/2009/12/09/clarified-cqrs/)  
     
 

@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-09-19T14:29
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 SetTime toy OperationEntry Start & Duration  
 SetDuration
  
@@ -21,3 +32,6 @@ UpdateOperationBaseFlexibleShiftsAndBreaks
  
 [https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-9.0&utm_source=chatgpt.com#frombody-attribute](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-9.0&utm_source=chatgpt.com#frombody-attribute)  
 [https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-9.0&utm_source=chatgpt.com#input-formatters](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-9.0&utm_source=chatgpt.com#input-formatters)
+
+
+

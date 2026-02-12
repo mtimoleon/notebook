@@ -1,3 +1,11 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+---
+
 **Organization**   
 SchedulePro addresses the need to represent repetitive batch manufacturing by providing the concept of a **recipe**. A recipe is a template or description of how to make one batch of something.   
    

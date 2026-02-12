@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 **GOAL:**  
 Calculate operation timing within a batch according to the following duration and scheduling links options:
 

@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 1. How to deploy an update to a microservice when it is included in a container deployed on the cloud
 2. Are we going to have stages? (QA, Stage, Develop, Production)
 3. CI/CD where and how? See Spinaker

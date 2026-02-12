@@ -1,6 +1,6 @@
 {
-  "findText": "￼",
-  "replaceText": "\n",
+  "findText": " - [x]",
+  "replaceText": "\n- [x]",
   "useRegEx": false,
   "selOnly": false,
   "caseInsensitive": false,

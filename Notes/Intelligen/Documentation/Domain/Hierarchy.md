@@ -1,1 +1,9 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+---
+
 ![Scheduling Board Campaign Batch Procedure Entry Op...](Exported%20image%2020260209134031-0.png)

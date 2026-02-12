@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-09-25T11:46
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 "TaskStart"
 "TaskEnd" 
 "OperationEntryType" 
@@ -59,53 +70,53 @@ BsonDocument condition = rule.Column switch
 `Implemented`
  
 ```
-ShowEquipment = true,
-ShowEquipmentMode = 1,
-ShowStaff = false
+ShowEquipmentΒ =Β true,
+ShowEquipmentModeΒ =Β 1,
+ShowStaffΒ =Β false
 ------------------------------------
-ShowEquipment = true,
-ShowEquipmentMode = 2,
-SelectedEquipment =
+ShowEquipmentΒ =Β true,
+ShowEquipmentModeΒ =Β 2,
+SelectedEquipmentΒ =
 [
-new() { Id = 10 },
-new() { Id = 11 }
+new()Β {Β IdΒ =Β 10Β },
+new()Β {Β IdΒ =Β 11Β }
 ],
-ShowStaff = false
+ShowStaffΒ =Β false
 ------------------------------------
-ShowEquipment = true,
-ShowEquipmentMode = 1,
-ShowStaff = true,
-ShowStaffMode = 1
+ShowEquipmentΒ =Β true,
+ShowEquipmentModeΒ =Β 1,
+ShowStaffΒ =Β true,
+ShowStaffModeΒ =Β 1
 ```
  ------------------------------------------------  
 
 ```
-ShowEquipment = false,
-ShowStaff = true,
-ShowStaffMode = 1
+ShowEquipmentΒ =Β false,
+ShowStaffΒ =Β true,
+ShowStaffModeΒ =Β 1
 ------------------------------------
-ShowEquipment = false,
-ShowStaff = true,
-ShowStaffMode = 2,
-SelectedStaff =
+ShowEquipmentΒ =Β false,
+ShowStaffΒ =Β true,
+ShowStaffModeΒ =Β 2,
+SelectedStaffΒ =
 [
-new() { Id = 101 }
+new()Β {Β IdΒ =Β 101Β }
 ]
 ```
  -----------------------------------------------  
 
 ```
-ShowEquipment = true,
-ShowEquipmentMode = 2,
-SelectedEquipment =
+ShowEquipmentΒ =Β true,
+ShowEquipmentModeΒ =Β 2,
+SelectedEquipmentΒ =
 [
-new() { Id = 11 }
+new()Β {Β IdΒ =Β 11Β }
 ],
-ShowStaff = true,
-ShowStaffMode = 2,
-SelectedStaff =
+ShowStaffΒ =Β true,
+ShowStaffModeΒ =Β 2,
+SelectedStaffΒ =
 [
-new() { Id = 101 }
+new()Β {Β IdΒ =Β 101Β }
 ]
 ```
    
@@ -113,19 +124,22 @@ new() { Id = 101 }
 ```
 What we should implement
 
-ShowEquipment = true,
-ShowEquipmentMode = 1,
-ShowStaff = false
+ShowEquipmentΒ =Β true,
+ShowEquipmentModeΒ =Β 1,
+ShowStaffΒ =Β false
 
-ShowEquipment = true,
-ShowEquipmentMode = 2,
-ShowStaff = false
+ShowEquipmentΒ =Β true,
+ShowEquipmentModeΒ =Β 2,
+ShowStaffΒ =Β false
 
-ShowEquipment = false,
-ShowStaff = true,
-ShowStaffMode = 1
+ShowEquipmentΒ =Β false,
+ShowStaffΒ =Β true,
+ShowStaffModeΒ =Β 1
 
-ShowEquipment = false,
-ShowStaff = true,
-ShowStaffMode = 2
+ShowEquipmentΒ =Β false,
+ShowStaffΒ =Β true,
+ShowStaffModeΒ =Β 2
 ```
+
+
+

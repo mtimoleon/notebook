@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 **Ροή προγραμματισμού (scheduling)**
 
 - **Είσοδοι**: Scheduling board ή συγκεκριμένα campaigns. Κάθε campaign πρέπει να έχει `Recipe` για να γίνει layout. `ScheduleCampaigns`/`ScheduleFromToCampaigns`/`ScheduleIndependentCampaign` καλούν `campaign.Layout()` και μετά (προαιρετικά) επίλυση συγκρούσεων. SchedulingService.cs

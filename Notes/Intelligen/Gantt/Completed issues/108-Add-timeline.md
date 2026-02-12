@@ -1,3 +1,15 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-05-23T13:56
+tags:
+  - intelligen
+  - gantt
+status: completed
+product: Gantt
+---
+
 ![Exported image](Exported%20image%2020260209140126-0.png)  
 
 - [x] Check percentage of color mixing as optional kai na pairnei timi apo exo  
@@ -10,3 +22,6 @@
 Timeline position logging, Revert is where label chaned side
 
 ![Exported image](Exported%20image%2020260209140129-2.png)
+
+
+

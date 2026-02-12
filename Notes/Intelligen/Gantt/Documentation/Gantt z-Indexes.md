@@ -1,3 +1,12 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+  - gantt
+---
+
 |     |                              |
 | --- | ---------------------------- |
 | 90  | restricted horizon           |

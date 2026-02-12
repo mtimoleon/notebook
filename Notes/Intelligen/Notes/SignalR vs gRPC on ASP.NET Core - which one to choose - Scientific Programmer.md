@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 Clipped from: [https://scientificprogrammer.net/2020/07/18/signalr-vs-grpc-on-asp-net-core-which-one-to-choose/](https://scientificprogrammer.net/2020/07/18/signalr-vs-grpc-on-asp-net-core-which-one-to-choose/)
 
 ![t6RPC,](Exported%20image%2020260209140523-0.jpeg)

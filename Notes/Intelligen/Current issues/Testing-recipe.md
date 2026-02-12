@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2026-01-26T14:44
+tags:
+  - intelligen
+status: current
+product: ScpCloud
+---
+
 Merged PR 688: 514 Consolidate migrations and improve scheduling configuration property naming.
  
 PR676-Export
@@ -6,7 +17,7 @@ PR676-Export
 
 Imported the plant workspace into app and used it until PR 676.  
 Added PR676 and exported the ws as PR-676-Export  
-Schedule the Plant-Export ✔️  
+Schedule the Plant-Export Ξ²Ββ€ΞΏΞΒ  
 Added PR670 and imported the PR-676-Export and Plant-Export  
 Schedule the PR-676-Export in 2m 14s with 3385 iterations  
 Schedule the Plant-Export in 2m 21s with 3372 iterations  
@@ -27,7 +38,7 @@ Schedule the Plant-3 in 2m 1s with 3375 iterations
 Schedule the Plant-4 in ------
     
 ```
-    "enforceMainAuxEquipmentCompatibility": true,
+Ξ’Β  Ξ’Β  "enforceMainAuxEquipmentCompatibility": true,
 ```
  692
    
@@ -38,3 +49,6 @@ Export as ==PR-680-ExportedAssets-schedules==
 681  
 Recipe already in database from 680 -\> schedules  
 ==PR-680-ExportedAssets-schedules== imported -\>
+
+
+

@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 Clipped from: [https://en.wikipedia.org/wiki/Topological_sorting](https://en.wikipedia.org/wiki/Topological_sorting)
 
 (Redirected from [Topological sort](https://en.wikipedia.org/w/index.php?title=Topological_sort&redirect=no))

@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-03-26T12:38
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 - From planning spa we publish scheduling board 
 
 - [x] ProductionGrpc.GetLatestBatchesInfo kai to production epistrefei ta batches toy scheduling board.
@@ -19,7 +30,7 @@
 
 The planning data change when we press the sync button in planning application
 
-![[321-Sync planning scheduling board with production - Ink.svg]]
+![[321-Sync planning scheduling board with production - Ink.svg|454x264]]
 
 ![[image-11.png]]
 
@@ -33,3 +44,6 @@ The planning data change when we press the sync button in planning application
 - [x] Na to pao schedulingboard commands
 
 ![Exported image](Exported%20image%2020260209135827-0.png)
+
+
+

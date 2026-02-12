@@ -1,3 +1,12 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+  - keycloak
+---
+
 To use smtp4dev for keycloak email testing apply this configuration
 in realm settings email tab
  

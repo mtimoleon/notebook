@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2024-01-25T10:15
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 Admin registrations handling
  
 - [x] -, submit -\> create keycloak user, create registration, send email to admin  
@@ -34,3 +45,6 @@ Todo
 - [x] Discuss other registration statuses liked suspended, blocked - will not do
  
 ==In delete user and data we do not take care of concurrency token==
+
+
+

@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 RequestFilterOrderDto  
 public FilterOrderDto FilterOrderDto { get; set; }  
 public int? Offset { get; set; }  

@@ -1,3 +1,11 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+---
+
 **SCHEDULING QUERIES, INCLUDES and CONDITIONS**
  
 In order to get data from db we need to perform 3 queries on scheduling board.

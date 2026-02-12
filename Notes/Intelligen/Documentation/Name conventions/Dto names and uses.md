@@ -1,3 +1,11 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+---
+
 \<Entity\>LookupDto  
 Contains:
 

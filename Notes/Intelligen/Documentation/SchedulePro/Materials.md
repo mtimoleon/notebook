@@ -1,3 +1,11 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+---
+
 |                                 |               |               |              |              |             |                  |                  |                |              |               |                                      |                 |
 | ------------------------------- | ------------- | ------------- | ------------ | ------------ | ----------- | ---------------- | ---------------- | -------------- | ------------ | ------------- | ------------------------------------ | --------------- |
 | **Name**                        | **TradeName** | **LocalName** | **Supplier** | **Discrete** | **Density** | **DensityUnits** | **PurchaseCost** | **SalesPrice** | **CostUnit** | **IsMixture** | **Component**                        | **Composition** |

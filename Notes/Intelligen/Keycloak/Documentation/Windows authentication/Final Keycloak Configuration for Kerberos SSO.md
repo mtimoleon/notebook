@@ -1,3 +1,12 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+  - keycloak
+---
+
 ### In Active directory server
 
 - First add a keycloaksvc user under users group.
@@ -92,4 +101,3 @@ Keycloak Client
 Would you like a checklist for integrating ASP.NET Core with this Keycloak realm using OpenID Connect next?
 
 Από <https://chatgpt.com/c/681b3fe6-2a8c-8012-a5d3-7e6210614009>
-

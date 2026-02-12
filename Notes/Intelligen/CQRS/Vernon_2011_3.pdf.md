@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 Clipped from: [https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_3.pdf](https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_3.pdf)
 
 ![Effective Aggregate Design Part Ill Gaining Insigh...](Exported%20image%2020260209135515-0.png)

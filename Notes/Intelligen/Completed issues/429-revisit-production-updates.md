@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-09-08T10:44
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 - [x] Tracking updates 1/9/2025  
 Reset tracking update button in production FE  
 Use OperationEntry RevertTrackingUpdate method  
@@ -13,16 +24,16 @@ As part of our ongoing efforts to enhance the user experience within the product
 
 - To clearly indicate which update is currently applied to an operation.
 - To enable the ability to revert updates (applicable only to production updates).
-- To refine the behavior and handling of the Status field.
+- To refine the behavior and handling of theΒ StatusΒ field.
  
 To support these changes, please note the following implementation steps:
  
-1. WebProductionBff → OperationEntryController → GetTrackingOperationEntryModalById()  
+1. WebProductionBff β†’ OperationEntryController β†’ GetTrackingOperationEntryModalById()  
 - [x] Update TrackingOperationEntryModalDto to include a list of TrackingUpdateTypes  
 - [x] Update TrackingOperationEntryDto to include: LastUpdatedAt, LastUpdatedByUser & TrackingUpdateType  
 2. Introduce a new endpoint in WebProductionBff.  
 - [x] This should mirror the functionality of RevertOperationEntriesTrackingUpdates from WebPlanningBff  
-3. WebProductionBff → OperationEntryController → UpdateOperationEntryTrackingTiming()  
+3. WebProductionBff β†’ OperationEntryController β†’ UpdateOperationEntryTrackingTiming()  
 - [x] Modify OperationEntryTrackingTimingUpdateDto to accept Status from the FE  
 - [x] Remove BE logic for calculating Status, as it will now be provided directly
    
@@ -44,4 +55,7 @@ builder.Subscribe\<CommandStartedEvent\>(e =\>
 			}
 		});
 ```
+
+
+
 

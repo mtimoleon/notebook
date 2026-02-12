@@ -1,3 +1,12 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+  - gantt
+---
+
 Clipped from: [https://medium.com/stackanatomy/the-ultimate-guide-to-getting-started-with-the-rollup-js-javascript-bundler-2ebec9398656](https://medium.com/stackanatomy/the-ultimate-guide-to-getting-started-with-the-rollup-js-javascript-bundler-2ebec9398656)
 
 ![Exported image](Exported%20image%2020260209140138-0.jpeg)

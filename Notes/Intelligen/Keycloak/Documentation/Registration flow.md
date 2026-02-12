@@ -1,3 +1,12 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+  - keycloak
+---
+
 User registration flow
  - Introduce a new page for registration.
 - User is entering registration data and a register request is issued to our BE

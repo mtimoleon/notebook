@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 Clipped from: [https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_2.pdf](https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_2.pdf)
 
 ![Effective Aggregate Design Part Il Making Aggregat...](Exported%20image%2020260209135458-0.png)

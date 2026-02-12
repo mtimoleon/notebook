@@ -1,3 +1,12 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+  - keycloak
+---
+
 ==OIDC auth flows==
 
 \> From \<[https://www.keycloak.org/docs/21.1.1/server_admin/#con-oidc-auth-flows_server_administration_guide](https://www.keycloak.org/docs/21.1.1/server_admin/#con-oidc-auth-flows_server_administration_guide)\>     

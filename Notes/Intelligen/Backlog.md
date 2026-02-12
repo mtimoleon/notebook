@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-05-08T10:20
+tags:
+  - intelligen
+status: backlog
+product: ScpCloud
+---
+
 
 - [ ] Library to have a scroll to date functionality on demand  
 - [ ] Scroll to follow current time: instead of moving current time line, scroll the chart  
@@ -27,7 +38,7 @@
 
 ![Exported image](Exported%20image%2020260209135617-1.png)
 
-- [ ] Procedure name must have a value since we are in production operation entry modal￼
+- [ ] Procedure name must have a value since we are in production operation entry modalΞΏΞΞ
 
 ![Exported image](Exported%20image%2020260209135619-2.png)  
 
@@ -44,9 +55,9 @@
 - [ ] 502 Fix order bug ==Zlate==
 
 ![Exported image](Exported%20image%2020260209135627-4.png)   
-- [ ] In Admin api keycloak service, use httpClient created by httpClientFactory not with new inside service￼[https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory](https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory)  
+- [ ] In Admin api keycloak service, use httpClient created by httpClientFactory not with new inside serviceΞΏΞΞ[https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory](https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory)  
 - [ ] Fix the names of contracts to contain the api name. Ayto na ginei oste na min mperdeyoyme ta contracts kai toys clients
-    otan kaloyme dyo από διαγορετικό project  
+    otan kaloyme dyo ΞΒ±Ξβ‚¬ΞΒ ΞΞ„ΞΞ‰ΞΒ±ΞΒ³ΞΞΞΒΞΒµΞβ€ΞΞ‰ΞΞΞΒ project  
 - [ ] Integrate microsoft clarity in front end app
     [https://learn.microsoft.com/en-us/clarity/mobile-sdk/react-native-sdk](https://learn.microsoft.com/en-us/clarity/mobile-sdk/react-native-sdkhttps://www.npmjs.com/package/@microsoft/clarity)
     https://www.npmjs.com/package/@microsoft/clarity  
@@ -78,19 +89,19 @@
 - [ ] 192.168.56.1 host.docker.internal
 	192.168.56.1 gateway.docker.internal
 	127.0.0.1    kubernetes.docker.internal
-- [ ] Να βάλουμε σύντομα το renaming στο πρόγραμμα.
-	Έχουμε τις παρακάτω περιπτώσεις
+- [ ] ΞΒΞΒ± ΞΒ²ΞΒ¬ΞΒ»ΞΞΞβ€¦ΞΞΞΒµ ΞΖ’ΞΒΞΒ½Ξβ€ΞΞΞΞΞΒ± Ξβ€ΞΞ renaming ΞΖ’Ξβ€ΞΞ Ξβ‚¬ΞΒΞΒΞΒ³ΞΒΞΒ±ΞΞΞΞΞΒ±.
+	ΞΒΞβ€΅ΞΞΞβ€¦ΞΞΞΒµ Ξβ€ΞΞ‰Ξβ€ Ξβ‚¬ΞΒ±ΞΒΞΒ±ΞΞΞΒ¬Ξβ€Ξβ€° Ξβ‚¬ΞΒµΞΒΞΞ‰Ξβ‚¬Ξβ€ΞΒΞΖ’ΞΒµΞΞ‰Ξβ€
 	 - Sync from planning to production
 	 - Production dto to serve UI
 
-- [ ] Να γράψουμε κάποια **functional** τεστ για ta examples, δλδ να κάνει το schedule του example και να ζητάμε να πάρουμε το eoc και να βλέπουμε αν έχει δεδομένα. Ο σκοπός είναι να δούμε αν έχουμε τα σωστά includes.
+- [ ] ΞΒΞΒ± ΞΒ³ΞΒΞΒ¬ΞΒΞΞΞβ€¦ΞΞΞΒµ ΞΞΞΒ¬Ξβ‚¬ΞΞΞΞ‰ΞΒ± **functional** Ξβ€ΞΒµΞΖ’Ξβ€ ΞΒ³ΞΞ‰ΞΒ± ta examples, ΞΞ„ΞΒ»ΞΞ„ ΞΒ½ΞΒ± ΞΞΞΒ¬ΞΒ½ΞΒµΞΞ‰ Ξβ€ΞΞ schedule Ξβ€ΞΞΞβ€¦ example ΞΞΞΒ±ΞΞ‰ ΞΒ½ΞΒ± ΞΒ¶ΞΒ·Ξβ€ΞΒ¬ΞΞΞΒµ ΞΒ½ΞΒ± Ξβ‚¬ΞΒ¬ΞΒΞΞΞβ€¦ΞΞΞΒµ Ξβ€ΞΞ eoc ΞΞΞΒ±ΞΞ‰ ΞΒ½ΞΒ± ΞΒ²ΞΒ»ΞΒ­Ξβ‚¬ΞΞΞβ€¦ΞΞΞΒµ ΞΒ±ΞΒ½ ΞΒ­Ξβ€΅ΞΒµΞΞ‰ ΞΞ„ΞΒµΞΞ„ΞΞΞΞΞΒ­ΞΒ½ΞΒ±. ΞΒ ΞΖ’ΞΞΞΞΞβ‚¬ΞΒΞβ€ ΞΒµΞβ€•ΞΒ½ΞΒ±ΞΞ‰ ΞΒ½ΞΒ± ΞΞ„ΞΞΞΒΞΞΞΒµ ΞΒ±ΞΒ½ ΞΒ­Ξβ€΅ΞΞΞβ€¦ΞΞΞΒµ Ξβ€ΞΒ± ΞΖ’Ξβ€°ΞΖ’Ξβ€ΞΒ¬ includes.
  
 - [ ] procedure report options color int =\> unint
 
  - ### StorageUnits
-    Αυτή τη στιγμή στον StorageUnitController έχουμε UpdateStorageUnitReplenishDischargeStrategy() και UpdateStorageUnitContinuousReplenishDischargeDetails(). Αυτά πρέπει να συγχωνευτούν σε ένα function.
-	Στο μέλλον στο παραπανω function θα πρέπει να συγχωνευτεί και το functionality UpdateCalendarEntries() από το StorageUnit.cs. Αυτή τη στιγμή δεν υπάρχει καθόλου στον controller. Αν επιλέξετε να το βάλετε από τώρα (αρα συγχωνευουμε 3 πραγματα) φροντίστε να μην σκάει αν η λίστα είναι null ή length = 0 γιατί το FE δε θα το υλοποιήσει.  
-	Οι αλλαγές να φτασουν ως το domain
+    Ξβ€Ξβ€¦Ξβ€ΞΒ® Ξβ€ΞΒ· ΞΖ’Ξβ€ΞΞ‰ΞΒ³ΞΞΞΒ® ΞΖ’Ξβ€ΞΞΞΒ½ StorageUnitController ΞΒ­Ξβ€΅ΞΞΞβ€¦ΞΞΞΒµ UpdateStorageUnitReplenishDischargeStrategy() ΞΞΞΒ±ΞΞ‰ UpdateStorageUnitContinuousReplenishDischargeDetails(). Ξβ€Ξβ€¦Ξβ€ΞΒ¬ Ξβ‚¬ΞΒΞΒ­Ξβ‚¬ΞΒµΞΞ‰ ΞΒ½ΞΒ± ΞΖ’Ξβ€¦ΞΒ³Ξβ€΅Ξβ€°ΞΒ½ΞΒµΞβ€¦Ξβ€ΞΞΞΒΞΒ½ ΞΖ’ΞΒµ ΞΒ­ΞΒ½ΞΒ± function.
+	ΞΒ£Ξβ€ΞΞ ΞΞΞΒ­ΞΒ»ΞΒ»ΞΞΞΒ½ ΞΖ’Ξβ€ΞΞ Ξβ‚¬ΞΒ±ΞΒΞΒ±Ξβ‚¬ΞΒ±ΞΒ½Ξβ€° function ΞΞΞΒ± Ξβ‚¬ΞΒΞΒ­Ξβ‚¬ΞΒµΞΞ‰ ΞΒ½ΞΒ± ΞΖ’Ξβ€¦ΞΒ³Ξβ€΅Ξβ€°ΞΒ½ΞΒµΞβ€¦Ξβ€ΞΒµΞβ€• ΞΞΞΒ±ΞΞ‰ Ξβ€ΞΞ functionality UpdateCalendarEntries() ΞΒ±Ξβ‚¬ΞΒ Ξβ€ΞΞ StorageUnit.cs. Ξβ€Ξβ€¦Ξβ€ΞΒ® Ξβ€ΞΒ· ΞΖ’Ξβ€ΞΞ‰ΞΒ³ΞΞΞΒ® ΞΞ„ΞΒµΞΒ½ Ξβ€¦Ξβ‚¬ΞΒ¬ΞΒΞβ€΅ΞΒµΞΞ‰ ΞΞΞΒ±ΞΞΞΒΞΒ»ΞΞΞβ€¦ ΞΖ’Ξβ€ΞΞΞΒ½ controller. Ξβ€ΞΒ½ ΞΒµΞβ‚¬ΞΞ‰ΞΒ»ΞΒ­ΞΞΞΒµΞβ€ΞΒµ ΞΒ½ΞΒ± Ξβ€ΞΞ ΞΒ²ΞΒ¬ΞΒ»ΞΒµΞβ€ΞΒµ ΞΒ±Ξβ‚¬ΞΒ Ξβ€ΞΒΞΒΞΒ± (ΞΒ±ΞΒΞΒ± ΞΖ’Ξβ€¦ΞΒ³Ξβ€΅Ξβ€°ΞΒ½ΞΒµΞβ€¦ΞΞΞβ€¦ΞΞΞΒµ 3 Ξβ‚¬ΞΒΞΒ±ΞΒ³ΞΞΞΒ±Ξβ€ΞΒ±) Ξβ€ ΞΒΞΞΞΒ½Ξβ€Ξβ€•ΞΖ’Ξβ€ΞΒµ ΞΒ½ΞΒ± ΞΞΞΒ·ΞΒ½ ΞΖ’ΞΞΞΒ¬ΞΒµΞΞ‰ ΞΒ±ΞΒ½ ΞΒ· ΞΒ»Ξβ€•ΞΖ’Ξβ€ΞΒ± ΞΒµΞβ€•ΞΒ½ΞΒ±ΞΞ‰ null ΞΒ® length = 0 ΞΒ³ΞΞ‰ΞΒ±Ξβ€Ξβ€• Ξβ€ΞΞ FE ΞΞ„ΞΒµ ΞΞΞΒ± Ξβ€ΞΞ Ξβ€¦ΞΒ»ΞΞΞβ‚¬ΞΞΞΞ‰ΞΒ®ΞΖ’ΞΒµΞΞ‰.  
+	ΞΒΞΞ‰ ΞΒ±ΞΒ»ΞΒ»ΞΒ±ΞΒ³ΞΒ­Ξβ€ ΞΒ½ΞΒ± Ξβ€ Ξβ€ΞΒ±ΞΖ’ΞΞΞβ€¦ΞΒ½ Ξβ€°Ξβ€ Ξβ€ΞΞ domain
 	\> From \< [https://app.slack.com/client/T02V40ZQGKG/later](https://app.slack.com/client/T02V40ZQGKG/later)\>   - ## Implement events deduplicate mechanism
     
 
@@ -102,11 +113,11 @@ From subscriber a check for duplicate events coming. (Use mediatr integrationeve
 - Currently there are 2 types of operations, `operation` and `nonProcessingOperation`
   In create operation labor command handler we use only `operation` type. We need to enhance the relative endpoint to include operation type on which we will create the new operation labor.
   This may affect other types with generics too, like streams.
-- Όταν είμαι στο section και κάνω create procedure, δεν περνάμε το facility (έχει τρόπο άραγε;)
-- στο create των input/output streams we return create at action pointing to get operation panel, when we will implement get stream by id we need to change these 2 pointing to get stream by id action. 
+- ΞΒΞβ€ΞΒ±ΞΒ½ ΞΒµΞβ€•ΞΞΞΒ±ΞΞ‰ ΞΖ’Ξβ€ΞΞ section ΞΞΞΒ±ΞΞ‰ ΞΞΞΒ¬ΞΒ½Ξβ€° create procedure, ΞΞ„ΞΒµΞΒ½ Ξβ‚¬ΞΒµΞΒΞΒ½ΞΒ¬ΞΞΞΒµ Ξβ€ΞΞ facility (ΞΒ­Ξβ€΅ΞΒµΞΞ‰ Ξβ€ΞΒΞΒΞβ‚¬ΞΞ ΞΒ¬ΞΒΞΒ±ΞΒ³ΞΒµ;)
+- ΞΖ’Ξβ€ΞΞ create Ξβ€Ξβ€°ΞΒ½ input/output streams we return create at action pointing to get operation panel, when we will implement get stream by id we need to change these 2 pointing to get stream by id action. 
 
 - Campaign Projects
-	 - Στέλνω τα campaigns με το order που εχουν
+	 - ΞΒ£Ξβ€ΞΒ­ΞΒ»ΞΒ½Ξβ€° Ξβ€ΞΒ± campaigns ΞΞΞΒµ Ξβ€ΞΞ order Ξβ‚¬ΞΞΞβ€¦ ΞΒµΞβ€΅ΞΞΞβ€¦ΞΒ½
 	 - endpoints
 		- add project
 		- delete project
@@ -114,3 +125,6 @@ From subscriber a check for duplicate events coming. (Use mediatr integrationeve
 		- change create campaign to accept the project to be in (nullable projectId)
 			in handler find the project get the last campaing in project order and then create the new campaign with sfina order
 		- show project ins campaign side panel identification
+
+
+

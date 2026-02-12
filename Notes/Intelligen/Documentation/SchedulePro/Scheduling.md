@@ -1,3 +1,11 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+---
+
 While a recipe describes a process in general, a _schedule_ is a specific plan that specifies which recipes are executed when and with what resources.   
 The relationship between recipes and the schedule is shown below:   
    

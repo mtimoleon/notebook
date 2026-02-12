@@ -1,6 +1,10 @@
 ---
 tags:
   - keycloak
+  - intelligen
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
 ---
 
 **Keycloak documentation**  

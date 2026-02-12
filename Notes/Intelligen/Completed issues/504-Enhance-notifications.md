@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-12-03T11:54
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 Campaigns missing recipes and I have to reschedule -\> edo px thelo ta Campaign names sta params
  
 NotificationCode  
@@ -25,3 +36,6 @@ NotificationsService
 - [x] Sto test fix messages service name and cleanup code
    
   
+
+
+

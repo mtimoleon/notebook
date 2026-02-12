@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-09-29T11:53
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 
 ![[image-16.png]]
 
@@ -233,5 +244,8 @@ Corrected with lookup
     }
   }
 ]
+
+
+
 
 

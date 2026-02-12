@@ -1,3 +1,11 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+---
+
 **OPERATION ENTRY**
 
 - **ATTENTION DATE calculation**

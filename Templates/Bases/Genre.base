@@ -1,6 +1,7 @@
 filters:
   and:
     - list(genre).contains(this)
+    - '!file.path.contains("Attachments/")'
 properties:
   note.rating:
     displayName: Rating

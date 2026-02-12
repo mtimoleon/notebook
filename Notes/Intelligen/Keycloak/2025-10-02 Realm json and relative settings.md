@@ -1,3 +1,11 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+  - keycloak
+---
+
 Export 2025-10-02
  
 {  

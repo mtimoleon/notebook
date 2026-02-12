@@ -5,6 +5,7 @@
         - file.path.contains("Notes/Interests/")
         - file.path.contains("Notes/Developer/")
     - '!file.name.contains("Template")'
+    - '!file.path.contains("Attachments/")'
 properties:
   file.name:
     displayName: Note

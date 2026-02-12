@@ -1,3 +1,10 @@
+---
+categories:
+  - "[[Work]]"
+tags:
+  - intelligen
+---
+
 2 types of information  
 - the entity to include in query  
 - the entity to apply operator  

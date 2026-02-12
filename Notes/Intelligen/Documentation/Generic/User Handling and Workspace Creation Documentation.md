@@ -1,3 +1,11 @@
+---
+categories:
+  - "[[Work]]"
+  - "[[Documentation]]"
+tags:
+  - intelligen
+---
+
 
 ## Overview
 This document describes the user handling mechanisms in the ScpCloud system, including authentication, authorization, workspace creation, and production database management. The system uses Keycloak for identity management, JWT tokens for request authentication, and multi-tenant architecture with separate databases for planning and production services.

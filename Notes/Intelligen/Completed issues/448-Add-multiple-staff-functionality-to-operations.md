@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-09-30T10:18
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 ![|733x333](Exported%20image%2020260209135710-0.png)
 
 ![Exported image](Exported%20image%2020260209135712-1.png)
@@ -7,17 +18,17 @@
 - [x] na stelnei kai to sourceStaffId  
 - [x] na rename to stafId se destinationStaffId
 
-✔️ChartService 982  
-✔️OperationBase UpdateStaff  
-✔️ChartsDto 314  
-✔️OperationDto 602  
-✔️OperationEntryDto  
-✔️MoveStaffOperationEntryCommandHandler  
-✔️OperationEntry UpdateStaff/ReplaceStaff  
+β”οΈChartService 982  
+β”οΈOperationBase UpdateStaff  
+β”οΈChartsDto 314  
+β”οΈOperationDto 602  
+β”οΈOperationEntryDto  
+β”οΈMoveStaffOperationEntryCommandHandler  
+β”οΈOperationEntry UpdateStaff/ReplaceStaff  
 UpdateOperationEntryStaffCommandHandler  
-✔️Update eoc staff pool calculation
+β”οΈUpdate eoc staff pool calculation
  
-✔️==planning/25/operation-base/operation/4967/update-staff==  
+β”οΈ==planning/25/operation-base/operation/4967/update-staff==  
 
 ```
 {
@@ -45,7 +56,7 @@ UpdateOperationEntryStaffCommandHandler
 }
 ```
  
-✔️==planning/25/operation-entry/19967/staff-move?returnEocData=true== Βγάζω από τα staff το id(row) που ήταν και βάζω το id του staff row που πήγε  
+β”οΈ==planning/25/operation-entry/19967/staff-move?returnEocData=true== Ξ’Ξ³Ξ¬Ξ¶Ο‰ Ξ±Ο€Ο Ο„Ξ± staff Ο„ΞΏ id(row) Ο€ΞΏΟ… Ξ®Ο„Ξ±Ξ½ ΞΊΞ±ΞΉ Ξ²Ξ¬Ξ¶Ο‰ Ο„ΞΏ id Ο„ΞΏΟ… staff row Ο€ΞΏΟ… Ο€Ξ®Ξ³Ξµ  
 {
 "schedulingBoardId": 25,
 "schedulingBoardConcurrencyToken": 191440,
@@ -56,7 +67,7 @@ UpdateOperationEntryStaffCommandHandler
 }
 
  
-✔️==planning/25/operation-entry/19934/update-staff==  
+β”οΈ==planning/25/operation-entry/19934/update-staff==  
 
 ```
 {
@@ -74,4 +85,7 @@ UpdateOperationEntryStaffCommandHandler
 ![Exported image](Exported%20image%2020260209135714-3.png) ![Exported image](Exported%20image%2020260209135716-4.png)   
 - [x] To remove UseAllPersons  
 - [ ] Check what happens to production with the introduced operation entry changes
+
+
+
 

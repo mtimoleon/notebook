@@ -1,3 +1,15 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2022-10-19T11:28
+tags:
+  - intelligen
+  - gantt
+status: completed
+product: Gantt
+---
+
 Add
  
 ```
@@ -31,3 +43,6 @@ SF: dx\>0 3HL else 2HL ---\> leftToRight
 uni
 
 ![[Arrows on operations rows - Ink.svg]]
+
+
+

@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-02-11T16:39
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 - [x] Add authentication/authorization  
 - [x] Create grpc infrastructure in production api  
 - [x] Create endpoint in planning bff to export a list of campaigns to production  
@@ -40,4 +51,7 @@
 
 
 ![Exported image](Exported%20image%2020260209135838-1.png)
+
+
+
 

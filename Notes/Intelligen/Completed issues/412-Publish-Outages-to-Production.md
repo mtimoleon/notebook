@@ -1,3 +1,14 @@
+﻿---
+categories:
+  - "[[Work]]"
+  - "[[Issues]]"
+created: 2025-08-19T11:37
+tags:
+  - intelligen
+status: completed
+product: ScpCloud
+---
+
 
 **In all cases first line is previous sync and second line is current sync**
 
@@ -23,3 +34,6 @@ GetSchedulingBoardEocDataTrackingAsync_OverlappingWithLongRange_IncludesOutagesF
 ![[image-7.png]]
 
 ![[image-8.png]]
+
+
+

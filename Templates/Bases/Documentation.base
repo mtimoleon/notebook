@@ -9,6 +9,7 @@ filters:
     - '!file.path.contains("Notes/Intelligen/Current/")'
     - '!file.path.contains("Completed issues")'
     - '!file.name.contains("Template")'
+    - '!file.path.contains("Attachments/")'
 properties:
   file.name:
     displayName: Doc
