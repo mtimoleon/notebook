@@ -68,7 +68,7 @@ List<OperationStaff> ----> List<ReferenceStaffPath>
 
 ReferenceStaffPath ---------> Staff -------> ReferenceOperationStaff -----> OperationStaf
 
-![[Attachments/Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export.md/image.png]]
+![[Attachments/Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export/image.png]]
 
 
 

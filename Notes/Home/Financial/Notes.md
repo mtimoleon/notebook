@@ -67,4 +67,4 @@ Algorithmic Trading Python for Beginners - FULL TUTORIAL:   
    
 \> Από \<[https://www.youtube.com/watch?v=-JrAii8hx5A&t=79s](https://www.youtube.com/watch?v=-JrAii8hx5A&t=79s)\>
 
-![[Notes/Auth/Panel Management/Notes - Ink.svg]]
+![[Attachments/Notes/Auth/Panel Management/Notes/Notes - Ink.svg]]

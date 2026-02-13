@@ -20,4 +20,4 @@ Will give information about available subjects to perform research on
 Services  
 Members with deseases
 
-![[Notes/Auth/Panel Management/Notes - Ink.svg]]
+![[Attachments/Notes/Auth/Panel Management/Notes/Notes - Ink.svg]]

@@ -45,7 +45,7 @@ product: ScpCloud
 		
 • (object) Task 
 	
-![[Attachments/Notes/Intelligen/Completed issues/408-Eoc-filters-in-production.md/image 1.png]]
+![[Attachments/Notes/Intelligen/Completed issues/408-Eoc-filters-in-production/image 1.png]]
 
 
 
@@ -171,7 +171,7 @@ End: 2022-01-01T07:20:00.000+00:00
 1. string isEmpty/isNotEmpty we check for null also, is this right?
 
 
-![[Attachments/Notes/Intelligen/Completed issues/408-Eoc-filters-in-production.md/image 1.png]]
+![[Attachments/Notes/Intelligen/Completed issues/408-Eoc-filters-in-production/image 1.png]]
 
 
 

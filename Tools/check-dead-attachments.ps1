@@ -9,7 +9,35 @@ param(
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-$vaultRoot = (Resolve-Path $Root).Path
+function Resolve-VaultRoot {
+  param(
+    [Parameter(Mandatory = $true)]
+    [string]$StartPath
+  )
+
+  $p = $StartPath
+  if (Test-Path -LiteralPath $p -PathType Leaf) {
+    $p = Split-Path -Parent $p
+  }
+  $dir = Get-Item -LiteralPath $p -ErrorAction Stop
+  while ($true) {
+    if (Test-Path -LiteralPath (Join-Path $dir.FullName ".obsidian") -PathType Container) {
+      return $dir.FullName
+    }
+    if ($null -eq $dir.Parent) { break }
+    $dir = $dir.Parent
+  }
+  return $p
+}
+
+$startPath =
+  if ([string]::IsNullOrWhiteSpace($Root) -or $Root -eq ".") {
+    Split-Path -Parent $PSScriptRoot
+  } else {
+    (Resolve-Path -LiteralPath $Root).Path
+  }
+
+$vaultRoot = Resolve-VaultRoot -StartPath $startPath
 
 $attachmentRootRel = "Attachments"
 try {
@@ -38,6 +66,7 @@ try {
 }
 
 $attachmentRootAbs = Join-Path $vaultRoot ($attachmentRootRel.Replace('/', '\'))
+$attachmentRootRelNorm = ($attachmentRootRel.Replace('/', '\')).TrimEnd('\')
 
 $attachmentExts = @(
   'png','jpg','jpeg','gif','svg','webp',
@@ -77,6 +106,11 @@ foreach ($file in $mdFiles) {
       $file.Name
     }
   $noteRelDir = Split-Path $noteRelPath -Parent
+  $noteRelPathNoExt =
+    if ($noteRelPath -match '(?i)\.md$') { $noteRelPath.Substring(0, $noteRelPath.Length - 3) } else { $noteRelPath }
+  $noteLeaf = Split-Path $noteRelPath -Leaf
+  $noteLeafNoExt =
+    if ($noteLeaf -match '(?i)\.md$') { $noteLeaf.Substring(0, $noteLeaf.Length - 3) } else { $noteLeaf }
 
   $targets = New-Object System.Collections.Generic.List[string]
   foreach ($m in $mdLink.Matches($text)) { $targets.Add($m.Groups['t'].Value) }
@@ -104,18 +138,22 @@ foreach ($file in $mdFiles) {
       $candidates.Add((Join-Path $file.Directory.FullName $rel))
       $candidates.Add((Join-Path $vaultRoot $rel))
       if (-not [string]::IsNullOrWhiteSpace($attachmentRootAbs)) {
-        $candidates.Add((Join-Path $attachmentRootAbs $rel))
+        if (-not ($attachmentRootRelNorm) -or -not ($rel.StartsWith($attachmentRootRelNorm + '\', [System.StringComparison]::OrdinalIgnoreCase))) {
+          $candidates.Add((Join-Path $attachmentRootAbs $rel))
+        }
       }
 
       # Obsidian attachment folder conventions:
       # - app.json: "Attachments"
-      # - custom-attachment-location: "Attachments/${noteFilePath}" (folder named like the note's relative path)
       if ($rel -notmatch '[\\/]' -and -not [string]::IsNullOrWhiteSpace($attachmentRootAbs)) {
-        if ($customAttachmentPattern -and $customAttachmentPattern.Contains('${noteFilePath}')) {
-          $candidates.Add((Join-Path $attachmentRootAbs (Join-Path $noteRelPath $rel)))
-        }
+        # Common patterns: Attachments/<noteFilePath>/file.ext and Attachments/<noteFilePathNoExt>/file.ext
+        $candidates.Add((Join-Path $attachmentRootAbs (Join-Path $noteRelPath $rel)))
+        $candidates.Add((Join-Path $attachmentRootAbs (Join-Path $noteRelPathNoExt $rel)))
+
         if (-not [string]::IsNullOrWhiteSpace($noteRelDir)) {
           $candidates.Add((Join-Path $attachmentRootAbs (Join-Path $noteRelDir $rel)))
+          $candidates.Add((Join-Path $attachmentRootAbs (Join-Path (Join-Path $noteRelDir $noteLeaf) $rel)))
+          $candidates.Add((Join-Path $attachmentRootAbs (Join-Path (Join-Path $noteRelDir $noteLeafNoExt) $rel)))
         }
       }
     }
@@ -136,7 +174,18 @@ foreach ($file in $mdFiles) {
   }
 }
 
-$outPath = Join-Path $vaultRoot ($ReportPath.Replace('/', '\'))
+$outPath =
+  if ([System.IO.Path]::IsPathRooted($ReportPath)) {
+    $ReportPath
+  } else {
+    Join-Path $vaultRoot ($ReportPath.Replace('/', '\'))
+  }
+
+$outDir = Split-Path -Parent $outPath
+if (-not [string]::IsNullOrWhiteSpace($outDir)) {
+  New-Item -ItemType Directory -Force -Path $outDir | Out-Null
+}
+
 $dead | Sort-Object note, target | Export-Csv -NoTypeInformation -Encoding UTF8 -LiteralPath $outPath
 
 Write-Host ("dead_count={0}" -f $dead.Count)
