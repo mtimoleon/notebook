@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6bfe592453b9503f",
+            "id": "52a07a8a23ccd5fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Home/Financial/Trading plan/Trading ορολογία.md",
+                "file": "Notes/Interests/AI/Models/From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Trading ορολογία"
+              "title": "From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy"
             }
           }
         ]
@@ -51,7 +51,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"![Discover Anything m miro 572 reads Miro The Innova...](Exported%20image%2020260209130850-0.png)\"",
+                "query": "Data Silos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Home/Financial/Trading plan/Trading ορολογία.md",
+                "file": "Notes/Interests/AI/Models/From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Trading ορολογία"
+              "title": "Backlinks for From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy"
             }
           },
           {
@@ -124,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Home/Financial/Trading plan/Trading ορολογία.md",
+                "file": "Notes/Interests/AI/Models/From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Trading ορολογία"
+              "title": "Outgoing links from From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy"
             }
           },
           {
@@ -167,10 +167,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Notes/Home/Financial/Trading plan/Trading ορολογία.md"
+                "file": "Notes/Interests/AI/Models/From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Trading ορολογία"
+              "title": "File properties for From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy"
             }
           }
         ],
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Home/Financial/Trading plan/Trading ορολογία.md",
+                "file": "Notes/Interests/AI/Models/From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Trading ορολογία"
+              "title": "Outline of From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy"
             }
           },
           {
@@ -259,31 +259,43 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6bfe592453b9503f",
+  "active": "d6f834d67aedd82d",
   "lastOpenFiles": [
+    "Attachments/Notes/Intelligen/Keycloak/Documentation/Smtp4dev with keycloak.md/Exported image 20260209140451-1.png",
+    "Attachments/Notes/Intelligen/Keycloak/Documentation/Smtp4dev with keycloak.md/Exported image 20260209140450-0.png",
+    "Attachments/Notes/Intelligen/Keycloak/Documentation/Smtp4dev with keycloak.md",
+    "Attachments/Notes/Home/Σπίτι/Λαμπάκια.md/Λαμπάκια - Ink.svg",
+    "Attachments/Notes/Home/Σπίτι/Λαμπάκια.md/Exported image 20260211195857-0.png",
+    "Attachments/Notes/Home/Σπίτι/Λαμπάκια.md",
+    "Attachments/Notes/Home/Financial/Quant Knowledge.md/Exported image 20260211194024-1.png",
+    "Attachments/Notes/Home/Financial/Quant Knowledge.md/Exported image 20260211194023-0.png",
+    "Attachments/Notes/Home/Financial/Quant Knowledge.md",
+    "Attachments/Notes/Auth/RAISE/RAI PID NOTES/Handle.net.md/HN_Tech_Manual_9.pdf",
+    "Attachments/Notes/Auth/RAISE/RAI PID NOTES/Handle.net.md",
+    "Attachments/Notes/Home/Σπίτι/Ασφάλεια.md/Ασφάλεια - Ink.svg",
+    "Attachments/Notes/Home/Σπίτι/Ασφάλεια.md",
+    "Attachments/Notes/Home/Γυμναστική/BackExcercises2022.md/Exported image 20260211194507-13.jpeg",
+    "Attachments/Notes/Home/Γυμναστική/BackExcercises2022.md/Exported image 20260211194501-12.jpeg",
+    "Attachments/Notes/Home/Γυμναστική/BackExcercises2022.md/Exported image 20260211194459-11.jpeg",
+    "Attachments/Notes/Home/Γυμναστική/BackExcercises2022.md/Exported image 20260211194457-10.jpeg",
+    "Attachments/Notes/Home/Γυμναστική/BackExcercises2022.md",
+    "Attachments/Notes/Home/Quick notes/Κεντρικό Μητρώο Πιστώσεων της Τραπέζης της Ελλάδος.md",
+    "Attachments/Notes/Home/Quick notes/Γενικό.md",
+    "Attachments/Notes/Home/Quick notes/star-wars-galaxy-map.jpeg (4000×4000).md",
+    "Tools/attachments-without-note.csv",
+    "Tools/check-attachments-without-note.ps1",
+    "Attachments/Συνημμένο.pdf",
+    "Attachments/Notes/Interests/AI/Models/SatCLIP paper/2311.17179v3.pdf",
+    "Tools/misplaced-attachments.csv",
+    "Notes/Interests/AI/Models/SatCLIP paper.md",
+    "Attachments/2311.17179v3.pdf",
+    "Tools/check-misplaced-attachments.ps1",
+    "Notes/Home/Financial/Trading plan/Trading ορολογία.md",
+    "Attachments/Templates/Company Template/Software.base",
     "Notes/Home/Financial/Trading plan/Pinescripts.md",
     "Notes/Interests/AI/Models/Generative AI for discovering porous oxide materials.md",
-    "Attachments/Συνημμένο.pdf",
     "Tools/dead-attachment-links.csv",
-    "Tools/dead-attachment-links-1.csv",
     "Current/Untitled 1.md",
-    "Attachments/image.png",
-    "Attachments/Templates/Company Template",
-    "Attachments/Templates",
-    "Attachments/Notes/Private/Πλαγιάρι/Εξόφληση",
-    "Attachments/Notes/Interests/Θρησκευτικά/Ιερές ακολουθίες",
-    "Attachments/Notes/Interests/Βότανα/Πλήρης Οδηγός Φαρμακευτικών Βοτάνων  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια",
-    "Attachments/Notes/Interests/Βότανα/Λεξικό για βότανα  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια",
-    "Attachments/Notes/Interests/Quantum computing/Quantum software development using the QDK - Q Blog",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-pages/Completed issues/2023-06-08/Exported image 20260208221420-2.png",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-pages/Completed issues/2023-06-08/Exported image 20260208221419-1.png",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-pages/Completed issues/2023-06-08/Exported image 20260208221418-0.png",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/Completed issues/2025/Special Court search Competition/Exported image 20260208221411-0.png",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/Completed issues/2025/Reports/Exported image 20260208221406-2.png",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/Completed issues/2025/Reports/Exported image 20260208221405-1.png",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/Completed issues/2025/Reports/Exported image 20260208221404-0.png",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/Completed issues/2025/2025/Exported image 20260208221358-2.png",
-    "Attachments/Notes/Cleverapps/Esdi/esdi-clerks/Completed issues/2025/2025/Exported image 20260208221356-1.png",
     "Attachments/Notes/CleverApps/Esdi/esdi-clerks/Completed issues/2025/Special Court search Competition.md",
     "Attachments/Notes/CleverApps/Esdi/esdi-clerks/Completed issues/2025/Reports.md",
     "Attachments/Notes/CleverApps/Esdi/esdi-clerks/Completed issues/2025/2025.md",
@@ -295,18 +307,6 @@
     "Attachments/Notes/Interests/Βότανα/Πλήρης Οδηγός Φαρμακευτικών Βοτάνων  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια.md",
     "Attachments/Notes/Interests/Quantum computing/Quantum software development using the QDK - Q Blog.md",
     "Attachments/Notes/Interests/Physics/The standard model Beyond the Atom.md",
-    "Attachments/Notes/Interests/AI/Models/TPU-KNN paper.md",
-    "Attachments/Notes/Interests/AI/Models/How to choose the right AI model.md",
-    "Attachments/Notes/Interests/AI/Models/Generative AI for discovering porous oxide materials.md",
-    "Attachments/Notes/Interests/AI/Models/FLAN paper.md",
-    "Attachments/Notes/Interests/AI/Linear Algebra/Statistical machine learning.md",
-    "Attachments/Notes/Interests/AI/Linear Algebra/Book basic of Linear Algebra.md",
-    "Attachments/Notes/Interests/AI/General/_General notes.md",
-    "Attachments/Notes/Interests/AI/General/The AI Renaissance How Machines are Transforming Art, Music, and Literature  HackerNoon.md",
-    "Attachments/Notes/Interests/AI/General/News-Ideas.md",
-    "Attachments/Notes/Interests/AI/General/Difference Between Algorithm and Model in Machine Learning - MachineLearningMastery.com.md",
-    "Attachments/Notes/Interests/AI/General/Chain-of-Thought.md",
-    "Attachments/Notes/Interests/AI/General/Apple paper.md",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

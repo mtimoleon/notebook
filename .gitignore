@@ -1,3 +1,5 @@
 .trash
 Tools/dead-attachment-links.csv
 Tools/ensure-created.report.jsonl
+Tools/misplaced-attachments.csv
+Tools/attachments-without-note.csv

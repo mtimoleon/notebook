@@ -7,4 +7,4 @@ tags:
   - ai
 ---
 
-![[2311.17179v3 1.pdf]]
+![[Attachments/Notes/Interests/AI/Models/SatCLIP paper/2311.17179v3.pdf]]

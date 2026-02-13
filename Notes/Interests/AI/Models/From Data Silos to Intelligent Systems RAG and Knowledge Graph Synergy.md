@@ -17,7 +17,7 @@ tags:
 
 ## From Data Silos to Intelligent Systems: RAG and Knowledge Graph Synergy
 
-![featured image - From Data Silos to Intelligent Systems: RAG and Knowledge Graph Synergy](https://hackernoon.imgix.net/images/YFbxM1iVhWSiVNekVD0Vax77bcx2-9t33zoe.jpeg?w=1200)
+![featured image - From Data Silos to Intelligent Systems: RAG and Knowledge Graph Synergy|1030x687](https://hackernoon.imgix.net/images/YFbxM1iVhWSiVNekVD0Vax77bcx2-9t33zoe.jpeg?w=1200)
 
 featured image - From Data Silos to Intelligent Systems: RAG and Knowledge Graph Synergy
 
@@ -127,7 +127,7 @@ Below is a diagram comparing traditional RAG workflows and RAG enhanced with kno
 
   
 
-![image](https://hackernoon.imgix.net/images/null-kl13zfv.png?w=3840)
+![image|1030x853](https://hackernoon.imgix.net/images/null-kl13zfv.png?w=3840)
 
 ### Traditional RAG Workflow
 
