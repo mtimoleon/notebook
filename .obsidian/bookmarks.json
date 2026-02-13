@@ -1,16 +1,63 @@
 {
   "items": [
     {
-      "type": "file",
-      "ctime": 1770997144724,
-      "path": "Notes/Intelligen/Backlog.md",
-      "title": "Intelligen Backlog"
+      "type": "group",
+      "ctime": 1771011465340,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1770997144724,
+          "path": "Notes/Intelligen/Backlog.md",
+          "title": "Intelligen Backlog"
+        },
+        {
+          "type": "file",
+          "ctime": 1770997167850,
+          "path": "Notes/Intelligen/Gantt/Backlog.md",
+          "title": "Gantt Backlog"
+        }
+      ],
+      "title": "Backlog"
     },
     {
       "type": "file",
-      "ctime": 1770997167850,
-      "path": "Notes/Intelligen/Gantt/Backlog.md",
-      "title": "Gantt Backlog"
+      "ctime": 1771011379328,
+      "path": "Categories/Work.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1771011379328,
+      "path": "Categories/Clippings.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1771011379328,
+      "path": "Categories/Companies.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1771011379328,
+      "path": "Categories/Documentation.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1771011379328,
+      "path": "Categories/Home.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1771011379328,
+      "path": "Categories/Interests.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1771011379328,
+      "path": "Categories/Issues.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1771011379328,
+      "path": "Categories/Software.md"
     }
   ]
 }

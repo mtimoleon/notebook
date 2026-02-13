@@ -1,4 +1,4 @@
-﻿filters:
+filters:
   and:
     - or:
         - categories.contains(link("Clippings"))
@@ -25,11 +25,14 @@ views:
     name: Clippings
     order:
       - file.name
-      - url
-      - file.path
       - categories
       - tags
+      - source
+      - file.path
     sort:
-      - property: file.mtime
-        direction: DESC
+      - property: title
+        direction: ASC
     limit: 200
+    columnSize:
+      note.tags: 150
+      note.source: 172
