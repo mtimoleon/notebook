@@ -1,6 +1,0 @@
----
-categories:
-  - "[[Documentation]]"
-product:
-component:
----

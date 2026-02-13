@@ -6,6 +6,8 @@ created: 2025-05-07T16:37
 tags:
   - intelligen
   - keycloak
+component:
+  - Keycloak
 ---
 
 ### In Active directory server

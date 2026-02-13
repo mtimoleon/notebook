@@ -1,5 +1,7 @@
 ---
 created: 2024-03-23
+component:
+  - PID
 ---
 
 Our pid should hava some records. These records will be:

@@ -26,6 +26,9 @@ properties:
 views:
   - type: table
     name: Recent
+    groupBy:
+      property: product
+      direction: ASC
     order:
       - file.name
       - product
@@ -34,6 +37,8 @@ views:
       - file.path
     sort:
       - property: file.name
+        direction: ASC
+      - property: component
         direction: ASC
       - property: file.ctime
         direction: DESC

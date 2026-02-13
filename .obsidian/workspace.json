@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f896ae690ab82df6",
+        "id": "3936667c15a9dbf4",
         "type": "tabs",
         "children": [
           {
-            "id": "eebd2f290d0827df",
+            "id": "7dff1c0aa1b1e312",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Categories/Work.md",
+                "file": "Clippings/Επίσημα templates Obsidian.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Work"
+              "title": "Επίσημα templates Obsidian"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"cssclasses\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +97,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 36.78606001936108,
+        "dimension": 45.98257502420135,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Interests/AI/Models/From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy.md",
+                "file": "Clippings/Επίσημα templates Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy"
+              "title": "Backlinks for Επίσημα templates Obsidian"
             }
           },
           {
@@ -124,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Categories/Work.md",
+                "file": "Clippings/Επίσημα templates Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Work"
+              "title": "Outgoing links from Επίσημα templates Obsidian"
             }
           },
           {
@@ -174,12 +174,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 29.33204259438529,
+        "dimension": 20.135527589545017,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Categories/Work.md",
+                "file": "Clippings/Επίσημα templates Obsidian.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Work"
+              "title": "Outline of Επίσημα templates Obsidian"
             }
           },
           {
@@ -259,53 +259,54 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "eebd2f290d0827df",
+  "active": "4a8b8a265069ca66",
   "lastOpenFiles": [
-    "Categories/Software.md",
-    "Categories/Issues.md",
-    "Categories/Interests.md",
-    "Categories/Home.md",
-    "Categories/Documentation.md",
     "Categories/Companies.md",
-    "Categories/Clippings.md",
-    "Templates/Bases/Interests/Interests.base",
-    "Templates/Bases/Home/Home.base",
-    "Templates/Bases/Documentation/Documentation.base",
-    "Templates/Bases/Companies/Companies.base",
-    "Templates/Bases/Clippings/Clippings.base",
-    "Templates/Bases/Work/Work.base",
-    "Templates/Bases/Software.base",
+    "Clippings/Επίσημα templates Obsidian.md",
+    "Clippings/News Digest (2026-02-11 — 2026-02-12).md",
+    "Current/Gmail.md",
+    "Current/2026-02-11.md",
+    "Current/Drawing 2026-02-10 10.15.10.excalidraw.md",
+    "Clippings/Git Submodule.md",
+    "Clippings/Git Subtree.md",
+    "Templates/Views/Genre.base",
+    "Templates/Views",
+    "Categories/Documentation.md",
+    "Notes/Auth/RAISE/RAI PID NOTES/EPIC GrNET accounts.md",
+    "Notes/Auth/RAISE/RAI PID NOTES/EPIC GRnet.md",
+    "Notes/Auth/RAISE/RAI PID NOTES/PID Metadata signposting.md",
+    "Notes/Intelligen/Gantt/Documentation/Create library package/File export as Module.md",
+    "Current/Untitled 1.md",
+    "Templates/Home Template.md",
+    "Templates/Bases/Documentation.base",
+    "Templates/Bases/Home.base",
+    "Templates/Bases/Interests.base",
+    "Templates/Bases/Issues.base",
+    "Templates/Bases/Work.base",
+    "Templates/Bases/Companies.base",
+    "Templates/Bases/Clippings.base",
+    "Current/Untitled.md",
+    "Templates/Gpt Template.md",
+    "Templates/Bases/Gpt/Gpt.base",
+    "Categories/Gpt.md",
+    "Categories/Software.md",
     "Categories/Work.md",
-    "Templates/Bases/Issues/Issues.base",
-    "Templates/Bases/Work",
-    "Templates/Bases/Software",
-    "Notes/Intelligen/Backlog.md",
-    "Notes/Interests/AI/Models/From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy.md",
-    "Notes/Auth/RAISE/RAI PID NOTES/RAI PID NOTES.md",
-    "Notes/Auth/RAISE/RAISE Notes.md",
-    "Notes/Interests/AI/Algorithms/Google AI.md",
-    "Notes/Intelligen/Completed issues/263-Import-Export/Stream.md",
-    "Notes/Interests/Quantum computing/Time complexity - Wikipedia.md",
-    "Notes/Home/Quick notes/Γενικό.md",
+    "Notes/Intelligen/Gantt/Completed issues/101-Show-multiple-layers-of-data-bars.md",
+    "Notes/Intelligen/Gantt/Documentation/Create library package/Obfuscator settings.md",
+    "Categories/Home.md",
+    "Categories/Interests.md",
+    "Categories/Issues.md",
+    "Categories/Clippings.md",
     "Attachments/Notes/Intelligen/Keycloak/Documentation/Smtp4dev with keycloak.md/Exported image 20260209140451-1.png",
     "Attachments/Notes/Intelligen/Keycloak/Documentation/Smtp4dev with keycloak.md/Exported image 20260209140450-0.png",
-    "Attachments/Notes/Intelligen/Keycloak/Documentation/Smtp4dev with keycloak.md",
     "Attachments/Notes/Home/Σπίτι/Λαμπάκια.md/Λαμπάκια - Ink.svg",
     "Attachments/Notes/Home/Σπίτι/Λαμπάκια.md/Exported image 20260211195857-0.png",
-    "Attachments/Notes/Home/Σπίτι/Λαμπάκια.md",
     "Attachments/Notes/Home/Financial/Quant Knowledge.md/Exported image 20260211194024-1.png",
     "Attachments/Notes/Home/Financial/Quant Knowledge.md/Exported image 20260211194023-0.png",
-    "Attachments/Notes/Home/Financial/Quant Knowledge.md",
-    "Attachments/Notes/Auth/RAISE/RAI PID NOTES/Handle.net.md",
     "Attachments/Notes/Home/Σπίτι/Ασφάλεια.md/Ασφάλεια - Ink.svg",
-    "Attachments/Notes/Home/Σπίτι/Ασφάλεια.md",
     "Attachments/Notes/Home/Γυμναστική/BackExcercises2022.md/Exported image 20260211194507-13.jpeg",
     "Attachments/Notes/Home/Γυμναστική/BackExcercises2022.md/Exported image 20260211194501-12.jpeg",
     "Attachments/Notes/Home/Γυμναστική/BackExcercises2022.md/Exported image 20260211194459-11.jpeg",
-    "Attachments/Notes/Home/Γυμναστική/BackExcercises2022.md",
-    "Attachments/Notes/Home/Quick notes/Κεντρικό Μητρώο Πιστώσεων της Τραπέζης της Ελλάδος.md",
-    "Attachments/Notes/Home/Quick notes/Γενικό.md",
-    "Attachments/Notes/Home/Quick notes/star-wars-galaxy-map.jpeg (4000×4000).md",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

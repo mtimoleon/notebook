@@ -1,12 +1,13 @@
 ---
 created: 2025-03-06
+component:
+  - PID
 ---
 
 [https://chatgpt.com/c/67ca0793-ded8-8012-a041-babb1c7c8f44](https://chatgpt.com/c/67ca0793-ded8-8012-a041-babb1c7c8f44)
  
 [https://www.perplexity.ai/search/pid-signposting-DtxUdAyvSkidmT79rd5_yw](https://www.perplexity.ai/search/pid-signposting-DtxUdAyvSkidmT79rd5_yw)
    
-```
 **Flow:**
 1. **PID Registration:** A research object (dataset, publication, etc.) is assigned a Persistent Identifier (PID), such as a DOI.  Metadata about the object is registered with a PID provider (e.g., DataCite, Crossref).
 2. **PID Resolution (Initial Request):** A client (user, browser, application) attempts to resolve the PID by sending an HTTP request to the PID resolver (e.g., `https://doi.org/10.1234/...).`
@@ -193,4 +194,3 @@ app.listen(port, () =\> {
 * **Error Handling:** Implement robust error handling in all components.
 * **CORS:** Configure CORS properly on your backend API.
 * **Testing:** Thoroughly test your configuration to ensure everything works as expected.
-```

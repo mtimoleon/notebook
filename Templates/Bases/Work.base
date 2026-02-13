@@ -29,6 +29,8 @@ views:
       - categories
       - tags
     sort:
+      - property: file.name
+        direction: ASC
       - property: file.mtime
         direction: DESC
     limit: 200

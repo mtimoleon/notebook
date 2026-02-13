@@ -1,5 +1,7 @@
 ---
 created: 2024-09-04
+component:
+  - PID
 ---
 
 ==2024-08-01 PID RAI Resolver==  
