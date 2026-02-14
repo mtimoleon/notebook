@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fdad1f3711c4cb00",
+        "id": "c8fcb58b230d39a4",
         "type": "tabs",
         "children": [
           {
-            "id": "f83229c3c889cc32",
+            "id": "b7341f5f075787be",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -239,8 +239,14 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "f83229c3c889cc32",
+  "active": "d6f834d67aedd82d",
   "lastOpenFiles": [
+    "Attachments/Notes/Interests/Βιβλία/OS internals/The Linux Kernel Module Programming Guide",
+    "Attachments/Notes/Interests/Βιβλία/OS internals",
+    "Attachments/Notes/Interests/Βιβλία",
+    "Notes/Interests/Βιβλία/OS internals/The Linux Kernel Module Programming Guide.md",
+    "Attachments/Notes/Interests/Βιβλία/OS internals/The Linux Kernel Module Programming Guide/The Linux Kernel Module Programming Guide.pdf",
+    "Notes/Interests/Βιβλία/OS internals/Reverse Engineering For Everyone!.md",
     "Attachments/Notes/Interests/Ιστορία/Χρονοδιάγραμμα Βασιλείας & Πρωθυπουργών (1832–1973)",
     "Attachments/Notes/Interests/Ιστορία",
     "Notes/Interests/Ιστορία/Χρονοδιάγραμμα Βασιλείας & Πρωθυπουργών (1832–1973).md",
@@ -260,8 +266,6 @@
     "Attachments/Notes/Interests/Βότανα/Λεξικό για βότανα  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια.md/Συνημμένο.pdf",
     "Attachments/Notes/Interests/Βότανα/Λεξικό για βότανα  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια.md/Original.pdf",
     "Notes/Interests/Βότανα/Πλήρης Οδηγός Φαρμακευτικών Βοτάνων  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια.md",
-    "Tools/misplaced-attachments.csv",
-    "Tools/attachments-without-note.csv",
     "Notes/Interests/AI/Models/How to choose the right AI model.md",
     "Notes/Interests/AI/Models/Generative AI for discovering porous oxide materials.md",
     "Notes/Interests/AI/Models/From Data Silos to Intelligent Systems RAG and Knowledge Graph Synergy.md",
@@ -271,8 +275,6 @@
     "Current/2026-02-11.md",
     "Attachments/Current/2026-02-11/image.png",
     "Attachments/Current/2026-02-11/image-1.png",
-    "Attachments/Notes/Intelligen/Keycloak/Documentation/Smtp4dev with keycloak",
-    "Attachments/Notes/Home/Σπίτι/Λαμπάκια",
     "Notes/Intelligen/Completed issues/525-Sync-after-planning-update.md",
     "Notes/Auth/AWS/Amazon DynamoDB.md",
     "Notes/Auth/AWS/data-modeling-on-amazon-dynamodb.md",
@@ -285,8 +287,6 @@
     "Attachments/Notes/Home/Quick notes/star-wars-galaxy-map.jpeg (4000×4000).md",
     "Attachments/Notes/Auth/RAISE/RAI PID NOTES/Handle.net.md",
     "Attachments/Notes/Auth/RAISE/RAI PID NOTES/FC4EOSC Deliverable3.3.md",
-    "Attachments/Notes/Auth/RAISE/Architecture/D3.1 RAI Cloud services' specifications v3.0.md",
-    "Notes/CleverApps/Esdi/esdi-clerks/Completed issues/2025/2025.md",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"
