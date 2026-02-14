@@ -28,7 +28,7 @@
     ],
     "providers": [
       {
-        "apiKey": "AIzaSyDXizBjhAWC9w7v8Zjlsuucp6J3615D5s0",
+        "apiKey": "",
         "apiKeyRequired": true,
         "baseUrl": "https://generativelanguage.googleapis.com/v1beta/chat/completions",
         "id": "1770712051067",
@@ -171,8 +171,8 @@
     "themeMode": "auto"
   },
   "stats": {
-    "addToObsidian": 21,
-    "copyToClipboard": 12,
+    "addToObsidian": 22,
+    "copyToClipboard": 13,
     "saveFile": 1,
     "share": 0
   },
@@ -183,7 +183,7 @@
     "noteNameFormat": "{{title}}",
     "path": "Clippings",
     "noteContentFormat": "{{content}}",
-    "context": "",
+    "context": "{{context}}",
     "properties": [
       {
         "id": "1770559996446l09rbztlp",
@@ -198,22 +198,10 @@
         "type": "multitext"
       },
       {
-        "id": "17705599964466p9b8nfvg",
-        "name": "source",
-        "value": "{{url}}",
-        "type": "text"
-      },
-      {
         "id": "1770559996446vi3reclj7",
         "name": "author",
         "value": "{{author|split:\\\", \\\"|wikilink|join}}",
         "type": "multitext"
-      },
-      {
-        "id": "1770559996446ap4j87a3e",
-        "name": "published",
-        "value": "{{published}}",
-        "type": "date"
       },
       {
         "id": "1770559996446godnz6q5l",
@@ -222,10 +210,28 @@
         "type": "date"
       },
       {
+        "id": "1770559996446ap4j87a3e",
+        "name": "published",
+        "value": "{{published}}",
+        "type": "date"
+      },
+      {
+        "id": "17705599964466p9b8nfvg",
+        "name": "source",
+        "value": "{{url}}",
+        "type": "text"
+      },
+      {
         "id": "1770559996446zvt81cvtf",
         "name": "description",
-        "value": "{{description}}",
+        "value": "{{\\\"a short discription, 200 characters max\\\"}}",
         "type": "text"
+      },
+      {
+        "id": "1771069588473t87fdil5l",
+        "name": "tags",
+        "value": "{{\\\"3 tags about this page, comma separated\\\"}}",
+        "type": "multitext"
       }
     ],
     "triggers": []
@@ -388,7 +394,7 @@
       {
         "id": "1770762333678yq95p9d",
         "name": "title",
-        "value": "{{title}}",
+        "value": "{{selector:a[data-sidebar-item=\\\"true\\\"][data-active] .truncate span}}",
         "type": "text"
       },
       {
@@ -422,12 +428,6 @@
         "type": "date"
       },
       {
-        "id": "1770762333678mximrxy",
-        "name": "description",
-        "value": "{{description}}",
-        "type": "text"
-      },
-      {
         "id": "17707623336780lk0irh",
         "name": "tags",
         "value": "chatgpt/conversation",
@@ -438,7 +438,7 @@
       "https://chatgpt.com/share",
       "https://chatgpt.com/c"
     ],
-    "noteNameFormat": "{{title}}",
+    "noteNameFormat": "{{title}}-{{selector:a[data-sidebar-item=\"true\"][data-active] .truncate span}}",
     "path": "Clippings",
     "id": "1770762333677kfpl5nx",
     "context": ""
@@ -584,12 +584,19 @@
         "name": "image",
         "value": "{{image}}",
         "type": "text"
+      },
+      {
+        "id": "1771069749393k16742gon",
+        "name": "tags",
+        "value": "{{\\\"3 tags about this page, comma separated\\\"}}",
+        "type": "multitext"
       }
     ],
     "triggers": [
       "schema:@Product"
     ],
-    "id": "1770762401135ygndonz"
+    "id": "1770762401135ygndonz",
+    "context": ""
   },
   "template_1770762431993ot506pt": {
     "schemaVersion": "0.1.0",
@@ -636,7 +643,7 @@
       {
         "id": "17707624319949d5hgng",
         "name": "tags",
-        "value": "clippings, wikipedia",
+        "value": " wikipedia",
         "type": "multitext"
       }
     ],
@@ -645,7 +652,8 @@
     ],
     "noteNameFormat": "{{title}}",
     "path": "Clippings",
-    "id": "1770762431993ot506pt"
+    "id": "1770762431993ot506pt",
+    "context": ""
   },
   "template_1770762452175vza0q2a": {
     "schemaVersion": "0.1.0",

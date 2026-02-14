@@ -28,11 +28,15 @@ views:
       - categories
       - tags
       - source
+      - file.ctime
       - file.path
     sort:
-      - property: title
-        direction: ASC
+      - property: file.ctime
+        direction: DESC
     limit: 200
     columnSize:
+      file.name: 282
+      note.categories: 130
       note.tags: 150
-      note.source: 172
+      note.source: 203
+      file.ctime: 128

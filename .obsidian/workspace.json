@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Issue Template.md",
+                "file": "Categories/Clippings.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Issue Template"
+              "title": "Clippings"
             }
           }
         ]
@@ -51,7 +51,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Issue Template.md",
+                "file": "Categories/Clippings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Issue Template"
+              "title": "Backlinks for Clippings"
             }
           },
           {
@@ -124,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Issue Template.md",
+                "file": "Categories/Clippings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Issue Template"
+              "title": "Outgoing links from Clippings"
             }
           },
           {
@@ -166,11 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Templates/Issue Template.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for Issue Template"
+              "title": "File properties"
             }
           }
         ],
@@ -187,13 +185,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Issue Template.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Issue Template"
+              "title": "Outline"
             }
           },
           {
@@ -255,12 +252,14 @@
       "graph:Open graph view": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-importer:Open Importer": false,
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "c76ac9e58135b260",
+  "active": "4a8b8a265069ca66",
   "lastOpenFiles": [
+    "Categories/Clippings.md",
+    "Clippings/ChatGPT.md",
+    "Templates/Issue Template.md",
     "Tools/obsidian-web-clipper-settings.json",
     "Notes/Intelligen/Filters/C in a Nutshell - PredicateBuilder.md",
     "Notes/Intelligen/Filters/All search requests.md",
@@ -282,7 +281,6 @@
     "Attachments/Notes/Intelligen/CQRS/Effective Aggregate Design/Vernon_2011_2.pdf",
     "Notes/Intelligen/CQRS/Unconfirmed 696393.crdownload",
     "Attachments/Notes/Intelligen/CQRS/Effective Aggregate Design.pdf",
-    "Attachments/Notes/Intelligen/CQRS/Effective Aggregate Design/Effective Aggregate Design Part I.pdf",
     "Notes/Intelligen/Completed issues/408-Eoc-filters-in-production.md",
     "Notes/Intelligen/Completed issues/405-Resource-ordering-and-visibility.md",
     "Notes/Intelligen/Completed issues/390-import-data-from-scp.md",
@@ -295,8 +293,6 @@
     "Notes/Intelligen/Completed issues/339-Add-eoc-chart-and-update-functionality-in-WebProductionSpa.md",
     "Notes/Intelligen/Completed issues/332-Production-Operation-Entry-tracking-timing-update.md",
     "Notes/Intelligen/Completed issues/321-Sync planning scheduling board with production.md",
-    "Notes/Intelligen/Completed issues/303-Add-Production-application-BFF-FE.md",
-    "Notes/Intelligen/Completed issues/300-link-arrows-for-additional-scheduling-links.md",
     "Attachments/Notes/Intelligen/Keycloak/Documentation/Smtp4dev with keycloak.md/Exported image 20260209140451-1.png",
     "Attachments/Notes/Intelligen/Keycloak/Documentation/Smtp4dev with keycloak.md/Exported image 20260209140450-0.png",
     "Attachments/Notes/Home/Σπίτι/Λαμπάκια.md/Λαμπάκια - Ink.svg",
