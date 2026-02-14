@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "737cf4c95e3b5573",
+        "id": "fdad1f3711c4cb00",
         "type": "tabs",
         "children": [
           {
-            "id": "73bfef0010f39205",
+            "id": "f83229c3c889cc32",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -239,8 +239,10 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "d6f834d67aedd82d",
+  "active": "f83229c3c889cc32",
   "lastOpenFiles": [
+    "Attachments/Notes/Interests/Ιστορία/Χρονοδιάγραμμα Βασιλείας & Πρωθυπουργών (1832–1973)",
+    "Attachments/Notes/Interests/Ιστορία",
     "Notes/Interests/Ιστορία/Χρονοδιάγραμμα Βασιλείας & Πρωθυπουργών (1832–1973).md",
     "Attachments/image.png",
     "Attachments/Notes/Home/Financial/Notes.md/Notes - Ink.svg",
@@ -271,7 +273,6 @@
     "Attachments/Current/2026-02-11/image-1.png",
     "Attachments/Notes/Intelligen/Keycloak/Documentation/Smtp4dev with keycloak",
     "Attachments/Notes/Home/Σπίτι/Λαμπάκια",
-    "Attachments/Notes/Home/Σπίτι/Ασφάλεια",
     "Notes/Intelligen/Completed issues/525-Sync-after-planning-update.md",
     "Notes/Auth/AWS/Amazon DynamoDB.md",
     "Notes/Auth/AWS/data-modeling-on-amazon-dynamodb.md",
@@ -286,7 +287,6 @@
     "Attachments/Notes/Auth/RAISE/RAI PID NOTES/FC4EOSC Deliverable3.3.md",
     "Attachments/Notes/Auth/RAISE/Architecture/D3.1 RAI Cloud services' specifications v3.0.md",
     "Notes/CleverApps/Esdi/esdi-clerks/Completed issues/2025/2025.md",
-    "Attachmentss/Notes/Private/Πλαγιάρι/Εξόφληση.md",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"
