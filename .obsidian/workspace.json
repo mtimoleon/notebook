@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c8fcb58b230d39a4",
+        "id": "bc8e4b4a05a505e4",
         "type": "tabs",
         "children": [
           {
-            "id": "b7341f5f075787be",
+            "id": "087dedc73a3bd01f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -239,8 +239,15 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "d6f834d67aedd82d",
+  "active": "4a8b8a265069ca66",
   "lastOpenFiles": [
+    "Notes/Electric-engineer/Καζαλτζής/Έργα/20211127_ΔΕΥΑΕΛ_τκ_Λιβαδίου.md",
+    "Attachments/Notes/Electric-engineer/Καζαλτζής/Έργα/20211127_ΔΕΥΑΕΛ_τκ_Λιβαδίου",
+    "Attachments/Notes/Electric-engineer/Καζαλτζής/Έργα/20211116_ΑΓ_ΑΚΑΚΙΟΣ",
+    "Attachments/Notes/Electric-engineer/Καζαλτζής/Έργα",
+    "Attachments/Notes/Electric-engineer/Καζαλτζής",
+    "Attachments/Notes/Electric-engineer",
+    "Notes/Electric-engineer/Καζαλτζής/Έργα/20211116_ΑΓ_ΑΚΑΚΙΟΣ.md",
     "Attachments/Notes/Interests/Βιβλία/OS internals/The Linux Kernel Module Programming Guide",
     "Attachments/Notes/Interests/Βιβλία/OS internals",
     "Attachments/Notes/Interests/Βιβλία",
@@ -248,7 +255,6 @@
     "Attachments/Notes/Interests/Βιβλία/OS internals/The Linux Kernel Module Programming Guide/The Linux Kernel Module Programming Guide.pdf",
     "Notes/Interests/Βιβλία/OS internals/Reverse Engineering For Everyone!.md",
     "Attachments/Notes/Interests/Ιστορία/Χρονοδιάγραμμα Βασιλείας & Πρωθυπουργών (1832–1973)",
-    "Attachments/Notes/Interests/Ιστορία",
     "Notes/Interests/Ιστορία/Χρονοδιάγραμμα Βασιλείας & Πρωθυπουργών (1832–1973).md",
     "Attachments/image.png",
     "Attachments/Notes/Home/Financial/Notes.md/Notes - Ink.svg",
@@ -260,11 +266,6 @@
     "Notes/Intelligen/CQRS/Clarified CQRS.md",
     "Notes/Interests/AI/Models/Looking Artificial Analysis and LMArena leaderboards.md",
     "Notes/Interests/AI/Models/Synthetic Intelligence Beyond A.I. and Robotics.md",
-    "Attachments/Notes/Interests/Βότανα/Λεξικό για βότανα  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια.md/lindleyInBiosa.pdf",
-    "Attachments/Notes/Interests/Βότανα/Λεξικό για βότανα  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια.md/Συνημμένο 2.pdf",
-    "Attachments/Notes/Interests/Βότανα/Λεξικό για βότανα  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια.md/Συνημμένο 1.pdf",
-    "Attachments/Notes/Interests/Βότανα/Λεξικό για βότανα  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια.md/Συνημμένο.pdf",
-    "Attachments/Notes/Interests/Βότανα/Λεξικό για βότανα  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια.md/Original.pdf",
     "Notes/Interests/Βότανα/Πλήρης Οδηγός Φαρμακευτικών Βοτάνων  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια.md",
     "Notes/Interests/AI/Models/How to choose the right AI model.md",
     "Notes/Interests/AI/Models/Generative AI for discovering porous oxide materials.md",
@@ -285,8 +286,6 @@
     "Attachments/Notes/Home/Quick notes/Κεντρικό Μητρώο Πιστώσεων της Τραπέζης της Ελλάδος.md",
     "Attachments/Notes/Home/Quick notes/Γενικό.md",
     "Attachments/Notes/Home/Quick notes/star-wars-galaxy-map.jpeg (4000×4000).md",
-    "Attachments/Notes/Auth/RAISE/RAI PID NOTES/Handle.net.md",
-    "Attachments/Notes/Auth/RAISE/RAI PID NOTES/FC4EOSC Deliverable3.3.md",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"
