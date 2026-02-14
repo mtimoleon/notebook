@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b0558b4e7f72e899",
+        "id": "b6669ff2031c3ced",
         "type": "tabs",
         "children": [
           {
-            "id": "bcfe497fe5f7db1d",
+            "id": "b8b126c3cc280475",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -241,7 +241,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "bcfe497fe5f7db1d",
+  "active": "d6f834d67aedd82d",
   "lastOpenFiles": [
     "Templates/Bases/Work.base",
     "Templates/Bases/Software.base",
@@ -264,6 +264,7 @@
     "Attachments/Notes/Home/Σπίτι/Λαμπάκια.md/Λαμπάκια - Ink.svg",
     "Attachments/Notes/Home/Σπίτι/Κάκγελα/ΠΑΤΣΑΛΑΣ.md/ΣΧΕΔΙΑ-ΚΑΓΚΕΛΑ-ΑΛΟΥΜΙΝΙΟΥ_compressed.pdf",
     "Attachments/Notes/Auth/RAISE/RAI PID NOTES/Handle.net.md/HN_Tech_Manual_9.pdf",
+    "Categories/Work.md",
     "Notes/Intelligen/CQRS/Effective Aggregate Design.md",
     "Current/Gmail.md",
     "Categories/Clippings.md",
@@ -288,7 +289,6 @@
     "Notes/Intelligen/Completed issues/374-Update-chart-library.md",
     "Notes/Intelligen/Completed issues/373-Improve-sync.md",
     "Notes/Intelligen/Completed issues/358-Implement-register-updates-in-WebProductionSpa.md",
-    "Notes/Intelligen/Completed issues/349-Add-SignalR-messaging.md",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"
