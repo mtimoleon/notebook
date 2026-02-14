@@ -28,10 +28,10 @@ views:
       - categories
       - tags
       - source
-      - file.ctime
+      - created
       - file.path
     sort:
-      - property: file.ctime
+      - property: created
         direction: DESC
     limit: 200
     columnSize:
