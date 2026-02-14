@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "83ec434a872ea225",
+        "id": "08d07c759f4b5d17",
         "type": "tabs",
         "children": [
           {
-            "id": "adb92e5b08e42b15",
+            "id": "259dab0a5d862086",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -70,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Categories/Clippings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Clippings"
+              "title": "Outgoing links"
             }
           },
           {
@@ -157,8 +155,7 @@
               "title": "File properties"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "c159d314176b7de8",
@@ -241,32 +238,34 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "adb92e5b08e42b15",
+  "active": "259dab0a5d862086",
   "lastOpenFiles": [
+    "Notes/Interests/AI/Models/FLAN paper.md",
+    "Attachments/Notes/Interests/AI/Models/FLAN paper/Exported image 20260209131920-19.png",
+    "Current/2026-02-11.md",
+    "Attachments/Current/2026-02-11/image.png",
+    "Attachments/Current/2026-02-11/image-1.png",
+    "Attachments/Current/2026-02-11/image-2.png",
+    "Attachments/Current/2026-02-11/image-4.png",
+    "Attachments/Current/2026-02-11.md/image-3.png",
+    "Attachments/image.png",
+    "Attachments/Notes/Intelligen/Keycloak/Documentation/Smtp4dev with keycloak",
+    "Attachments/Notes/Home/Σπίτι/Λαμπάκια",
+    "Attachments/Notes/Home/Σπίτι/Ασφάλεια",
+    "Attachments/Notes/Home/Γυμναστική/BackExcercises2022",
+    "Attachments/Notes/Home/Quick notes/Κεντρικό Μητρώο Πιστώσεων της Τραπέζης της Ελλάδος",
+    "Attachments/Notes/Home/Quick notes/Γενικό",
+    "Attachments/Notes/Home/Quick notes/star-wars-galaxy-map.jpeg (4000×4000)",
+    "Attachments/Notes/Home/Financial/Quant Knowledge",
+    "Attachments/Notes/Auth/RAISE/RAI PID NOTES/Handle.net",
     "Notes/Intelligen/Completed issues/525-Sync-after-planning-update.md",
     "Notes/Auth/AWS/Amazon DynamoDB.md",
     "Notes/Auth/AWS/data-modeling-on-amazon-dynamodb.md",
     "Notes/Auth/AWS/Untitled-20260211203705.md",
-    "Notes/Intelligen/CQRS/Vernon_2011_3.pdf",
+    "Attachments/Notes/Intelligen/CQRS/Effective Aggregate Design/Vernon_2011_3.pdf",
     "Attachments/Notes/Private/Πλαγιάρι/Εξόφληση/Exported image 20260208231016-3.png",
     "Attachments/Notes/Private/Πλαγιάρι/Εξόφληση/Exported image 20260208231014-2.png",
     "Attachments/Notes/Private/Πλαγιάρι/Εξόφληση/Exported image 20260208231011-1.png",
-    "Attachments/Notes/Private/Πλαγιάρι/Εξόφληση/Exported image 20260208231008-0.png",
-    "Attachments/Notes/Interests/Θρησκευτικά/Ιερές ακολουθίες/Untitled picture.png",
-    "Attachments/Notes/Interests/Βότανα/Πλήρης Οδηγός Φαρμακευτικών Βοτάνων  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια/image.png",
-    "Attachments/Notes/Interests/Βότανα/Λεξικό για βότανα  Αλεκάτη βότανα, μανιτάρια, τροφή, θεραπείες, συνταγές, καλλιέργεια/image-1.png",
-    "Attachments/Notes/Interests/Quantum computing/Quantum software development using the QDK - Q Blog/quantum-software-development.png",
-    "Attachments/Notes/Interests/Physics/The standard model Beyond the Atom/rC4eKu5DhiDDMkXAH85FJV.jpg",
-    "Attachments/Notes/Interests/AI/Models/TPU-KNN paper/Exported image 20260209133006-15.png",
-    "Attachments/Notes/Interests/AI/Models/Synthetic Intelligence Beyond A.I. and Robotics/lindleyInBiosa.pdf",
-    "Attachments/Notes/Interests/AI/Models/SatCLIP paper/2311.17179v3.pdf",
-    "Attachments/Notes/Interests/AI/Algorithms/Model compression/Scaling Laws for Neural Language Models/2001.08361v1.pdf",
-    "Attachments/Notes/Intelligen/Notes/DDD_Reference_2015-03/DDD_Reference_2015-03.pdf",
-    "Attachments/Notes/Intelligen/Current issues/Hovione/SchedPro_mapping_databaes1.xlsx",
-    "Attachments/Notes/Intelligen/Current issues/Hovione/Plano SMARTSC_Area 2_B7.scp",
-    "Attachments/Notes/Intelligen/Completed issues/266-Scheduling board horizon",
-    "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/Πίνακες",
-    "Attachments/Notes/Intelligen/Completed issues/263-Import-Export/263-Import-Export",
     "Attachments/Notes/Home/Σπίτι/Λαμπάκια.md",
     "Attachments/Notes/Home/Σπίτι/Κάκγελα/ΠΑΤΣΑΛΑΣ.md",
     "Attachments/Notes/Home/Σπίτι/Ασφάλεια.md",
@@ -286,9 +285,6 @@
     "Attachmentss/Notes/Interests/AI/Models/TPU-KNN paper.md",
     "Attachmentss/Notes/Interests/AI/Models/Synthetic Intelligence Beyond A.I. and Robotics.md",
     "Attachmentss/Notes/Interests/AI/Models/SatCLIP paper.md",
-    "Attachmentss/Notes/Interests/AI/Models/How to choose the right AI model.md",
-    "Attachmentss/Notes/Interests/AI/Models/Generative AI for discovering porous oxide materials.md",
-    "Attachmentss/Notes/Interests/AI/Models/FLAN paper.md",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"
