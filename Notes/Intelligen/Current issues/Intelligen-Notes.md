@@ -8,6 +8,12 @@ tags:
   - documentation/intelligen
 ---
 
+
+
+![[Intelligen-Notes-1773318667345.png|719]]
+
+
+
 ~~[ipereira@hovione.com](mailto:ipereira@hovione.com) operator 79eb3abe-d61e-472c-886b-1665f7d8dcbe
 ​[rbento@hovione.com](mailto:rbento@hovione.com) operator 64b414a7-0dda-44c5-b93d-2b818746b7a4~~
 

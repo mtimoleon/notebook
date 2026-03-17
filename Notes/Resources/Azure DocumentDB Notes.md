@@ -462,4 +462,4 @@ Indexing affects cost/performance πως:
 ---
 
 - [What is Azure DocumentDB?](https://learn.microsoft.com/en-us/azure/documentdb/overview)
-[[Azure DocumentDB Notes-20260304.pdf]]
+[[Azure DocumentDB Notes-20260316.pdf]]

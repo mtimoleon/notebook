@@ -16,11 +16,11 @@ tags:
 **Πώς το χρησιμοποιεί το `OperationEntry`**
 Το `OperationEntry` κρατάει το canonical planning state (`Start`, `Duration`, `AuxEquipment`, `Staff`, `TimingStatus`) και προαιρετικά ένα `TrackingUpdate`. Αν δεν υπάρχει `TrackingUpdate`, όλα τα tracking getters γυρίζουν planning values. Αν υπάρχει, τα tracking getters διαβάζουν από εκεί: `TrackingStart`, `TrackingDuration`, `TrackingEnd`, `TrackingAuxEquipment`, `TrackingStaff`, `TrackingUpdateType` ([OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L232), [OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L342)).
 Το ίδιο object χρησιμοποιείται και σαν state machine:
-- `SyncTrackingUpdate()` δημιουργεί ή resetάρει baseline snapshot από το planning state ([OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L1278)).
-- `UpdateTrackingTiming/AuxEquipment/Staff()` γράφουν user changes πάνω στο tracking layer και το κάνουν `Production` ([OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L1259)).
-- `SetTrackingStart/SetTrackingDuration()` κάνουν propagated/inferred changes και το update γίνεται `Auto` ([OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L637), [OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L767)).
-- `ApplyTrackingUpdate()` περνάει το tracking state μέσα στο planning state και μετά resetάρει το tracking σε `Sync` ([OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L1308)).
-- `ResetTrackingUpdate()` πετάει το pending delta και ξαναφέρνει το tracking ίσο με το planning ([OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L1341)).
+- ==`SyncTrackingUpdate()`== δημιουργεί ή κάνει reset baseline snapshot από το planning state ([OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L1278)).
+- ==`UpdateTrackingTiming`==/`AuxEquipment/Staff()` γράφουν user changes πάνω στο tracking layer και το κάνουν `Production` ([OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L1259)).
+- `SetTrackingStart`/==`SetTrackingDuration()`== κάνουν propagated/inferred changes και το update γίνεται `Auto` ([OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L637), [OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L767)).
+- ==`ApplyTrackingUpdate()`== περνάει το tracking state μέσα στο planning state και μετά κάνει reset το tracking σε `Sync` ([OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L1308)).
+- ==`ResetTrackingUpdate()`== πετάει το pending delta και ξαναφέρνει το tracking ίσο με το planning ([OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L1341)).
 Το ίδιο το `OperationEntryTrackingUpdate` αποθηκεύει και metadata για την εφαρμογή: `LastUpdatedAt`, `LastUpdatedByUser`, `Comment`, `AttentionCodes`, και diff flags όπως `HasStartDatesDifference`, `HasDurationDifference`, `HasAuxEquipmentDifference`, `HasStaffDifference`, `HasTimingStatusDifference` ([OperationEntryTrackingUpdate.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntryTrackingUpdate.cs#L69)).
 **Πώς το χρησιμοποιεί η εφαρμογή**
 Στην production εφαρμογή, όταν ανοίγει το modal ενός operation entry, το backend επιστρέφει και planning και tracking εικόνα μαζί, μαζί με `TrackingUpdateType`, `LastUpdatedByUser`, `ConcurrencyToken`, attention codes και production tracking configuration ([OperationEntryServer.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Api/GrpcServers/OperationEntryServer.cs#L191), [OperationEntryDto.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Grpc/Dtos/OperationEntryDto.cs#L225)). Από εκεί το UI κάνει τα `update-tracking-*` calls και το `revert` ([Operations.jsx](C:/Users/michael/developer/scpCloud/WebApps/WebProductionSpa/src/pages/operations/Operations.jsx#L1086), [operationEntryService.js](C:/Users/michael/developer/scpCloud/WebApps/WebProductionSpa/src/services/operationEntryService.js#L15), [schedulingBoardService.js](C:/Users/michael/developer/scpCloud/WebApps/WebProductionSpa/src/services/schedulingBoardService.js#L49)).
@@ -33,6 +33,8 @@ tags:
 - και μπορεί αργότερα να γίνει νέο planning baseline με `apply`.
 
 ## Details
+
+
 
 ```mermaid
 sequenceDiagram
@@ -117,4 +119,4 @@ stateDiagram-v2
 
 
 ## Links
-[[Tracking updates documentation]]
+[[Tracking updates]]

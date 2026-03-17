@@ -2,9 +2,9 @@
 categories:
   - "[[Work]]"
 created: 2026-03-06
-product:
+product: ScpCloud
 component:
-status: open
+status: completed
 tags:
   - issues/intelligen
 ---
@@ -22,7 +22,7 @@ move me operationId, procedureId, ct, den epistrefei tpt mono success 'move-to-p
 
 Add IManyToMany here so in cloning takes care references
 
-![[542-Copy-operation-to-procedure-1773068356714.png|696]]
+![[542-Copy-operation-to-procedure-20260312 1.png|696]]
 
 
 Alternative solution that solves the deps deletion from EF during procedure update.

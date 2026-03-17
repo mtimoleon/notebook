@@ -15,34 +15,32 @@ Currently when an operator updates labor amount from 2 person hours to 4 person 
 [[Tracking updates]]
 [[Operation Entry tracking update]]
 
-- Add OperationEntryLaborTracking class
-- When syncing need to sync the trackingLabor also so it is visible in production app
-- When applying the update need to add operation entry labor update from tracking
+- [ ] Add OperationEntryLaborTracking class
+- [ ] When syncing need to sync the trackingLabor also so it is visible in production app
+- [ ] When applying the update need to add operation entry labor update from tracking
 
 
 
 ## Notes
 Tracking labor uses
 
-otan allazei to duration toy operation entry prepei na allazei kai to finalAmount
-![[Intelligen-Notes-1773068864558.png|694]]
-OperationEntryLaborTrackingUpdate παρόμοιο 
-Otan allazei to tracking duration toy operation entry
-Δες operationEntry SetResources , UpdateTrackingTiming
+- [x] otan allazei to duration toy operation entry prepei na allazei kai to finalAmount
+- [x] OperationEntryLaborTrackingUpdate παρόμοιο 
+- [ ] Otan allazei to tracking duration toy operation entry, Δες operationEntry SetResources , UpdateTrackingTiming
 
 
 OperationEntryLaborTrackingUpdate m;esa sto OperationEntry
-![[Intelligen-Notes-1773229486796.png|639]]
+![[Intelligen-Notes-1773229486796.png|542]]
 tha exei mono to amount
-![[Intelligen-Notes-1773229564716.png|930x858]]
-![[Intelligen-Notes-1773229680588.png|930x609]]
+![[Intelligen-Notes-1773229680588.png|543]]
 SetResources in OperationEntry
 SetTrackingResources
+==SetTrackingDuration==
 
 
 Tα σημεία παρέμβασης είναι αυτά:
 **Domain**
-- [OperationEntryLaborTrackingUpdate.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntryLaborTrackingUpdate.cs): να το φέρεις στο ίδιο lifecycle με το `OperationEntryTrackingUpdate`. Θέλει τουλάχιστον baseline `Reset()`, σωστό initial copy από `OperationEntryLabor.FinalAmount`, και το manual update να γράφει `TrackingUpdateType = Production`, όχι `Sync`.
+- [OperationEntryLaborTrackingUpdate.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntryLaborTrackingUpdate.cs): να το φέρεις στο ίδιο lifecycle με το `OperationEntryTrackingUpdate`. Θέλει τουλάχιστον baseline `Reset()`, σωστό initial copy από `OperationEntryLabor.FinalAmount`.
 - [OperationEntryLabor.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntryLabor.cs): να αποκτήσει tracking-facing surface. Πρακτικά ένα `TrackingFinalAmount` getter και, αν χρειάζεται, method για auto recalculation με βάση το `OperationEntry.TrackingDuration`.
 - [OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs): εδώ είναι το βασικό integration point. Θέλει:
   - να κάνει `sync/reset/apply/revert` και για labor tracking updates μαζί με το main tracking update,

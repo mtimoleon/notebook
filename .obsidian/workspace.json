@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "20e1d4505a246dad",
+            "id": "83807cdf9453819e",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Current/2026-scratch-pad.md",
+                "file": "Notes/Intelligen/Current issues/545-Add-Tracking-Labor.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -30,13 +30,12 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "2026-scratch-pad"
+              "title": "545-Add-Tracking-Labor"
             }
           },
           {
-            "id": "9c057dcc48b8f868",
+            "id": "93e07c7fadb16e0f",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -54,19 +53,18 @@
                   "unlinkedCollapsed": true
                 }
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Intelligen-Backlog"
             }
           },
           {
-            "id": "a59eee681191e61d",
+            "id": "c696481f68867f6d",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+                "file": "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -82,42 +80,16 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Intelligen-Notes"
+              "title": "Operation Entry tracking update"
             }
           },
           {
-            "id": "f686db023ca178d3",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Intelligen/Current issues/Azure DocumentDB Notes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Azure DocumentDB Notes"
-            }
-          },
-          {
-            "id": "83807cdf9453819e",
+            "id": "21d51d4ea2b86572",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Tracking updates.md",
+                "file": "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -132,16 +104,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tracking updates"
+              "title": "Vehicle registered abroad  Official website for the Crit'Air sticker"
             }
           },
           {
-            "id": "72b5654b41af9993",
+            "id": "ff3b00e525c4a148",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Gantt/Documentation/Create library package/The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium.md",
+                "file": "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -156,11 +128,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium"
+              "title": "Vehicle registered abroad  Official website for the Crit'Air sticker"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -192,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#prompts",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -213,8 +185,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -235,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Gantt/Documentation/Create library package/The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium.md",
+                "file": "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +216,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium"
+              "title": "Backlinks for Vehicle registered abroad  Official website for the Crit'Air sticker"
             }
           },
           {
@@ -297,10 +268,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Notes/Intelligen/Gantt/Documentation/Create library package/The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium.md"
+                "file": "Notes/Intelligen/Documentation/Operation Entry tracking update.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium"
+              "title": "File properties for Operation Entry tracking update"
             }
           }
         ],
@@ -317,13 +288,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Gantt/Documentation/Create library package/The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium.md",
+                "file": "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium"
+              "title": "Outline of Vehicle registered abroad  Official website for the Crit'Air sticker"
             }
           }
         ]
@@ -377,54 +348,54 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "72b5654b41af9993",
+  "active": "ff3b00e525c4a148",
   "lastOpenFiles": [
-    "Categories/Documentation.md",
-    "Notes/Intelligen/Documentation/Algorithms/Scheduling service.md",
-    "Notes/Intelligen/Documentation/Algorithms/Calculate operation timing.md",
-    "Notes/Intelligen/Gantt/Documentation/Create library package/The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium.md",
-    "Notes/Intelligen/Keycloak/Documentation/Windows authentication/Final Keycloak Configuration for Kerberos SSO.md",
-    "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
-    "Notes/Intelligen/Documentation/Tracking updates.md",
-    "Notes/Resources/Code/EF Delete Behavior.md",
-    "Notes/Auth/Current Issues/Current.md",
+    "Notes/Home/Αλέξανδρος/Κατοικία.md",
+    "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/Κάτοικος εξωτερικού.md",
+    "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/Μεταφορά φορολογικής κατοικίας.md",
+    "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/CLAIM_OTHERCOUNTRIES.pdf.md",
+    "Notes/Home/Αλέξανδρος/Πληρωμή Idealis.md",
+    "Notes/Home/Αλέξανδρος/Wageningen-payments.md",
+    "Notes/Home/Αλέξανδρος/Coding-projects.md",
+    "Notes/Home/Αλέξανδρος/ACS.md",
     "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
     "Current/2026-scratch-pad.md",
-    "Notes/Home/Ταξίδι/Paris/Περιοχές του Παρισιού.md",
-    "Notes/Intelligen/Current issues/Operation-entry-labor-tracking.md",
+    "Clippings/Registration Confirmation Page Non Compliant  Low Emission Zone.md",
+    "Clippings/Bestellvorgang Bestätigung.md",
+    "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md",
+    "Clippings/Ihr Warenkorb.md",
+    "Notes/Intelligen/Current issues/545-Add-Tracking-Labor.md",
+    "Notes/Home/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού.md",
+    "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316 2.pdf",
+    "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316 1.pdf",
+    "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316.pdf",
+    "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού",
+    "Notes/Home/C3/Service.md",
+    "Notes/Home/C3/Υαλοκαθαριστήρες.md",
+    "Notes/Home/C3/Διάφορα.md",
+    "Notes/Home/C3/22-1-2025 2100.md",
+    "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
+    "Notes/Intelligen/Documentation/Tracking updates.md",
+    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
+    "Notes/Intelligen/Completed issues/536-Replace-MongoDB-with-DocumentDB.md",
+    "Notes/Resources/Azure DocumentDB Notes.md",
+    "Notes/Resources/assets/Azure DocumentDB Notes",
+    "Notes/Intelligen/assets/Completed issues/536-Replace-MongoDB-with-DocumentDB",
+    "Notes/Intelligen/assets/Current issues/536-Replace-MongoDB-with-DocumentDB/536-Replace-MongoDB-with-DocumentDB-1773650025375.png",
     "Notes/Intelligen/Current issues/Intelligen-Notes.md",
-    "Notes/Intelligen/Current issues/Untitled.md",
+    "Current/assets/2026-scratch-pad/2026-scratch-pad-1773392283780.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773318667345.png",
+    "Notes/Intelligen/Current issues/Aggregate-verification",
+    "Notes/Intelligen/assets/Completed issues/542-Copy-operation-to-procedure",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229680588.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229564716.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229486796.png",
-    "Notes/Intelligen/Current issues/542-Copy-operation-to-procedure.md",
-    "Notes/Intelligen/Current issues/Azure DocumentDB Notes.md",
-    "Notes/Intelligen/Current issues/Copy-contract-test.md",
-    "Notes/Intelligen/Current issues/Copy Contract Test Framework.md",
-    "Notes/Intelligen/assets/Current issues/542-Copy-operation-to-procedure/542-Copy-operation-to-procedure-1773068414639.png",
-    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Notes/Intelligen/assets/Current issues/542-Copy-operation-to-procedure/542-Copy-operation-to-procedure-1773068356714.png",
-    "Notes/Auth/Current Issues/Backlog.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Λίστες/ToDo list for traveling.md",
+    "Notes/Intelligen/assets/Completed issues/542-Copy-operation-to-procedure/542-Copy-operation-to-procedure-20260312.png",
+    "Notes/Intelligen/assets/Completed issues/542-Copy-operation-to-procedure/542-Copy-operation-to-procedure-20260312 1.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773068864558.png",
     "Notes/Intelligen/assets/Current issues/542-Copy-operation-to-procedure/542-Copy-operation-to-procedure-1773068542853.png",
-    "Notes/Intelligen/assets/Current issues/542-Copy-operation-to-procedure/542-Copy-operation-to-procedure-1773068483865.png",
-    "Notes/Intelligen/assets/Current issues/542-Copy-operation-to-procedure/542-Copy-operation-to-procedure-1773068428275.png",
     "Notes/Intelligen/assets/Current issues/542-Copy-operation-to-procedure",
-    "Notes/Home/Ταξίδι/Ημερολόγιο.md",
-    "Notes/Intelligen/Current issues/536-Replace-MongoDB-with-DocumentDB.md",
-    "Notes/Auth/Projects/RAISE/Credits system.md",
-    "Notes/Auth/assets/Projects/Panel Management/Consents/Consents/Consents-1772738327787.png",
     "Notes/Auth/assets/assets/Projects/Panel Management/Consents/e-Consent-Panel bridge/Drawing 2026-03-05 21.10.01.excalidraw",
-    "Notes/Auth/assets/assets/Projects/Panel Management/Consents/e-Consent-Panel bridge",
-    "Notes/Auth/assets/assets/Projects/Panel Management/Consents",
-    "Notes/Auth/assets/assets/Projects/Panel Management",
-    "Notes/Auth/assets/assets/Projects",
-    "Notes/Auth/assets/assets",
-    "Notes/Auth/assets/Projects/Panel Management/Consents/Drawing 2026-03-05 21.10.01.excalidraw",
-    "Notes/Auth/assets/Current Issues/Restful_Objects",
-    "Notes/Auth/assets/Current Issues/Current/Current-20260305.pdf",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

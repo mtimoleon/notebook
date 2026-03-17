@@ -268,7 +268,7 @@ DocumentDb results:
  "numBlocksFromDisk": 34185
 }
 ```
-![[536-Replace-MongoDB-with-DocumentDB-20260304.png|300]]
+![[536-Replace-MongoDB-with-DocumentDB-20260316.png|300]]
 
 
 MongoDB results:
@@ -311,7 +311,7 @@ MongoDB results:
 }
 ```
 
-![[536-Replace-MongoDB-with-DocumentDB-20260304 1.png]]
+![[536-Replace-MongoDB-with-DocumentDB-20260316 1.png]]
 
 ##### Run sync on big recipe schedule
 
@@ -559,6 +559,7 @@ mongodb+srv://scpcloudadmin:<password>@scp-cloud-documentdb-cluster.global.mongo
 ##### Πώς δένει με το repo σου
 - Στο `docker-compose.azure.yml:70` ήδη περιμένει runtime env var `ProductionDatabaseSettings__ConnectionString`.
 - Στο `Services/Production/Production.Api/Infrastructure/Database/DatabaseContext.cs:31` το app θα το διαβάσει από `ProductionDatabaseSettings__ConnectionString` (ή fallback, αν το αφήσεις).
+
 
 
 #### Links
