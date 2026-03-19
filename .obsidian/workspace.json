@@ -89,7 +89,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
+                "file": "Notes/Resources/Licensing with JWT Signature Validation – Practical Security Guide.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -104,35 +104,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr"
-            }
-          },
-          {
-            "id": "4066bd0bb8d82f01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Resources/JWT Issuance And Validation Guide.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "JWT Issuance And Validation Guide"
+              "title": "Licensing with JWT Signature Validation – Practical Security Guide"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -185,8 +161,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -207,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Resources/JWT Issuance And Validation Guide.md",
+                "file": "Notes/Resources/Licensing with JWT Signature Validation – Practical Security Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +192,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for JWT Issuance And Validation Guide"
+              "title": "Backlinks for Licensing with JWT Signature Validation – Practical Security Guide"
             }
           },
           {
@@ -289,13 +264,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Resources/JWT Issuance And Validation Guide.md",
+                "file": "Notes/Resources/Licensing with JWT Signature Validation – Practical Security Guide.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JWT Issuance And Validation Guide"
+              "title": "Outline of Licensing with JWT Signature Validation – Practical Security Guide"
             }
           }
         ]
@@ -349,13 +324,13 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "4a8b8a265069ca66",
+  "active": "2c0f816149282de8",
   "lastOpenFiles": [
-    "Notes/Resources/Licensing with JWT Signature Validation – Practical Security Guide.md",
     "Notes/Resources/JWT Issuance And Validation Guide.md",
+    "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
+    "Notes/Resources/Licensing with JWT Signature Validation – Practical Security Guide.md",
     "Notes/Intelligen/Documentation/Generic/User Handling and Workspace Creation Documentation.md",
     "Notes/Intelligen/Current issues/545-Add-Tracking-Labor.md",
-    "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
     "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773833186093.png",
     "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773830616609.png",
     "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor",

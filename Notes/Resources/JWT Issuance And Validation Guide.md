@@ -10,7 +10,6 @@ tags:
   - topic/how-to
   - topic/authentication
 ---
-
 ## Purpose
 ​
 This document defines a practical and secure baseline for teams that issue and validate JWT tokens they control.
@@ -141,7 +140,7 @@ Example:
 ​
 ### Signature
 ​
-The signature is **produced from the header and payload** using the allowed algorithm and the signing key.
+The signature is produced from the header and payload using the allowed algorithm and the signing key.
 ​
 
 ---
@@ -420,6 +419,54 @@ Useful validation failure categories:
 ​
 ## C# Example
 ​
+### How signing works conceptually
+​
+When the C# library creates the token, the signing input is not the raw JSON objects directly. It first builds:
+​
+1. the JWT header JSON,
+2. the JWT payload JSON,
+3. Base64Url-encodes the header,
+4. Base64Url-encodes the payload,
+5. concatenates them as:
+​
+```text
+base64url(header) + "." + base64url(payload)
+```
+​
+To avoid ambiguity, this is a literal string concatenation with a dot character in the middle, not dot notation or property access.
+​
+You can think of it as:
+​
+```text
+encodedHeader + "." + encodedPayload
+```
+​
+For `RS256`, the library then:
+​
+1. computes a SHA-256 digest of that byte sequence,
+2. signs that digest with the RSA private key,
+3. Base64Url-encodes the resulting signature,
+4. appends it as the third JWT part.
+​
+Short version:
+​
+- it computes a hash from the literal string `encodedHeader + "." + encodedPayload`,
+- then it signs that hash with the private key.
+​
+So the final token becomes:
+​
+```text
+base64url(header).base64url(payload).base64url(signature)
+```
+​
+This matters because:
+​
+- the signature covers both header and payload,
+- changing either header or payload changes the signing input,
+- after any change, the old signature is no longer valid.
+​
+The private key does not encrypt the whole token. It signs the canonical byte sequence `encodedHeader + "." + encodedPayload` defined by the JWT/JWS format.
+​
 Issuance with `RS256`:
 ​
 ```csharp
@@ -449,6 +496,15 @@ token.Header["kid"] = "key-2026-01";
 var jwt = new JwtSecurityTokenHandler().WriteToken(token);
 ```
 ​
+What `WriteToken(token)` does in practice:
+​
+1. serializes the header and payload,
+2. Base64Url-encodes them,
+3. builds the signing input `encodedHeader + "." + encodedPayload`,
+4. uses `SigningCredentials(privateKey, SecurityAlgorithms.RsaSha256)`,
+5. signs with the RSA private key,
+6. returns the final compact JWT string.
+​
 Validation:
 ​
 ```csharp
@@ -470,6 +526,23 @@ var parameters = new TokenValidationParameters
 var handler = new JwtSecurityTokenHandler();
 var principal = handler.ValidateToken(jwt, parameters, out _);
 ```
+​
+How validation works conceptually:
+​
+1. the library splits the compact JWT into three parts,
+2. it reads the first part as `encodedHeader`,
+3. it reads the second part as `encodedPayload`,
+4. it reads the third part as `encodedSignature`,
+5. it rebuilds the exact signing input as `encodedHeader + "." + encodedPayload`,
+6. it computes the expected SHA-256 hash of that signing input,
+7. it uses the RSA public key to verify that `encodedSignature` is a valid signature for that hash.
+​
+Short version:
+​
+- it recomputes the hash from the literal string `encodedHeader + "." + encodedPayload`,
+- then it uses the public key to verify that the signature matches that hash.
+​
+If even one byte changes in the encoded header or encoded payload, the rebuilt signing input changes, the hash changes, and signature verification fails.
 ​
 Important note:
 ​
@@ -516,6 +589,20 @@ const payload = jwt.verify(token, publicKeyPem, {
   clockTolerance: 120
 });
 ```
+​
+How signing and validation work conceptually in Node.js:
+​
+1. the library serializes header and payload,
+2. Base64Url-encodes them,
+3. builds the literal signing input `encodedHeader + "." + encodedPayload`,
+4. computes the SHA-256 hash of that signing input,
+5. signs that hash with the RSA private key when calling `jwt.sign(...)`,
+6. verifies that signature with the RSA public key when calling `jwt.verify(...)`.
+​
+Short version:
+​
+- `jwt.sign(...)` hashes `encodedHeader + "." + encodedPayload` and signs that hash with the private key,
+- `jwt.verify(...)` rebuilds the same `encodedHeader + "." + encodedPayload`, recomputes the hash, and uses the public key to verify the signature.
 ​
 The critical line is:
 ​

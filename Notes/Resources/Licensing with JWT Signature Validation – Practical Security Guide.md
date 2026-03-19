@@ -10,19 +10,20 @@ tags:
 ---
 ## Notes
 
+### A. General concept
 #### 1. Core Concept
 A JWT has three parts:
-```
+```id="7gd3re"
 header.payload.signature
 ```
 - The **signature is created using the issuer’s private key**.
 - The **client verifies it using the corresponding public key**.
 With RSA (e.g. RS256):
-```
+```id="1u9opt"
 signature = Sign(hash(header.payload), privateKey)
 ```
 Verification:
-```
+```id="ly275z"
 isValid = Verify(hash(header.payload), signature, publicKey)
 ```
 Key point:
@@ -53,9 +54,7 @@ This model does NOT protect against:
 
 ---
 #### 4. Critical Security Rule
-
 > The JWT header is **untrusted input** until the signature is verified.
-
 Never allow the token to dictate how it should be validated.
 
 ---
@@ -115,7 +114,6 @@ A correct validator must:
 #### 7. Correct Mental Model
 Wrong:
 > “Read `alg` from token and adapt validation accordingly.”
-
 Correct:
 > “I define the validation rules. The token must conform or be rejected.”
 
@@ -140,6 +138,108 @@ Risk areas:
     - allowing algorithm switching,
     - accepting unsigned tokens.
 If validation is strict and deterministic, the model is cryptographically sound.
+
+---
+### B. Keycloak Offline Validation (JWKS-based)
+#### 1. Core Model
+With Keycloak:
+1. Tokens are **signed JWTs (JWS)** issued by the realm.
+2. Your API does **local validation** using public keys.
+3. Public keys are retrieved from the realm JWKS endpoint:
+```
+/realms/{realm}/protocol/openid-connect/certs
+```
+This follows the same principle:
+- private key (Keycloak) → sign
+- public key (API) → verify
+
+---
+#### 2. Validation Flow
+Typical offline validation flow:
+1. Fetch JWKS (public keys) from Keycloak.
+2. Cache keys locally.
+3. For each incoming token:
+    - read `kid` from header
+    - select matching key
+    - verify signature
+    - validate:
+        - issuer (`iss`)
+        - audience (`aud`)
+        - expiration (`exp`)
+        - optionally `nbf`
+
+---
+#### 3. Key Rotation Handling
+Keycloak may expose **multiple active keys**.
+Correct handling:
+1. Match token `kid` → correct key
+2. If `kid` not found:
+    - refresh JWKS immediately
+3. Periodically refresh JWKS (e.g. every few hours)
+4. Keep old keys for overlap window
+
+---
+#### 4. Offline vs Online Validation
+Two distinct models:
+1. **Offline (local) validation**
+    - signature + claims
+    - no network call per request
+    - fast, scalable
+2. **Online validation (introspection)**
+    - call Keycloak endpoint
+    - checks token “active” state
+    - slower, but aware of revocation
+Do not confuse them.
+
+---
+#### 5. Limitations of Offline Validation
+Offline validation does NOT detect:
+1. Logout / session termination
+2. Token revocation
+3. Disabled users / clients
+4. Immediate policy changes
+Mitigation strategies:
+5. Short token lifetime
+6. Hybrid model (offline + occasional introspection)
+7. Refresh tokens instead of long-lived access tokens
+
+---
+#### 6. Token Type Considerations
+Keycloak may issue different token variants.
+Important:
+- Ensure you receive **full JWT access tokens with required claims**
+- Lightweight tokens may require introspection instead of local validation
+
+---
+#### 7. Security Requirements
+For secure Keycloak offline validation:
+1. Enforce issuer (`iss`)
+2. Enforce audience (`aud`)
+3. Validate lifetime (`exp`, `nbf`)
+4. Verify signature using JWKS
+5. Enforce allowed algorithms (e.g. RS256)
+6. Do not trust token header before verification
+
+---
+#### 8. When to Use This Approach
+Appropriate when:
+1. High performance required
+2. Low latency APIs
+3. Reduced dependency on IdP availability
+4. Standard resource-server architecture
+Not sufficient when:
+5. Real-time revocation is required
+6. Strong session control is needed
+7. Security policy changes must apply immediately
+
+---
+#### 9. Summary
+- Keycloak offline validation is a **standard JWS verification flow using JWKS**.
+- It is cryptographically sound and widely used.
+- Its main trade-off is lack of real-time state awareness.
+- Proper key management and strict validation rules are essential.
+
+---
 
 For further info and examples check:
 [[JWT Issuance And Validation Guide]]
