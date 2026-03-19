@@ -9,7 +9,7 @@ author:
 description: This page details how a helpful assistant processes user prompts, focusing on JSON output formatting, key-value pairs, and Markdown string values, ensuring concise and accurate responses per instructions.
 tags:
   - topic/databases
-  - tech/mongo
+  - tech/MongoDB
 ---
 [Docs Home](https://www.mongodb.com/docs/)
 [Management](https://www.mongodb.com/docs/management)

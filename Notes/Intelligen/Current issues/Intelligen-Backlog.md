@@ -11,7 +11,7 @@ product: ScpCloud
 
 ### 25/2/2026
 
-- [ ] Implement tooltip @Gantt app
+- [x] Implement tooltip @Gantt app
 - [ ] Replace NewtonsoftJson in tests with System.Text.Json
 - [ ] ==Create a mechanism to guarantee that we did not forget to add an entity into import/export service==
 - [ ] Bug in production chart view?
@@ -21,19 +21,16 @@ product: ScpCloud
       ![[intelligen-Backlog-image-8.png|538x315]]
 - [ ] Require attention code in some cases according to setting
       ![[intelligen-Backlog-image-6.png|481x357]]
-- [ ] Find a way to display the original start only from the first sync
+- [ ] Find a way to display the original start only from the first sync ==@Zlate==
       ![[intelligen-Backlog-image-5.png|409x301]]
-- [ ] [ ] Labor chart in production
+- [x] Labor chart in production
       Include in the tracking update, the OperationEntry labor resources
       ![[Notes/Intelligen/assets/Current issues/Intelligen-Backlog/intelligen-Backlog-image-1.png|628]]
       
-      ![[intelligen-Backlog-image-1.png|423x349]]
-      ![[intelligen-Backlog-image-3.png|472x411]]
-      Moving chart of resources to production
+- [ ] Moving chart of resources to production
       We need to add resource info when sending batches to production
 - [ ] Sync, update most of operations but some of them may be not confirmed and the if they are in the past they stay unspecified
       Give the opportunity to mark an entire batch as completed or set the batch state which will check current time and operations start and then mark them appropriately as completed, started, upcoming
-- [ ] Recalculate labor person hours when the duration of an operation entry changes
 - [ ] Maybe allow operation entry consumables edit when schedule is sent in production
 - [ ] Bug where Recipe lost from Campaign in scheduling board home view. Look at the query cache for problems.
       When we read the sb we probably do not read the recipe and write it into the cache.
@@ -46,7 +43,7 @@ product: ScpCloud
 - [x] [[535-Scheduling-Horizon]] 
 - [ ] Update the tool tip
       ![[Intelligen-Backlog-1772028170729.png]]
-- [ ] Test locally DocumentDB in place of Mongo
+- [x] Test locally DocumentDB in place of Mongo
 - [x] Backup MongoDB on Azure shared volume
       Will not do, we will go with managed service and documentDB
 - [ ] Zoom στο browser και εμφάνιση εφαρμογής σε laptops της Hovione
@@ -55,15 +52,13 @@ product: ScpCloud
       RecipeClassification -\> RecipeAttribute
       RecipyType -\> RecipeAttributeValue
  
-- [ ] Library show tooltip (component)  
+- [x] Library show tooltip (component)  
 - [ ] Shifts display
 
 ![Exported image](Intelligen-Backlog-20260218%202.png)
 
-- [ ] Procedure name must have a value since we are in production operation entry modal
-
-
-![Exported image](Intelligen-Backlog-20260218%204.png)  
+- [x] Procedure name must have a value since we are in production operation entry modal
+![Exported image|590](Intelligen-Backlog-20260218%204.png)  
 
 - [ ] Add comments in production operations columns
 
@@ -106,9 +101,6 @@ product: ScpCloud
 	- Round duration time to 1 sec or 1 minute
 	- Na mporoyme na ksexorisoyme bars poy exoyn pano toys update mallon me kapoio border?
 
-- [ ] 192.168.56.1 host.docker.internal
-	192.168.56.1 gateway.docker.internal
-	127.0.0.1    kubernetes.docker.internal
 - [x] Να βάλουμε σύντομα το renaming στο πρόγραμμα.
 	Έχουμε τις παρακάτω περιπτώσεις
 	 - Sync from planning to production

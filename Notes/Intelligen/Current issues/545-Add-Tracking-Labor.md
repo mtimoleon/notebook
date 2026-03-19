@@ -15,18 +15,22 @@ Currently when an operator updates labor amount from 2 person hours to 4 person 
 [[Tracking updates]]
 [[Operation Entry tracking update]]
 
-- [ ] Add OperationEntryLaborTracking class
-- [ ] When syncing need to sync the trackingLabor also so it is visible in production app
-- [ ] When applying the update need to add operation entry labor update from tracking
+- [x] Add OperationEntryLaborTracking class
+- [x] When syncing need to sync the trackingLabor also so it is visible in production app
+- [x] When applying the update need to add operation entry labor update from tracking
 
-
-
+- [ ] Nullable LastUpdatedAt kai sta 2 tracking updates
+- [ ] Na mpei User sto Labor tracking update
+- [ ] Remove concurrency token from config of operation entry labor tracking update, see inside operation entry config
+- [ ] ![[545-Add-Tracking-Labor-1773830616609.png|510]]
+- [ ] Na pane mesa sto set
+![[545-Add-Tracking-Labor-1773833186093.png]]
 ## Notes
 Tracking labor uses
 
 - [x] otan allazei to duration toy operation entry prepei na allazei kai to finalAmount
 - [x] OperationEntryLaborTrackingUpdate παρόμοιο 
-- [ ] Otan allazei to tracking duration toy operation entry, Δες operationEntry SetResources , UpdateTrackingTiming
+- [x] Otan allazei to tracking duration toy operation entry, Δες operationEntry SetResources , UpdateTrackingTiming
 
 
 OperationEntryLaborTrackingUpdate m;esa sto OperationEntry
@@ -114,6 +118,6 @@ Tα σημεία παρέμβασης είναι αυτά:
 - Functional test: apply => planning labor final amount updated, αν αυτό είναι το rule.
 - Functional test: revert => tracked labor ξαναγίνεται ίσο με planning.
 - Functional test: sync/republish => production tracking payload έχει σωστό labor amount.
-Αν θες, μπορώ να σου βγάλω μετά ένα πιο στενό checklist “minimum implementation first” για να το βάλεις σε 2 φάσεις.
+
 
 ## Links

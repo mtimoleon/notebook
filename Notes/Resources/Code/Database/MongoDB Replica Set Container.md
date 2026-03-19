@@ -9,7 +9,7 @@ author:
   - "[[ChatGPT]]"
 tags:
   - topic/conversations/gpt
-  - tech/mongo
+  - tech/MongoDB
   - tech/containers
   - topic/code
 ---

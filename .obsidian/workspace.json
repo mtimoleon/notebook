@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
+                "file": "Notes/Intelligen/Completed issues/MongoDb-backup-in-container.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,7 +54,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Intelligen-Backlog"
+              "title": "MongoDb-backup-in-container"
             }
           },
           {
@@ -84,12 +84,12 @@
             }
           },
           {
-            "id": "21d51d4ea2b86572",
+            "id": "2c0f816149282de8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md",
+                "file": "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -104,16 +104,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vehicle registered abroad  Official website for the Crit'Air sticker"
+              "title": "12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr"
             }
           },
           {
-            "id": "ff3b00e525c4a148",
+            "id": "4066bd0bb8d82f01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md",
+                "file": "Notes/Resources/JWT Issuance And Validation Guide.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -128,7 +128,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vehicle registered abroad  Official website for the Crit'Air sticker"
+              "title": "JWT Issuance And Validation Guide"
             }
           }
         ],
@@ -164,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#issues/intelligen",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -185,7 +185,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -198,7 +199,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 36.337209302325576,
+        "dimension": 25.290697674418606,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -206,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md",
+                "file": "Notes/Resources/JWT Issuance And Validation Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +217,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Vehicle registered abroad  Official website for the Crit'Air sticker"
+              "title": "Backlinks for JWT Issuance And Validation Guide"
             }
           },
           {
@@ -242,7 +243,7 @@
                 "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": "Gantt"
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -256,7 +257,7 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "showSearch": true,
-                "searchQuery": ""
+                "searchQuery": "mongo"
               },
               "icon": "lucide-archive",
               "title": "All properties"
@@ -275,12 +276,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 26.744186046511626,
+        "dimension": 37.7906976744186,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -288,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md",
+                "file": "Notes/Resources/JWT Issuance And Validation Guide.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Vehicle registered abroad  Official website for the Crit'Air sticker"
+              "title": "Outline of JWT Issuance And Validation Guide"
             }
           }
         ]
@@ -348,41 +349,44 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "ff3b00e525c4a148",
+  "active": "4a8b8a265069ca66",
   "lastOpenFiles": [
+    "Notes/Resources/Licensing with JWT Signature Validation – Practical Security Guide.md",
+    "Notes/Resources/JWT Issuance And Validation Guide.md",
+    "Notes/Intelligen/Documentation/Generic/User Handling and Workspace Creation Documentation.md",
+    "Notes/Intelligen/Current issues/545-Add-Tracking-Labor.md",
+    "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
+    "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773833186093.png",
+    "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773830616609.png",
+    "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor",
+    "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
+    "Notes/Home/C3/C3.md",
+    "Notes/Home/C3/Υαλοκαθαριστήρες.md",
+    "Notes/Home/C3/Λάμπες.md",
+    "Notes/Home/C3/Διάφορα.md",
+    "Notes/Home/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού.md",
+    "Notes/Home/C3/Xenon.md",
+    "Notes/Home/C3/Service.md",
+    "Notes/Home/C3/22-1-2025 2100.md",
+    "Notes/Resources/Code/MongoDB massive delete databases.md",
+    "Notes/Intelligen/Completed issues/MongoDb-backup-in-container.md",
+    "Notes/Intelligen/Current issues/544-Rename-TimingStatus-to-CompletionStatus.md",
+    "Notes/Intelligen/Current issues/Update DocumentDB documents from shell.md",
+    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
+    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+    "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md",
     "Notes/Home/Αλέξανδρος/Κατοικία.md",
     "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/Κάτοικος εξωτερικού.md",
     "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/Μεταφορά φορολογικής κατοικίας.md",
     "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/CLAIM_OTHERCOUNTRIES.pdf.md",
     "Notes/Home/Αλέξανδρος/Πληρωμή Idealis.md",
-    "Notes/Home/Αλέξανδρος/Wageningen-payments.md",
-    "Notes/Home/Αλέξανδρος/Coding-projects.md",
-    "Notes/Home/Αλέξανδρος/ACS.md",
-    "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
-    "Current/2026-scratch-pad.md",
-    "Clippings/Registration Confirmation Page Non Compliant  Low Emission Zone.md",
-    "Clippings/Bestellvorgang Bestätigung.md",
-    "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md",
-    "Clippings/Ihr Warenkorb.md",
-    "Notes/Intelligen/Current issues/545-Add-Tracking-Labor.md",
-    "Notes/Home/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού.md",
     "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316 2.pdf",
     "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316 1.pdf",
     "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316.pdf",
     "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού",
-    "Notes/Home/C3/Service.md",
-    "Notes/Home/C3/Υαλοκαθαριστήρες.md",
-    "Notes/Home/C3/Διάφορα.md",
-    "Notes/Home/C3/22-1-2025 2100.md",
-    "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
-    "Notes/Intelligen/Documentation/Tracking updates.md",
-    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Notes/Intelligen/Completed issues/536-Replace-MongoDB-with-DocumentDB.md",
-    "Notes/Resources/Azure DocumentDB Notes.md",
     "Notes/Resources/assets/Azure DocumentDB Notes",
     "Notes/Intelligen/assets/Completed issues/536-Replace-MongoDB-with-DocumentDB",
     "Notes/Intelligen/assets/Current issues/536-Replace-MongoDB-with-DocumentDB/536-Replace-MongoDB-with-DocumentDB-1773650025375.png",
-    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
     "Current/assets/2026-scratch-pad/2026-scratch-pad-1773392283780.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773318667345.png",
     "Notes/Intelligen/Current issues/Aggregate-verification",
@@ -392,10 +396,7 @@
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229486796.png",
     "Notes/Intelligen/assets/Completed issues/542-Copy-operation-to-procedure/542-Copy-operation-to-procedure-20260312.png",
     "Notes/Intelligen/assets/Completed issues/542-Copy-operation-to-procedure/542-Copy-operation-to-procedure-20260312 1.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773068864558.png",
-    "Notes/Intelligen/assets/Current issues/542-Copy-operation-to-procedure/542-Copy-operation-to-procedure-1773068542853.png",
     "Notes/Intelligen/assets/Current issues/542-Copy-operation-to-procedure",
-    "Notes/Auth/assets/assets/Projects/Panel Management/Consents/e-Consent-Panel bridge/Drawing 2026-03-05 21.10.01.excalidraw",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

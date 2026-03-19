@@ -12,7 +12,11 @@ tags:
 
 ![[Intelligen-Notes-1773318667345.png|719]]
 
-
+ 
+> [!IINFO] Docker
+> 192.168.56.1 host.docker.internal
+> ​192.168.56.1 gateway.docker.internal
+> ​127.0.0.1 kubernetes.docker.internal
 
 ~~[ipereira@hovione.com](mailto:ipereira@hovione.com) operator 79eb3abe-d61e-472c-886b-1665f7d8dcbe
 ​[rbento@hovione.com](mailto:rbento@hovione.com) operator 64b414a7-0dda-44c5-b93d-2b818746b7a4~~

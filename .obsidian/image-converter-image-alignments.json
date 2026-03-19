@@ -1153,6 +1153,24 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "70e2c41c29ea4425e54a1cc28308f2c4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "19b8184cddf47fd7baad9dbc28e30022": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c86b990f87d77a28783d6a3b21126840": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Intelligen/Completed issues/MongoDb-backup-in-container.md": {
@@ -3427,6 +3445,18 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "4c134fbfc84d3c0000acaf899f9b8345": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4200988c994ccfff92998625fcc43625": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/C3/Service.md": {
@@ -3497,6 +3527,12 @@
       "wrap": false
     },
     "aeb1e2aba7ba0da251d1bc72982552a1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1220cba8bfebb6bd9b071df2b9d74995": {
       "position": "left",
       "width": "",
       "height": "",
@@ -4597,6 +4633,48 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "7d24598f09bfd7f9b147c568abfeb2bf": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "acceab9140ab3533f7a293b46d81f923": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "aa2bb9537220bfd1c50503f423035afb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ab16b74fac366b0874349590af4d6b68": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "958a40e55abd482ec2c6500ffd7edb63": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d164bfb46e02956925ab20d139a16580": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "999914d7574a4e4761ec2e692e0f3899": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Intelligen/Documentation/Tracking updates documentation.md": {
@@ -4975,6 +5053,102 @@
   },
   "Notes/Home/Αλέξανδρος/Κατοικία.md": {
     "cb3af22b2a0ec21ea36a8339973aa281": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Current issues/Update DocumentDB documents from shell.md": {
+    "cac3436d975e78265eb7ccd3fdefe76e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/C3/Xenon.md": {
+    "80aaa60a07f1f9f290fba677c3c928ad": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fc45223ac36d2e518b2950f4c82e5cf6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a765a9123d4962d0bc7a2ad2252bcdbe": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/C3/Λάμπες.md": {
+    "a965f0d5ac712b2cecb862ccf4b0f863": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md": {
+    "d8447ca05e57cf50e83162d540d144a3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "90f9cfb2b1881003b11519e76d436c25": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b51364558b9c79b107d0980cfa3e4eba": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Resources/Licensing with JWT Signature Validation – Practical Security Guide.md": {
+    "524e32c2cc08ef420be0e5f50b1f6724": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5173408a09ef3ef2ed66e3d5719e6efd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e93aa3c5376da92d95382f6fe3a67417": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Resources/JWT Issuance And Validation Guide.md": {
+    "5f79fe37f49aa10a469947c852945eb2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "0ceb740143d5213169282e651f449875": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "79c7efa9294eb28cfe12253ccf1f9387": {
       "position": "left",
       "width": "",
       "height": "",
