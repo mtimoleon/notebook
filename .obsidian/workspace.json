@@ -82,33 +82,9 @@
               "icon": "lucide-file",
               "title": "Operation Entry tracking update"
             }
-          },
-          {
-            "id": "2c0f816149282de8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Resources/Licensing with JWT Signature Validation – Practical Security Guide.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Licensing with JWT Signature Validation – Practical Security Guide"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Resources/Licensing with JWT Signature Validation – Practical Security Guide.md",
+                "file": "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +168,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Licensing with JWT Signature Validation – Practical Security Guide"
+              "title": "Backlinks for Operation Entry tracking update"
             }
           },
           {
@@ -264,13 +240,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Resources/Licensing with JWT Signature Validation – Practical Security Guide.md",
+                "file": "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Licensing with JWT Signature Validation – Practical Security Guide"
+              "title": "Outline of Operation Entry tracking update"
             }
           }
         ]
@@ -324,17 +300,23 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "2c0f816149282de8",
+  "active": "c696481f68867f6d",
   "lastOpenFiles": [
+    "Notes/Home/Vodafone eSim QR code.md",
+    "Notes/Home/assets/Vodafone eSim QR code/Vodafone eSim QR code-1773992761050.png",
+    "Notes/Home/assets/Vodafone eSim QR code",
+    "Current/2026-scratch-pad.md",
+    "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
+    "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
+    "Current/News Digest.md",
     "Notes/Resources/JWT Issuance And Validation Guide.md",
-    "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
     "Notes/Resources/Licensing with JWT Signature Validation – Practical Security Guide.md",
+    "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
     "Notes/Intelligen/Documentation/Generic/User Handling and Workspace Creation Documentation.md",
     "Notes/Intelligen/Current issues/545-Add-Tracking-Labor.md",
     "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773833186093.png",
     "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773830616609.png",
     "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor",
-    "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
     "Notes/Home/C3/C3.md",
     "Notes/Home/C3/Υαλοκαθαριστήρες.md",
     "Notes/Home/C3/Λάμπες.md",
@@ -350,11 +332,6 @@
     "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
     "Notes/Intelligen/Current issues/Intelligen-Notes.md",
     "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md",
-    "Notes/Home/Αλέξανδρος/Κατοικία.md",
-    "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/Κάτοικος εξωτερικού.md",
-    "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/Μεταφορά φορολογικής κατοικίας.md",
-    "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/CLAIM_OTHERCOUNTRIES.pdf.md",
-    "Notes/Home/Αλέξανδρος/Πληρωμή Idealis.md",
     "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316 2.pdf",
     "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316 1.pdf",
     "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316.pdf",
@@ -370,8 +347,6 @@
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229564716.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229486796.png",
     "Notes/Intelligen/assets/Completed issues/542-Copy-operation-to-procedure/542-Copy-operation-to-procedure-20260312.png",
-    "Notes/Intelligen/assets/Completed issues/542-Copy-operation-to-procedure/542-Copy-operation-to-procedure-20260312 1.png",
-    "Notes/Intelligen/assets/Current issues/542-Copy-operation-to-procedure",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"
