@@ -4,42 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f4c38b3f6d3e7d98",
+        "id": "42691063c9e47135",
         "type": "tabs",
         "children": [
           {
-            "id": "83807cdf9453819e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Intelligen/Current issues/545-Add-Tracking-Labor.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "545-Add-Tracking-Labor"
-            }
-          },
-          {
-            "id": "93e07c7fadb16e0f",
+            "id": "af6eedfea224bd50",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Completed issues/MongoDb-backup-in-container.md",
+                "file": "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,37 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MongoDb-backup-in-container"
-            }
-          },
-          {
-            "id": "c696481f68867f6d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Operation Entry tracking update"
+              "title": "Κρατήσεις-συγκεντρωτικό"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +51,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -116,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#issues/intelligen",
+                "query": "[\"type\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -150,7 +97,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 25.290697674418606,
+        "dimension": 41.86046511627907,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -158,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
+                "file": "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Operation Entry tracking update"
+              "title": "Backlinks for Κρατήσεις-συγκεντρωτικό"
             }
           },
           {
@@ -208,7 +155,7 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "showSearch": true,
-                "searchQuery": "mongo"
+                "searchQuery": ""
               },
               "icon": "lucide-archive",
               "title": "All properties"
@@ -232,7 +179,7 @@
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 37.7906976744186,
+        "dimension": 21.22093023255814,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -240,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
+                "file": "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Operation Entry tracking update"
+              "title": "Outline of Κρατήσεις-συγκεντρωτικό"
             }
           }
         ]
@@ -300,20 +247,29 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "c696481f68867f6d",
+  "active": "af6eedfea224bd50",
   "lastOpenFiles": [
+    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Paris.md",
+    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md",
+    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Untitled.md",
+    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/St. Polten.md",
+    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Szeged.md",
+    "Notes/Intelligen/Current issues/545-Add-Tracking-Labor.md",
+    "Notes/Resources/Επίσημα templates Obsidian.md",
+    "Notes/Resources/Docker port bind error.md",
+    "Notes/Resources/Update DocumentDB documents from shell.md",
+    "Notes/Intelligen/Completed issues/544-Rename-TimingStatus-to-CompletionStatus.md",
+    "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
     "Notes/Home/Vodafone eSim QR code.md",
     "Notes/Home/assets/Vodafone eSim QR code/Vodafone eSim QR code-1773992761050.png",
     "Notes/Home/assets/Vodafone eSim QR code",
     "Current/2026-scratch-pad.md",
-    "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
     "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
     "Current/News Digest.md",
     "Notes/Resources/JWT Issuance And Validation Guide.md",
     "Notes/Resources/Licensing with JWT Signature Validation – Practical Security Guide.md",
     "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
     "Notes/Intelligen/Documentation/Generic/User Handling and Workspace Creation Documentation.md",
-    "Notes/Intelligen/Current issues/545-Add-Tracking-Labor.md",
     "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773833186093.png",
     "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773830616609.png",
     "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor",
@@ -324,14 +280,6 @@
     "Notes/Home/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού.md",
     "Notes/Home/C3/Xenon.md",
     "Notes/Home/C3/Service.md",
-    "Notes/Home/C3/22-1-2025 2100.md",
-    "Notes/Resources/Code/MongoDB massive delete databases.md",
-    "Notes/Intelligen/Completed issues/MongoDb-backup-in-container.md",
-    "Notes/Intelligen/Current issues/544-Rename-TimingStatus-to-CompletionStatus.md",
-    "Notes/Intelligen/Current issues/Update DocumentDB documents from shell.md",
-    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
-    "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md",
     "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316 2.pdf",
     "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316 1.pdf",
     "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316.pdf",

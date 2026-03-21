@@ -2435,6 +2435,36 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "7c310304becf25e7fdeba1168c885e3d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2a1ed74da255494464e03d283205573c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "0d7294fdeea182c12f3cf889f119c66e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4601ca3a3f7c21a8a2c96deaca606163": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4ad9ebe8b1e45ae94691bd37b2c45274": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Games/QUERN.md": {
@@ -5101,14 +5131,6 @@
       "wrap": false
     }
   },
-  "Notes/Intelligen/Current issues/Update DocumentDB documents from shell.md": {
-    "cac3436d975e78265eb7ccd3fdefe76e": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Notes/Home/C3/Xenon.md": {
     "80aaa60a07f1f9f290fba677c3c928ad": {
       "position": "left",
@@ -5243,6 +5265,106 @@
       "wrap": false
     },
     "020e9f85dff94b4e74d15d0b22eb9d48": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Completed issues/544-Rename-TimingStatus-to-CompletionStatus.md": {
+    "114265c84b1ea97efbbe7aa05c7f0ff1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "46b132880dfe088be408d3771bd2484b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Resources/Update DocumentDB documents from shell.md": {
+    "9dcabc43f64f06ff6ba571bedce889fd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "62fc80d5190ca125be9773a7bd6e72a7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "babbf9c9062c67982e80bafb21cb964a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Resources/Docker port bind error.md": {
+    "09e2cb5c41658dd006c58ea56fa7e532": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d0355c62ac1cb4519fc3f6c4e2a55fd7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "26bc37b708ec9ce19c958ff241033880": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Resources/Επίσημα templates Obsidian.md": {
+    "b97afca76a087098aa153b83151abf77": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "3bb0dc61aa4bb6dd4cacc7d3b86c4a50": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "64744babcbec065c371f200a72cadaf4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Paris.md": {
+    "53fa39d2319b5c8359353e11fd5b231a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f9a463eb2ada82e04b8d29c3f2603198": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2140783f591e9d6f799d7074a4110c20": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "738e369d01fcba5affd909614a1577bb": {
       "position": "left",
       "width": "",
       "height": "",
