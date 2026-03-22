@@ -8,8 +8,61 @@
         "type": "tabs",
         "children": [
           {
-            "id": "af6eedfea224bd50",
+            "id": "27354cb1fce37c4f",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Belgrade.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Belgrade"
+            }
+          },
+          {
+            "id": "76ce932bf7bc7638",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Vienna.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Vienna"
+            }
+          },
+          {
+            "id": "fea5eb9ffc0b6f47",
+            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -27,11 +80,63 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Κρατήσεις-συγκεντρωτικό"
             }
+          },
+          {
+            "id": "bbd304d40eb33c20",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Nuremberg.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Nuremberg"
+            }
+          },
+          {
+            "id": "cfc9ae5760ef0f65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Paris.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Paris"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -247,13 +352,31 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "af6eedfea224bd50",
+  "active": "fea5eb9ffc0b6f47",
   "lastOpenFiles": [
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Paris.md",
+    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Nuremberg.md",
     "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Untitled.md",
+    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Paris.md",
+    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Belgrade.md",
+    "Notes/Home/assets/Ταξίδι/Ημερολόγιο/Drawing 2026-03-04 22.28.15.excalidraw.md",
+    "Notes/Home/Ταξίδι/Paris/Αξιοθέατα.md",
+    "Notes/Home/assets/Ταξίδι/Paris/Αξιοθέατα",
+    "Notes/Home/assets/Ταξίδι/Paris/Αξιοθέατα/Αξιοθέατα-20260322.html",
+    "Notes/Home/assets/Ταξίδι/Paris/Untitled",
+    "Notes/Home/assets/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Nuremberg",
+    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Vienna.md",
+    "Notes/Home/assets/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Nuremberg/Nuremberg-20260322.pdf",
+    "Notes/Home/assets/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Nurenmberg",
+    "Notes/Home/assets/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Vienna/Vienna-20260321.pdf",
+    "Notes/Home/assets/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Vienna",
+    "Notes/Home/Ταξίδι/Αρχικό/27-4 Vienna.md",
+    "Notes/Home/Ταξίδι/Αρχικό/15-5 Vienna.md",
+    "Notes/Home/assets/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Belgrade/Belgrade-20260321.pdf",
+    "Notes/Home/assets/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Belgrade",
+    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Nis.md",
     "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/St. Polten.md",
     "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Szeged.md",
+    "Notes/Home/Ταξίδι/Ημερολόγιο.md",
     "Notes/Intelligen/Current issues/545-Add-Tracking-Labor.md",
     "Notes/Resources/Επίσημα templates Obsidian.md",
     "Notes/Resources/Docker port bind error.md",
@@ -262,35 +385,16 @@
     "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
     "Notes/Home/Vodafone eSim QR code.md",
     "Notes/Home/assets/Vodafone eSim QR code/Vodafone eSim QR code-1773992761050.png",
-    "Notes/Home/assets/Vodafone eSim QR code",
     "Current/2026-scratch-pad.md",
     "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
     "Current/News Digest.md",
     "Notes/Resources/JWT Issuance And Validation Guide.md",
     "Notes/Resources/Licensing with JWT Signature Validation – Practical Security Guide.md",
-    "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
-    "Notes/Intelligen/Documentation/Generic/User Handling and Workspace Creation Documentation.md",
     "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773833186093.png",
     "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773830616609.png",
-    "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor",
-    "Notes/Home/C3/C3.md",
-    "Notes/Home/C3/Υαλοκαθαριστήρες.md",
-    "Notes/Home/C3/Λάμπες.md",
-    "Notes/Home/C3/Διάφορα.md",
-    "Notes/Home/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού.md",
-    "Notes/Home/C3/Xenon.md",
-    "Notes/Home/C3/Service.md",
-    "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316 2.pdf",
-    "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316 1.pdf",
-    "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού-20260316.pdf",
-    "Notes/Home/assets/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού",
-    "Notes/Resources/assets/Azure DocumentDB Notes",
-    "Notes/Intelligen/assets/Completed issues/536-Replace-MongoDB-with-DocumentDB",
     "Notes/Intelligen/assets/Current issues/536-Replace-MongoDB-with-DocumentDB/536-Replace-MongoDB-with-DocumentDB-1773650025375.png",
     "Current/assets/2026-scratch-pad/2026-scratch-pad-1773392283780.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773318667345.png",
-    "Notes/Intelligen/Current issues/Aggregate-verification",
-    "Notes/Intelligen/assets/Completed issues/542-Copy-operation-to-procedure",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229680588.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229564716.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229486796.png",
