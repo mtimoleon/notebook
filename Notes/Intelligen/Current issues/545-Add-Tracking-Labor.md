@@ -41,6 +41,8 @@ SetResources in OperationEntry
 SetTrackingResources
 ==SetTrackingDuration==
 
+- [x] In line 160 use a method to compute the value for mapping
+	![[545-Add-Tracking-Labor-1774262904478.png|318]]
 
 Tα σημεία παρέμβασης είναι αυτά:
 **Domain**

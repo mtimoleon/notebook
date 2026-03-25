@@ -4,7 +4,7 @@ categories:
 created: 2026-03-17
 product: ScpCloud
 component: DocumentDB
-status: open
+status: completed
 tags:
   - issues/intelligen
 ---

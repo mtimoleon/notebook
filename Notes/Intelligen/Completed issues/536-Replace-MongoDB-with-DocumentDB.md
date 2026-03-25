@@ -2,9 +2,9 @@
 categories:
   - "[[Work]]"
 created: 2026-02-19
-product:
+product: ScpCloud
 component: DocumentDB
-status: open
+status: completed
 tags:
   - issues/intelligen
   - documentation/intelligen

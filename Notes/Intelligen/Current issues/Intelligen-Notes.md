@@ -10,6 +10,12 @@ tags:
 
 
 
+TimingInfoType = Planning/Tracking/Original
+And then we need to implement OriginalAuxiliaryEquipment/Staff in OperationEntry
+And then we need to change the scheduling algorithm to take the original
+
+
+
 ![[Intelligen-Notes-1773318667345.png|719]]
 
  
