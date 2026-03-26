@@ -8,6 +8,7 @@ component:
 tags:
   - documentation/intelligen
   - topic/code
+  - topic/business-logic
 ---
 ## Summary
 Documentation about tracking updates in production and planning app.

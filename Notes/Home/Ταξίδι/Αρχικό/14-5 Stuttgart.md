@@ -1,5 +1,0 @@
----
-created: 2026-02-14
----
-
-![Exported image](Exported%20image%2020260211200122-0.png) ![Exported image](Exported%20image%2020260211200124-1.png) ![Exported image](Exported%20image%2020260211200127-2.png)

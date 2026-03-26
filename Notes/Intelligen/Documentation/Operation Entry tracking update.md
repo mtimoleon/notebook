@@ -8,6 +8,7 @@ component:
 tags:
   - documentation/intelligen
   - topic/code
+  - topic/business-logic
 ---
 
 ## Summary

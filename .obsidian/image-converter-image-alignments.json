@@ -139,6 +139,12 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "60b0cbdb33a6b9c9a94ccdfd48153d26": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-20260218 1.png": {
@@ -1669,50 +1675,6 @@
       "wrap": false
     }
   },
-  "Notes/Intelligen/Gantt/Gantt-Backlog.md": {
-    "fb4d8b76a953d5bcd02726a38a01412a": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "2b454acfba4a9950a10c0faa256a2bf6": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "60c960331d6471d5d1d1fabf6f048c04": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "235aa7d06de71147d0dfc4a253adee73": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "333e8e02e5eb20fd1cd0550849d470e1": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "1efb2c6c1107a4fc89f08a551e354c51": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "e43d116c71e894a38bfc2ffab7a45f85": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Categories/Intelligen Issues.md": {
     "370f28a6dc3be48e7093d1675b1d8958": {
       "position": "left",
@@ -1939,38 +1901,6 @@
       "wrap": false
     }
   },
-  "Notes/Intelligen/Gantt/Documentation/Scrolling flow.md": {
-    "1d4774613f81b74ffe9ed4bb9b0a8a95": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "e196df5ed34a546e08c7614552e0fc76": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "c8e8900b0082cb75733caf0b4ae1cb9e": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "8ebdb06d4a5b837cf4cf5f81a9eac3a5": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "eaf658da8e46545cfcf2d5adc8aee5de": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Excalidraw/Scripts/Downloaded/Set Grid.svg": {
     "bb68aa53264a40d2b4ba8e2ac949c118": {
       "position": "left",
@@ -2087,410 +2017,6 @@
   },
   "Notes/Intelligen/assets/Current issues/Undo/Undo-history/Drawing 2026-02-17 13.03.32.excalidraw.md": {
     "11334882f31b05d27ee872615fbfe879": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Λίστες/Λεπτομερής Λίστα Ελέγχου Αυτοκινήτου – 7 Ημέρες Πριν.md": {
-    "3be8dbbdb2bf519b5af51537057bbdc5": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "1e47bdd1af15a13c00f8784b469c0434": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "a194f1fc3ca538ec38b2868753048866": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "cae233688dd4b71f1fe2e34d9f222ce8": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "be9dd51ba73910173471857073af32c3": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "ed615d683e412d81fd43909223254190": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md": {
-    "cec23178204de028e618928c3ea6e6e6": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "34e3beb82c0aa53c01d783d189ad0311": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "c3be5c1825133cfbd1e2ff483f5629d1": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7a65d777f3b0ba61648a8b5f8bb93cfa": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "378bb08e3b2cbceb45ff5479e0cfd77d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "df67d03fb69ce179d32083dcdfda2ff4": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md": {
-    "aa44b92aeb6158255a09d324aafe598b": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "71823735eed02a076497c46bd5a30eb6": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "e5d3eceebfed2a65d8d950fd72a35a75": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "fa9fb1907f2fb6b8146fb11012faba36": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "72eb8825c9d6ed5aab454cd9661f759c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "1f962e21fe100a33665bcc33432a7941": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "08c96d3886daeb37ccb0cff779c66b24": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "553d6b3620adaa6db36d99f5aed42c55": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "473db63ddb46b87d609b02d8177ed312": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "3dec68702cf500fbbd65a053557d39ab": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "d3122aba1498d9e2f93b1968296326ce": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "f7deb9d1acb67aec4f02469299f997a3": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Λίστες/Checklist – Τι Έχω Μέσα Στο Πορτμπαγκάζ.md": {
-    "155075091f0083ba9f375fb812135d2d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "47cc21836739734172521a4c0d58063c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7b82cd85df9aee00b27d2abb3ebd5cfd": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "cb1963061728e7522bbadf9fefcbcb6d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "1e488ff79391edbb6e996f67f15ffd3c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "b0ab8c98698b98a98a96bf451f0f39bd": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Λίστες/ToDo list for traveling.md": {
-    "f6c2410cc69cc0ff57caa34abc409a6c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "4efc2ac3b6e0310b8dd2bb27f2978612": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "15a9cd46be8565bbb7d039c846146713": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "d62eddcd6ac4234d6e34e93b20b21207": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "6ec29fb83ea7042d6c6e184120a008ad": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "8dd89dd4228536d9bfacd2ec793c0e72": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0577291c03d1740ac21fabfaa0c2cf3a": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "8c88308d6e2e9e522b3a8a9a0c791bb9": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7155ca86a6e5bb48081bdfec4247357b": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "f21a00c8f2f78bfa649a5a0c5a2f6aec": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "c86f85716b8ae01267392a53e7e698a4": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "daadbe0ddb34426ef637b31487aa3b79": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "f843edb89ad4f672f21839469c506edb": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Nis.md": {
-    "dc318f026fda6cc59f172c0a1679e68c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/St. Polten.md": {
-    "76ba9660f0e0abf21ea5fc6c089d69d1": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "e2ceccf7b56eb5b914a9670f7c34e872": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "dc721818a3731f7109d29199982ba60a": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "b0917033af0795671df62809b7a24356": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "9948c1d346243eec2405f739b79d2213": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Szeged.md": {
-    "fd6546b917622c9067342dcd68a93823": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "35da87131d1c43d92a36fbffad497edd": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Wurzburg.md": {
-    "6e0c0ad5db9ccd248fc3a79a567a73dd": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md": {
-    "b373940b70329e7d089724233b4e28a0": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "9753e44e07c03e538c70be66d3d7e797": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "2848204be68762dade5dd3a63f16240b": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "f38e846d9619fed19fc9ff8380c6b65d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7da9472e20e93dd31415604ae4dc5c7f": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "35fa40ca07d8b5e4f6569589de487cfc": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7c310304becf25e7fdeba1168c885e3d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "2a1ed74da255494464e03d283205573c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0d7294fdeea182c12f3cf889f119c66e": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "4601ca3a3f7c21a8a2c96deaca606163": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "4ad9ebe8b1e45ae94691bd37b2c45274": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "a8baaec6a00ffec3d16cd283885ad29e": {
       "position": "left",
       "width": "",
       "height": "",
@@ -2731,154 +2257,6 @@
       "wrap": false
     }
   },
-  "Notes/Home/Ταξίδι/Ασφάλεια-1.md": {
-    "6eb375c9779483b1010b55d387652219": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "6288f0dc88444915795dc5bf82e079e3": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "aaf15e253298782b71b50e74ce5bc771": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "db519218162f536cab033f579f2bda25": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "cbd61cbc7944cc276a4eefd81cca4e4a": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "17a6599fc24020395164e93322ffc959": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "fecfe1d238d461d2b1b2001ff6c6be9c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "4cd06589403f0db8e4b6526877958816": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "243d0ff5e58ed68a807ecdf7ee24101b": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "5cac74778455e2b194fbb71906ead1f5": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "305111d3e687e1c2fa1763543fbb2910": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "297a1082f69f8cfd9eff80072b585778": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/Ασφάλεια-2.md": {
-    "aef3a860c62be883d76404497502d58d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "5279bafa14454f94c10132dd782d0996": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "556f9ff828984e7ec0e1225163041617": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "a88dcfcf049cd531b346504025fe60fb": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "036ee0a6960c4539b8a30f6744679932": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "543590e012c69ff58107ab14edaad2b2": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "4c1f2e987a81657749415513f4471973": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "4aba3abee4fa661c046a6ba49b599441": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "c1a95cd7b1bb6d802853c61b6ac0c215": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "13805ec9eebcd15058645e9165433818": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "eb21ce063475f9f68b4c8843dcb92e3d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "014ef1b9d736cc76c949d4565f4c8f43": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Notes/Home/Ταξίδι/Διαδρομή 2.md": {
     "cdedecad37387445c7eb71f07450b227": {
       "position": "left",
@@ -2929,6 +2307,12 @@
       "wrap": false
     },
     "035baf2e494ebee2cca795fe760baee0": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8b622d9a8fa5f31435de228b491d624f": {
       "position": "left",
       "width": "",
       "height": "",
@@ -4599,6 +3983,12 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "0f503218e64e4af271174b3846acfde1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Ταξίδι/Paris/Περιοχές του Παρισιού.md": {
@@ -4629,14 +4019,6 @@
       "wrap": false
     },
     "926f060d7486d850db4ee250cbe7f214": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Intelligen/Gantt/Documentation/Create library package/The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium.md": {
-    "6f764ed1c7dec384d34325209a1bf76e": {
       "position": "left",
       "width": "",
       "height": "",
@@ -4791,20 +4173,6 @@
       "wrap": false
     },
     "d9d0d6edc69c09282cb014a8f88920e3": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Intelligen/Documentation/Tracking updates documentation.md": {
-    "737cfdaf79fadeb757e918e0e11c47fc": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "530990122bae48800cd961bd99f64925": {
       "position": "left",
       "width": "",
       "height": "",
@@ -5417,7 +4785,387 @@
       "wrap": false
     }
   },
-  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Paris.md": {
+  "Notes/Home/Ταξίδι/Furkot.md": {
+    "8db21c07cbb9bbe94e64cf075df4f4f7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "dffc4644d057225d294d25debc3057cc": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "0a36d1d036fbb4d91b097b87cacb5806": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "bf1186a198ec1dc2ddba1173a929032f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Λίστες/Checklist – Τι Έχω Μέσα Στο Πορτμπαγκάζ.md": {
+    "155075091f0083ba9f375fb812135d2d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "47cc21836739734172521a4c0d58063c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7b82cd85df9aee00b27d2abb3ebd5cfd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "cb1963061728e7522bbadf9fefcbcb6d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1e488ff79391edbb6e996f67f15ffd3c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b0ab8c98698b98a98a96bf451f0f39bd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md": {
+    "f6c2410cc69cc0ff57caa34abc409a6c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4efc2ac3b6e0310b8dd2bb27f2978612": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "15a9cd46be8565bbb7d039c846146713": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d62eddcd6ac4234d6e34e93b20b21207": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6ec29fb83ea7042d6c6e184120a008ad": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8dd89dd4228536d9bfacd2ec793c0e72": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "0577291c03d1740ac21fabfaa0c2cf3a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8c88308d6e2e9e522b3a8a9a0c791bb9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7155ca86a6e5bb48081bdfec4247357b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f21a00c8f2f78bfa649a5a0c5a2f6aec": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c86f85716b8ae01267392a53e7e698a4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "daadbe0ddb34426ef637b31487aa3b79": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f843edb89ad4f672f21839469c506edb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md": {
+    "aa44b92aeb6158255a09d324aafe598b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "71823735eed02a076497c46bd5a30eb6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e5d3eceebfed2a65d8d950fd72a35a75": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fa9fb1907f2fb6b8146fb11012faba36": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "72eb8825c9d6ed5aab454cd9661f759c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1f962e21fe100a33665bcc33432a7941": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "08c96d3886daeb37ccb0cff779c66b24": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "553d6b3620adaa6db36d99f5aed42c55": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "473db63ddb46b87d609b02d8177ed312": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "3dec68702cf500fbbd65a053557d39ab": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d3122aba1498d9e2f93b1968296326ce": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f7deb9d1acb67aec4f02469299f997a3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Λίστες/Λεπτομερής Λίστα Ελέγχου Αυτοκινήτου – 7 Ημέρες Πριν.md": {
+    "3be8dbbdb2bf519b5af51537057bbdc5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1e47bdd1af15a13c00f8784b469c0434": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a194f1fc3ca538ec38b2868753048866": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "cae233688dd4b71f1fe2e34d9f222ce8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "be9dd51ba73910173471857073af32c3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ed615d683e412d81fd43909223254190": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md": {
+    "cec23178204de028e618928c3ea6e6e6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "34e3beb82c0aa53c01d783d189ad0311": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c3be5c1825133cfbd1e2ff483f5629d1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7a65d777f3b0ba61648a8b5f8bb93cfa": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "378bb08e3b2cbceb45ff5479e0cfd77d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "df67d03fb69ce179d32083dcdfda2ff4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Διαδρομή/Θεσσαλονίκη-Ουτρέχτη.md": {
+    "82116d6bcb567d0e79c30352255735dc": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9c62a33ef133430de5b2fb2ff9d42786": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c46a8480f1ac62f309fa4e36cd3251e9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Κρατήσεις/Nis.md": {
+    "dc318f026fda6cc59f172c0a1679e68c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Κρατήσεις/Nuremberg.md": {
+    "1aff11cf4a50b33f0bf10a3345ad7b78": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9ebf798a63d11b250f2164458fec61ad": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9ae443e318c2d8013f6951e7d90012f0": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8ff6c0416400eabf99651516d1ce7ddd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Κρατήσεις/St. Polten.md": {
+    "76ba9660f0e0abf21ea5fc6c089d69d1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e2ceccf7b56eb5b914a9670f7c34e872": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "dc721818a3731f7109d29199982ba60a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b0917033af0795671df62809b7a24356": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9948c1d346243eec2405f739b79d2213": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Κρατήσεις/Paris.md": {
     "53fa39d2319b5c8359353e11fd5b231a": {
       "position": "left",
       "width": "",
@@ -5449,184 +5197,256 @@
       "wrap": false
     }
   },
-  "Notes/Home/Ταξίδι/Αρχικό/15-5 Vienna.md": {
-    "679fba10a2548b1256f5bedff97536f8": {
+  "Notes/Home/Ταξίδι/Κρατήσεις/Szeged.md": {
+    "fd6546b917622c9067342dcd68a93823": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "35da87131d1c43d92a36fbffad497edd": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     }
   },
-  "Notes/Home/Ταξίδι/Αρχικό/27-4 Vienna.md": {
-    "9b27e3f731651e2f7e1e3052610b6a13": {
+  "Notes/Home/Ταξίδι/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md": {
+    "b373940b70329e7d089724233b4e28a0": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "577e691c2551e95b52f3f66cb760b416": {
+    "9753e44e07c03e538c70be66d3d7e797": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "1c0f26bbd20bdd34a016c3ad1c02b72a": {
+    "2848204be68762dade5dd3a63f16240b": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "a6e39b88542e592b5d8759c3dcf86226": {
+    "f38e846d9619fed19fc9ff8380c6b65d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7da9472e20e93dd31415604ae4dc5c7f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "35fa40ca07d8b5e4f6569589de487cfc": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7c310304becf25e7fdeba1168c885e3d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2a1ed74da255494464e03d283205573c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "0d7294fdeea182c12f3cf889f119c66e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4601ca3a3f7c21a8a2c96deaca606163": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4ad9ebe8b1e45ae94691bd37b2c45274": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a8baaec6a00ffec3d16cd283885ad29e": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     }
   },
-  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Nuremberg.md": {
-    "1aff11cf4a50b33f0bf10a3345ad7b78": {
+  "Notes/Home/Ταξίδι/Κρατήσεις/Wurzburg.md": {
+    "6e0c0ad5db9ccd248fc3a79a567a73dd": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "9ebf798a63d11b250f2164458fec61ad": {
+    "9f624ea17577469dbe1d0a1e6a940801": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "9ae443e318c2d8013f6951e7d90012f0": {
+    "3f8e09d2cf6da9603157af0e26879542": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "8ff6c0416400eabf99651516d1ce7ddd": {
+    "071a0a28ccde9389f221711d48b743eb": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     }
   },
-  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Διαδρομή/Θεσσαλονίκη-Ουτρέχτη.md": {
-    "bd999f736b32032f74850b9e139fe3ac": {
+  "Notes/Home/Ταξίδι/Αξιοθέατα.md": {
+    "9af08889a896feb33e49bec76716e322": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "89644b077c696d8978ad5c69d04617a9": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "08a5b1e7fde6b66684a8807c0ece38a9": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "70907fea82060908c6cd3b8bae9274cc": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "9397e652e0e0f3e76826750f80814979": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "4b67847ba08912919eb43b60a12d912d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "5dfbd949cb914ce0135a9869a34f749e": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "5d67de408573d877ac2e101a318f110a": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "fdfe9eb1b0f69307d0ed3750c8947e11": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "fdfaa86a2e6bf3c64138ffd3010420c0": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "f613d7bf5252d322b26628ad7cfb724b": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "67b5c772a92afa61552d146954c11e23": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "556c29832bc4b8851dc133a39543fde9": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "ff943f22a2865e420d11ca03d4725911": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "8683fce1597e5f2d40f28f864c41aaff": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "e8a59ad997fcd6deacf5ac7af3665438": {
+    "b0792b0963ecbdf8cf2913dae31252c8": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     }
   },
-  "Notes/Home/Ταξίδι/Furkot.md": {
-    "8db21c07cbb9bbe94e64cf075df4f4f7": {
+  "Notes/Home/Ταξίδι/Lacy-MedicalBooklet_968000010032590.pdf": {
+    "6ac2315ff00e096901f849977d075012": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Πίνακας Κόστους Πλήρους Ταξιδιού.md": {
+    "dd7c911e0aae3281482fb7fe5bd81c05": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "dffc4644d057225d294d25debc3057cc": {
+    "59d5c35fe5e9d5099540ce28af1ae944": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "0a36d1d036fbb4d91b097b87cacb5806": {
+    "5c05d54aef0da925975d26f29fa12b8c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Διόδια.md": {
+    "7d5404fa27302e22bd6c7934954ac022": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Διαδρομές Goole maps.md": {
+    "7da25fbdcd64a082fe99cb0ec9cfdea6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Keycloak/Gantt/Gantt-Backlog.md": {
+    "fb4d8b76a953d5bcd02726a38a01412a": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "bf1186a198ec1dc2ddba1173a929032f": {
+    "2b454acfba4a9950a10c0faa256a2bf6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "60c960331d6471d5d1d1fabf6f048c04": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "235aa7d06de71147d0dfc4a253adee73": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "333e8e02e5eb20fd1cd0550849d470e1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1efb2c6c1107a4fc89f08a551e354c51": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e43d116c71e894a38bfc2ffab7a45f85": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Keycloak/Gantt/Documentation/Scrolling flow.md": {
+    "1d4774613f81b74ffe9ed4bb9b0a8a95": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e196df5ed34a546e08c7614552e0fc76": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c8e8900b0082cb75733caf0b4ae1cb9e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8ebdb06d4a5b837cf4cf5f81a9eac3a5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "eaf658da8e46545cfcf2d5adc8aee5de": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Keycloak/Gantt/Documentation/Create library package/The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium.md": {
+    "6f764ed1c7dec384d34325209a1bf76e": {
       "position": "left",
       "width": "",
       "height": "",

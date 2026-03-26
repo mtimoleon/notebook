@@ -6,6 +6,7 @@ product: ScpCloud
 component: Keycloak
 tags:
   - documentation/intelligen
+  - topic/business-logic
 ---
 
 User registration flow

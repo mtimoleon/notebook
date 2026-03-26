@@ -4,19 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "d6e190f6b7f2d7c1",
+        "id": "877912f90b2eacdd",
         "type": "tabs",
         "children": [
           {
-            "id": "32d88efd249fb38a",
+            "id": "34b993315854913e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Current/Drawing 2026-02-16 22.29.48.excalidraw.md"
+                "file": "Notes/Intelligen/Documentation/Consumables-Reusables.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-16 22.29.48.excalidraw"
+              "icon": "lucide-file",
+              "title": "Consumables-Reusables"
             }
           }
         ]
@@ -85,7 +97,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 41.86046511627907,
+        "dimension": 26.647286821705425,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
+                "file": "Notes/Intelligen/Documentation/Consumables-Reusables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Drawing 2026-02-16 22.29.48.excalidraw"
+              "title": "Backlinks for Consumables-Reusables"
             }
           },
           {
@@ -167,7 +179,7 @@
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 21.22093023255814,
+        "dimension": 36.434108527131784,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -175,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
+                "file": "Notes/Intelligen/Documentation/Consumables-Reusables.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2026-02-16 22.29.48.excalidraw"
+              "title": "Outline of Consumables-Reusables"
             }
           }
         ]
@@ -235,45 +247,46 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "32d88efd249fb38a",
+  "active": "34b993315854913e",
   "lastOpenFiles": [
+    "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
+    "Notes/Intelligen/Documentation/Registration flow.md",
+    "Notes/Intelligen/Documentation/Tracking updates.md",
+    "Notes/Intelligen/Documentation/Consumables-Reusables.md",
+    "Notes/Intelligen/Documentation/Tracking updates documentation.md",
     "Notes/Intelligen/Current issues/Intelligen-Notes.md",
-    "Notes/Home/Ταξίδι/Rates.md",
-    "Notes/Home/Ταξίδι/eSim.md",
-    "Notes/Home/Ταξίδι/Lacy-MedicalBooklet_968000010032590.pdf",
-    "Notes/Home/Ταξίδι/Furkot.md",
-    "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
-    "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
     "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Categories/Intelligen Issues.md",
-    "Notes/Intelligen/Completed issues/544-Rename-TimingStatus-to-CompletionStatus.md",
-    "Notes/Intelligen/Completed issues/536-Replace-MongoDB-with-DocumentDB.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/St. Polten.md",
-    "Notes/Home/assets/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/St. Polten/St. Polten-20260323.pdf",
-    "Notes/Home/assets/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/St. Polten",
-    "Notes/Intelligen/Current issues/545-Add-Tracking-Labor.md",
-    "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1774262904478.png",
-    "Current/2026-scratch-pad.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Διαδρομή/Θεσσαλονίκη-Ουτρέχτη.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Untitled.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Διαδρομή",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Λίστες/Λεπτομερής Λίστα Ελέγχου Αυτοκινήτου – 7 Ημέρες Πριν.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Λίστες/Checklist – Τι Έχω Μέσα Στο Πορτμπαγκάζ.md",
+    "Notes/Intelligen/assets/Keycloak/Gantt/Documentation/Create library package/The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium",
+    "Notes/Intelligen/assets/Keycloak/Gantt/Documentation/Create library package/Obfuscator settings",
+    "Notes/Intelligen/assets/Keycloak/Gantt/Documentation/Create library package",
+    "Notes/Intelligen/assets/Keycloak/Gantt/Documentation/Gantt z-Indexes",
+    "Notes/Intelligen/assets/Keycloak/Gantt/Documentation",
+    "Notes/Intelligen/assets/Keycloak/Gantt/Completed issues/Arrows on operations rows",
+    "Notes/Intelligen/assets/Keycloak/Gantt/Completed issues/120-Arrows-bug",
+    "Notes/Intelligen/assets/Keycloak/Gantt/Completed issues/108-Add-timeline",
+    "Notes/Intelligen/assets/Keycloak/Gantt/Completed issues/105-Move-bars-update",
+    "Notes/Intelligen/assets/Keycloak/Gantt/Completed issues/101-Show-multiple-layers-of-data-bars",
+    "Notes/Home/Ταξίδι/Διαδρομές Goole maps.md",
+    "Notes/Home/Ταξίδι/Διαδρομή 2.md",
+    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Διόδια.md",
     "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Πίνακας Κόστους Πλήρους Ταξιδιού.md",
     "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Θεσσαλονίκη-Ουτρέχτη-πλάνο.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Αναλυτικό Χρονοδιάγραμμα Μετάβασης.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Αναλυτικό Timeline Επιστροφής – Αναχώρηση 17-4.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Google account.md",
-    "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Nuremberg.md",
-    "Notes/Home/assets/Ταξίδι/Paris/Αξιοθέατα",
-    "Notes/Home/assets/Ταξίδι/Paris/Αξιοθέατα/Αξιοθέατα-20260322.html",
-    "Notes/Home/assets/Ταξίδι/Paris/Untitled",
-    "Notes/Home/assets/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Nuremberg",
-    "Notes/Home/assets/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Nuremberg/Nuremberg-20260322.pdf",
-    "Notes/Home/assets/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Κρατήσεις/Nurenmberg",
+    "Notes/Home/Ταξίδι/Αξιοθέατα.md",
+    "Notes/Home/assets/Ταξίδι/Αξιοθέατα/Αξιοθέατα-1774475246509.png",
+    "Notes/Home/Ταξίδι/Κρατήσεις/Wurzburg.md",
+    "Notes/Home/Ταξίδι/Διαδρομή/Θεσσαλονίκη-Ουτρέχτη.md",
+    "Notes/Home/Ταξίδι/Google account.md",
+    "Notes/Home/Ταξίδι/Παλιό/28-4 Nuremberg.md",
+    "Notes/Home/Ταξίδι/Παλιό/27-4 Vienna.md",
+    "Notes/Home/Ταξίδι/Παλιό/26-4 Βελιγράδι.md",
+    "Notes/Home/Ταξίδι/Παλιό/16-5 Βελιγράδι.md",
+    "Notes/Home/Ταξίδι/Παλιό/15-5 Vienna.md",
+    "Notes/Home/Ταξίδι/Παλιό/Ασφάλεια-1.md",
+    "Notes/Home/Ταξίδι/Αξιοθέατα/Szeged.md",
+    "Notes/Home/Ταξίδι/Rates.md",
+    "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
+    "Notes/Home/Ταξίδι/eSim.md",
+    "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1774262904478.png",
     "Notes/Home/assets/Vodafone eSim QR code/Vodafone eSim QR code-1773992761050.png",
     "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773833186093.png",
     "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773830616609.png",
@@ -282,7 +295,6 @@
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773318667345.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229680588.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229564716.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229486796.png",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"
