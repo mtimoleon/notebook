@@ -288,7 +288,7 @@ OperationEntry / task
     └── if sum(rate) > limit -> rate conflict
 ```
 
-**9. Mental model**
+#### 9. Mental model
 - `Break` = εσωτερικό κομμάτι της operation όπου το operation δεν δουλεύει
 - `Outage` = εξωτερικός περιορισμός του resource
 - `Reusable` resources ξέρουν ακριβώς αν το operation είναι σε work ή break

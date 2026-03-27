@@ -7,8 +7,21 @@ component: Docker
 tags:
   - documentation/intelligen
 ---
+```
+docker exec -it sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "password" -Q "BACKUP DATABASE [database-name] TO DISK='/var/opt/mssql/backup/keycloak.bak'"
+```
 
 
+
+Move RateUse in common without OutageInstance LatestOutage
+Then new class RateOutageUse will inherit from above and have the LatestOutage
+
+Move ResourceUseProfile to common
+Extract 2 methods from RateUseProfile and move to RateUseProfile
+
+Create a new ConsumableUse into production application as inherit from RateUse
+
+![[Intelligen-Notes-1774515864301.png|930x387]]
 
 TimingInfoType = Planning/Tracking/Original
 And then we need to implement OriginalAuxiliaryEquipment/Staff in OperationEntry

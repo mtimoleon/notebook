@@ -8,12 +8,38 @@
         "type": "tabs",
         "children": [
           {
-            "id": "34b993315854913e",
+            "id": "67838a4fa65198bf",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Intelligen-Notes"
+            }
+          },
+          {
+            "id": "13909c4461dc2aec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Consumables-Reusables.md",
+                "file": "Notes/Intelligen/Current issues/557-Update-Batch-completion-status-BE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +54,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Consumables-Reusables"
+              "title": "557-Update-Batch-completion-status-BE"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"type\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 426.5
   },
   "right": {
     "id": "ed3f7e0552712392",
@@ -105,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Consumables-Reusables.md",
+                "file": "Notes/Intelligen/Current issues/557-Update-Batch-completion-status-BE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Consumables-Reusables"
+              "title": "Backlinks for 557-Update-Batch-completion-status-BE"
             }
           },
           {
@@ -179,7 +206,7 @@
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 36.434108527131784,
+        "dimension": 47.286821705426355,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -187,13 +214,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Consumables-Reusables.md",
+                "file": "Notes/Intelligen/Current issues/557-Update-Batch-completion-status-BE.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Consumables-Reusables"
+              "title": "Outline of 557-Update-Batch-completion-status-BE"
             }
           }
         ]
@@ -201,7 +228,7 @@
       {
         "id": "1114442bb95cf4fa",
         "type": "tabs",
-        "dimension": 36.91860465116279,
+        "dimension": 26.06589147286822,
         "children": [
           {
             "id": "4a8b8a265069ca66",
@@ -247,26 +274,41 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "34b993315854913e",
+  "active": "13909c4461dc2aec",
   "lastOpenFiles": [
+    "Notes/Home/Ταξίδι/Vigniette-Austria-29-3-2026.md",
+    "Notes/Home/assets/Ταξίδι/Vigniette-Austria-29-3-2026/Vigniette-Austria-29-3-2026-20260327 1.pdf",
+    "Notes/Home/assets/Ταξίδι/Vigniette-Austria-29-3-2026/Vigniette-Austria-29-3-2026-20260327.pdf",
+    "Notes/Home/assets/Ταξίδι/Vigniette-Austria-29-3-2026",
+    "Notes/Home/Ταξίδι/Διαδρομές Goole maps.md",
+    "Notes/Home/Ταξίδι/Vigniette-Hungary-28-3-2026.md",
+    "Notes/Home/assets/Ταξίδι/Vigniette-Hungary-28-3-2026",
+    "Notes/Home/assets/Ταξίδι/Vigniette-Hungary-",
+    "Notes/Home/assets/Ταξίδι/Vigniette-Hungary-28-3-2026/Vigniette-Hungary-28-3-2026-20260327 1.pdf",
+    "Notes/Home/assets/Ταξίδι/Vigniette-Hungary-28-3-2026/Vigniette-Hungary-28-3-2026-20260327.pdf",
+    "Notes/Home/assets/Ταξίδι/Vigniette",
+    "Notes/Home/Ταξίδι/Rates.md",
+    "Notes/Home/Ταξίδι/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md",
+    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+    "Notes/Intelligen/Current issues/557-Update-Batch-completion-status-BE.md",
+    "Notes/Intelligen/Completed issues/545-Add-Tracking-Labor.md",
+    "Notes/Intelligen/assets/Completed issues/545-Add-Tracking-Labor",
+    "Notes/Intelligen/Keycloak/Completed issues/492-Upgrade-Keycloak/492-Upgrade-Keycloak.md",
+    "Notes/Intelligen/Keycloak/Completed issues/461-Keycloak-realm-scope-and-roles/461-Keycloak-realm-scope-and-roles.md",
+    "Notes/Intelligen/Documentation/Consumables-Reusables.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1772635195888.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1772635875048.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229486796.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1774515864301.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773318667345.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229680588.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1774515784052.png",
     "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
     "Notes/Intelligen/Documentation/Registration flow.md",
     "Notes/Intelligen/Documentation/Tracking updates.md",
-    "Notes/Intelligen/Documentation/Consumables-Reusables.md",
     "Notes/Intelligen/Documentation/Tracking updates documentation.md",
-    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
     "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
     "Notes/Intelligen/assets/Keycloak/Gantt/Documentation/Create library package/The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium",
-    "Notes/Intelligen/assets/Keycloak/Gantt/Documentation/Create library package/Obfuscator settings",
-    "Notes/Intelligen/assets/Keycloak/Gantt/Documentation/Create library package",
-    "Notes/Intelligen/assets/Keycloak/Gantt/Documentation/Gantt z-Indexes",
-    "Notes/Intelligen/assets/Keycloak/Gantt/Documentation",
-    "Notes/Intelligen/assets/Keycloak/Gantt/Completed issues/Arrows on operations rows",
-    "Notes/Intelligen/assets/Keycloak/Gantt/Completed issues/120-Arrows-bug",
-    "Notes/Intelligen/assets/Keycloak/Gantt/Completed issues/108-Add-timeline",
-    "Notes/Intelligen/assets/Keycloak/Gantt/Completed issues/105-Move-bars-update",
-    "Notes/Intelligen/assets/Keycloak/Gantt/Completed issues/101-Show-multiple-layers-of-data-bars",
-    "Notes/Home/Ταξίδι/Διαδρομές Goole maps.md",
     "Notes/Home/Ταξίδι/Διαδρομή 2.md",
     "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Διόδια.md",
     "Notes/Home/Ταξίδι/Θεσσαλονίκη-Ουτρέχτη/Πίνακας Κόστους Πλήρους Ταξιδιού.md",
@@ -277,24 +319,8 @@
     "Notes/Home/Ταξίδι/Διαδρομή/Θεσσαλονίκη-Ουτρέχτη.md",
     "Notes/Home/Ταξίδι/Google account.md",
     "Notes/Home/Ταξίδι/Παλιό/28-4 Nuremberg.md",
-    "Notes/Home/Ταξίδι/Παλιό/27-4 Vienna.md",
-    "Notes/Home/Ταξίδι/Παλιό/26-4 Βελιγράδι.md",
-    "Notes/Home/Ταξίδι/Παλιό/16-5 Βελιγράδι.md",
-    "Notes/Home/Ταξίδι/Παλιό/15-5 Vienna.md",
-    "Notes/Home/Ταξίδι/Παλιό/Ασφάλεια-1.md",
-    "Notes/Home/Ταξίδι/Αξιοθέατα/Szeged.md",
-    "Notes/Home/Ταξίδι/Rates.md",
-    "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
-    "Notes/Home/Ταξίδι/eSim.md",
-    "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1774262904478.png",
+    "Notes/Intelligen/assets/Completed issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-20260327.png",
     "Notes/Home/assets/Vodafone eSim QR code/Vodafone eSim QR code-1773992761050.png",
-    "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773833186093.png",
-    "Notes/Intelligen/assets/Current issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-1773830616609.png",
-    "Notes/Intelligen/assets/Current issues/536-Replace-MongoDB-with-DocumentDB/536-Replace-MongoDB-with-DocumentDB-1773650025375.png",
-    "Current/assets/2026-scratch-pad/2026-scratch-pad-1773392283780.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773318667345.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229680588.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229564716.png",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

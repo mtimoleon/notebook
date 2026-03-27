@@ -22,9 +22,9 @@ Currently when an operator updates labor amount from 2 person hours to 4 person 
 - [ ] Nullable LastUpdatedAt kai sta 2 tracking updates
 - [ ] Na mpei User sto Labor tracking update
 - [ ] Remove concurrency token from config of operation entry labor tracking update, see inside operation entry config
-- [ ] ![[545-Add-Tracking-Labor-1773830616609.png|510]]
+- [ ] ![[545-Add-Tracking-Labor-20260327 2.png|510]]
 - [ ] Na pane mesa sto set
-![[545-Add-Tracking-Labor-1773833186093.png]]
+![[545-Add-Tracking-Labor-20260327 1.png]]
 ## Notes
 Tracking labor uses
 
@@ -42,7 +42,7 @@ SetTrackingResources
 ==SetTrackingDuration==
 
 - [x] In line 160 use a method to compute the value for mapping
-	![[545-Add-Tracking-Labor-1774262904478.png|318]]
+	![[545-Add-Tracking-Labor-20260327.png|318]]
 
 Tα σημεία παρέμβασης είναι αυτά:
 **Domain**
