@@ -779,6 +779,12 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "ef395045751ece78bfc027769b0789d5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Current/Drawing 2026-02-16 22.29.48.excalidraw.md": {
@@ -2071,68 +2077,6 @@
       "wrap": false
     }
   },
-  "Notes/Home/Ταξίδι/Διαδρομή 2.md": {
-    "cdedecad37387445c7eb71f07450b227": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0237e0311208ef2e5df5ac6317060955": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "54ac72bcb1070bddaeffb3f9d34aa4ee": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "86aa87c4a62c5e6e85997f92c427e8d9": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "01a455ea62a71cec5dd62598de0512aa": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "516dc5478567e0b50b57f94543001828": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "3006d0d6e80b51296c0350a62d8aace7": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "592bbf16791ecce9c62cd4644cbd685f": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "035baf2e494ebee2cca795fe760baee0": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "8b622d9a8fa5f31435de228b491d624f": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Notes/Home/Υγεία/Ερωπαϊκή κάρτα ασφάλισης Μάδγα.md": {
     "5e9653eb5944320f8097652d66689da7": {
       "position": "left",
@@ -2267,6 +2211,18 @@
       "wrap": false
     },
     "49f52b686df97cedc9fc1ee52bb640f3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "27133c62fabbf0383cde9593d5c25f51": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f53e43f6722168881b11e1b33246e26e": {
       "position": "left",
       "width": "",
       "height": "",
@@ -2577,6 +2533,18 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "586bde3fee214b72e07850a32eadc9fb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "db9b917082e3b7d2a06c26ba5a4cc8b6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Interests/AI/General/_General notes.md": {
@@ -2859,44 +2827,6 @@
       "wrap": false
     },
     "55880766d70459fedc6ff60374910e2f": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Auth/Current Issues/Accelup requests.md": {
-    "0e3c7a7a3de9e7a2604d60e7efd93a67": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "33defe1af9f24aa34550bede271ec7f1": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "8051952a118a563f31a2b35da3425be6": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "4fb97baf052605a2f2e624baf8583d98": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "98f94373606403937d5ef58ad57cc899": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "030b68d4f33c9f055fd1c804c4555bd2": {
       "position": "left",
       "width": "",
       "height": "",
@@ -4389,38 +4319,6 @@
       "wrap": false
     }
   },
-  "Notes/Home/Vodafone eSim QR code.md": {
-    "5cffdd9db71e9ec9879d6b4ba6fe220f": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "2685f87ba141ed2df84f3ceddfc23dd3": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "fa4676ff1b7893ad31b5fb4767c89932": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "869148d72a30835103b79cbc9be5a98d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "020e9f85dff94b4e74d15d0b22eb9d48": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Notes/Intelligen/Completed issues/544-Rename-TimingStatus-to-CompletionStatus.md": {
     "114265c84b1ea97efbbe7aa05c7f0ff1": {
       "position": "left",
@@ -4807,6 +4705,18 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "c9e16376da6415214561424b06ba8816": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ee7ae7d9ee08e8cc8b56f6e6cf1d3340": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Ταξίδι/Κρατήσεις/Nis.md": {
@@ -5081,6 +4991,18 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "a701345fc8c75c4c0629376f076be991": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c855040566d1286d7be161f72466b353": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Ταξίδι/Διαδρομές Goole maps.md": {
@@ -5097,6 +5019,24 @@
       "wrap": false
     },
     "84de63b5cbeede935e7d3b7d9598739b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4b4853555c460029a1d93ed74ffda34b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e8f3d620a0b7097ec583bb94318a2284": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e43d59aec6e6e9910ba0f2db7f8107b5": {
       "position": "left",
       "width": "",
       "height": "",
@@ -5187,20 +5127,6 @@
       "wrap": false
     }
   },
-  "Notes/Intelligen/Documentation/Consumables-Reusables.md": {
-    "bacb0510473986b5502b6bbec520ed87": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "805d7c42f860633e48a60a1b7ce081a4": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229680588.png": {
     "df2b84478ebc9a5e5b3a414c2ee3b495": {
       "position": "left",
@@ -5277,50 +5203,6 @@
       "wrap": false
     }
   },
-  "Notes/Intelligen/Current issues/557-Update-Batch-completion-status-BE.md": {
-    "e1055290f5606ab0c45535fe32f489f1": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "241d64deea3e02b76ff0679ea249e5c8": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "51415b8cd5852f665dd0ae2fe9d4e807": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "411ca3d0c5fa508136598ed3f0f793a0": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0053a4763452d82ea7a020b71100f241": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "8a6cb9ec47c289567044be64c3ab190d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "33cfd5850774ebe729706041ef191543": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Notes/Home/Ταξίδι/Rates.md": {
     "0087d1c6b69b6f77e61bf16a8add3741": {
       "position": "left",
@@ -5337,6 +5219,60 @@
   },
   "Notes/Home/Ταξίδι/Vigniette-Austria-29-3-2026.md": {
     "3ac2299047783cedd5bafc51997991d8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "67245e35dff43f65537d3c34ffe62fdc": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Vigniette-Hungary-28-3-2026.md": {
+    "14228c9caffba2e719040e895df4107c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "cf5abf21bd029ef7100d9fa22868b814": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Auth/Current Issues/Accelup requests.md": {
+    "08942d8a7758f93cadc6154104927ec9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Current issues/Aggregate-verification/Aggregate-verification.md": {
+    "1d5ed0c264cfafcefaa419941fe5496c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "25d30c1eeff334f7a0871dbe92ab60e5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4dfa36ee8b2d796b004f7a97ba0c5a90": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2d6647f82a4803f80d443a92061522fc": {
       "position": "left",
       "width": "",
       "height": "",

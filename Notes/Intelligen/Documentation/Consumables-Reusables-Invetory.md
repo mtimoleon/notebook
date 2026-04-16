@@ -12,7 +12,7 @@ tags:
 ---
 ## Summary
 
-Consumables / Reusables explanation.
+Consumables / Reusables / Inventory explanation.
 
 ## Details
 
@@ -56,10 +56,38 @@ B: 11:00-13:00
 - Για inventory constraints όμως τα streams δεν περνάνε από `ConsumablesUse`, αλλά από `InventoryProfile`/`StorageUnitUtilization` [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L916).
 - `AuxEquipment` και `Staff` είναι reusables στο `OperationEntry` [OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L154), [OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L158). Τα defaults μπαίνουν από `AssignDefaultReusableResources()` [OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L1245).
 
-### 5. Πώς προκύπτουν conflicts
+### 5. Τι είναι Inventory / Storage Units
+- Το inventory path είναι ξεχωριστό από τα `ReusablesUse` και `ConsumablesUse`. Δεν χρησιμοποιεί `ResourceUse<T>`, αλλά το δικό του interval type `InventoryUse : RateUse<InventoryUse>` [InventoryUse.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/InventoryUse.cs#L16).
+- Εδώ το μοντέλο δεν απαντά μόνο “πόσα concurrent uses υπάρχουν;” ή “ποιο είναι το συνολικό rate;”. Απαντά “πόσο actual και πόσο available inventory υπάρχει μέσα στον χρόνο;”, μαζί με QA, expiration και transfer events.
+- Το wrapper είναι `StorageUnitUtilization`, το οποίο κρατά 2 profiles:
+  - `LowLimitInventoryProfile`
+  - `HighLimitInventoryProfile`
+  [ScheduleUtilizationClasses.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/ScheduleUtilizationClasses.cs#L691)
+- Τα `InputStreams` προστίθενται στο `LowLimitInventoryProfile`, γιατί τραβάνε υλικό από storage και μπορεί να ρίξουν το amount κάτω από low limit [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L928).
+- Τα `OutputStreams` προστίθενται στο `HighLimitInventoryProfile`, γιατί βάζουν υλικό στο storage και μπορεί να ξεπεράσουν το high limit [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L980).
+- Το `InventoryProfile.AddInventoryUse(...)` δεν βάζει μόνο ένα απλό rate interval. Μπορεί να δημιουργήσει και επιπλέον instantaneous intervals για:
+  - `QaCompletion`
+  - `Expiration`
+  ανάλογα με το storage behavior [InventoryProfile.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/InventoryProfile.cs#L112).
+- Το τελικό inventory state βγαίνει από `GetFinalInventoryProfile()`, που κάνει post-processing του timeline και χειρίζεται continuous ή calendar-based transfer logic [InventoryProfile.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/InventoryProfile.cs#L90), [InventoryProfile.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/InventoryProfile.cs#L161), [InventoryProfile.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/InventoryProfile.cs#L345).
+- Άρα τα inventory conflicts δεν είναι consumable conflicts με άλλο όνομα. Είναι ξεχωριστή κατηγορία και περιλαμβάνουν:
+  - `StorageUnitOveruse` για reception/supply rate limits
+  - `StorageUnitInventory` για high/low amount violations
+  - `StorageUnitBatchIntegrity` όταν ανακατεύονται batches σε storage που απαιτεί integrity
+  [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L947), [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L959), [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L1000), [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L1012), [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L1022).
+**Mental model**
+- `Reusable` = concurrent occupancy
+- `Consumable` = summed rate over time
+- `Inventory` = evolving storage state over time (amounts, availability, QA, expiration, transfer limits, batch integrity)
+
+### 6. Πώς προκύπτουν conflicts
 - Reusables: `CreateOveruseConflicts(...)` και `CreateOutageConflicts(...)` [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L1178), [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L1219).
 - Consumables: `CreateRateTaskIntervalConflicts(...)` [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L1266).
 - Και οι δύο κατηγορίες χρησιμοποιούν το ίδιο profile engine για slot finding forward/backward [ResourceProfiles.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/ResourceProfiles.cs#L82), [ResourceProfiles.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/ResourceProfiles.cs#L243).
+- Inventory uses: εδώ το conflict engine δεν ελέγχει απλώς concurrent uses ή summed rates, αλλά την εξέλιξη του storage state μέσα στον χρόνο. Τα streams ενημερώνουν τα `InventoryProfile`s του storage unit και μετά το σύστημα ελέγχει:
+  - αν παραβιάζονται reception/supply rate limits (`StorageUnitOveruse`)
+  - αν το inventory amount βγαίνει εκτός low/high ορίων (`StorageUnitInventory`)
+  - αν σπάει το batch integrity (`StorageUnitBatchIntegrity`)
 
 ### Δομή
 ```text
@@ -68,21 +96,27 @@ Interval<T>
     ├── Rate
     ├── Amount
     ├── LatestOutage / IsOutage
-    └── ResourceUse<T>
-        ├── CanAccommodateUse(...)
-        ├── CanAccommodateUseIntraBatch(...)
-        ├── ReusablesUse
-        │   ├── Tasks : List<ProcOpUseTask>
-        │   ├── semantics: concurrent occupancy
-        │   └── used by: MainEquipment, AuxEquipment, Staff
-        └── ConsumablesUse
-            ├── RateTasks : List<ProcOpRateTask>
-            ├── semantics: summed rate over time
-            └── used by: Labor
-                and by charts for Input/Output Streams
+    ├── ResourceUse<T>
+	|   ├── CanAccommodateUse(...)
+	|	​├── CanAccommodateUseIntraBatch(...)
+    │   ├── ReusablesUse
+    │   │   ├── Tasks : List<ProcOpUseTask>
+    │   │   ├── semantics: concurrent occupancy
+    │   │   └── used by: MainEquipment, AuxEquipment, Staff
+    │   └── ConsumablesUse
+    │       ├── RateTasks : List<ProcOpRateTask>
+    │       ├── semantics: summed rate over time
+    │       └── used by: Labor
+    │           and by charts for Input/Output Streams
+    └── InventoryUse
+        ├── InventoryTransfers : List<InventoryTransfer>
+        ├── semantics: evolving storage state over time
+        ├── supports: actual/available amount, QA, expiration
+        └── used by: StorageUnit inventory constraints
 Profiles / Utilization
 ReusablesUse   -> ReusablesProfile   -> ReusableResourceUtilization
 ConsumablesUse -> ConsumablesProfile -> ConsumableResourceUtilization
+InventoryUse   -> InventoryProfile   -> StorageUnitUtilization
 ```
 
 ### Παραδείγματα
@@ -152,18 +186,20 @@ OpB on L1: rate = 2, 11:00-13:00
 
 **5. Mini διάγραμμα**
 ```text
-                ίδιο χρονικό overlap
-                       |
-        +--------------+--------------+
-        |                             |
-   Reusable resource             Consumable resource
-   (equipment/staff)             (labor/rates)
-        |                             |
-μετράω πλήθος uses              αθροίζω rates
-        |                             |
-  [OpA, OpB] => 2 uses            2 + 2 => 4 rate
-        |                             |
- MaxUses = 1 -> conflict          Limit = 3 -> conflict
+        ίδιο χρονικό overlap / ίδιο scheduling question
+                                |
+          +---------------------+---------------------+
+          |                     |                     |
+     Reusable resource     Consumable resource   Inventory / Storage
+     (equipment/staff)     (labor/rates)         (storage units)
+          |                     |                     |
+   metráo concurrent uses   athroízo rates      ypologízo amounts/state
+          |                     |                     |
+   [OpA, OpB] => 2 uses      2 + 2 => 4 rate     opening + flows + QA
+          |                     |                     |
+   MaxUses check            RateLimit check       high/low inventory,
+MaxUses = 1 -> conflict   Limit = 3 -> conflict   reception/supply,
+                                                  batch integrity
 ```
 
 **6. Πρακτικό mental model**
@@ -286,6 +322,13 @@ OperationEntry / task
 └── ConsumablesUse(task, rate)
     ├── overlapping rates are summed
     └── if sum(rate) > limit -> rate conflict
+Inventory path
+OperationEntry working intervals + stream
+└── InventoryProfile.AddInventoryUse(...)
+    ├── input stream -> LowLimitInventoryProfile
+    ├── output stream -> HighLimitInventoryProfile
+    ├── may add QA / expiration instantaneous intervals
+    └── final profile -> inventory, rate, and batch-integrity conflicts
 ```
 
 #### 9. Mental model
@@ -302,3 +345,6 @@ OperationEntry / task
 - και να σου δείξω ακριβώς ποια intervals θα υπάρχουν τελικά στο profile.
 
 ## Links
+[[Consumables Uses]]
+[[Inventory Uses]]
+[[Reusables Uses]]

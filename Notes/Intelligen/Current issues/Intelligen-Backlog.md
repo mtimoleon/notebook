@@ -11,7 +11,7 @@ product: ScpCloud
 
 ### 25/2/2026
 
-- [x] Implement tooltip @Gantt app
+- [ ] Check 560 tests and code
 - [ ] Replace NewtonsoftJson in tests with System.Text.Json
 - [ ] ==Create a mechanism to guarantee that we did not forget to add an entity into import/export service==
 - [ ] Bug in production chart view?

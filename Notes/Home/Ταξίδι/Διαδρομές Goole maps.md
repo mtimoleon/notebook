@@ -9,7 +9,7 @@ https://maps.app.goo.gl/AqDMwBMv4pof8A9J6
 https://maps.app.goo.gl/KNapgDopZEctCLuw7
 
 #### 1/4 Διαδρομή-4 St.Polten-Wurzburg
-https://maps.app.goo.gl/puY3AkwpmetAss6Y7
+https://maps.app.goo.gl/mAFmPWvGCUqDW2qi7
 
 ##### 2/4 Διαδρομή-5 Wurzburg-Utreht
 https://maps.app.goo.gl/J94c5qWDqfEexM1i7
