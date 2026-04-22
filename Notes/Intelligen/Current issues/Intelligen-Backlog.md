@@ -9,8 +9,14 @@ status: backlog
 product: ScpCloud
 ---
 
-### 25/2/2026
 
+
+- [ ] Original start upgrade [video](file:///D:/develop-tasks/Recordings/Original-start-end-Recording%202026-04-21%20125124.mp4)
+- [ ] To add original start and sync start in eoc chart (none, planning, original) in production app
+        ![[Intelligen-Backlog-1776763595836.png|930x449]]Να συμμαζέψουμε στο operation entry το original info (original start/end, original staff,  original equipment) ετσι όταν γίνεται update να έχω πλήρως την αρχική πληροφορία
+- [ ] Στο scheduling service TimingInfoType να βάλουμε και type original και μετά να γίνει το plumping στον κώδικα.
+      Also these methods need extension with original (now they have tracking)
+      ![[Intelligen-Backlog-1776765003740.png|930x430]]
 - [ ] Check 560 tests and code
 - [ ] Replace NewtonsoftJson in tests with System.Text.Json
 - [ ] ==Create a mechanism to guarantee that we did not forget to add an entity into import/export service==

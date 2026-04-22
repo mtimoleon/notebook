@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "82b5673392b1791e",
+        "id": "d9c62b9445367b7c",
         "type": "tabs",
         "children": [
           {
-            "id": "0d84269d0a08ee8b",
+            "id": "bf1faf0e9863040f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Reusables Uses.md",
+                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Reusables Uses"
-            }
-          },
-          {
-            "id": "8bf529388da0b942",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Intelligen/Documentation/Inventory Uses.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Inventory Uses"
-            }
-          },
-          {
-            "id": "bc6a9e907f81fbf1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Intelligen/Documentation/Consumables Uses.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Consumables Uses"
+              "title": "Intelligen-Backlog"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "consumable",
+                "query": "tag:#documentation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -146,7 +97,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 26.647286821705425,
+        "dimension": 33.81782945736434,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -154,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Inventory Uses.md",
+                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Inventory Uses"
+              "title": "Backlinks for Intelligen-Backlog"
             }
           },
           {
@@ -228,7 +179,7 @@
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 47.286821705426355,
+        "dimension": 40.116279069767444,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -236,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Inventory Uses.md",
+                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Inventory Uses"
+              "title": "Outline of Intelligen-Backlog"
             }
           }
         ]
@@ -296,15 +247,26 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "8bf529388da0b942",
+  "active": "bf1faf0e9863040f",
   "lastOpenFiles": [
-    "Notes/Intelligen/Documentation/Consumables Uses.md",
+    "Notes/Auth/Projects/RAISE/Documentation/Credit System Documentation.md",
+    "Notes/Auth/Projects/RAISE/PID structure Version 2.0/PID RAI Resolver discussion.md",
+    "Notes/Auth/Projects/RAISE/Content Negotiation-Sign posting.md",
+    "Notes/Auth/Projects/RAISE/Credits system.md",
+    "Notes/Intelligen/Documentation/Production Model Documentation.md",
+    "Notes/Auth/Projects/RAISE/Documentation",
     "Notes/Intelligen/Documentation/Reusables Uses.md",
-    "Notes/Intelligen/Documentation/Consumables-Reusables-Invetory.md",
+    "Notes/Intelligen/Documentation/Tracking updates.md",
+    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776765003740.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776763595836.png",
+    "Notes/Intelligen/Documentation/Consumables-Reusables-Invetory Uses.md",
     "Notes/Intelligen/Documentation/Inventory Uses.md",
+    "Notes/Intelligen/Documentation/Consumables Uses.md",
+    "Notes/Home/Ταξίδι/Κρατήσεις/Paris.md",
+    "Categories/Resources.md",
     "Notes/Intelligen/Documentation/consumables.md",
     "Notes/Home/Ταξίδι/Ημερολόγιο.md",
-    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
     "Notes/Home/Ταξίδι/Google account.md",
     "Notes/Home/Ταξίδι/Lacy-MedicalBooklet_968000010032590.pdf",
     "Notes/Home/Ταξίδι/Vigniette-Hungary-28-3-2026.md",
@@ -318,15 +280,7 @@
     "Notes/Intelligen/Completed issues/557-Update-Batch-completion-status-BE.md",
     "Notes/Home/Ταξίδι/Διαδρομή 2.md",
     "Notes/Home/Ταξίδι/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md",
-    "Notes/Home/Ταξίδι/Διαδρομές Goole maps.md",
-    "Notes/Home/Ταξίδι/Κρατήσεις/Wurzburg.md",
-    "Notes/Home/Ταξίδι/Κρατήσεις/Szeged.md",
-    "Notes/Home/Επιχείρηση/Τιμολόγηση.md",
-    "Notes/Auth/Current Issues/Accelup requests.md",
-    "Notes/Home/Vodafone eSim QR code.md",
     "Notes/Auth/assets/Current Issues/Accelup requests/~$Accelup requests-20260224.xlsx",
-    "Notes/Home/Ταξίδι/Αξιοθέατα.md",
-    "Notes/Home/Ταξίδι/Κρατήσεις/Belgrade.md",
     "Notes/Home/assets/Ταξίδι/Vigniette-Austria-29-3-2026/Vigniette-Austria-29-3-2026-20260327 1.pdf",
     "Notes/Home/assets/Ταξίδι/Vigniette-Austria-29-3-2026/Vigniette-Austria-29-3-2026-20260327.pdf",
     "Notes/Home/assets/Ταξίδι/Vigniette-Austria-29-3-2026",
@@ -334,7 +288,6 @@
     "Notes/Home/assets/Ταξίδι/Vigniette-Hungary-",
     "Notes/Home/assets/Ταξίδι/Vigniette-Hungary-28-3-2026/Vigniette-Hungary-28-3-2026-20260327 1.pdf",
     "Notes/Home/assets/Ταξίδι/Vigniette-Hungary-28-3-2026/Vigniette-Hungary-28-3-2026-20260327.pdf",
-    "Notes/Home/assets/Ταξίδι/Vigniette",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1772635195888.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1772635875048.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229486796.png",
@@ -342,8 +295,6 @@
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773318667345.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229680588.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1774515784052.png",
-    "Notes/Home/assets/Ταξίδι/Αξιοθέατα/Αξιοθέατα-1774475246509.png",
-    "Notes/Intelligen/assets/Completed issues/545-Add-Tracking-Labor/545-Add-Tracking-Labor-20260327.png",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

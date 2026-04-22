@@ -50,13 +50,7 @@ B: 11:00-13:00
 - Ο έλεγχος γίνεται με sum: αν το άθροισμα των rates ως το precedence του task ξεπερνά το `maxRate`, έχεις conflict [ConsumablesUse.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/ConsumablesUse.cs#L75).
 - Το wrapper τους είναι `ConsumableResourceUtilization` με `ConsumablesProfile` [ScheduleUtilizationClasses.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/ScheduleUtilizationClasses.cs#L639), [ResourceProfiles.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/ResourceProfiles.cs#L380).
 
-### 4. Ποια domain objects μπαίνουν εδώ
-- `LaborResources` είναι consumables στο scheduling. Το labor rate βγαίνει από `FinalAmount / OperationEntry.Duration` στο [OperationEntryLabor.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntryLabor.cs#L109), και προστίθεται ως `new ConsumablesUse(...)` στο [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L899).
-- `InputStreams` και `OutputStreams` είναι “consumable-like” για charts/material profiles μέσω `ConsumablesProfile` στο [CalculateChartDataService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/CalculateChartDataService.cs#L24).
-- Για inventory constraints όμως τα streams δεν περνάνε από `ConsumablesUse`, αλλά από `InventoryProfile`/`StorageUnitUtilization` [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L916).
-- `AuxEquipment` και `Staff` είναι reusables στο `OperationEntry` [OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L154), [OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L158). Τα defaults μπαίνουν από `AssignDefaultReusableResources()` [OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L1245).
-
-### 5. Τι είναι Inventory / Storage Units
+### 4. Τι είναι Inventory / Storage Units
 - Το inventory path είναι ξεχωριστό από τα `ReusablesUse` και `ConsumablesUse`. Δεν χρησιμοποιεί `ResourceUse<T>`, αλλά το δικό του interval type `InventoryUse : RateUse<InventoryUse>` [InventoryUse.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/InventoryUse.cs#L16).
 - Εδώ το μοντέλο δεν απαντά μόνο “πόσα concurrent uses υπάρχουν;” ή “ποιο είναι το συνολικό rate;”. Απαντά “πόσο actual και πόσο available inventory υπάρχει μέσα στον χρόνο;”, μαζί με QA, expiration και transfer events.
 - Το wrapper είναι `StorageUnitUtilization`, το οποίο κρατά 2 profiles:
@@ -79,6 +73,12 @@ B: 11:00-13:00
 - `Reusable` = concurrent occupancy
 - `Consumable` = summed rate over time
 - `Inventory` = evolving storage state over time (amounts, availability, QA, expiration, transfer limits, batch integrity)
+
+### 5. Ποια domain objects μπαίνουν εδώ
+- `LaborResources` είναι ==consumables== στο scheduling. Το labor rate βγαίνει από `FinalAmount / OperationEntry.Duration` στο [OperationEntryLabor.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntryLabor.cs#L109), και προστίθεται ως `new ConsumablesUse(...)` στο [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L899).
+- `InputStreams` και `OutputStreams` είναι “==consumable-like==” για charts/material profiles μέσω `ConsumablesProfile` στο [CalculateChartDataService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/CalculateChartDataService.cs#L24).
+- Για ==inventory== constraints όμως τα streams δεν περνάνε από `ConsumablesUse`, αλλά από `InventoryProfile`/`StorageUnitUtilization` [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L916).
+- `AuxEquipment` και `Staff` είναι ==reusables== στο `OperationEntry` [OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L154), [OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L158). Τα defaults μπαίνουν από `AssignDefaultReusableResources()` [OperationEntry.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Aggregates/OperationEntryAggregate/OperationEntry.cs#L1245).
 
 ### 6. Πώς προκύπτουν conflicts
 - Reusables: `CreateOveruseConflicts(...)` και `CreateOutageConflicts(...)` [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L1178), [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L1219).
@@ -278,7 +278,7 @@ Equipment outage:
 - `IgnoreIfStarted`
   - αν η operation έχει αρχίσει εκτός outage, μπορεί να συνεχίσει και πάνω από outage
 
-##### 6. Παράδειγμα `IgnoreIfStarted`
+##### 4. Παράδειγμα `IgnoreIfStarted`
 Έστω:
 - operation duration: `2h`
 - search starts: `10:00`
@@ -297,7 +297,7 @@ Equipment outage:
 ```
 τότε δεν ισχύει η εξαίρεση “if started”.
 
-##### 7. Τι γίνεται στα consumables με break
+##### 5. Τι γίνεται στα consumables με break
 Στο labor scheduling, το `ConsumablesUse(operationEntryTask, rate)` μπαίνει ως ένα ενιαίο interval από `task.Start` μέχρι `task.End` [ConsumablesUse.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/ConsumablesUse.cs#L27), [SchedulingService.cs](C:/Users/michael/developer/scpCloud/Services/Planning/Planning.Domain/Services/SchedulingService.cs#L899).
 Άρα:
 - για labor conflicts το μοντέλο είναι πιο “continuous”
@@ -305,7 +305,7 @@ Equipment outage:
 - τα breaks επηρεάζουν περισσότερο το slot-finding μέσω duration/outage behavior παρά με explicit `working/non-working` labor sub-intervals
 Αυτό είναι μια βασική διαφορά σχεδιασμού.
 
-#### 8. Συνολικό διάγραμμα
+### Συνολικό διάγραμμα
 ```text
 OperationEntry
 └── GetIntervals()
@@ -331,18 +331,12 @@ OperationEntry working intervals + stream
     └── final profile -> inventory, rate, and batch-integrity conflicts
 ```
 
-#### 9. Mental model
+### Mental model
 - `Break` = εσωτερικό κομμάτι της operation όπου το operation δεν δουλεύει
 - `Outage` = εξωτερικός περιορισμός του resource
 - `Reusable` resources ξέρουν ακριβώς αν το operation είναι σε work ή break
 - `Consumable` resources δουλεύουν κυρίως με rate accumulation
-Αν θέλεις, στο επόμενο μπορώ να σου κάνω ένα πλήρες end-to-end example με:
-- `1 equipment`
-- `1 staff`
-- `1 labor`
-- `1 break`
-- `1 outage`
-- και να σου δείξω ακριβώς ποια intervals θα υπάρχουν τελικά στο profile.
+
 
 ## Links
 [[Consumables Uses]]

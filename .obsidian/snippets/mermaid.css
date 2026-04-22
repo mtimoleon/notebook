@@ -2,6 +2,6 @@ div.mermaid {
     text-align: center;
 }
 svg[id^="m"][width][height][viewBox] {
-    width: 95%;
+    max-width: 95%;
     height: auto;
 }
