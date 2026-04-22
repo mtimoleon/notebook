@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d9c62b9445367b7c",
+        "id": "da3b05090f82d8d8",
         "type": "tabs",
         "children": [
           {
-            "id": "bf1faf0e9863040f",
+            "id": "abd5d43a73bb0484",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Intelligen-Backlog"
+              "title": "New tab"
             }
           }
         ]
@@ -105,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Intelligen-Backlog"
+              "title": "Backlinks"
             }
           },
           {
@@ -187,13 +172,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intelligen-Backlog"
+              "title": "Outline"
             }
           }
         ]
@@ -247,8 +231,10 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "bf1faf0e9863040f",
+  "active": "abd5d43a73bb0484",
   "lastOpenFiles": [
+    "Notes/Intelligen/Εργασία/Άδειες.md",
+    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
     "Notes/Auth/Projects/RAISE/Documentation/Credit System Documentation.md",
     "Notes/Auth/Projects/RAISE/PID structure Version 2.0/PID RAI Resolver discussion.md",
     "Notes/Auth/Projects/RAISE/Content Negotiation-Sign posting.md",
@@ -257,7 +243,6 @@
     "Notes/Auth/Projects/RAISE/Documentation",
     "Notes/Intelligen/Documentation/Reusables Uses.md",
     "Notes/Intelligen/Documentation/Tracking updates.md",
-    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776765003740.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776763595836.png",
     "Notes/Intelligen/Documentation/Consumables-Reusables-Invetory Uses.md",
@@ -279,7 +264,6 @@
     "Notes/Intelligen/Current issues/Aggregate-verification/Aggregate-verification.md",
     "Notes/Intelligen/Completed issues/557-Update-Batch-completion-status-BE.md",
     "Notes/Home/Ταξίδι/Διαδρομή 2.md",
-    "Notes/Home/Ταξίδι/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md",
     "Notes/Auth/assets/Current Issues/Accelup requests/~$Accelup requests-20260224.xlsx",
     "Notes/Home/assets/Ταξίδι/Vigniette-Austria-29-3-2026/Vigniette-Austria-29-3-2026-20260327 1.pdf",
     "Notes/Home/assets/Ταξίδι/Vigniette-Austria-29-3-2026/Vigniette-Austria-29-3-2026-20260327.pdf",

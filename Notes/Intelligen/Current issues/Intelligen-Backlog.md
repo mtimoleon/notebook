@@ -107,11 +107,6 @@ product: ScpCloud
 	- Round duration time to 1 sec or 1 minute
 	- Na mporoyme na ksexorisoyme bars poy exoyn pano toys update mallon me kapoio border?
 
-- [x] Να βάλουμε σύντομα το renaming στο πρόγραμμα.
-	Έχουμε τις παρακάτω περιπτώσεις
-	 - Sync from planning to production
-	 - Production dto to serve UI
-
 - [ ] Να γράψουμε κάποια **functional** τεστ για ta examples, δλδ να κάνει το schedule του example και να ζητάμε να πάρουμε το eoc και να βλέπουμε αν έχει δεδομένα. Ο σκοπός είναι να δούμε αν έχουμε τα σωστά includes.
  
 - [ ] procedure report options color int =\> unint
