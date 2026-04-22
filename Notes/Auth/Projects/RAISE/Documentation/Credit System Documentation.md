@@ -47,7 +47,7 @@ It stores:
 - held credits via linked `CreditEscrow` rows
 - available balance computed as `Balance - held escrows`
 ​
-##### CreditEscrow
+##### Credit Escrow
 ​
 An escrow reserves credits without immediately transferring them.
 ​
@@ -62,7 +62,7 @@ Possible states:
 - `Committed`
 - `Released`
 ​
-##### CreditLedger
+##### Credit Ledger
 ​
 The ledger is the accounting trail of credit movement.
 ​
@@ -335,7 +335,7 @@ Database support is added in the credits migration:
 ​
 If you want to map this document back to implementation, read in this order:
 ​
-1. [CREDIT_SYSTEM_FLOWS.md](/c:/Users/michael/developer/raise-services/CREDIT_SYSTEM_FLOWS.md:1)
+1. [[#Credit System Flows]]
 2. `Raise.APIGateway/CoreServices/CreditService.cs`
 3. `Raise.APIGateway/CoreServices/ExternalRequestService.cs`
 4. `Raise.APIGateway/Services/DatasetService.cs`

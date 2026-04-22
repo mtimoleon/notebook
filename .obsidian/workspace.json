@@ -11,10 +11,24 @@
             "id": "abd5d43a73bb0484",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Auth/Projects/RAISE/Documentation/Credit System Documentation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Credit System Documentation"
             }
           }
         ]
@@ -91,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Auth/Projects/RAISE/Documentation/Credit System Documentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Credit System Documentation"
             }
           },
           {
@@ -172,12 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/Auth/Projects/RAISE/Documentation/Credit System Documentation.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Credit System Documentation"
             }
           }
         ]
@@ -233,9 +249,12 @@
   },
   "active": "abd5d43a73bb0484",
   "lastOpenFiles": [
+    "Notes/Auth/Projects/RAISE/Architecture/Architecture.md",
+    "Notes/Auth/Projects/RAISE/Architecture/2024-04-24_RAISE_InfoPack-Antonio.md",
+    "Notes/Auth/Projects/RAISE/Architecture/D3.1 RAI Cloud services' specifications v3.0.md",
+    "Notes/Auth/Projects/RAISE/Documentation/Credit System Documentation.md",
     "Notes/Intelligen/Εργασία/Άδειες.md",
     "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Notes/Auth/Projects/RAISE/Documentation/Credit System Documentation.md",
     "Notes/Auth/Projects/RAISE/PID structure Version 2.0/PID RAI Resolver discussion.md",
     "Notes/Auth/Projects/RAISE/Content Negotiation-Sign posting.md",
     "Notes/Auth/Projects/RAISE/Credits system.md",
@@ -261,9 +280,6 @@
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/intelligen-Backlog-image-8.png",
     "Notes/Intelligen/Current issues/Intelligen-Notes.md",
     "Notes/Intelligen/Current issues/Telemetry.md",
-    "Notes/Intelligen/Current issues/Aggregate-verification/Aggregate-verification.md",
-    "Notes/Intelligen/Completed issues/557-Update-Batch-completion-status-BE.md",
-    "Notes/Home/Ταξίδι/Διαδρομή 2.md",
     "Notes/Auth/assets/Current Issues/Accelup requests/~$Accelup requests-20260224.xlsx",
     "Notes/Home/assets/Ταξίδι/Vigniette-Austria-29-3-2026/Vigniette-Austria-29-3-2026-20260327 1.pdf",
     "Notes/Home/assets/Ταξίδι/Vigniette-Austria-29-3-2026/Vigniette-Austria-29-3-2026-20260327.pdf",

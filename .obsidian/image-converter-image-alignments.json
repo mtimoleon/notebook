@@ -5360,5 +5360,653 @@
       "height": "",
       "wrap": false
     }
+  },
+  "Notes/Auth/Projects/RAISE/Architecture/2024-04-24_RAISE_InfoPack-Antonio.md": {
+    "73eb89367b0d2a14e74eb100835c4b3c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "de9640356828f56f0604519d266e3021": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "aed1367592e8ae3df63d696509e823e2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b803bb9ff92c98a9ce9df667941d0304": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "dfcee7c7c5257b07b05e38185207c7b1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "146bb5fe231c413c78323b8b38470deb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8d138c20cb9bc744b1522305ad8ee12e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b3bc64c97542c68b3b73ed100c35fda4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "abfb3585cc5474825301e920bfb23976": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ecfb15704d2b734bf6e79237fa518386": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "0f74cc7c36bdc3534ed478572b8328a9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "20149f16a67a029953b808d4746fa1ba": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fc60058305c4746d6a17197adf173fc4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "68035daf149736cd481e0b4a25bfea84": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f12577b26cf02055f53788be2f381b42": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "15bfaa5ed5343fe5dfa18725158f6e04": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1c6ec74e69d1bbfde8992b6c91f4adec": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2c6d6f7b83d7292e57b0498753cb434e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a02c3ad42bc6c575d1222ad7f748bfb9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d180f338067acb2a1393ed36bf500926": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6a5f8c50bfd7ed5b5e079c1850d5eaf8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "469eb9a723fc8fc6b10947a0588741c3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1418b3564b6e3149913ad06ab8ca0498": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b1d6db1583e68f07077e90bcd7bf004e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4fb80fa9c5d3ead612e5e72848c39de4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9beaf030100ead2b974da1a21fe742cc": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e73d1e3d8107b58f21b0908759b43be3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ee7b56eb4c2eea7aae7a5f7d6cc02088": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "71eb396107f28344999c65b9957feb78": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "32f167ef957f8fd7bca1830af8b50a84": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a58b1d7f379400adbd339ff76f5d6fe7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ae46ed80de37a38b408da506418d8d78": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "61ef83a3d592231b97fa08d89354e53f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "cba8be55a5b5f25b947974642cb86e39": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9e3b7b2daa9095874368a360d3ec9bc3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7bd444973f7f9cd581afd9fcd71a1b97": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2cd72d690e45e1108401fda28c4ffa0f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4a0f02e82b70bcb83e5da6c79cd7ad3e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "47e3611221c139b8275b7554b173dd62": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "38dad15bcd79c866e2638e84058ba038": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f0ca041c34eb067be80009bda91add3e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2a0edc47720767729f0616dcb641bdbc": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4e8397fad8cb30b18f99026fd884cb5c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a3d3e57b3ed9e2c152325e545ea3e8be": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "585dc11e432e4b75ca96efc837aaf153": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d7f38b59ce5a1f865016f710d3609919": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7f5dadbc40ef6f439f37a9f5913c7e7c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Auth/Projects/RAISE/Architecture/D3.1 RAI Cloud services' specifications v3.0.md": {
+    "af352e49ce47586a2e52ab34d404ec86": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "142e87bc0cc253b242bbbbecac6c1592": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e5247168dcca936e07fd89078f763f98": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "da8566be2bbc23442b9f9040f3fbb59d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f3172766c00efe8f49eb8bdc2dfce644": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "aa335263b40776745761c35910255c91": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a4c2c6d453dfc5c633d0916e28993045": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ef830767a1cb4938228637fd4d6db74e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "3dbb030d9bd3a61ec8917878d4c073fb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "96ddf7ca436fcc151749fcd5e80d15b7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8353a012631888c6e2649873d79d88c4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5d6954a2f37d4a8ee79e842d0b5f2e9f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d60c1d36ece63044feff6c635a7e0c38": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6562523b7a83cedccd515ccff4a2f0fb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7da92d3f961ccaeb63c20fe3b37164f2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8f4473d3a23af75ee0cf7c0a83e3c6e0": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8f17d4392a33d14411e9cde6b6757e09": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7c52d77a550cc501b3ff218b34f4d11a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "cb6c8d1067b7faf73d8c668be58628db": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a06a1e68fc014d6e402f94b7ed819be5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7f72a5b81cbd50c6534d1a770a3fe095": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a1f9c442e227a4d6b352bfc3f277864f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "85e914a3aa85b2b19217888f376e8aef": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1a568b559d2e85f228bb9ea5fcfd3a62": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "da76c24f6dd6e090f9714d45faa56369": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2b3ceb8cb82b8f9fe79a6e0708483b4c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a92d6458159a588b4522b63741f8ac31": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d39b39f349694c0c5228f30aa0bca138": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "92756c8f3d109f47d164cc9ef392ffcd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5039143c52d12edc7689d8fa02c8ef6f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "14ea67556ce206b13c5d7204eca8001b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "017d62b5b67ccbe37a36d5b0077bce5a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "02f7244e0fa2f4d1413c164078361f6c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b37a40985b92c8e50a4609a8145ec14b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e8f0dbde2ecc16d3b1b6f837a0ee801b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fe9b7cfadb00cea5b8804f49252643a7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "3554f3119fa4b4a55ee9632e126f67d8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a2227bc15c57803ab3d23c67b0e9e161": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ed9145a8b04c01060dea8e731c237dbd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e642affad4df9ea93a9ee0955159b6d4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "68c67d3f5acfcc71b39c22ea8f803b64": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "143c08db78b6c26177ccba74e8e59b97": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "adb3a69fb1b4b8af41bcbf2bf4cbf4c0": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a3b6aa8118be73928d7844b9229ac3af": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "547bebe702a48754cee55aa0b7e028bc": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c41c790ed0a662c5c664cd596862a30e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a5d52caff534ef499f093a6e92083e82": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Auth/Projects/RAISE/Architecture/Architecture.md": {
+    "1350b8ed92cbe12416df8fc6529cd8d6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "66a01f4236270ae3fc8d7e1711c2b9e5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "09de0a5ee8b88320e2f76158b0fbb154": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a4d0373ac8851ae46b5c423966469bbe": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "162f2f84e50a38a73e4cf3e74f3be475": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1efd015acaa4972efaca91d3b144bd0b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1e405d90b347158eb3026c063c17d149": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b7d2bf1eb886014deb1352bf617c5831": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f1aed01183af3147cc5346bcc3c471d1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "38df629cbcfda41a948afabddd921cfa": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8d45e354ddb03e2f278fff1a4c7cd493": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "813012f50789d502f51ed444c4f6bbed": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "574044e6cdbb29e62252a4c762d45c6b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
   }
 }
