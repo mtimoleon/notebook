@@ -1,0 +1,41 @@
+filters:
+  and:
+    - file.path.contains("Notes/Intelligen/Engineering/TechDebt/")
+    - '!file.name.contains("Template")'
+properties:
+  file.name:
+    displayName: Note
+  file.path:
+    displayName: Path
+  note.created:
+    displayName: Created
+  note.updated:
+    displayName: Updated
+  note.tags:
+    displayName: Tags
+views:
+  - type: table
+    name: Technical debt
+    groupBy:
+      property: component
+      direction: ASC
+    order:
+      - file.name
+      - product
+      - component
+      - tags
+      - created
+      - updated
+      - file.backlinks
+    sort:
+      - property: component
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 284
+      note.component: 120
+      note.tags: 180
+      note.created: 120
+      note.updated: 120
+      file.path: 320

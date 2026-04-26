@@ -3881,6 +3881,24 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "7122805c9b7e7e9f570141a459a1c5b9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "301b4fba1b7a6310ec42cb4eff642782": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "03376d4f4d55000fb1362cc84c0fb716": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Intelligen/Completed issues/536-Replace-MongoDB-with-DocumentDB.md": {
@@ -6087,6 +6105,14 @@
   },
   "Notes/Intelligen/Documentation/Registration/Registration flow.md": {
     "0b7cb73ec1e97246543a3d550bed3f3e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Documentation/Validations/Hard & soft validations.md": {
+    "595cbf7f07952034852d7c9707ca9bf6": {
       "position": "left",
       "width": "",
       "height": "",

@@ -4,40 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "d3a4d4978bedca30",
+        "id": "b5e11afe3c009423",
         "type": "tabs",
         "children": [
           {
-            "id": "5d9f21a4560e47ba",
+            "id": "5580426f25f5d58a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Categories/Documentation.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": true,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "System/Templates/Bases/Intelligen technical debt.base",
+                "viewName": "Technical debt"
               },
-              "icon": "lucide-file",
-              "title": "Documentation"
+              "icon": "lucide-table",
+              "title": "Intelligen technical debt"
             }
           },
           {
-            "id": "64510f82662ebb79",
+            "id": "cfbcf28cf734ca84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Engineering-old/Index.md",
+                "file": "Categories/Intelligen technical debt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +41,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "Intelligen technical debt"
             }
           }
         ],
@@ -88,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"pr\"]",
+                "query": "tag:documentation/intelligen",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -113,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 294.5
   },
   "right": {
     "id": "ed3f7e0552712392",
@@ -122,7 +111,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 33.81782945736434,
+        "dimension": 47.48062015503876,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -130,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Engineering-old/Index.md",
+                "file": "Categories/Intelligen technical debt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Index"
+              "title": "Backlinks for Intelligen technical debt"
             }
           },
           {
@@ -166,7 +155,7 @@
                 "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": ""
+                "searchQuery": "scpCloud"
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -199,12 +188,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 40.116279069767444,
+        "dimension": 25.872093023255815,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -212,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Engineering-old/Index.md",
+                "file": "Categories/Intelligen technical debt.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Index"
+              "title": "Outline of Intelligen technical debt"
             }
           }
         ]
@@ -226,7 +215,7 @@
       {
         "id": "1114442bb95cf4fa",
         "type": "tabs",
-        "dimension": 26.06589147286822,
+        "dimension": 26.647286821705425,
         "children": [
           {
             "id": "4a8b8a265069ca66",
@@ -272,44 +261,43 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "d6f834d67aedd82d",
+  "active": "cfbcf28cf734ca84",
   "lastOpenFiles": [
-    "Notes/Intelligen/Engineering-old/PRs/PR-696 Implement SKU in material.md",
+    "Categories/Auth Issues.md",
+    "System/Templates/Bases/Intelligen technical debt.base",
+    "System/Templates/Bases/Auth Issues.base",
+    "Categories/Intelligen technical debt.md",
+    "Notes/Intelligen/Engineering/TechDebt/Ambiguous Recipe Attribute Value Import References.md",
+    "Notes/Codex/Skills/engineering-pr-analysis/SKILL.md",
+    "Notes/Codex/Generic prompt.md",
+    "Notes/Codex/Skills/engineering-doc-report/SKILL.md",
+    "Notes/Codex/Skills/engineering-doc-report",
+    "Notes/Codex/Skills/engineering-doc-materialize/SKILL.md",
+    "Notes/Codex/Skills/engineering-doc-materialize",
+    "Notes/Codex/Skills/engineering-pr-analysis",
+    "Notes/Codex/Skills",
+    "Notes/Codex/Master-prompet-from-analysis.md",
+    "Notes/Codex/Master-prompt-direct.md",
+    "Notes/Codex/Prompt 1 - PR Intelligence Summary.md",
+    "Notes/Codex/Prompt 5 - Obsidian Cleanup Prompt.md",
     "Notes/Engineering-documentation-guide/Information.md",
     "Notes/Engineering-documentation-guide/Usage Flow.md",
     "Categories/Documentation.md",
-    "Notes/Intelligen/Documentation/Registration flow.md",
-    "Notes/Intelligen/Documentation/Registration/Registration flow.md",
-    "Categories/Auth Issues.md",
-    "Categories/Intelligen Issues.md",
-    "System/Templates/Documentation Template.md",
-    "System/Templates/Bases/Auth Issues.base",
-    "Notes/Intelligen/Engineering-old/Domains/Campaign Scheduling.md",
-    "Notes/Engineering-documentation-guide/Codex prompts/Prompt 1 - PR Intelligence Summary.md",
-    "Notes/Engineering-documentation-guide/Codex prompts/Prompt 2 - Domain Note Update.md",
-    "Notes/Engineering-documentation-guide/Codex prompts",
-    "Notes/Engineering-documentation-guide",
-    "Notes/Engineering-documentation-guide/Codex prompts/Prompt 3 - Business Rule Extractor.md",
-    "Notes/Engineering-documentation-guide/Codex prompts/Prompt 4 - Tech Debt Detector.md",
-    "Notes/Engineering-documentation-guide/Codex prompts/Prompt 5 - Obsidian Cleanup Prompt.md",
-    "Notes/Intelligen/Engineering-old/PRs/Appendix/PR-696 Raw Codex Analysis.md",
-    "Notes/Prompts",
-    "Notes/Intelligen/Engineering-old/TechDebt/RecipeAttributeValue external references keyed only by value name.md",
-    "Notes/Intelligen/Engineering-old/TechDebt/Recipe attribute pagination uses wrong sort-filter shape.md",
-    "Notes/Intelligen/Engineering-old/TechDebt/Recipe attribute deletes rely on FK checks.md",
-    "Notes/Intelligen/Engineering-old/TechDebt/Material attribute values import-export round-trip incomplete.md",
-    "Notes/Intelligen/Engineering-old/TechDebt/Equipment attribute rates import-export wiring incomplete.md",
-    "Notes/Intelligen/Engineering-old/Index.md",
-    "Notes/Intelligen/Documentation/SKU Implementation Αλλαγές στο Domain και στο Business Logic.md",
-    "Notes/Intelligen/Engineering-old/Rules/Equipment Attribute Rate Resolution.md",
-    "Notes/Intelligen/Engineering-old/Rules/Changeover Matrix Duration.md",
-    "Notes/Intelligen/Engineering-old/Rules/Campaign BOM Recipe Match.md",
-    "System/Templates/Bases/Documentation.base",
-    "Notes/Intelligen/Engineering-old/TechDebt",
-    "Notes/Intelligen/Engineering-old/Rules",
-    "Notes/Intelligen/Engineering-old/PRs/Appendix",
-    "Notes/Intelligen/Engineering-old/PRs",
-    "Notes/Intelligen/Engineering-old/Domains",
+    "Notes/Intelligen/Engineering/Index.md",
+    "Notes/Intelligen/Engineering/TechDebt/Recipe Classification Data Migration Risk.md",
+    "Notes/Intelligen/Engineering/TechDebt/Dynamic Scheduling Regression Surface.md",
+    "Notes/Intelligen/Engineering/Rules/Equipment Attribute Dependent Rate.md",
+    "Notes/Intelligen/Engineering/Rules/Missing Changeover Matrix Value Means Zero Duration.md",
+    "Notes/Intelligen/Engineering-middle/Rules/BOM Streams Must Match Recipe Adaptive Inputs and Outputs.md",
+    "Notes/Intelligen/Engineering-middle/Rules/Changeover Matrix Duration Resolution.md",
+    "Notes/Intelligen/Engineering-middle/Rules/One Recipe Attribute Value Per Attribute.md",
+    "Notes/Intelligen/Engineering/Rules/Recipe Attribute Value Attribute Is Immutable.md",
+    "Notes/Intelligen/Engineering-old/Rules/Recipe Attribute Value Uniqueness.md",
+    "Notes/Intelligen/Engineering/Rules/One Recipe Attribute Value Per Attribute.md",
+    "Notes/Intelligen/Engineering/TechDebt",
+    "Notes/Intelligen/Engineering/Rules",
+    "Notes/Intelligen/Engineering/Domains",
+    "Notes/Intelligen/Engineering/PRs",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776765003740.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776763595836.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/intelligen-Backlog-image-8.png",
