@@ -8,305 +8,385 @@ tags:
   - documentation/auth
   - topic/credits
 ---
-## Summary
-Raise credit system overview.
-
-### Credit System Documentation
+# Αλλαγές PR σε Domain και Business Logic
 ​
-This document is intended to stand on its own:
+## Πεδίο σύγκρισης
 ​
-- it explains the core entities
-- it describes pricing and access behavior
-- it documents experiment costing and settlement
-- it summarizes the runtime lifecycle
+Το παρόν αρχείο συνοψίζει τις αλλαγές του PR `feature/RAI-329_Implement_Credit_System` σε σχέση με το `origin/develop`, με έμφαση στο domain model, στους επιχειρησιακούς κανόνες και στις ροές χρήσης. Δεν εστιάζει σε καθαρά τεχνικά/infrastructure θέματα, εκτός όταν επηρεάζουν άμεσα τη συμπεριφορά του συστήματος.
 ​
-#### 1. Purpose
+## Σκοπός
 ​
-The credit system adds commercial and accounting behavior on top of the existing experiment platform:
+Το credit system προσθέτει εμπορική και λογιστική συμπεριφορά πάνω στην υπάρχουσα πλατφόρμα experiments.
 ​
-- users and organizations can hold credits in wallets
-- resources can publish price definitions
-- resource access can require approval, payment, or both
-- experiments can be priced before execution
-- credits can be held in escrow before the run
-- credits are only finally distributed when the experiment completes successfully
-- all money movement is recorded in a ledger
+Πρακτικά εισάγει:
 ​
-#### 2. Main Building Blocks
+- wallets για users και organizations,
+- pricing σε datasets, scripts και nodes,
+- access flows που μπορεί να απαιτούν approval, πληρωμή ή και τα δύο,
+- cost preview πριν από την εκτέλεση experiment,
+- escrow πριν το run,
+- οριστικό settlement μόνο μετά από επιτυχημένη ολοκλήρωση,
+- καθολική καταγραφή των κινήσεων σε ledger.
 ​
-##### Wallet
+## 1. Νέο credits domain
 ​
-A wallet belongs to either:
+Το PR εισάγει πλήρες υποσύστημα credits με νέα domain entities:
 ​
-- a `User`
-- an `Organization`
+- `Wallet`: πορτοφόλι credits για έναν κάτοχο.
+- `CreditEscrow`: κράτηση credits πριν την οριστική χρέωση.
+- `CreditLedger`: λογιστική καταγραφή κινήσεων.
+- `PriceDefinition`: ορισμός τιμολόγησης για dataset, script ή node.
+- `AccessGrant`: δικαίωμα πρόσβασης/χρήσης που έχει αποκτηθεί μέσω free, one-time purchase ή lease.
 ​
-It stores:
+Νέες enums και έννοιες:
 ​
-- `Balance`
-- held credits via linked `CreditEscrow` rows
-- available balance computed as `Balance - held escrows`
+- `CreditPayerType`: πληρωτής μπορεί να είναι `User` ή `Organization`.
+- `CreditRecipientType`: αποδέκτης μπορεί να είναι `User`, `Organization` ή `Platform`.
+- `CreditEscrowStatus`: `Held`, `Committed`, `Released`.
+- `CreditTransactionType`: ξεχωρίζονται experiment charges, access purchases, admin grants κ.λπ.
+- `CreditReferenceType`: διακριτό reference για experiment, dataset, script, node, price definition, access grant.
+- `BillableResourceType`: dataset, script, node.
+- `PriceModel`: `Free`, `PermanentAccess`, `Lease`, `UsageBased`.
 ​
-##### Credit Escrow
+## 2. Τιμολόγηση πόρων
 ​
-An escrow reserves credits without immediately transferring them.
+Datasets, scripts και nodes αποκτούν versioned price definitions. Το ενεργό pricing δεν ενημερώνεται in-place, αλλά προκύπτει από το πιο πρόσφατο `PriceDefinition`.
 ​
-Typical uses:
+Κανόνες:
 ​
-- before an experiment run
-- during paid resource access flows
+- `Free`: μηδενική χρέωση.
+- `PermanentAccess`: αγορά μόνιμου δικαιώματος.
+- `Lease`: αγορά χρονικά περιορισμένου δικαιώματος.
+- `UsageBased`: χρέωση ανά χρήση/εκτέλεση.
 ​
-Possible states:
+Σημαντικές επιχειρησιακές συμπεριφορές:
 ​
-- `Held`
-- `Committed`
-- `Released`
+- Για `Lease` απαιτείται `LeaseDays > 0`.
+- Σε experiment billing χρησιμοποιείται πάντα το τελευταίο `PriceDefinition`.
+- Υφιστάμενο ενεργό `AccessGrant` μπορεί να μηδενίζει μελλοντική χρέωση ακόμη και αν ο owner δημοσιεύσει αργότερα `UsageBased` pricing.
+- Σε νέο dataset/script/node δημιουργείται αυτόματα αρχικό free price definition.
+- Στα nodes απαγορεύεται `PermanentAccess`. Επιτρέπονται πρακτικά `Free`, `Lease`, `UsageBased`.
 ​
-##### Credit Ledger
+### APIs τιμολόγησης
 ​
-The ledger is the accounting trail of credit movement.
-​
-Each row stores:
-​
-- payer type and payer id
-- recipient type and recipient id
-- gross amount
-- commission amount
-- net amount
-- transaction type
-- reference type and reference id
-​
-##### PriceDefinition
-​
-A `PriceDefinition` stores the commercial terms for a billable resource:
-​
-- dataset
-- script
-- node
-​
-Each update inserts a new row. Billing uses the latest applicable row for the resource.
-​
-##### AccessGrant
-​
-An `AccessGrant` represents a granted right to use a resource. It can come from:
-​
-- free approval flow
-- one-time purchase
-- lease purchase
-​
-It is later reused by experiment pricing logic to waive charges when the payer or project already holds the right to use the resource.
-​
-#### 3. Price Models
-​
-The implementation supports these pricing modes:
-​
-
-| Model             | Meaning                                                      |
-| ----------------- | ------------------------------------------------------------ |
-| `Free`            | No per-run charge for the resource                           |
-| `UsageBased`      | Pay per use unless ownership/project/grant waives the charge |
-| `PermanentAccess` | One-time purchase, then future experiment use can be waived  |
-| `Lease`           | Time-bounded access grant; waived while active               |
-​
-Important rule:
-​
-- the latest `PriceDefinition` is used for new estimates and settlement
-- active grants can still waive later `UsageBased` pricing
-​
-#### 4. Configuration
-​
-The main settings are under `Credits` in `appsettings.json`.
-​
-
-| Setting              | Meaning                                                                      |
-| -------------------- | ---------------------------------------------------------------------------- |
-| `BaseExperimentCost` | Fixed platform charge added to experiment pricing                            |
-| `CommissionRate`     | Commission removed from non-platform recipient allocations during settlement |
-​
-Related runtime settings also affect the lifecycle:
-​
-- `ExperimentSchedulingRunPollingSeconds`
-- `RegistrationPollingSeconds`
-- `SkipBlockchainRegistration`
-​
-#### 5. Resource Pricing APIs
-​
-Price definitions are managed through:
+Οι ορισμοί τιμολόγησης διαχειρίζονται μέσω:
 ​
 - `PUT dataset/{id}/price-definition`
 - `PUT script/{id}/price-definition`
 - `PUT node/{id}/price-definition`
 ​
-Request body:
+Το request περιλαμβάνει:
 ​
 - `Model`
 - `Cost`
-- optional `LeaseDays`
+- προαιρετικό `LeaseDays`
 ​
-Behavior:
+Κάθε update δημιουργεί νέα γραμμή `PriceDefinition`. Δεν γίνεται overwrite της προηγούμενης.
 ​
-- a new `PriceDefinition` row is inserted
-- future estimates and settlements use the newest row
-- for dataset/script transitions away from `Free`, old free-grant artifacts may be cleaned up
+### Configuration και runtime settings
 ​
-#### 6. Access APIs For Datasets And Scripts
+Οι βασικές ρυθμίσεις βρίσκονται στο `Credits` section του `appsettings.json`:
 ​
-Main endpoints:
+- `BaseExperimentCost`: σταθερό platform fee που προστίθεται στην τιμολόγηση experiment
+- `CommissionRate`: commission που αφαιρείται από τα allocations μη-platform recipients στο settlement
+​
+Στο lifecycle επηρεάζουν επίσης:
+​
+- `ExperimentSchedulingRunPollingSeconds`
+- `RegistrationPollingSeconds`
+- `SkipBlockchainRegistration`
+​
+## 3. Wallets, escrows και ledger
+​
+Η οικονομική ροή αλλάζει ουσιαστικά:
+​
+- Κάθε user ή organization έχει ένα μοναδικό wallet.
+- Το διαθέσιμο υπόλοιπο δεν είναι μόνο το balance, αλλά `balance - held escrows`.
+- Για χρεώσεις που δεν πρέπει να εκτελούνται άμεσα, το σύστημα πρώτα κρατά credits σε escrow.
+- Η τελική χρέωση και πίστωση καταγράφεται σε ledger entries.
+​
+Επιπλέον κανόνες:
+​
+- Δεν μπορεί να δεσμευτεί escrow αν το διαθέσιμο υπόλοιπο δεν επαρκεί.
+- Escrow γίνεται `Committed` μόνο όταν ολοκληρωθεί η αντίστοιχη επιχειρησιακή πράξη.
+- Αν η πράξη αποτύχει ή ακυρωθεί, το escrow γίνεται `Released` και τα credits ξαναγίνονται διαθέσιμα.
+​
+### Διάγραμμα 1: Lifecycle credits / escrow / settlement
+​
+```mermaid
+flowchart TD
+    A[User ή Organization Wallet] --> B[Έλεγχος διαθέσιμου υπολοίπου]
+    B -->|Επαρκεί| C[Create CreditEscrow<br/>Status = Held]
+    B -->|Δεν επαρκεί| X[InsufficientCreditsError]
+    C --> D{Η επιχειρησιακή πράξη ολοκληρώθηκε;}
+    D -->|Ναι| E[Χρέωση payer wallet]
+    E --> F[Πίστωση recipient wallet]
+    F --> G[Καταγραφή CreditLedger]
+    G --> H[Escrow -> Committed]
+    D -->|Όχι / Cancel / Failure| I[Escrow -> Released]
+```
+​
+## 4. Νέα λογική κόστους experiment
+​
+Προστίθεται cost engine για experiments και νέο endpoint υπολογισμού κόστους.
+​
+Το συνολικό κόστος experiment αποτελείται από:
+​
+- `BaseCost` πλατφόρμας.
+- χρέωση datasets,
+- χρέωση script,
+- χρέωση node.
+​
+Κανόνες υπολογισμού:
+​
+- Αν ο payer είναι και owner του resource, δεν χρεώνεται για αυτό το resource.
+- Αν owner του resource είναι μέλος του ίδιου project, η χρέωση επίσης μηδενίζεται.
+- Ενεργό `AccessGrant` μηδενίζει αντίστοιχη χρέωση όταν το μοντέλο το υποστηρίζει.
+- Για resources με `Free` ή `UsageBased` και approval requirement, απαιτείται εγκεκριμένο access request πριν χρησιμοποιηθούν σε experiment.
+- Ο υπολογισμός γίνεται και για user payer και για organization payer.
+​
+Νέα συμπεριφορά scheduling:
+​
+- Αν το experiment έχει κόστος > 0, ο payer είναι υποχρεωτικός.
+- Το σύστημα κρατά escrow κατά το scheduling.
+- Αν η αποθήκευση του experiment αποτύχει, το escrow απελευθερώνεται.
+- Αν participant του project τρέξει το experiment με user payer, χρεώνεται το δικό του wallet και όχι του project owner.
+​
+Υπάρχει πλέον και ασφαλές `experiment/cost` preview:
+​
+- Μπορεί να υπολογίσει κόστος και για resources που δεν έχουν ακόμη συνδεθεί στο project.
+- Το preview δεν λειτουργεί σαν "oracle" για ξένα private ids: ελέγχονται ownership, approved requests, grants και project membership.
+​
+## 5. Settlement experiment και commission
+​
+Η οριστική οικονομική εκκαθάριση του experiment γίνεται όταν το experiment φτάσει σε `Registered`.
+​
+Συμπεριφορά:
+​
+- Σε επιτυχημένη ολοκλήρωση, το escrow δεσμεύεται οριστικά.
+- Το σύστημα μοιράζει το ποσό σε platform, dataset owners, script owner και node owner.
+- Για μη-platform αποδέκτες εφαρμόζεται commission.
+- Το commission δεν αυξάνει το estimated cost του experiment, αλλά αφαιρείται από το ποσό που τελικά πιστώνεται στον recipient.
+​
+Κανόνες αστοχίας:
+​
+- Αν το experiment αποτύχει σε στάδια όπως script error, execution error, registration error ή dataset transfer failure, δεν γίνεται charge και το escrow απελευθερώνεται.
+- Αν στο ενδιάμεσο έχουν αυξηθεί οι τιμές και το recalculated settlement ξεπερνά το held escrow, το σύστημα κάνει αναλογικό scaling ώστε να μη χρεώσει πάνω από το ποσό που είχε ήδη κρατηθεί.
+​
+## 6. Νέα access purchase flows για datasets και scripts
+​
+Το PR αντικαθιστά το απλό access-request μοντέλο με εμπορικές ροές.
+​
+### Access APIs
+​
+Κύρια endpoints:
 ​
 - `POST dataset/{id}/access`
 - `POST script/{id}/access`
-- access-request cancel endpoints for both resource types
+- cancel endpoints για dataset/script access requests
 ​
-These APIs support three practical outcomes:
+Οι βασικές εκβάσεις των flows είναι:
 ​
 - `PendingApproval`
 - `PendingPaymentAndApproval`
 - `InstantGrant`
 ​
-The exact result depends on:
+Η ακριβής έκβαση εξαρτάται από:
 ​
-- current price model
-- whether approval is required
-- whether a payer wallet is needed
-- whether an active grant already exists
+- το τρέχον `PriceModel`,
+- το αν απαιτείται approval,
+- το αν χρειάζεται payer wallet,
+- το αν υπάρχει ήδη ενεργό grant.
 ​
-#### 7. Experiment Costing
+### Διάγραμμα 2: Ροή initiate access για dataset / script
 ​
-##### Cost Preview
+```mermaid
+flowchart TD
+    A["POST resource/{id}/access"] --> B[Resolve latest PriceDefinition]
+    B --> C{PriceModel}
+    C -->|Free| D{Approval required?}
+    D -->|Όχι| E[Grant άμεσα]
+    D -->|Ναι| F[Pending access request]
+    
+    C -->|UsageBased| G{Approval required?}
+    G -->|Όχι| H[Χρήση επιτρέπεται χωρίς αγορά grant]
+    G -->|Ναι| I[Pending access request]
+    
+    C -->|PermanentAccess / Lease| J{Approval required?}
+    J -->|Όχι| K[Hold escrow -> Create AccessGrant -> Transfer credits]
+    J -->|Ναι| L[Hold escrow -> Pending payment + approval]
+    
+    L --> M{Owner decision}
+    M -->|Approve| N[Create AccessGrant + Transfer escrow στον owner]
+    M -->|Reject| O[Release escrow]
+```
 ​
-`GET experiment/cost` calculates the estimated charge before scheduling.
+Νέα συμπεριφορά κατά το initiate access:
 ​
-The estimate includes:
+- `Free`
+  - αν δεν απαιτείται approval, δίνεται άμεσα grant,
+  - αν απαιτείται approval, δημιουργείται pending request.
+- `UsageBased`
+  - δεν αγοράζεται grant,
+  - μπορεί να απαιτείται approval για να επιτραπεί η χρήση σε experiment.
+- `PermanentAccess` / `Lease`
+  - απαιτείται συγκεκριμένο `PriceDefinitionId`,
+  - γίνεται είτε instant purchase είτε pending payment + approval,
+  - τα credits κρατούνται σε escrow μέχρι owner approval ή τελική ολοκλήρωση.
 ​
-- `BaseCost`
-- `DatasetCost`
-- `ScriptCost`
-- `NodeCost`
-- `EstimatedCost`
+Στα access requests προστίθενται νέα business fields:
 ​
-The system loads:
+- σύνδεση με `PriceDefinition`,
+- σύνδεση με `CreditEscrow`,
+- σύνδεση με `AccessGrant`,
+- δυνατότητα cancellation,
+- δυνατότητα reset/reuse του ίδιου request record σε νέα προσπάθεια.
 ​
-- datasets
-- script
-- resolved target node
-- latest price definitions
-- project grantees
-- active access grants
+Νέοι κανόνες owner approval:
 ​
-It then applies waivers for:
+- Όταν εγκρίνεται paid request, δημιουργείται `AccessGrant` και γίνεται μεταφορά credits στον owner.
+- Όταν απορρίπτεται paid pending request, απελευθερώνεται το escrow.
+- Δεν επιτρέπεται revoke ενεργού paid grant (`PermanentAccess` ή ενεργού `Lease`).
+- Επιτρέπεται revoke free grant.
 ​
-- payer using their own resources
-- project members using each other's resources
-- active grants
+Νέα δυνατότητα και για τον requester:
 ​
-##### Usage-Based Approval Rules
+- pending access request μπορεί πλέον να ακυρωθεί,
+- η ακύρωση απελευθερώνει τυχόν escrow.
 ​
-For `Free` and `UsageBased` resources, money is not the only requirement.
+## 7. Repricing και cleanup παλιών free grants
 ​
-Extra approval rules apply when:
+Υπάρχει νέα business λογική για αλλαγή τιμολόγησης από `Free` σε πληρωμένο μοντέλο.
 ​
-- a dataset requires an access request
-- a private script is being used
+Για datasets και scripts:
 ​
-In those cases, at least one eligible user in the payer/project context must already have approved access unless another waiver path applies.
+- όταν το προηγούμενο ενεργό pricing ήταν `Free` και το νέο δεν είναι `Free`, αφαιρούνται stale free grants.
+- σε μετάβαση `Free -> PermanentAccess/Lease`, διαγράφονται και pending free-path requests ώστε να μη δοθεί αργότερα δωρεάν πρόσβαση σε κάτι που πλέον είναι επί πληρωμή.
+- αν υπάρχει escrow πάνω σε τέτοια requests, γίνεται release.
+- σε μετάβαση `Free -> UsageBased`, δεν διαγράφονται απαραίτητα όλα τα requests, αλλά αποσυνδέονται τα free grants ώστε να μη συνεχίσουν να δίνουν δωρεάν δικαίωμα.
 ​
-#### 8. Experiment Run Lifecycle
+## 8. Νέα λογική "experiment permitted" για datasets και scripts
 ​
-When `POST experiment/run` is called:
+Οι λίστες των resources που μπορεί να χρησιμοποιήσει κάποιος σε experiment γίνονται πιο έξυπνες.
 ​
-1. the same pricing logic is executed again
-2. if total cost is zero, the experiment is created without escrow
-3. if total cost is positive, a payer must be supplied
-4. wallet authorization and available balance are checked
-5. credits are held in `CreditEscrow`
-6. the experiment is persisted with payer context and escrow reference
-7. transfer / analysis / execution pipeline continues
+Πλέον λαμβάνονται υπόψη όχι μόνο:
 ​
-Important detail:
+- owned resources,
+- approved access requests,
 ​
-- credits are not finally distributed at schedule time
-- they are only reserved
+αλλά και:
 ​
-#### 9. Settlement And Failure Handling
+- active paid grants,
+- pooled grants σε επίπεδο project,
+- οργανωσιακά grants όταν το organization συμμετέχει στο project context.
 ​
-##### On Failure
+Άρα ένα resource μπορεί να είναι experiment-permitted επειδή:
 ​
-If the experiment ends in a non-success terminal state, the escrow is released.
+- το έχει αγοράσει ο ίδιος ο χρήστης,
+- το έχει αγοράσει organization του project,
+- υπάρχει ενεργό lease ή permanent grant για μέλος του project,
+- υπάρχει approved access request από κάποιο μέλος του project.
 ​
-Examples:
+## 9. Οργανισμοί, membership και ρόλοι
 ​
-- dataset transfer failure
-- script analysis failure
-- execution failure
-- registration failure
+Το PR εισάγει οργανισμούς ως κανονικό domain concept.
 ​
-Result:
+Νέα entities και κανόνες:
 ​
-- no final charge
-- no `ExperimentRun` ledger rows for that experiment
+- `Organization`
+- `OrganizationMember`
+- ρόλοι organization (`Admin`, `Member`, `Manager`)
+- δικαίωμα `CanSpendOrganizationCredits`
 ​
-##### On Success
+Νέα συμπεριφορά:
 ​
-When the experiment reaches `Registered`, settlement is finalized.
+- platform administrators μπορούν να δημιουργούν, να βλέπουν, να ενημερώνουν και να διαγράφουν organizations.
+- organization admins μπορούν να ενημερώνουν το δικό τους organization.
+- απλά μέλη μπορούν να βλέπουν organization details και τα credit στοιχεία του organization τους, αλλά όχι να το ενημερώνουν ή να το διαγράφουν.
+- strangers δεν βλέπουν organization οικονομικά στοιχεία.
 ​
-The system:
+Ιδιαίτερα σημαντικός κανόνας:
 ​
-1. rebuilds the settlement using current prices and grants
-2. computes allocations for platform and resource owners
-3. scales charges down if recalculated totals exceed the held escrow
-4. debits the payer wallet
-5. credits recipients with net amounts
-6. records commission
-7. writes ledger rows
-8. commits the escrow
+- organization wallet μπορεί να χρησιμοποιηθεί ως payer μόνο αν ο τρέχων user έχει `CanSpendOrganizationCredits = true`.
 ​
-#### 10. Commission Rules
+## 10. User role και συγχρονισμός organization membership από claims
 ​
-Commission is applied only to non-platform recipient allocations.
+Ο `User` αποκτά:
 ​
-Rules:
+- `UserRole` (`Administrator`, `Researcher`)
+- σύνδεση με `OrganizationMembership`
 ​
-- `Ceiling(gross * CommissionRate)`
-- minimum of `1`
-- capped so net amount does not become negative
+Το `RequestUserProvider` πλέον:
 ​
-The platform base fee itself has no commission deduction.
+- διαβάζει `role_id`,
+- διαβάζει `organization_id` / `org_id`,
+- συγχρονίζει role και organization membership κατά το request,
+- δημιουργεί membership αν ο χρήστης δεν έχει και εμφανιστεί organization claim.
 ​
-Important consequence:
+Νέος επιχειρησιακός κανόνας κατά το organization switch:
 ​
-- commission does not increase the estimate shown to the payer
-- it only reduces what recipients finally receive
+- αν ο χρήστης αλλάξει active organization μέσω claim, το membership αλλάζει organization,
+- ο ρόλος του μέσα στο νέο organization επανέρχεται σε `Member`,
+- το `CanSpendOrganizationCredits` μηδενίζεται.
 ​
-#### 11. Organizations And Payers
+Αυτό αποτρέπει μεταφορά admin/spending δικαιωμάτων από έναν οργανισμό σε άλλον.
 ​
-The branch adds organization-aware credit behavior:
+## 11. Node ownership και billing recipient
 ​
-- wallets can belong to organizations
-- nodes can be organization-owned
-- experiment cost calculation can use organization payer context
-- grants can belong to organizations
-- organization membership affects waiver logic
+Το `Node` παύει να θεωρείται αποκλειστικά user-owned.
 ​
-This matters because:
+Νέα business λογική:
 ​
-- org-owned grants can reduce cost for project members
-- org-owned nodes can change who receives node revenue
-- only authorized members should be able to spend org credits
+- node μπορεί να είναι `UserOwned` ή `OrganizationOwned`,
+- ο recipient των node charges προκύπτει από τον ιδιοκτήτη του node,
+- οι χρεώσεις node μηδενίζονται όταν payer ή project member ταυτίζεται με τον owner user ή owner organization.
 ​
-#### 12. Admin And Visibility APIs
+Σημείωση:
 ​
-Additional APIs introduced by the branch include:
+- το PR εισάγει το domain support και το billing support για organization-owned nodes,
+- δεν φαίνεται να εισάγει πλήρη δημόσια ροή διαχείρισης ownership, αλλά το μοντέλο και το settlement logic είναι έτοιμα να το υποστηρίξουν.
+​
+## 12. Admin οικονομικές ενέργειες
+​
+Προστίθεται admin flow για μαζική πίστωση wallets.
+​
+Συμπεριφορά:
+​
+- μόνο `Administrator` μπορεί να δώσει credits.
+- η ενέργεια είναι atomic σε επίπεδο request.
+- αν κάποιος recipient είναι invalid, αποτυγχάνει όλο το bulk grant.
+- κάθε grant γράφεται στο ledger ως `AdminGrant`.
+- υποστηρίζονται τόσο user wallets όσο και organization wallets.
+​
+### Visibility APIs
+​
+Προστίθενται επίσης endpoints ορατότητας wallet/ledger:
 ​
 - `POST admin/credits/add`
 - `GET user/credits/balance`
 - `GET user/credits/ledger`
-- organization balance and ledger endpoints
+- `GET organization/{id}/credits/balance`
+- `GET organization/{id}/credits/ledger`
 ​
-These endpoints expose the wallet and ledger side of the system to users, admins, and organizations.
+Στον τρέχοντα κώδικα:
 ​
-#### 13. Data Model Summary
+- τα admin endpoints απαιτούν `UserRole.Administrator`,
+- τα organization finance endpoints επιτρέπονται μόνο σε platform admin ή μέλος του συγκεκριμένου organization,
+- τα user finance endpoints επιστρέφουν στοιχεία μόνο για τον authenticated user.
 ​
-Main entities introduced or extended:
+## 13. Εμπλουτισμός domain-facing DTOs
+​
+Τα API responses αρχίζουν να εκθέτουν περισσότερη domain πληροφορία:
+​
+- `DatasetDto` και `ScriptDto` επιστρέφουν ενεργό `PriceDefinition` και active `AccessGrant` του caller.
+- `NodeDto`/`NodeDetailsDto` επιστρέφουν ownership και price definition.
+- `DatasetAccessRequestDto` / `ScriptAccessRequestDto` επιστρέφουν price definition, escrow, cancellation στοιχεία.
+- `ExperimentDto` δέχεται payer context για cost estimation και scheduling.
+- προστίθενται balance/ledger DTOs για user και organization credits.
+​
+### Σύνοψη data model
+​
+Κύριες οντότητες που προστίθενται ή επεκτείνονται:
 ​
 - `Wallet`
 - `CreditEscrow`
@@ -319,9 +399,9 @@ Main entities introduced or extended:
 - `Experiment.PayerType`
 - `Experiment.PayerOrganizationId`
 - `Experiment.EscrowId`
-- access-request links to price definition, escrow, grant, and cancellation metadata
+- access request links προς `PriceDefinition`, `CreditEscrow`, `AccessGrant` και cancellation metadata
 ​
-Database support is added in the credits migration:
+Σε επίπεδο βάσης δεδομένων το migration του credits προσθέτει:
 ​
 - wallets
 - escrows
@@ -331,165 +411,149 @@ Database support is added in the credits migration:
 - price definitions
 - access grants
 ​
-#### 14. Recommended Reading Order
+## 14. Συνολικό λειτουργικό αποτέλεσμα του PR
 ​
-If you want to map this document back to implementation, read in this order:
+Σε επίπεδο business capability, το PR μετατρέπει το σύστημα από απλό approval-based access model σε υβριδικό commercial model με:
 ​
-1. [[#Credit System Flows]]
+- αγορές πρόσβασης,
+- usage-based billing,
+- wallet/escrow/ledger accounting,
+- cost estimation πριν την εκτέλεση,
+- settlement μετά την επιτυχή ολοκλήρωση,
+- organization-aware πληρωμές,
+- project-level pooling πρόσβασης και grants,
+- αυστηρότερο access control σε preview και execution flows.
+​
+## 15. Διάγραμμα experiment billing
+​
+```mermaid
+flowchart TD
+    A[GET /experiment/cost ή POST /experiment/run] --> B[Load datasets / script / target node]
+    B --> C[Resolve payer context<br/>User ή Organization]
+    C --> D[Resolve latest PriceDefinitions]
+    D --> E[Έλεγχος grants / approvals / project waivers]
+    E --> F[Υπολογισμός Base + Dataset + Script + Node cost]
+    
+    F --> G{POST /experiment/run ; Cost > 0;}
+    G -->|Όχι| H[Run χωρίς escrow]
+    G -->|Ναι| I[Hold escrow για EstimatedCost]
+    
+    I --> J[Experiment executes]
+    H --> J
+    
+    J --> K{Final status = Registered;}
+    K -->|Ναι| L[Rebuild settlement]
+    L --> M[Apply commission / allocation scaling if needed]
+    M --> N[Commit escrow + ledger entries + credit recipients]
+    
+    K -->|Όχι| O[Release escrow]
+```
+​
+## 16. Πρόσθετα διαγράμματα ροών
+​
+### Διάγραμμα 4: Cost preview και run lifecycle
+​
+```mermaid
+flowchart TD
+    A[Client calls GET /experiment/cost] --> B[ExternalRequestService.CalculateExperimentCostAsync]
+    B --> C[Load project, datasets, script]
+    C --> D[Determine target node]
+    D --> E[Build payer context<br/>User ή Organization]
+    E --> F[CreditService.EstimateExperimentCostAsync]
+    F --> G[Load latest PriceDefinitions]
+    G --> H[Resolve project grantees και active AccessGrants]
+    H --> I[Apply waivers<br/>owner, project member, grant-backed]
+    I --> J[Validate usage-based approvals]
+    J --> K[Return ExperimentCostDto]
+```
+​
+```mermaid
+flowchart TD
+    A[Client calls POST /experiment/run] --> B[ExternalRequestService.ScheduleExperimentAsync]
+    B --> C[Load and validate project resources]
+    C --> D[Determine target node and transfers]
+    D --> E[CreditService.EstimateExperimentCostAsync]
+    E --> F{EstimatedCost > 0?}
+    F -- No --> G[Create experiment without escrow]
+    F -- Yes --> H[Resolve payer wallet authorization]
+    H --> I[Check available balance]
+    I --> J[Hold credits in CreditEscrow]
+    J --> K[Persist experiment]
+    K --> L[Attach payer context και EscrowId]
+    L --> M{Need transfer?}
+    M -- Yes --> N[Queue transfer flow]
+    M -- No --> O[Queue analysis/execution flow]
+```
+​
+### Διάγραμμα 5: Organization-based authorization
+​
+```mermaid
+flowchart TD
+    A[Authenticated request] --> B[RequestUserProvider.GetUserAsync]
+    B --> C[Read user_id, role_id, organization_id claims]
+    C --> D{User exists?}
+    D -- No --> E[Register user]
+    D -- Yes --> F[Update profile και UserRole]
+    E --> G{organization_id present?}
+    F --> G
+    G -- No --> H[Return user]
+    G -- Yes --> I[EnsureUserInOrganizationAsync]
+    I --> J{Membership exists?}
+    J -- No --> K[Create OrganizationMember<br/>Role=Member, CanSpend=false]
+    J -- Yes --> L[Reuse membership row και change organization]
+    K --> H
+    L --> H
+```
+​
+### Διάγραμμα 6: Finance endpoint visibility
+​
+```mermaid
+flowchart TD
+    A[Client requests finance endpoint] --> B{Endpoint type}
+    B -->|Admin| C[Require UserRole.Administrator]
+    B -->|User balance / ledger| D[Use authenticated current user]
+    B -->|Organization balance / ledger| E[Require platform admin ή org member]
+    C --> F[Return requested financial data]
+    D --> F
+    E --> F
+```
+​
+### Διάγραμμα 7: Price definition update flow
+​
+```mermaid
+flowchart TD
+    A["PUT resource/{id}/price-definition"] --> B[DatasetService / ScriptService / NodeService]
+    B --> C[Load resource και validate ownership]
+    C --> D[Parse PriceModel και validate cost]
+    D --> E{Previous latest model was Free?}
+    E -- Yes --> F[Cleanup free grants / access artifacts]
+    E -- No --> G[Skip cleanup]
+    F --> H[Insert new PriceDefinition]
+    G --> H
+    H --> I[Return PriceDefinitionDto]
+```
+​
+## 17. Προτεινόμενη σειρά ανάγνωσης
+​
+Αν θέλεις να αντιστοιχίσεις το κείμενο με την υλοποίηση, η πιο χρήσιμη σειρά είναι:
+​
+1. Τα διαγράμματα ροών του παρόντος αρχείου
 2. `Raise.APIGateway/CoreServices/CreditService.cs`
 3. `Raise.APIGateway/CoreServices/ExternalRequestService.cs`
 4. `Raise.APIGateway/Services/DatasetService.cs`
 5. `Raise.APIGateway/Services/ScriptService.cs`
 6. `Raise.APIGateway/Services/NodeService.cs`
 ​
-#### 15. Short End-To-End Summary
+## 18. Σύντομη end-to-end ροή
 ​
-In the happy path:
+Στο happy path η ακολουθία είναι:
 ​
-1. an owner publishes pricing for datasets, scripts, or nodes
-2. a user or organization obtains the necessary access rights
-3. the client requests `GET experiment/cost`
-4. the client submits `POST experiment/run`
-5. credits are held in escrow
-6. the experiment runs
-7. if the run fails, escrow is released
-8. if the run reaches `Registered`, credits are settled and ledger rows are written
+1. ο owner δημοσιεύει pricing για dataset, script ή node
+2. user ή organization αποκτά τα απαραίτητα access rights
+3. ο client καλεί `GET experiment/cost`
+4. ο client καλεί `POST experiment/run`
+5. τα credits μπαίνουν σε escrow
+6. το experiment εκτελείται
+7. αν αποτύχει, το escrow απελευθερώνεται
+8. αν φτάσει σε `Registered`, γίνεται settlement και γράφονται ledger rows
 ​
-### Credit System Flows
-Diagrams for the main flows introduced in `feature/RAI-329_Implement_Credit_System`.
-#### 1. Experiment Cost Preview And Run
-```mermaid
-%%{init: {'themeVariables': { 'fontSize': '16px'}}}%%
-flowchart TD
-    A[Client calls GET /experiment/cost] --> B[ExternalRequestService.CalculateExperimentCostAsync]
-    B --> C[Load project, datasets, script]
-    C --> D[Determine target node]
-    D --> E[Build payer context<br/>User or Organization]
-    E --> F[CreditService.EstimateExperimentCostAsync]
-    F --> G[Load latest PriceDefinitions]
-    G --> H[Resolve project grantees and active AccessGrants]
-    H --> I[Apply waivers<br/>owner, project member, grant-backed]
-    I --> J[Validate usage-based approvals<br/>dataset/script requests]
-    J --> K[Return ExperimentCostDto<br/>Base + Dataset + Script + Node]
-```
-```mermaid
-flowchart TD
-    A[Client calls POST /experiment/run] --> B[ExternalRequestService.ScheduleExperimentAsync]
-    B --> C[Load and validate project resources]
-    C --> D[Determine target node and transfers]
-    D --> E[CreditService.EstimateExperimentCostAsync]
-    E --> F{EstimatedCost > 0?}
-    F -- No --> G[Create experiment without escrow]
-    F -- Yes --> H[Resolve payer wallet authorization]
-    H --> I[Check available balance]
-    I --> J[Hold credits in CreditEscrow]
-    J --> K[Persist experiment]
-    K --> L[Attach payer context and EscrowId to experiment]
-    L --> M{Datasets need transfer?}
-    M -- Yes --> N[Queue transfer flow]
-    M -- No --> O[Queue analysis/execution flow]
-```
-#### 2. Experiment Finalization And Settlement
-```mermaid
-flowchart TD
-    A[Experiment reaches terminal state] --> B{Registered?}
-    B -- No --> C[CreditService.FinalizeExperimentAsync]
-    C --> D[Release escrow]
-    D --> E[No ExperimentRun ledger entries]
-    B -- Yes --> F[CreditService.FinalizeExperimentAsync]
-    F --> G[Rebuild settlement using current prices/grants]
-    G --> H[Compute allocations for platform, datasets, script, node]
-    H --> I{Total > AmountHeld?}
-    I -- Yes --> J[Scale allocations proportionally to escrow]
-    I -- No --> K[Use computed allocations]
-    J --> L[Debit payer wallet]
-    K --> L
-    L --> M[Credit recipients net of commission]
-    M --> N[Write CreditLedger rows]
-    N --> O[Commit escrow]
-```
-#### 3. Dataset And Script Access Flows
-```mermaid
-flowchart TD
-    A["Client calls POST /dataset/{id}/access<br/>or /script/{id}/access"] --> B[Resolve latest or requested PriceDefinition]
-    B --> C{Price model}
-    C -- Free --> D{Approval required?}
-    D -- Yes --> E[Create/attach access request]
-    D -- No --> F[Grant immediate access]
-    E --> G[Optionally create free AccessGrant on approval]
-    F --> G
-    C -- UsageBased --> H{Approval required?}
-    H -- Yes --> I[Create pending access request]
-    H -- No --> J[Return InstantGrant semantics for usage]
-    C -- PermanentAccess / Lease --> K{Approval required?}
-    K -- Yes --> L[Authorize payer wallet]
-    L --> M[Hold escrow against payer]
-    M --> N[Create pending paid request]
-    K -- No --> O[Authorize payer wallet]
-    O --> P[Hold escrow]
-    P --> Q[Create AccessGrant]
-    Q --> R[Transfer escrow to owner]
-    R --> S[Mark access granted]
-```
-```mermaid
-sequenceDiagram
-    participant U as User
-    participant API as API Gateway
-    participant CS as CreditService
-    participant Owner as Resource Owner
-    participant DB as DB
-    U->>API: Initiate paid access request
-    API->>CS: ResolveAuthorizedPayerWalletAsync
-    API->>CS: HoldCreditsInEscrowAsync
-    API->>DB: Save access request with PriceDefinitionId + CreditEscrowId
-    Owner->>API: Approve request
-    API->>DB: Create AccessGrant
-    API->>CS: TransferEscrowToRecipientAsync
-    API->>DB: Bind AccessGrant, clear escrow, mark access granted
-```
-#### 4. Organization-Based Authorization
-```mermaid
-flowchart TD
-    A[Authenticated request] --> B[RequestUserProvider.GetUserAsync]
-    B --> C[Read user_id, role_id, organization_id claims]
-    C --> D{User exists?}
-    D -- No --> E[Register user]
-    D -- Yes --> F[Update profile and UserRole]
-    E --> G{organization_id present?}
-    F --> G
-    G -- No --> H[Return user]
-    G -- Yes --> I[EnsureUserInOrganizationAsync]
-    I --> J{Membership exists?}
-    J -- No --> K[Create OrganizationMember<br/>Role=Member, CanSpend=false]
-    J -- Yes --> L[Reuse membership row and change organization]
-    K --> H
-    L --> H
-```
-#### 5. Sensitive Finance Endpoints
-```mermaid
-flowchart TD
-    A["Client calls GET /organization/{id}/credits/balance<br/>or /credits/ledger"] --> B[OrganizationController]
-    B --> C[OrganizationService.GetCreditsBalanceAsync / GetCreditsLedgerAsync]
-    C --> D[Find organization by id]
-    D --> E[Read wallet balance or ledger entries]
-    E --> F[Return financial data]
-```
-Current implementation note:
-- The controller/service path above does not currently enforce `admin` or `org member` authorization before returning finance data.
-#### 6. Price Definition Update Flow
-```mermaid
-flowchart TD
-    A["Client calls PUT resource/{id}/price-definition"] --> B["DatasetService / ScriptService / NodeService"]
-    B --> C[Load resource by id]
-    C --> D[Parse PriceModel and validate cost]
-    D --> E{Previous latest model was Free?}
-    E -- Yes --> F[Remove free grants / access artifacts]
-    E -- No --> G[Skip cleanup]
-    F --> H[Insert new PriceDefinition]
-    G --> H
-    H --> I[Return PriceDefinitionDto]
-```
-Current implementation note:
-- The update methods should be read together with resource ownership checks, because this flow mutates commercial terms and can also affect existing grants.
-​
-## Links

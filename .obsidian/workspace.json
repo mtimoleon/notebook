@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Keycloak/Documentation/Keycloak 26.4 Single Session Limit Guide.md",
+                "file": "Categories/Documentation.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": true,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Documentation"
+            }
+          },
+          {
+            "id": "64510f82662ebb79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Intelligen/Engineering-old/Index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Keycloak 26.4 Single Session Limit Guide"
+              "title": "Index"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#documentation",
+                "query": "[\"pr\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Keycloak/Documentation/Keycloak 26.4 Single Session Limit Guide.md",
+                "file": "Notes/Intelligen/Engineering-old/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +140,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Keycloak 26.4 Single Session Limit Guide"
+              "title": "Backlinks for Index"
             }
           },
           {
@@ -167,10 +192,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Operation Entry tracking update.md"
+                "file": "Notes/Intelligen/Engineering/PRs/Appendix/PR-696 Raw Codex Analysis.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Operation Entry tracking update"
+              "title": "File properties for PR-696 Raw Codex Analysis"
             }
           }
         ],
@@ -187,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Keycloak/Documentation/Keycloak 26.4 Single Session Limit Guide.md",
+                "file": "Notes/Intelligen/Engineering-old/Index.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Keycloak 26.4 Single Session Limit Guide"
+              "title": "Outline of Index"
             }
           }
         ]
@@ -249,45 +274,45 @@
   },
   "active": "d6f834d67aedd82d",
   "lastOpenFiles": [
-    "Notes/Resources/Keycloak Sessions.md",
-    "Notes/Intelligen/Keycloak/Documentation/Keycloak 26.4 Single Session Limit Guide.md",
-    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Notes/Auth/Projects/RAISE/Documentation/Credit System Documentation.md",
-    "Notes/Auth/Projects/RAISE/Architecture/Architecture.md",
-    "Notes/Auth/Projects/RAISE/Architecture/2024-04-24_RAISE_InfoPack-Antonio.md",
-    "Notes/Auth/Projects/RAISE/Architecture/D3.1 RAI Cloud services' specifications v3.0.md",
-    "Notes/Intelligen/Εργασία/Άδειες.md",
-    "Notes/Auth/Projects/RAISE/PID structure Version 2.0/PID RAI Resolver discussion.md",
-    "Notes/Auth/Projects/RAISE/Content Negotiation-Sign posting.md",
-    "Notes/Auth/Projects/RAISE/Credits system.md",
-    "Notes/Intelligen/Documentation/Production Model Documentation.md",
-    "Notes/Auth/Projects/RAISE/Documentation",
-    "Notes/Intelligen/Documentation/Reusables Uses.md",
-    "Notes/Intelligen/Documentation/Tracking updates.md",
+    "Notes/Intelligen/Engineering-old/PRs/PR-696 Implement SKU in material.md",
+    "Notes/Engineering-documentation-guide/Information.md",
+    "Notes/Engineering-documentation-guide/Usage Flow.md",
+    "Categories/Documentation.md",
+    "Notes/Intelligen/Documentation/Registration flow.md",
+    "Notes/Intelligen/Documentation/Registration/Registration flow.md",
+    "Categories/Auth Issues.md",
+    "Categories/Intelligen Issues.md",
+    "System/Templates/Documentation Template.md",
+    "System/Templates/Bases/Auth Issues.base",
+    "Notes/Intelligen/Engineering-old/Domains/Campaign Scheduling.md",
+    "Notes/Engineering-documentation-guide/Codex prompts/Prompt 1 - PR Intelligence Summary.md",
+    "Notes/Engineering-documentation-guide/Codex prompts/Prompt 2 - Domain Note Update.md",
+    "Notes/Engineering-documentation-guide/Codex prompts",
+    "Notes/Engineering-documentation-guide",
+    "Notes/Engineering-documentation-guide/Codex prompts/Prompt 3 - Business Rule Extractor.md",
+    "Notes/Engineering-documentation-guide/Codex prompts/Prompt 4 - Tech Debt Detector.md",
+    "Notes/Engineering-documentation-guide/Codex prompts/Prompt 5 - Obsidian Cleanup Prompt.md",
+    "Notes/Intelligen/Engineering-old/PRs/Appendix/PR-696 Raw Codex Analysis.md",
+    "Notes/Prompts",
+    "Notes/Intelligen/Engineering-old/TechDebt/RecipeAttributeValue external references keyed only by value name.md",
+    "Notes/Intelligen/Engineering-old/TechDebt/Recipe attribute pagination uses wrong sort-filter shape.md",
+    "Notes/Intelligen/Engineering-old/TechDebt/Recipe attribute deletes rely on FK checks.md",
+    "Notes/Intelligen/Engineering-old/TechDebt/Material attribute values import-export round-trip incomplete.md",
+    "Notes/Intelligen/Engineering-old/TechDebt/Equipment attribute rates import-export wiring incomplete.md",
+    "Notes/Intelligen/Engineering-old/Index.md",
+    "Notes/Intelligen/Documentation/SKU Implementation Αλλαγές στο Domain και στο Business Logic.md",
+    "Notes/Intelligen/Engineering-old/Rules/Equipment Attribute Rate Resolution.md",
+    "Notes/Intelligen/Engineering-old/Rules/Changeover Matrix Duration.md",
+    "Notes/Intelligen/Engineering-old/Rules/Campaign BOM Recipe Match.md",
+    "System/Templates/Bases/Documentation.base",
+    "Notes/Intelligen/Engineering-old/TechDebt",
+    "Notes/Intelligen/Engineering-old/Rules",
+    "Notes/Intelligen/Engineering-old/PRs/Appendix",
+    "Notes/Intelligen/Engineering-old/PRs",
+    "Notes/Intelligen/Engineering-old/Domains",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776765003740.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776763595836.png",
-    "Notes/Intelligen/Documentation/Consumables-Reusables-Invetory Uses.md",
-    "Notes/Intelligen/Documentation/Inventory Uses.md",
-    "Notes/Intelligen/Documentation/Consumables Uses.md",
-    "Notes/Home/Ταξίδι/Κρατήσεις/Paris.md",
-    "Categories/Resources.md",
-    "Notes/Intelligen/Documentation/consumables.md",
-    "Notes/Home/Ταξίδι/Ημερολόγιο.md",
-    "Notes/Home/Ταξίδι/Google account.md",
-    "Notes/Home/Ταξίδι/Lacy-MedicalBooklet_968000010032590.pdf",
-    "Notes/Home/Ταξίδι/Vigniette-Hungary-28-3-2026.md",
-    "Notes/Home/Ταξίδι/Vigniette-Austria-29-3-2026.md",
-    "Notes/Home/Ταξίδι/eSim.md",
-    "Notes/Home/Επιχείρηση/Ρύθμιση τιμολόγιο.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/intelligen-Backlog-image-8.png",
-    "Notes/Auth/assets/Current Issues/Accelup requests/~$Accelup requests-20260224.xlsx",
-    "Notes/Home/assets/Ταξίδι/Vigniette-Austria-29-3-2026/Vigniette-Austria-29-3-2026-20260327 1.pdf",
-    "Notes/Home/assets/Ταξίδι/Vigniette-Austria-29-3-2026/Vigniette-Austria-29-3-2026-20260327.pdf",
-    "Notes/Home/assets/Ταξίδι/Vigniette-Austria-29-3-2026",
-    "Notes/Home/assets/Ταξίδι/Vigniette-Hungary-28-3-2026",
-    "Notes/Home/assets/Ταξίδι/Vigniette-Hungary-",
-    "Notes/Home/assets/Ταξίδι/Vigniette-Hungary-28-3-2026/Vigniette-Hungary-28-3-2026-20260327 1.pdf",
-    "Notes/Home/assets/Ταξίδι/Vigniette-Hungary-28-3-2026/Vigniette-Hungary-28-3-2026-20260327.pdf",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1772635195888.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1772635875048.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229486796.png",

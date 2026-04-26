@@ -2295,6 +2295,30 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "86dbdf45e557a4c71e59e16ab48f9920": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "168723193c95082360d0e9860c2b8023": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "037bf29c48073ceed6b7fd79f448791b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8e703eb0fc957ae2cda68db58bb9aa08": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Κοινόχρηστα/Πιεστικό.md": {
@@ -6011,6 +6035,58 @@
   },
   "Notes/Resources/Keycloak Sessions.md": {
     "da41078baf9964d06d4bd5c5a9cee931": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Documentation/Calendars/Calendar entries.md": {
+    "db48b8c63326f736ed7b34c32081a10c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9670c76a7f0d4aab68fc13cbfc0a06d0": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Documentation/Calendars/Calendar instances.md": {
+    "61b0bcb756beeedbed2d5389a6862714": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "105ddff118cf191fdc57a2d797d15b7a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Documentation/Domain/Hierarchy.md": {
+    "cb7b1415ed9733c9c16bd3fd34e64ed9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Documentation/Domain/Options set.md": {
+    "608b46159128092c8616af8203b103c2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Documentation/Registration/Registration flow.md": {
+    "0b7cb73ec1e97246543a3d550bed3f3e": {
       "position": "left",
       "width": "",
       "height": "",
