@@ -2,7 +2,7 @@
 categories:
   - "[[Work]]"
 created: 2025-11-06
-product: ScpCloud
+product: scpCloud
 component: Keycloak
 tags:
   - documentation/keycloak
@@ -10,8 +10,8 @@ tags:
 ---
 
 Goto collection authorization tab.
- ![Exported image](Exported%20image%2020260209140455-0.png)  
-![Exported image](Exported%20image%2020260209140456-1.png)  
+ ![Exported image](Exported%20image%2020260209140455-0.png)
+![Exported image](Exported%20image%2020260209140456-1.png)
 ![Exported image](Exported%20image%2020260209140501-2.png)
 
 

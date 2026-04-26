@@ -2,29 +2,29 @@
 categories:
   - "[[Work]]"
 created: 2025-11-12
-product: ScpCloud
+product: scpCloud
 component: Keycloak
 status: completed
 tags:
   - issues/intelligen
 ---
 
-- [x] Add tenantId to keycloak users during registration  
-- [x] Update realm setting ScpCloud-realm.json users  
-- [x] Update realm setting ScpCloud-realm.json ==scpCloud-client-scope== (not the dedicated) mappers  
-- [x] Update postman collection for production keycloak migration  
-- [x] Update keycloak token claims in code (client scope mappers)  
-- [x] Rename OrganizationId to TenantId in Workspace entity (needs migration)  
-- [x] Check how tenantId goes to production db to create db in mongo  
-- [x] In mongo remove the o-… from database names  
-- [x] _productionSchedulingBoardServiceContract.PublishSchedulingBoardAsync  
-- [x] _productionSchedulingBoardServiceContract.RepublishTrackingToProductionSchedulingBoardAsync  
-- [x] _productionSchedulingBoardServiceContract.TrackingSyncSchedulingBoardAsync  
-- [x] Schduling board deletion handler and also relative events  
-- [x] During sync pass the workspaceUserId, workspaceTenantId in the relative dto and utilize it in the db creation  
-- [x] In mongo metadata rename tenantId to workspacetenantId  
+- [x] Add tenantId to keycloak users during registration
+- [x] Update realm setting ScpCloud-realm.json users
+- [x] Update realm setting ScpCloud-realm.json ==scpCloud-client-scope== (not the dedicated) mappers
+- [x] Update postman collection for production keycloak migration
+- [x] Update keycloak token claims in code (client scope mappers)
+- [x] Rename OrganizationId to TenantId in Workspace entity (needs migration)
+- [x] Check how tenantId goes to production db to create db in mongo
+- [x] In mongo remove the o-… from database names
+- [x] _productionSchedulingBoardServiceContract.PublishSchedulingBoardAsync
+- [x] _productionSchedulingBoardServiceContract.RepublishTrackingToProductionSchedulingBoardAsync
+- [x] _productionSchedulingBoardServiceContract.TrackingSyncSchedulingBoardAsync
+- [x] Schduling board deletion handler and also relative events
+- [x] During sync pass the workspaceUserId, workspaceTenantId in the relative dto and utilize it in the db creation
+- [x] In mongo metadata rename tenantId to workspacetenantId
 - [x] In mongo metadata add workspaceUserId (is the user who created the workspace)
-   
+
 
 |   |   |   |   |   |
 |---|---|---|---|---|
@@ -33,7 +33,7 @@ tags:
 |User|1||||
 |User1|1|User1|User1|1|
 |User2||User2|User2||
-   
+
 
 |   |   |   |   |   |
 |---|---|---|---|---|
@@ -53,10 +53,10 @@ tags:
 |User1|1|User1|Delete production User1|deletes|
 |User2||User2|Read||
 |Service|1||Read|reads operation entries|
-   
+
 
 Inside providers we get **organizationId** from token organizationId claim, but when it comes to user update info we are searching for **organizationName**
- 
+
 |   |   |   |   |   |
 |---|---|---|---|---|
 |**ADMIN REGISTRATION**|**PLANNING DB****
@@ -156,9 +156,9 @@ if (ServiceContractName == nameof(SchedulingBoard))
 else
 {
         modelBuilder.Entity<Workspace>().HasQueryFilter(_entityQueryFilterFactory.GetQueryFilter<Workspace>());
- 
+
         modelBuilder.Entity<SchedulingBoard>().HasQueryFilter(_entityQueryFilterFactory.GetQueryFilter<SchedulingBoard>(workspaceIdOptional: true));
- 
+
         modelBuilder.Entity<Project>().HasQueryFilter(_entityQueryFilterFactory.GetQueryFilter<Project>(workspaceIdOptional:true));
         modelBuilder.Entity<Campaign>().HasQueryFilter(_entityQueryFilterFactory.GetQueryFilter<Campaign>());
         modelBuilder.Entity<Batch>().HasQueryFilter(_entityQueryFilterFactory.GetQueryFilter<Batch>());
@@ -454,13 +454,13 @@ using Planning.Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
- 
+
 namespace Planning.Api.Helpers
 {
 	public class EntityQueryFilterFactory : IEntityQueryFilterFactory
 	{
 		private readonly IPlanningApiGrpcRequestInfoProvider _requestInfoProvider;
- 
+
 		private readonly IReadOnlyDictionary<Type, Func<ParameterExpression, Expression>> _workspaceSelectors = new Dictionary<Type, Func<ParameterExpression, Expression>>
 		{
 			{ typeof(Workspace), p => p },
@@ -489,7 +489,7 @@ namespace Planning.Api.Helpers
 				}
 			},
 			{ typeof(OperationEntry), p => {
- 
+
 					Expression procedureEntryExpr = Expression.PropertyOrField(p, nameof(OperationEntry.ProcedureEntry));
 					Expression batchExpr = Expression.PropertyOrField(procedureEntryExpr, nameof(ProcedureEntry.Batch));
 					Expression campaignExpr = Expression.PropertyOrField(batchExpr, nameof(Batch.Campaign));
@@ -607,7 +607,7 @@ namespace Planning.Api.Helpers
 				}
 			},
 		};
- 
+
 		public EntityQueryFilterFactory(IPlanningApiGrpcRequestInfoProvider requestInfoProvider)
 		{
 			_requestInfoProvider = requestInfoProvider;
@@ -616,170 +616,170 @@ namespace Planning.Api.Helpers
 		{
 			// e parameter
 			ParameterExpression parameter = Expression.Parameter(typeof(T), "e");
- 
+
 			if (!_workspaceSelectors.TryGetValue(typeof(T), out var selector))
 			{
 				// TODO: Convert to planning exception
 				throw new NotSupportedException(
 					$"No workspace selector is registered for type {typeof(T).Name}.");
 			}
- 
+
 			// e.Workspace / e.SchedulingBoard.Workspace / ...
 			Expression workspaceExpression = selector(parameter);
- 
+
 			BinaryExpression bodyExpression = GetWorkspaceBodyExpression(workspaceExpression, workspaceIdOptional);
- 
+
 			var result = Expression.Lambda<Func<T, bool>>(bodyExpression, parameter);
 			Console.WriteLine(result);
- 
+
 			return result;
 		}
- 
+
 		private BinaryExpression GetWorkspaceBodyExpression(Expression workspaceExpression, bool workspaceIdOptional = false)
 		{
 			//int? workspaceId = _requestInfoProvider.GetWorkspaceId();
 			//Guid userId = _requestInfoProvider.GetUserId();
 			//string tenantId = _requestInfoProvider.GetTenantId();
 			//bool userIsAdmin = _requestInfoProvider.UserIsAdmin();
- 
+
 			// workspace.UserId
 			MemberExpression workspaceUserIdExpression =
 				Expression.PropertyOrField(workspaceExpression, nameof(Workspace.UserId));
- 
+
 			// workspace.OrganizationId
 			MemberExpression workspaceOrganizationIdExpression =
 				Expression.PropertyOrField(workspaceExpression, nameof(Workspace.OrganizationId));
- 
+
 			// constants (capture values)
 			//ConstantExpression userIdConstant =
 			//	Expression.Constant(_requestInfoProvider.GetUserId(), workspaceUserIdExpression.Type); // Guid vs Guid?
 			//ConstantExpression tenantIdConstant = Expression.Constant(_requestInfoProvider.GetTenantId());
 			//ConstantExpression userIsAdminConstant = Expression.Constant(_requestInfoProvider.UserIsAdmin());
- 
- 
+
+
 			Expression<Func<Guid?>> userIdParameterLambda = () => _requestInfoProvider.GetUserId() as Guid?;
 			var userIdParam = userIdParameterLambda.Body;
 			Expression<Func<string>> tenantIdParameterLambda = () => _requestInfoProvider.GetTenantId();
 			var tenantIdParam = tenantIdParameterLambda.Body;
 			Expression<Func<bool>> isAdminParameterLambda = () => _requestInfoProvider.UserIsAdmin();
 			var isAdminParam = isAdminParameterLambda.Body;
- 
+
 			// workspace.UserId == userId
 			BinaryExpression userIdEqualsExpression =
 				Expression.Equal(workspaceUserIdExpression, userIdParam);
- 
+
 			// workspace.OrganizationId == tenantId
 			BinaryExpression organizationEqualsExpression =
 				Expression.Equal(workspaceOrganizationIdExpression, tenantIdParam);
- 
+
 			// workspace.UserId == userId || workspace.OrganizationId == tenantId
 			BinaryExpression workspaceOrTenantExpression =
 				Expression.OrElse(userIdEqualsExpression, organizationEqualsExpression);
- 
+
 			// (workspace.UserId == userId || workspace.OrganizationId == tenantId) || userIsAdmin
 			BinaryExpression userTenantAdminExpression =
 				Expression.OrElse(workspaceOrTenantExpression, isAdminParam);
- 
+
 			if (workspaceExpression.Type == typeof(Workspace))
 			{
 				//	e => e.UserId == userId
 				//		|| e.OrganizationId == tenantId
 				//		|| userIsAdmin;
- 
+
 				return userTenantAdminExpression;
 			}
- 
+
 			if (workspaceIdOptional && _requestInfoProvider.GetWorkspaceId() == null)
 			{
 				//	e => (workspaceId == null || e.Workspace.Id == workspaceId)
 				//		&& (e.Workspace.UserId == userId
 				//			|| e.Workspace.OrganizationId == tenantId
 				//			|| userIsAdmin);
- 
+
 				return userTenantAdminExpression;
 			}
- 
+
 			if (!workspaceIdOptional && _requestInfoProvider.GetWorkspaceId() == null)
 			{
 				throw new PlanningApiException(Common.Errors.CommonDomainError.ArgumentNullError,
 					nameof(_requestInfoProvider), nameof(_requestInfoProvider.GetWorkspaceId));
 			}
- 
+
 			// workspace.Id
 			MemberExpression workspaceIdExpression =
 			Expression.PropertyOrField(workspaceExpression, nameof(Workspace.Id));
- 
+
 			// constant (workspaceId
 			//ConstantExpression workspaceIdConstant = Expression.Constant(_requestInfoProvider.GetWorkspaceId().Value, workspaceIdExpression.Type);
 			Expression<Func<int?>> workspaceIdParameterLambda = () => _requestInfoProvider.GetWorkspaceId();
 			var workspaceIdParam = workspaceIdParameterLambda.Body;
- 
+
 			// workspace.Id == workspaceId
 			BinaryExpression workspaceIdEqualsExpression =
 				Expression.Equal(workspaceIdExpression, workspaceIdParam);
- 
+
 			//	e => (e.Workspace.Id == workspaceId)
 			//		&& (e.Workspace.UserId == userId
 			//			|| e.Workspace.OrganizationId == tenantId
 			//			|| _requestInfoProvider.UserIsAdmin)
- 
+
 			// (workspace.Id == workspaceId) && (userTenantAdminExpression)
 			return Expression.AndAlso(workspaceIdEqualsExpression, userTenantAdminExpression);
 		}
- 
+
 		public LambdaExpression GetExpr(Expression<Func<Guid?>> userIdAccessor)
 		{
 			// e parameter
 			ParameterExpression parameter = Expression.Parameter(typeof(SchedulingBoard), "e");
- 
+
 			Expression schedulingBoardWorkspaceExpression =
 				Expression.PropertyOrField(parameter, nameof(SchedulingBoard.Workspace));
- 
+
 			// workspace.UserId
 			MemberExpression workspaceUserIdExpression =
 				Expression.PropertyOrField(schedulingBoardWorkspaceExpression, nameof(Workspace.UserId));
- 
+
 			// workspace.UserId == userId
 			BinaryExpression bodyExpression = Expression.Equal(
 				workspaceUserIdExpression,
 				userIdAccessor.Body);
- 
+
 			var result = Expression.Lambda<Func<SchedulingBoard, bool>>(bodyExpression, parameter);
- 
+
 			Console.WriteLine(result);
- 
+
 			return result;
 		}
- 
+
 		public LambdaExpression GetLambda(Func<Guid?> userIdAccessor)
 		{
 			Expression<Func<SchedulingBoard, Workspace>> selector =
 				sb => sb.Workspace;
- 
+
 			Expression<Func<Workspace, bool>> workspacePredicate =
 				w => w.UserId == userIdAccessor();
- 
+
 			var outerParam = selector.Parameters[0];
 			var visitor = new ReplaceVisitor(workspacePredicate.Parameters[0], selector.Body);
- 
+
 			var newBody = visitor.Visit(workspacePredicate.Body);
- 
+
 			var result = Expression.Lambda<Func<SchedulingBoard, bool>>(newBody, outerParam);
- 
+
 			return result;
 		}
- 
+
 		private sealed class ReplaceVisitor : ExpressionVisitor
 		{
 			private readonly Expression _oldExpr;
 			private readonly Expression _newExpr;
- 
+
 			public ReplaceVisitor(Expression oldExpr, Expression newExpr)
 			{
 				_oldExpr = oldExpr;
 				_newExpr = newExpr;
 			}
- 
+
 			protected override Expression VisitParameter(ParameterExpression node)
 				=> node == _oldExpr ? _newExpr : base.VisitParameter(node);
 		}
@@ -798,30 +798,30 @@ public static class ExpressionComposer
 	{
 		// Use the outer parameter (TOuter) as the lambda parameter
 		var outerParam = selector.Parameters[0];
- 
+
 		// Replace all occurrences of predicate's parameter (TInner)
 		// with the selector's body (x.Inner)
 		var visitor = new ReplaceVisitor(
 			predicate.Parameters[0],   // old param: TInner
 			selector.Body              // new expr: x.Inner
 		);
- 
+
 		var newBody = visitor.Visit(predicate.Body);
- 
+
 		return Expression.Lambda<Func<TOuter, bool>>(newBody, outerParam);
 	}
- 
+
 	private sealed class ReplaceVisitor : ExpressionVisitor
 	{
 		private readonly Expression _oldExpr;
 		private readonly Expression _newExpr;
- 
+
 		public ReplaceVisitor(Expression oldExpr, Expression newExpr)
 		{
 			_oldExpr = oldExpr;
 			_newExpr = newExpr;
 		}
- 
+
 		protected override Expression VisitParameter(ParameterExpression node)
 			=> node == _oldExpr ? _newExpr : base.VisitParameter(node);
 	}

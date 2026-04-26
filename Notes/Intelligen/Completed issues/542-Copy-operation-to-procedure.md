@@ -2,7 +2,7 @@
 categories:
   - "[[Work]]"
 created: 2026-03-06
-product: ScpCloud
+product: scpCloud
 component:
 status: completed
 tags:

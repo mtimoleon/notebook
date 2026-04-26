@@ -2,7 +2,7 @@
 categories:
   - "[[Work]]"
 created: 2026-02-19
-product: ScpCloud
+product: scpCloud
 component: DocumentDB
 status: completed
 tags:
@@ -163,7 +163,7 @@ Run on a database with 50000 items the following aggregation:
       },
       pipeline: [
         { $match: { $expr: { $eq: ["$PublishedAt", "$$fp"] } } },
-        { $sort: { Id: 1, _id: 1 } }, 
+        { $sort: { Id: 1, _id: 1 } },
         { $group: { _id: "$Id", FirstBatch: { $last: "$$ROOT" } } },
         {
           // For efficiency we can do specific batch projection here
@@ -363,7 +363,7 @@ docker exec nosqldata mongodump --archive > D:/dump.archive --gzip
 ```
 docker exec -i nosqldata mongorestore --uri="mongodb://localhost:27017/?replicaSet=rs0&directConnection=true" --archive --gzip --drop --nsExclude='admin.*' ='config.*' --nsExclude='local.*'  < /d/archived-batches.dump
 ```
-   
+
 2. Restore σε Azure DocumentDB (στόχος)
 
 Αν ο στόχος σου έχει TLS (συνήθως ναι), κάνεις restore με TLS flags/params:
@@ -444,40 +444,40 @@ Migrate a collection from the source MongoDB instance to the target Azure Docume
 		--password <password> \
 		--out <dump-directory>
 	```
-        
+
     - Specify the `--db` and `--collection` arguments to narrow the scope of the data you wish to dump:
 	```bash
 	mongodump \
 		--host <hostname><:port> \
 		--username <username> \
-		--password <password> \    
+		--password <password> \
 		--db <database-name> \
 		--out <dump-directory>
 	```
-        
+
 	```bash
 	mongodump \
 		--host <hostname><:port> \
 		--username <username> \
-		--password <password> \    
+		--password <password> \
 		--db <database-name> \
 		--collection <collection-name> \
 		--out <dump-directory>
 	```
-        
+
     - Create a data dump of all data in your Azure DocumentDB.
 	```bash
 	mongodump \
 		--uri <target-connection-string> \
 		--out <dump-directory>
 	```
-​	
+​
 2. Observe that the tool created a directory with the native BSON data dumped. The files and folders are organized into a resource hierarchy based on the database and collection names. Each database is a folder and each collection is a `.bson` file.
 
 3. Restore the contents of any specific collection into an Azure DocumentDB account by specifying the collection's specific BSON file. The filename is constructed using this syntax: `<dump-directory>/<database-name>/<collection-name>.bson`.
 
 ```bash
-mongorestore \ 
+mongorestore \
 	--ssl \
 	--uri <target-connection-string> \
 	<dump-directory>/<database-name>/<collection-name>.bson

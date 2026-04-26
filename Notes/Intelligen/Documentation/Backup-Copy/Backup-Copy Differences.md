@@ -3,13 +3,13 @@ categories:
   - "[[Work]]"
 created: 2024-01-25
 component:
-product: ScpCloud
+product: scpCloud
 tags:
   - documentation/intelligen
 ---
 
 Backup
- 
+
 |                     |               |
 | ------------------- | ------------- |
 | Value objects       | shallow copy  |
@@ -17,9 +17,9 @@ Backup
 | Lists (IManyToMany) | new items     |
 | ==Lists (Other)==   | ==new items== |
 | Other classes       | copy ref      |
- 
+
 Copy From
- 
+
 |   |   |
 |---|---|
 |Value objects|shallow copy|

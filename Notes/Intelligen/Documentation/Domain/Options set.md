@@ -2,14 +2,14 @@
 categories:
   - "[[Work]]"
 created: 2023-06-20
-product: ScpCloud
+product: scpCloud
 component:
 tags:
   - documentation/intelligen
 ---
 
 Contains
- 
+
 1. Equipment type
 2. Operation type
 3. Recipe classification

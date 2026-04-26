@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b5e11afe3c009423",
+        "id": "6600ace2df18eac1",
         "type": "tabs",
         "children": [
           {
-            "id": "5580426f25f5d58a",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "System/Templates/Bases/Intelligen technical debt.base",
-                "viewName": "Technical debt"
-              },
-              "icon": "lucide-table",
-              "title": "Intelligen technical debt"
-            }
-          },
-          {
-            "id": "cfbcf28cf734ca84",
+            "id": "6faa6c250f0273ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Categories/Intelligen technical debt.md",
+                "file": "Notes/Intelligen/Engineering/TechDebt/Dynamic Scheduling Regression Surface.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -41,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Intelligen technical debt"
+              "title": "Dynamic Scheduling Regression Surface"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Categories/Intelligen technical debt.md",
+                "file": "Notes/Intelligen/Engineering/TechDebt/Dynamic Scheduling Regression Surface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Intelligen technical debt"
+              "title": "Backlinks for Dynamic Scheduling Regression Surface"
             }
           },
           {
@@ -201,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Categories/Intelligen technical debt.md",
+                "file": "Notes/Intelligen/Engineering/TechDebt/Dynamic Scheduling Regression Surface.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intelligen technical debt"
+              "title": "Outline of Dynamic Scheduling Regression Surface"
             }
           }
         ]
@@ -261,13 +247,19 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "cfbcf28cf734ca84",
+  "active": "6faa6c250f0273ee",
   "lastOpenFiles": [
+    "Categories/Intelligen technical debt.md",
+    "Notes/Intelligen/Engineering/TechDebt/Ambiguous Recipe Attribute Value Import References.md",
+    "Notes/Intelligen/Documentation/Calendars/Calendar instances.md",
+    "Notes/Intelligen/Documentation/Calendars/Calendar entries.md",
+    "Notes/Intelligen/Documentation/Backup-Copy/Clone results.md",
+    "Notes/Intelligen/Documentation/Campaigns/Campaign order.md",
+    "Categories/Documentation.md",
+    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
     "Categories/Auth Issues.md",
     "System/Templates/Bases/Intelligen technical debt.base",
     "System/Templates/Bases/Auth Issues.base",
-    "Categories/Intelligen technical debt.md",
-    "Notes/Intelligen/Engineering/TechDebt/Ambiguous Recipe Attribute Value Import References.md",
     "Notes/Codex/Skills/engineering-pr-analysis/SKILL.md",
     "Notes/Codex/Generic prompt.md",
     "Notes/Codex/Skills/engineering-doc-report/SKILL.md",
@@ -282,7 +274,6 @@
     "Notes/Codex/Prompt 5 - Obsidian Cleanup Prompt.md",
     "Notes/Engineering-documentation-guide/Information.md",
     "Notes/Engineering-documentation-guide/Usage Flow.md",
-    "Categories/Documentation.md",
     "Notes/Intelligen/Engineering/Index.md",
     "Notes/Intelligen/Engineering/TechDebt/Recipe Classification Data Migration Risk.md",
     "Notes/Intelligen/Engineering/TechDebt/Dynamic Scheduling Regression Surface.md",
@@ -290,10 +281,6 @@
     "Notes/Intelligen/Engineering/Rules/Missing Changeover Matrix Value Means Zero Duration.md",
     "Notes/Intelligen/Engineering-middle/Rules/BOM Streams Must Match Recipe Adaptive Inputs and Outputs.md",
     "Notes/Intelligen/Engineering-middle/Rules/Changeover Matrix Duration Resolution.md",
-    "Notes/Intelligen/Engineering-middle/Rules/One Recipe Attribute Value Per Attribute.md",
-    "Notes/Intelligen/Engineering/Rules/Recipe Attribute Value Attribute Is Immutable.md",
-    "Notes/Intelligen/Engineering-old/Rules/Recipe Attribute Value Uniqueness.md",
-    "Notes/Intelligen/Engineering/Rules/One Recipe Attribute Value Per Attribute.md",
     "Notes/Intelligen/Engineering/TechDebt",
     "Notes/Intelligen/Engineering/Rules",
     "Notes/Intelligen/Engineering/Domains",

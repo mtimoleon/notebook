@@ -5,14 +5,14 @@ created: 2026-02-14
 tags:
   - issues/intelligen
 status: completed
-product: ScpCloud
+product: scpCloud
 component:
 ticket:
 ---
 
 "TaskStart"
-"TaskEnd" 
-"OperationEntryType" 
+"TaskEnd"
+"OperationEntryType"
 "Task"
 "CampaignName"
 "BatchName"
@@ -63,13 +63,13 @@ BsonDocument condition = rule.Column switch
 					_ =\> null
 	};
 ```
-      
+
 
 <font color="#ff0000">Task overlap should be gt,lt or gte,lte in comparisons?  </font>
 <font color="#ff0000">Should be gt,lt according to D</font>
- 
+
 `Implemented`
- 
+
 ```
 ShowEquipment = true,
 ShowEquipmentMode = 1,
@@ -89,7 +89,7 @@ ShowEquipmentMode = 1,
 ShowStaff = true,
 ShowStaffMode = 1
 ```
- ------------------------------------------------  
+ ------------------------------------------------
 
 ```
 ShowEquipment = false,
@@ -104,7 +104,7 @@ SelectedStaff =
 new() { Id = 101 }
 ]
 ```
- -----------------------------------------------  
+ -----------------------------------------------
 
 ```
 ShowEquipment = true,
@@ -120,7 +120,7 @@ SelectedStaff =
 new() { Id = 101 }
 ]
 ```
-   
+
 
 ```
 What we should implement

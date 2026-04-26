@@ -2,7 +2,7 @@
 categories:
   - "[[Work]]"
 created: 2023-05-19
-product: ScpCloud
+product: scpCloud
 component: Keycloak
 tags:
   - documentation/intelligen
@@ -18,7 +18,7 @@ User registration flow
 - On registration approval a request to keycloak create user is performed
 - Keycloak is set to send an email to verify user email
 - After user email verification, user can use the app
-  
+
 ```
         private Guid GetUser()
         {

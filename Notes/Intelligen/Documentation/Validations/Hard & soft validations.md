@@ -2,7 +2,7 @@
 categories:
   - "[[Work]]"
 created: 2022-11-10
-product: ScpCloud
+product: scpCloud
 component:
 tags:
   - documentation/intelligen
@@ -25,18 +25,18 @@ tags:
         - HasRateBasedTerm && ProcessingRate \> 0
 - Annotations
 
-Use annotations for endpoint action members validation  
+Use annotations for endpoint action members validation
 For example to prevent empty strings
-    
-Determine which type of validation performed.  
+
+Determine which type of validation performed.
 Rules that must be applied
 
 ## Equipment validation rules
- ![Makis 201 PM iMichaliS Kannonpa Mixkn. MLkfioagE B...](Exported%20image%2020260209134117-0.png)  
+ ![Makis 201 PM iMichaliS Kannonpa Mixkn. MLkfioagE B...](Exported%20image%2020260209134117-0.png)
 
-**3 types of validation**  
--controller -\> add validation in annotation in poco  
--behaviour in domain  
+**3 types of validation**
+-controller -\> add validation in annotation in poco
+-behaviour in domain
 -handler for db etc
 
 

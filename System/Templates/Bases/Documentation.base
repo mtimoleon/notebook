@@ -14,5 +14,9 @@ views:
       - component
       - tags
     sort:
+      - property: file.name
+        direction: DESC
+      - property: product
+        direction: ASC
       - property: tags
         direction: DESC

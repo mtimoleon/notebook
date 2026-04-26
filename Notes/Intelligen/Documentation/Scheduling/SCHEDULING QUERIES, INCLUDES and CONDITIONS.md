@@ -2,26 +2,26 @@
 categories:
   - "[[Work]]"
 created: 2023-11-30
-product: ScpCloud
+product: scpCloud
 component:
 tags:
   - documentation/intelligen
 ---
 
 **SCHEDULING QUERIES, INCLUDES and CONDITIONS**
- 
+
 In order to get data from db we need to perform 3 queries on scheduling board.
 
 1. Query to get scheduling board with campaigns ordered by order number
 2. Query to get recipes and campaign containing data only to procedure entries
 3. Query to get full campaigns
- 
-The above queries work as data addition (do not get member values if they already exist in context) if they performed in the same context  
+
+The above queries work as data addition (do not get member values if they already exist in context) if they performed in the same context
 (See _Relationship fixup @_ [https://learn.microsoft.com/en-us/ef/core/change-tracking/relationship-changes#relationship-fixup](https://learn.microsoft.com/en-us/ef/core/change-tracking/relationship-changes#relationship-fixup))
- 
-For optimization we can join 1 & 2 queries in some cases (Unschedule and resolve conflicts queries). This way we have one query less to the db and the amount of data is not  
+
+For optimization we can join 1 & 2 queries in some cases (Unschedule and resolve conflicts queries). This way we have one query less to the db and the amount of data is not
 too much to "burden" the query we perform instead.
-   
+
 
 |   |   |   |   |   |
 |---|---|---|---|---|

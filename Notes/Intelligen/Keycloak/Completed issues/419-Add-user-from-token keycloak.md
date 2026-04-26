@@ -2,20 +2,20 @@
 categories:
   - "[[Work]]"
 created: 2025-08-25
-product: ScpCloud
+product: scpCloud
 component: Keycloak
 status: completed
 tags:
   - issues/intelligen
 ---
 
-- [x] Add claims into token  
-- [ ] Use claims when adding user  
-Planning.Api.Application.Commands.WorkspaceCommands  
-- [ ] CreateWorkspaceWithSchedulingBoardCommandHandler  
-- [ ] CreateWorkspaceSchedulingBoardExampleCommandHandler  
+- [x] Add claims into token
+- [ ] Use claims when adding user
+Planning.Api.Application.Commands.WorkspaceCommands
+- [ ] CreateWorkspaceWithSchedulingBoardCommandHandler
+- [ ] CreateWorkspaceSchedulingBoardExampleCommandHandler
 - [ ] CreateWorkspaceCommandHandler
-   
+
 
 |   |   |   |
 |---|---|---|
@@ -53,9 +53,9 @@ Planning.Api.Application.Commands.WorkspaceCommands
 |||allowed-origins|
 |||scope|
 |||sid|
-   
 
-  =="exp": 1756193794,==  
+
+  =="exp": 1756193794,==
   =="iat": 1756191994,==
   =="auth_time": 1756191993,==
   =="jti": "3bcd115d-e68c-43c4-957f-2e4f7a4b221d",==
@@ -73,21 +73,21 @@ Planning.Api.Application.Commands.WorkspaceCommands
   =="sid": "1997f359-a5c8-4d56-a907-a027f3a674d0",==
   =="isAdmin": "true"==
 
-Από < https://www.jwt.io/> 
+Από < https://www.jwt.io/>
 
 	• Add attributes to token
 		Αναφορά εδώ https://chatgpt.com/share/68ad8840-a270-8012-825f-ab2c99cc7283
-	
+
 		Έτσι όπως είναι τα attributes τώρα στην εφαρμογή είναι unamanged, δλδ ο κάθε user τα έχει κατά την ώρα που δημιουργείται από την admin εφαρμογή και δεν έχουμε user profile ενεργό στο keycloak
-		
+
 		Για να φανούν τα attributes των user στο token πρέπει να γίνουν map από το user.
-		
+
 		Για την εφαρμογή πηγαίνεις στο Clients/scpCloud/Client details και από εκεί
 		επιλέγεις καρτέλα Client scopes  και από τη λίστα scpCloud-dedicated και μετά mappers. Εκει φτιάχνεις mappers για τα attributes. Δες πρώτα στα buildin αν υπάρχει κάτι έτοιμο.
 		Έτοιμα είναι (πιθανόν να θέλουν κάποιες αλλαγές, email, firstName, lastName)
-		
+
 		Τελικό token:
-		
+
 		{
 		  "exp": 1756206595,
 		  "iat": 1756204795,
@@ -114,9 +114,9 @@ Planning.Api.Application.Commands.WorkspaceCommands
 		  "email": "admin2@domain.com"
 		}
 		```
-		
+
 		Κανονικά θα χρειαστεί να φτιαχτούν και mappers για το ldap
-	
+
 Εδώ είναι το token ενός user που δεν έχει όλα τα attributes
 
 {
@@ -154,7 +154,7 @@ organizationUser
 Active directory or premises
 globalAdmin = organizationAdmin
 
-localAdmin 
+localAdmin
 
 
 {
@@ -175,7 +175,7 @@ localAdmin
 {
 	"name": "preferred_username",
 	"protocol": "openid-connect",
-	"protocolMapper": "oidc-usermodel-property-mapper",  //This is the correct 
+	"protocolMapper": "oidc-usermodel-property-mapper",  //This is the correct
 	"consentRequired": false,
 	"config": {
 		"user.attribute": "username",

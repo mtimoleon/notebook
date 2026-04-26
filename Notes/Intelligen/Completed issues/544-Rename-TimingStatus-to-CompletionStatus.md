@@ -2,7 +2,7 @@
 categories:
   - "[[Work]]"
 created: 2026-03-17
-product: ScpCloud
+product: scpCloud
 component: DocumentDB
 status: completed
 tags:
@@ -48,7 +48,7 @@ TimingStatusId -> CompletionStatusId
 {latest-batches|archived-batches}.EocResourceDataPlanning.Equipment.$[].ProcEntryTasks.$[].OpEntryTasks.$[].TimingStatusId
 {latest-batches|archived-batches}.EocResourceDataTracking.Equipment.$[].ProcEntryTasks.$[].OpEntryTasks.$[].TimingStatusId
 ```
-  
+
 
 `mongosh "<connection-string>" --file "d:\develop-tasks\544-Rename-TimingStatus-to-CompletionStatus\rename-fields.js"`
 

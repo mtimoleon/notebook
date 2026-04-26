@@ -2,18 +2,18 @@
 categories:
   - "[[Work]]"
 created: 2022-05-02
-product: ScpCloud
+product: scpCloud
 component:
 tags:
   - documentation/intelligen
 ---
 
-2 types of information  
-- the entity to include in query  
-- the entity to apply operator  
+2 types of information
+- the entity to include in query
+- the entity to apply operator
 - the operator applied on entity, eg `operation.startTime\<timestamp`
     ![Exported image](Notes-20260217.png)
- 
+
 {parameterExpression =\> (Convert(System.Nullable`1[System.DateTime] Date.GetValue(Convert(parameterExpression, Object)), DateTime) == ToDateTime(value(System.Collections.Generic.List`1[System.String]).get_Item(0)))}
 
 {System.Linq.Expressions.Expression1\<System.Func\<Planning.UnitTests.Api.TestObjectDto, bool\>\>}
@@ -24,10 +24,10 @@ tags:
 
 {param =\> (Convert(System.Nullable`1[System.DateTime] Date.GetValue(Convert(param, Object)), DateTime) == ToDateTime(value(System.Collections.Generic.List`1[System.String]).get_Item(0)))}
 
-![Date Day D ayOfWeek DayOfYear Hour Kind Millisecon...](Notes-20260217%201.png) ![Date Day Dayorvveek DayOffear Hour Kind Millisecon...](Notes-20260217%202.png)   
-637895144731387592  
+![Date Day D ayOfWeek DayOfYear Hour Kind Millisecon...](Notes-20260217%201.png) ![Date Day Dayorvveek DayOffear Hour Kind Millisecon...](Notes-20260217%202.png)
+637895144731387592
 637895144730000000
- 
+
 {((Convert(Param_0.DateTime_Column, DateTime).CompareTo(29/05/2022 13:18:39) \>= 0) And (Convert(Param_0.DateTime_Column, DateTime).CompareTo(30/05/2022 13:18:39) \<= 0))}
 
 

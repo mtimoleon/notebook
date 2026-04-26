@@ -3,7 +3,7 @@ categories:
   - "[[Work]]"
 created: 2022-11-09
 component:
-product: ScpCloud
+product: scpCloud
 tags:
   - topic/conversations/intelligen
 ---

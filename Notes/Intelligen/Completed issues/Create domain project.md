@@ -1,7 +1,7 @@
 ---
 categories:
   - "[[Work]]"
-product: ScpCloud
+product: scpCloud
 component:
 ticket:
 status: completed

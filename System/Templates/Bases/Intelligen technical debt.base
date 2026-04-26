@@ -27,6 +27,7 @@ views:
       - created
       - updated
       - file.backlinks
+      - categories
     sort:
       - property: component
         direction: ASC
@@ -35,7 +36,7 @@ views:
     columnSize:
       file.name: 284
       note.component: 120
-      note.tags: 180
+      note.tags: 256
       note.created: 120
       note.updated: 120
-      file.path: 320
+      file.backlinks: 423

@@ -5,7 +5,7 @@ created: 2026-02-14
 tags:
   - issues/intelligen
 status: completed
-product: ScpCloud
+product: scpCloud
 component:
 ticket:
 ---
@@ -14,22 +14,22 @@ ticket:
 
 ![Exported image](Exported%20image%2020260209135712-1.png)
 
-![Exported image](Exported%20image%2020260209135713-2.png)  
+![Exported image](Exported%20image%2020260209135713-2.png)
 
-- [x] na stelnei kai to sourceStaffId  
+- [x] na stelnei kai to sourceStaffId
 - [x] na rename to stafId se destinationStaffId
 
-✔️ChartService 982  
-✔️OperationBase UpdateStaff  
-✔️ChartsDto 314  
-✔️OperationDto 602  
-✔️OperationEntryDto  
-✔️MoveStaffOperationEntryCommandHandler  
-✔️OperationEntry UpdateStaff/ReplaceStaff  
-UpdateOperationEntryStaffCommandHandler  
+✔️ChartService 982
+✔️OperationBase UpdateStaff
+✔️ChartsDto 314
+✔️OperationDto 602
+✔️OperationEntryDto
+✔️MoveStaffOperationEntryCommandHandler
+✔️OperationEntry UpdateStaff/ReplaceStaff
+UpdateOperationEntryStaffCommandHandler
 ✔️Update eoc staff pool calculation
- 
-✔️==planning/25/operation-base/operation/4967/update-staff==  
+
+✔️==planning/25/operation-base/operation/4967/update-staff==
 
 ```
 {
@@ -56,8 +56,8 @@ UpdateOperationEntryStaffCommandHandler
   "useAllPersons": false
 }
 ```
- 
-✔️==planning/25/operation-entry/19967/staff-move?returnEocData=true== Βγάζω από τα staff το id(row) που ήταν και βάζω το id του staff row που πήγε  
+
+✔️==planning/25/operation-entry/19967/staff-move?returnEocData=true== Βγάζω από τα staff το id(row) που ήταν και βάζω το id του staff row που πήγε
 {
 "schedulingBoardId": 25,
 "schedulingBoardConcurrencyToken": 191440,
@@ -67,8 +67,8 @@ UpdateOperationEntryStaffCommandHandler
 "start": "2022-01-01T17:16:14.160Z"
 }
 
- 
-✔️==planning/25/operation-entry/19934/update-staff==  
+
+✔️==planning/25/operation-entry/19934/update-staff==
 
 ```
 {
@@ -82,9 +82,9 @@ UpdateOperationEntryStaffCommandHandler
   ]
 }
 ```
-   
-![Exported image](Exported%20image%2020260209135714-3.png) ![Exported image](Exported%20image%2020260209135716-4.png)   
-- [x] To remove UseAllPersons  
+
+![Exported image](Exported%20image%2020260209135714-3.png) ![Exported image](Exported%20image%2020260209135716-4.png)
+- [x] To remove UseAllPersons
 - [ ] Check what happens to production with the introduced operation entry changes
 
 

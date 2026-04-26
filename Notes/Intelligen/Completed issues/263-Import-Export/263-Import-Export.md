@@ -3,7 +3,7 @@ categories:
   - "[[Work]]"
 created: 2026-02-14
 status: completed
-product: ScpCloud
+product: scpCloud
 component:
 ticket:
 tags:
@@ -30,7 +30,7 @@ https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json
 • By default, circular references are detected and exceptions thrown. You can preserve references and handle circular references.
 • By default, fields are ignored. You can include fields.
 
-Από <https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/how-to#serialization-behavior> 
+Από <https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/how-to#serialization-behavior>
 
 
 - [x] Export will be available for Facility, Materials, Recipe

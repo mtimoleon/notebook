@@ -3,14 +3,14 @@ categories:
   - "[[Work]]"
 created: 2023-12-06
 component:
-product: ScpCloud
+product: scpCloud
 tags:
   - documentation/intelligen
   - tech/grpc
 ---
-![Exported image](Exported%20image%2020260209134046-0.png)   
+![Exported image](Exported%20image%2020260209134046-0.png)
 # Depict the flow from logs
- 
+
 ```
 [11:55:24 INF] Request starting HTTP/1.1 POST https://localhost:5221/planning/Workspace/2/schedule application/json 41
 [11:55:24 INF] Executing endpoint 'WebPlanningBff.Controllers.WorkspaceController.ScheduleWorkspaceCampaignsAsync (WebPlanningBff)'

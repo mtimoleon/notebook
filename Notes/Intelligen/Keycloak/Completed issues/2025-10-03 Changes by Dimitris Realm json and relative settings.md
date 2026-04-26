@@ -2,7 +2,7 @@
 categories:
   - "[[Work]]"
 created: 2025-10-07
-product: ScpCloud
+product: scpCloud
 component: Keycloak
 tags:
   - issues/intelligen
@@ -2766,39 +2766,39 @@ tags:
 }
 ```
 
-Changes by Dimitris 2025-10-03  
+Changes by Dimitris 2025-10-03
 Contains roles and scope changes
- 
-=={==  
-=="exp":== ==1759924086====,==  
-=="iat":== ==1759922286====,==  
-=="auth_time":== ==1759916077====,==  
-=="jti":== =="92f06fe8-51c6-4bbf-a5ff-dc68bae0bdd9",==  
-=="iss":== =="====https://localhost:28443/realms/ScpCloud====",==  
-=="aud":== =="scpCloud",==  
-=="sub":== =="250819c2-20b0-4968-add1-6da32726bee3",==  
-=="typ":== =="Bearer",==  
-=="azp":== =="scpCloud",==  
-=="nonce":== =="093eb579-86ea-4b01-84e1-dc25974388a6",==  
-=="session_state":== =="7505aaaf-1df8-417e-81a2-5a8a302f5d2a",==  
-=="allowed-origins":== ==[==  
-=="*"==  
-==],==  
-=="realm_access":== =={==  
-=="roles":== ==[==  
-=="test realm role"==  
-==]==  
-==},==  
-=="scope":== =="openid profile",==  
-=="sid":== =="7505aaaf-1df8-417e-81a2-5a8a302f5d2a",==  
-=="lastName":== =="admin2",==  
-=="firstName":== =="admin2",==  
-=="country":== =="country",==  
-=="organizationName":== =="DemoOrganization",==  
-=="jobTitle":== =="job-title",==  
-=="isAdmin":== =="true",==  
-=="email":== =="admin2@domain.com",==  
-=="username":== =="admin2"==  
+
+=={==
+=="exp":== ==1759924086====,==
+=="iat":== ==1759922286====,==
+=="auth_time":== ==1759916077====,==
+=="jti":== =="92f06fe8-51c6-4bbf-a5ff-dc68bae0bdd9",==
+=="iss":== =="====https://localhost:28443/realms/ScpCloud====",==
+=="aud":== =="scpCloud",==
+=="sub":== =="250819c2-20b0-4968-add1-6da32726bee3",==
+=="typ":== =="Bearer",==
+=="azp":== =="scpCloud",==
+=="nonce":== =="093eb579-86ea-4b01-84e1-dc25974388a6",==
+=="session_state":== =="7505aaaf-1df8-417e-81a2-5a8a302f5d2a",==
+=="allowed-origins":== ==[==
+=="*"==
+==],==
+=="realm_access":== =={==
+=="roles":== ==[==
+=="test realm role"==
+==]==
+==},==
+=="scope":== =="openid profile",==
+=="sid":== =="7505aaaf-1df8-417e-81a2-5a8a302f5d2a",==
+=="lastName":== =="admin2",==
+=="firstName":== =="admin2",==
+=="country":== =="country",==
+=="organizationName":== =="DemoOrganization",==
+=="jobTitle":== =="job-title",==
+=="isAdmin":== =="true",==
+=="email":== =="admin2@domain.com",==
+=="username":== =="admin2"==
 ==}==
  \> Από \<[https://www.jwt.io/](https://www.jwt.io/)\>
 

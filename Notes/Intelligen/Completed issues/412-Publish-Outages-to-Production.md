@@ -5,7 +5,7 @@ created: 2026-02-14
 tags:
   - issues/intelligen
 status: completed
-product: ScpCloud
+product: scpCloud
 component:
 ticket:
 ---
@@ -17,9 +17,9 @@ ticket:
     - Then whatever batch/procedure/operation change we have, it should not affect outages (they should be the same as previous sync, if equipment exists in current sync)
 
 ![[Notes/Intelligen/assets/Completed issues/412-Publish-Outages-to-Production/image-1.png]]]
-- 
+-
 
-![Exported image](Exported%20image%2020260209135743-1.png)             
+![Exported image](Exported%20image%2020260209135743-1.png)
 
 ![[Notes/Intelligen/assets/Completed issues/412-Publish-Outages-to-Production/image-2.png]]]
 

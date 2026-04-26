@@ -2,7 +2,7 @@
 categories:
   - "[[Work]]"
 created: 2024-01-15
-product: ScpCloud
+product: scpCloud
 component:
 tags:
   - documentation/intelligen

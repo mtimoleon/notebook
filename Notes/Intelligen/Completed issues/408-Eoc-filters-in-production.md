@@ -5,24 +5,24 @@ created: 2026-02-14
 tags:
   - issues/intelligen
 status: completed
-product: ScpCloud
+product: scpCloud
 component:
 ticket:
 ---
 
 
 395-BE: Eoc filters in production
-• (string) CampaignName, BatchName 
+• (string) CampaignName, BatchName
 	Operators = ["is", "isNot", "contains", "doesNotContain", "startsWith",  "endsWith",  "isEmpty", "isNotEmpty"]
 	CampaignName: filter batches collection
 		Path = Batch.CampaignName
 	BatchName: filter batches collection
 		Path = Batch.BatchName
-		
+
 	This can be solved with the filter extension on queryable
-		
-• (datetime) TaskStart, TaskEnd  
-	Operators = ["is", "isNot", "inTheNext", "inTheLast", "isBetween", "isOnOrAfter", "isAfter", "isOnOrBefore", 
+
+• (datetime) TaskStart, TaskEnd
+	Operators = ["is", "isNot", "inTheNext", "inTheLast", "isBetween", "isOnOrAfter", "isAfter", "isOnOrBefore",
 			    "isBefore",  "isEmpty", "isNotEmpty"]
 	TaskStart,TaskEnd:
 		○ Fisrt Approach
@@ -33,32 +33,32 @@ ticket:
 				Path = Batch.EocResourceDataTracking.Equipment.ProcEntryTasks.StartDate | EndDate
 		○ Alternative
 		Create aggregation using the above paths with match conditions
-		
-• (list string) Equipment, Staff, OperationEntryTypes, 
+
+• (list string) Equipment, Staff, OperationEntryTypes,
 	Operators= [isIn, isNotIn]  (takes many names of the object)
-	Equipment: break rule to filter on equipment name 
+	Equipment: break rule to filter on equipment name
 		Path = Batch.EocResourceDataTracking.Equipment .EquipmentName
-	Staff: break rule to filter on staff name 
+	Staff: break rule to filter on staff name
 		Path = Batch.EocResourceDataTracking.Staff.StaffName
 	OperationEntryType:  break the rule to filter on many operation entry tasks
 		Path = Batch.EocResourceDataTracking.Equipment.OperationEntryTasks.OperationType
 		Path = Batch.EocResourceDataTracking.Equipment.ProcEntryTasks.OpEntryTasks.OperationType
-		
-• (object) Task 
-	
+
+• (object) Task
+
 ![[Notes/Intelligen/assets/Completed issues/408-Eoc-filters-in-production/image 1.png]]
 
 
 
 
-	 
+
 From FE I get rules where the rule has the following format:
 
 ```
 
 {
         column: "some-name",
-        operator: "<operator relative to the type of column>" 
+        operator: "<operator relative to the type of column>"
         values: [<some-values>]
 }
 ```
@@ -67,10 +67,10 @@ From FE I get rules where the rule has the following format:
 In the filters extension I should have a dictionary  with kvp matching the column names with the actual path in dto like:
 
 ```
-{ 
-        "TaskStart", 
+{
+        "TaskStart",
         [
-                "Batch.EocResourceDataTracking.Equipment.OpEntryTasks.StartDate", 
+                "Batch.EocResourceDataTracking.Equipment.OpEntryTasks.StartDate",
                 "Batch.EocResourceDataTracking.Equipment.ProcEntryTasks.OpEntryTasks.StartDate"
         ]
 }
@@ -96,8 +96,8 @@ var filteredBatches = collection.AsQueryable()
                     ||
                     eq.ProcEntryTasks.Any(procTask => task.StartDate >= fromDate && task.EndDate <= toDate)
                     )
-                ) 
-               
+                )
+
                // Instead the above use expression
                   .Where(equipmentFilter)
 
@@ -106,12 +106,12 @@ var filteredBatches = collection.AsQueryable()
                 {
                     // Copy the rest of equipment fileds
                     Id = eq.Id,
-                    
+
                     // Filter OpEntryTasks
                     OpEntryTasks = eq.OpEntryTasks
                         .Where(task => task.StartDate >= fromDate && task.EndDate <= toDate)
                         .ToList(),
-                    
+
                     // Filter ProcEntryTasks
                     ProcEntryTasks = eq.ProcEntryTasks
                         .Where(task => task.StartDate >= fromDate && task.EndDate <= toDate)
@@ -123,7 +123,7 @@ var filteredBatches = collection.AsQueryable()
     })
 
     // Filter batches that have at least one equipment that fulfill the criteria
-    .Where(batch => batch.EocResourceDataTracking.Equipment.Any()) 
+    .Where(batch => batch.EocResourceDataTracking.Equipment.Any())
 
     .ToList();
 

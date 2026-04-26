@@ -2,7 +2,7 @@
 categories:
   - "[[Work]]"
 created: 2025-11-11
-product: ScpCloud
+product: scpCloud
 component: Keycloak
 status: completed
 tags:
@@ -12,23 +12,23 @@ tags:
 **1. Preparations & Backup**
 
 1. **Do all the appropriate realm settings prior to update**
-    
+
     - Open postman and import the **Keycloak – scpCloud-realm-update.postman_collection** collection.
     - After importing switch to the collection variables and set the required values (depicted with red square)
     ![Exported image](Exported%20image%2020260209140351-0.png)
-    
+
     - Now you can run either all scripts in collection or each folder separately. Right click on the desired and choose run.
     ![Exported image](Exported%20image%2020260209140352-1.png)
-    
+
     You will get into a screen where all the requests will be shown:
-    
+
     ![Exported image](Exported%20image%2020260209140353-2.png)
-    
-    After ther postman run, production keycloak realm will be updated with following cahnges:  
-    - scpCloud-client-scope will have mappers  
-    - scpCloud client dedicated scope will have no mappers  
+
+    After ther postman run, production keycloak realm will be updated with following cahnges:
+    - scpCloud-client-scope will have mappers
+    - scpCloud client dedicated scope will have no mappers
     - hovione-integration-api-client mapper organizationId will be replace with tenantId mapper.
-    
+
 2. **Backup of keys**:
 docker cp keycloak:/opt/keycloak/data/ ./data_backup/
 3. **Stop Keycloak 22 container****
@@ -36,7 +36,7 @@ docker cp keycloak:/opt/keycloak/data/ ./data_backup/
 4. **Create a full backup DB**
 
 `docker exec -it sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "password" -Q "BACKUP DATABASE [keycloak] TO DISK='/var/opt/mssql/backup/keycloak.bak'"`
- 
+
 **
 ****2. Deploy & Run**
 

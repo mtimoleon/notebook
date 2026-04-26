@@ -5,7 +5,7 @@ created: 2026-02-14
 tags:
   - issues/intelligen
 status: completed
-product: ScpCloud
+product: scpCloud
 component:
 ticket:
 ---
@@ -15,7 +15,7 @@ ticket:
     $sort: { PublishedAt: 1 }
   },
   {
-    $group:   
+    $group:
       {
         _id: "$Id",
         Batch: { $push: "$$ROOT" }
@@ -35,7 +35,7 @@ ticket:
     $sort: { PublishedAt: 1 }
   },
   {
-    $group:   
+    $group:
       {
         _id: "$Id",
         FirstBatch: { $first: "$$ROOT" },
@@ -60,7 +60,7 @@ Aggregation-1
 
   },
   {
-    $group:   
+    $group:
       {
         _id: "$Id",
         FirstBatch: { $first: "$$ROOT" },
@@ -70,12 +70,12 @@ Aggregation-1
   {
    $sort: { _id: 1 }
   },
-  { 
-    $project: 
+  {
+    $project:
     {
       Batches: ["$FirstBatch", "$LastBatch"]
     }
-  } 
+  }
 ]
 
 
@@ -100,16 +100,16 @@ Aggregation-2
         }
       },
       LastBatch: {
-        $bottom: {       
+        $bottom: {
           output: "$$ROOT",
           sortBy: { PublishedAt: 1 }
         }
       }
     }
   },
-  { $project: 
-    { 
-      Batches: ["$FirstBatch", "$LastBatch"] 
+  { $project:
+    {
+      Batches: ["$FirstBatch", "$LastBatch"]
     }
   },
   { $sort: { _id: 1 } }
@@ -237,7 +237,7 @@ Using unionWith
   { $match: { IterationStart: { $lt: ISODate('2025-10-22T07:43:14.944+00:00') } } },
   { $project: { _id: 0, Id: "$_id", Batch: "$FirstBatch", kind: { $literal: "beforeFirstDate" } } },
 
-  
+
   { $unionWith: {
       coll: "archived-batches",
       pipeline: [
@@ -266,7 +266,7 @@ Corrected with lookup
       },
       pipeline: [
         { $match: { $expr: { $eq: ["$PublishedAt", "$$fp"] } } },
-        { $sort: { Id: 1, _id: 1 } }, 
+        { $sort: { Id: 1, _id: 1 } },
         { $group: { _id: "$Id", FirstBatch: { $last: "$$ROOT" } } },
         {
           // For efficiency we can do specific batch projection here
@@ -278,7 +278,7 @@ Corrected with lookup
   },
   { $unwind: { path: "$prevRows", preserveNullAndEmptyArrays: true } },
   { $replaceRoot: { newRoot: "$prevRows" } },
-  
+
   // LastBatch = first doc with PublishedAt >= lastDate, per Id
   {
     $unionWith: {

@@ -5,7 +5,7 @@ created: 2026-02-17
 tags:
   - issues/intelligen
 status:
-product: ScpCloud
+product: scpCloud
 component:
 ticket:
 ---
@@ -25,23 +25,23 @@ Campaign
     - αλλάξει **resource assignment** (π.χ. FK σε άλλο resource)
     - **διαγράψει** operation entries ή procedure entries
     - μετακινήσει (reorder/shift) τμήματα
- 
+
 ### Ανάλυση τύπου αλλαγών
 Αυτό που έχει σημασία είναι ότι το Undo πρέπει να δουλεύει:
 
 - σε **ολόκληρη δομή** (batch μαζί με procedure/operations)
 - σε **συγκεκριμένο σημείο στο χρόνο** (σαν snapshot)
 - με **σχέσεις μεταξύ entities** (όχι flat row-level restore)
- 
+
 ### Καταλληλότερη τεχνική για Undo
 
-**Full Hierarchical Snapshot ανά scheduling board** 
+**Full Hierarchical Snapshot ανά scheduling board**
 
 Η **ενδεικνυόμενη τεχνική** είναι:
 
 ![[Undo#^f32b05]]
 
- 
+
 #### Undo Flow (full)
 
 ##### Steps for test
@@ -75,7 +75,7 @@ Where to see it:
 
 
 ![[Drawing 2026-02-17 13.03.32.excalidraw]]
- 
+
 
 
 

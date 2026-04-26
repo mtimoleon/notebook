@@ -2,27 +2,27 @@
 categories:
   - "[[Work]]"
 created: 2026-02-14
-product: ScpCloud
+product: scpCloud
 component: Keycloak
 status: completed
 tags:
   - issues/intelligen
 ---
 
-[https://www.keycloak.org/server/importExport](https://www.keycloak.org/server/importExport)  
+[https://www.keycloak.org/server/importExport](https://www.keycloak.org/server/importExport)
 [https://www.keycloak.org/docs/latest/upgrading/index.html](https://www.keycloak.org/docs/latest/upgrading/index.html)
-   
+
 
 ./kc.sh export --dir /tmp/export
  - **Full export** **από το** **Keycloak cli****
 **`/opt/keycloak/bin/kc.sh export --realm ScpCloud --dir /opt/keycloak/data/export --users realm_file`
 - **Restore**
-    
+
     ```
-    
+
 /opt/keycloak/bin/kc.sh import --realm ScpCloud --dir /opt/keycloak/data/export --strategy OVERWRITE_EXISTING
     ```
-        
+
 1. - [x] Προετοιμασία
     - Διάβασε τα **Upgrading/Migration Guides** της 26 για αλλαγές σε config, θέματα, adapters. [Keycloak+1](https://www.keycloak.org/docs/latest/upgrading/index.html?utm_source=chatgpt.com)
     - Αν έχεις custom theme, έλεγξε/προσάρμοσέ το (συχνά θέλει μικρές αλλαγές σε templates/CSS). [Keycloak](https://www.keycloak.org/docs/latest/upgrading/index.html?utm_source=chatgpt.com)
@@ -39,7 +39,7 @@ tags:
     - Αν χρειάζεται να περάσεις **επιπλέον ρυθμίσεις**, προτίμησε **Admin REST partialImport** αντί για startup import. [Keycloak](https://www.keycloak.org/server/importExport?utm_source=chatgpt.com)
 5. Rollback plan
     - Αν κάτι πάει στραβά: σταμάτα τον 26, επανέφερε **DB backup** και ξανασήκωσε τον 22 (μην επιχειρήσεις να ξεκινήσεις 22 πάνω σε migrated DB). [docs.redhat.com](https://docs.redhat.com/en/documentation/red_hat_build_of_keycloak/24.0/html/upgrading_guide/upgrading?utm_source=chatgpt.com)
- 
+
 - **Hostname / relative paths** έχουν βελτιωθεί· επιβεβαίωσε τα --hostname, --http-relative-path (π.χ. /auth) και mgmt paths. [Keycloak](https://www.keycloak.org/2024/10/keycloak-2600-released?utm_source=chatgpt.com)
     - New default login theme
     - Hostname v1 feature removed
@@ -55,9 +55,9 @@ tags:
 - User Federation (LDAP/AD): test login + attribute mappers.
 - Flows: Browser/Direct grant/Service account.
 - Θέματα (themes): σελίδες login/account ανοίγουν χωρίς template errors. [Keycloak](https://www.keycloak.org/docs/latest/upgrading/index.html?utm_source=chatgpt.com)
-   
 
-[https://chatgpt.com/g/g-p-68e613dfa3c881918ff50ba72148e5ba-keycloak/c/68e6b3a9-9844-8330-bc06-aa569af1599a](https://chatgpt.com/g/g-p-68e613dfa3c881918ff50ba72148e5ba-keycloak/c/68e6b3a9-9844-8330-bc06-aa569af1599a)  
+
+[https://chatgpt.com/g/g-p-68e613dfa3c881918ff50ba72148e5ba-keycloak/c/68e6b3a9-9844-8330-bc06-aa569af1599a](https://chatgpt.com/g/g-p-68e613dfa3c881918ff50ba72148e5ba-keycloak/c/68e6b3a9-9844-8330-bc06-aa569af1599a)
 **RUNBOOK – Upgrade Keycloak 22 → 26 (ίδια DB)**
 
 1. - [x] **Πάρε backup των keys**:
@@ -67,7 +67,7 @@ docker cp keycloak:/opt/keycloak/data/ ./data_backup/
 3. - [x] **Πάρε πλήρες backup DB**
     - Αν είναι SQL Server:
 docker exec -it sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "password" -Q "BACKUP DATABASE [keycloak] TO DISK='/var/opt/mssql/backup/keycloak.bak'"
- 
+
 1. - [x] Αντικατάστησε τη βάση στο Dockerfile:
 
 FROM quay.io/keycloak/keycloak:26.4.0 AS builder
@@ -93,7 +93,7 @@ environment:
  - KEYCLOAK_ADMIN_PASSWORD=admin
 
 αλλά στο production **μην** βάζεις KC_IMPORT, γιατί θα κάνει overwrite configuration.
- 
+
 1. - [x] Εκτέλεσε:
 
 docker compose up -d --build keycloak
@@ -104,7 +104,7 @@ KC-SERVICES0050: Initializing database schema
 Αυτό είναι το Liquibase migration — ενημερώνει τη DB από 22 → 26.
 3. - [ ] Remember to check the logs in general
 4. - [x] Μετά το migration, Keycloak θα κάνει restart αυτόματα και θα ανέβει.
- 
+
 **4. Έλεγχοι**
 
 - Μπες στο [https://localhost:28443/realms/ScpCloud](https://localhost:28443/realms/ScpCloud)
@@ -114,7 +114,7 @@ KC-SERVICES0050: Initializing database schema
     - Clients (scpCloud, scp-admin-service) → έχουν σωστά secrets
     - Themes → άνοιξε τη σελίδα login για να δεις ότι φορτώνεται scpCloud
     - LDAP settings → αν είναι enabled:false, δεν αλλάζει τίποτα
- 
+
 1. Σταμάτα τον Keycloak 26:
 
 docker compose stop keycloak
@@ -124,7 +124,7 @@ docker compose stop keycloak
 docker compose up -d keycloak
 
 Μην βάλεις ποτέ τον 22 να τρέξει πάνω στη migrated DB.
- 
+
 - Λίστα realms:
 
 docker exec -it keycloak /opt/keycloak/bin/kcadm.sh get realms -r ScpCloud
@@ -136,9 +136,9 @@ docker exec -it keycloak /opt/keycloak/bin/kcadm.sh get clients -r ScpCloud | jq
 curl -X POST " [https://localhost:28443/realms/ScpCloud/protocol/openid-connect/token](https://localhost:28443/realms/ScpCloud/protocol/openid-connect/token)" \
 -d "client_id=scp-admin-service" -d "grant_type=client_credentials" \
 -d "client_secret=RgkvaNa1FJJXhY6GPlvqK3Ed8nPUcOCr"
-    
+
 **docker-compose.override.yml (Keycloak 26 • ίδια DB)**
- 
+
 ```
 services:
   keycloak:
@@ -217,44 +217,44 @@ healthcheck:
 - docker compose down keycloak
 - Restore DB backup
 - Ξανασήκωσε την 22 με το παλιό image/tag.
-       
+
 `"clientId"`: `"admi-cli"`,
 
 ```
 "fullScopeAllowed": true,
 "clientId": "security-admin-console", "fullScopeAllowed": true,
 ```
-   
+
 
 ```
   "organizationsEnabled": false,
   "verifiableCredentialsEnabled": false,
   "adminPermissionsEnabled": false,
 ```
-   
-         
+
+
 
 **Πλάνο αναβάθμισης (ίδια DB)**
- 
-**Σημεία προσοχής από 22 → 26**  
-**Τι γίνεται με τους users**  
+
+**Σημεία προσοχής από 22 → 26**
+**Τι γίνεται με τους users**
 **Ελάχιστο operational checklist μετά το upgrade**
-   
+
 
 **1. Προετοιμασία και Backup**
- 
-**2. Προετοιμασία νέου Image**
- 
-- [ ] **3. Εκκίνηση και Migration**
- 
-Αφού ανέβει:
- 
-**5. Rollback (αν χρειαστεί)**
- 
-**6. Optional Verification Commands**
-      
 
-**Βήματα εκτέλεσης**  
+**2. Προετοιμασία νέου Image**
+
+- [ ] **3. Εκκίνηση και Migration**
+
+Αφού ανέβει:
+
+**5. Rollback (αν χρειαστεί)**
+
+**6. Optional Verification Commands**
+
+
+**Βήματα εκτέλεσης**
 **Rollback**
 
 

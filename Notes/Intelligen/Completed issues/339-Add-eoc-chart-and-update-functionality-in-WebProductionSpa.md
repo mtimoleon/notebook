@@ -5,31 +5,31 @@ created: 2026-02-14
 tags:
   - issues/intelligen
 status: completed
-product: ScpCloud
+product: scpCloud
 component:
 ticket:
 ---
 
-EocData  
-- [x] Return Batches array  
-public int Id { get; set; }  
-public string Name { get; set; }  
-public int Color { get; set; }  
-ConcurrencyToken  
-~~public bool IsScheduled { get; set; }~~  
+EocData
+- [x] Return Batches array
+public int Id { get; set; }
+public string Name { get; set; }
+public int Color { get; set; }
+ConcurrencyToken
+~~public bool IsScheduled { get; set; }~~
 ~~public bool HasConflicts { get; set; }~~
- 
-- [x] Return Campaigns array  
-public int Id { get; set; }  
-public string Name { get; set; }  
-public int Color { get; set; }  
-~~public bool IsScheduled { get; set; }~~  
+
+- [x] Return Campaigns array
+public int Id { get; set; }
+public string Name { get; set; }
+public int Color { get; set; }
+~~public bool IsScheduled { get; set; }~~
 ~~public bool HasConflicts { get; set; }~~
- 
-- [x] Add information in latest batch  
-CampaignName  
+
+- [x] Add information in latest batch
+CampaignName
 CampaignColorIndex
-   
+
 
 Σχετικά με το ότι μπορεί να έχουμε stale δεδομένα για ένα OperationEntry στο web production.
 

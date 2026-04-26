@@ -5,14 +5,14 @@ created: 2026-02-14
 tags:
   - issues/intelligen
 status: abandoned
-product: ScpCloud
+product: scpCloud
 component:
 ticket:
 ---
 
 #### Code update that consolidates batch overlapping calculations:
 [SyncService.SyncTrackingWithProductionAsync.patch](file:///D:\develop-tasks\525-Sync-after-planning-update\SyncService.SyncTrackingWithProductionAsync.patch.diff)
-    
+
 Το [syncService.SyncTrackingWithProductionAsync(...)](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/michael/.vscode/extensions/openai.chatgpt-0.4.68-win32-x64/webview/#) κάνει **μερικό sync “tracking” δεδομένων** από το Planning προς το Production, με στόχο:
 
 1. να ενημερώσει **το batch** στο οποίο ανήκει το `OperationEntry` που άλλαξε (contents tracking + EOC tracking) και
@@ -54,7 +54,7 @@ ticket:
 
 **Σημειώσεις/συμπεριφορά**
 
-- Τα overlaps για tracking βασίζονται σε `TrackingStart/TrackingEnd` (planning και production). Αν κάποιο είναι `null`, το overlap check τείνει να βγαίνει `false` (λόγω nullable συγκρίσεων), άρα μπορεί να μη θεωρηθεί “overlapping” και να μη γίνει EOC update.    
+- Τα overlaps για tracking βασίζονται σε `TrackingStart/TrackingEnd` (planning και production). Αν κάποιο είναι `null`, το overlap check τείνει να βγαίνει `false` (λόγω nullable συγκρίσεων), άρα μπορεί να μη θεωρηθεί “overlapping” και να μη γίνει EOC update.
 
 
 

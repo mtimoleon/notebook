@@ -2,7 +2,7 @@
 categories:
   - "[[Work]]"
 created: 2026-02-14
-product: ScpCloud
+product: scpCloud
 component:
 tags:
   - documentation/intelligen
@@ -15,11 +15,11 @@ tags:
 ## Links
 ![[Calculate operation timing-20260217.docx]]
 
-GOAL: 
+GOAL:
 - Calculate operation timing within a batch according to the following duration and scheduling links options:
 - Durations can be: constant, same as some other operation, same as the difference between the end of some operation and the start of some other operation.
 - Scheduling links can be: according to batch start, with respect to another operation as SS (start-to-start), FS (finish-to-start), SF (start-to-finish), FF (finish-to-finish) (the first letter corresponds to the reference operation and the second to the operation in question).
-- METHODOLOGY: 
+- METHODOLOGY:
 - Determining the timing for an operation requires determining the start time and duration for that operation. We split the two calculations and create a dependency graph where the nodes are start time and duration calculations for all operations. Eventually, all nodes must be calculated in order to determine the entire schedule. The order in which the calculations will take place is determined by the graph edges, denoting the dependencies between calculations. If the graph contains cycles the problem is unsolvable.
 - ALGORITHM:
 - For each operation A, two nodes are created in the dependency graph: Ad (A duration) and As (A start). The nodes refer to determining the duration and start of operation A respectively.

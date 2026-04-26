@@ -2,7 +2,7 @@
 categories:
   - "[[Documentation]]"
 created: 2026-04-23
-product: ScpCloud
+product: scpCloud
 component: Keycloak
 tags:
   - documentation/keycloak
