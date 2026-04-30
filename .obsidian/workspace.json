@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6600ace2df18eac1",
+        "id": "bb95477ce31dd5d3",
         "type": "tabs",
         "children": [
           {
-            "id": "6faa6c250f0273ee",
+            "id": "f6dfc07342643d19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Engineering/TechDebt/Dynamic Scheduling Regression Surface.md",
+                "file": "Notes/Intelligen/Documentation/Scheduling/SCHEDULING QUERIES, INCLUDES and CONDITIONS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dynamic Scheduling Regression Surface"
+              "title": "SCHEDULING QUERIES, INCLUDES and CONDITIONS"
             }
           }
         ]
@@ -97,7 +97,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 47.48062015503876,
+        "dimension": 22.48062015503876,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Engineering/TechDebt/Dynamic Scheduling Regression Surface.md",
+                "file": "Notes/Intelligen/Documentation/Scheduling/SCHEDULING QUERIES, INCLUDES and CONDITIONS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dynamic Scheduling Regression Surface"
+              "title": "Backlinks for SCHEDULING QUERIES, INCLUDES and CONDITIONS"
             }
           },
           {
@@ -179,7 +179,7 @@
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 25.872093023255815,
+        "dimension": 19.379844961240313,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Engineering/TechDebt/Dynamic Scheduling Regression Surface.md",
+                "file": "Notes/Intelligen/Documentation/Scheduling/SCHEDULING QUERIES, INCLUDES and CONDITIONS.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dynamic Scheduling Regression Surface"
+              "title": "Outline of SCHEDULING QUERIES, INCLUDES and CONDITIONS"
             }
           }
         ]
@@ -201,7 +201,7 @@
       {
         "id": "1114442bb95cf4fa",
         "type": "tabs",
-        "dimension": 26.647286821705425,
+        "dimension": 58.139534883720934,
         "children": [
           {
             "id": "4a8b8a265069ca66",
@@ -229,7 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5
+    "width": 491.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,44 +247,44 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "6faa6c250f0273ee",
+  "active": "d6f834d67aedd82d",
   "lastOpenFiles": [
-    "Categories/Intelligen technical debt.md",
-    "Notes/Intelligen/Engineering/TechDebt/Ambiguous Recipe Attribute Value Import References.md",
-    "Notes/Intelligen/Documentation/Calendars/Calendar instances.md",
-    "Notes/Intelligen/Documentation/Calendars/Calendar entries.md",
-    "Notes/Intelligen/Documentation/Backup-Copy/Clone results.md",
-    "Notes/Intelligen/Documentation/Campaigns/Campaign order.md",
-    "Categories/Documentation.md",
     "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Categories/Auth Issues.md",
+    "Notes/Intelligen/Engineering/Index.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Domains/Credit System.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Index.md",
+    "Notes/Auth/Projects/RAISE/Engineering/PRs/PR-213 Hosted Service Shutdown Hardening.md",
+    "Notes/Auth/Projects/RAISE/Engineering/PRs/PR-209 Credit System Foundations.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Domains/Credit Escrow Lifecycle.md",
+    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Duplicated Approval Logic.md",
+    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Approval Policy Test Gaps.md",
+    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Authorization Check Ordering In Receive-Results.md",
+    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Auto-Approved Request Notifications.md",
+    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Soft-Cancel Model Bypassed By Services.md",
+    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Functional Test Service Provider Construction.md",
+    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Hosted Service Stop-Dispose Ordering.md",
+    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Documentation Drift Risk.md",
+    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Nullable Wallet Owner Type Under Unique Index.md",
+    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Migration History Rewrite Risk.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Rules/Receive Results Error Ordering.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Rules/HasResultAccess Contract.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Rules/All Required Dataset Approvals Must Pass.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Rules/Access Request Idempotency.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Rules/Access Request Cancellation Semantics.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Rules/Public Usage-Based Access Persistence.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Rules/Free To Paid Access Cleanup.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Rules/Price Drift Escrow Cap.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Rules/Escrow Release On Failed Experiment.md",
+    "Notes/Auth/Projects/RAISE/Engineering/TechDebt",
+    "Notes/Auth/Projects/RAISE/Engineering/Rules",
+    "Notes/Auth/Projects/RAISE/Engineering/PRs",
+    "Notes/Auth/Projects/RAISE/Engineering/Domains",
+    "Notes/Auth/Projects/RAISE/Engineering",
+    "Notes/Intelligen/Engineering/Reports",
     "System/Templates/Bases/Intelligen technical debt.base",
     "System/Templates/Bases/Auth Issues.base",
-    "Notes/Codex/Skills/engineering-pr-analysis/SKILL.md",
-    "Notes/Codex/Generic prompt.md",
-    "Notes/Codex/Skills/engineering-doc-report/SKILL.md",
     "Notes/Codex/Skills/engineering-doc-report",
-    "Notes/Codex/Skills/engineering-doc-materialize/SKILL.md",
     "Notes/Codex/Skills/engineering-doc-materialize",
-    "Notes/Codex/Skills/engineering-pr-analysis",
-    "Notes/Codex/Skills",
-    "Notes/Codex/Master-prompet-from-analysis.md",
-    "Notes/Codex/Master-prompt-direct.md",
-    "Notes/Codex/Prompt 1 - PR Intelligence Summary.md",
-    "Notes/Codex/Prompt 5 - Obsidian Cleanup Prompt.md",
-    "Notes/Engineering-documentation-guide/Information.md",
-    "Notes/Engineering-documentation-guide/Usage Flow.md",
-    "Notes/Intelligen/Engineering/Index.md",
-    "Notes/Intelligen/Engineering/TechDebt/Recipe Classification Data Migration Risk.md",
-    "Notes/Intelligen/Engineering/TechDebt/Dynamic Scheduling Regression Surface.md",
-    "Notes/Intelligen/Engineering/Rules/Equipment Attribute Dependent Rate.md",
-    "Notes/Intelligen/Engineering/Rules/Missing Changeover Matrix Value Means Zero Duration.md",
-    "Notes/Intelligen/Engineering-middle/Rules/BOM Streams Must Match Recipe Adaptive Inputs and Outputs.md",
-    "Notes/Intelligen/Engineering-middle/Rules/Changeover Matrix Duration Resolution.md",
-    "Notes/Intelligen/Engineering/TechDebt",
-    "Notes/Intelligen/Engineering/Rules",
-    "Notes/Intelligen/Engineering/Domains",
-    "Notes/Intelligen/Engineering/PRs",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776765003740.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776763595836.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/intelligen-Backlog-image-8.png",

@@ -43,6 +43,7 @@ Create report under:
 Reports/Engineering Report <yyyy-mm-dd>.md
 
 If Reports/ does not exist, create it.
+Report should be in Greek.
 
 Report structure:
 

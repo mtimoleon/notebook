@@ -11,6 +11,7 @@ product: scpCloud
 
 
 
+- [ ] Επίσης, πρέπει να σκεφτούμε τι θα γίνει αν κάποιος πάει να αλλάξει ένα material που ήδη χρησιμοποιείται σε κάποιο BOM, από Final product σε κάτι άλλο. Δεν θα έπρεπε να το επιτρέψουμε, αλλά κατά προτίμηση χωρίς να κάνουμε query στη βάση. Κάνουμε κάτι αντίστοιχο εδώ: UpdateStorageUnitTypeCommandHandler
 - [ ] Original start upgrade [video](file:///D:/develop-tasks/Recordings/Original-start-end-Recording%202026-04-21%20125124.mp4)
 - [ ] To add original start and sync start in eoc chart (none, planning, original) in production app
         ![[Intelligen-Backlog-1776763595836.png|930x449]]Να συμμαζέψουμε στο operation entry το original info (original start/end, original staff,  original equipment) ετσι όταν γίνεται update να έχω πλήρως την αρχική πληροφορία
