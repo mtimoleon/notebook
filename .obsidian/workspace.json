@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bb95477ce31dd5d3",
+        "id": "97e8fbc12842f22d",
         "type": "tabs",
         "children": [
           {
-            "id": "f6dfc07342643d19",
+            "id": "9f3e87e3410a6895",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Scheduling/SCHEDULING QUERIES, INCLUDES and CONDITIONS.md",
+                "file": "Notes/Intelligen/Documentation/Tracking updates.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SCHEDULING QUERIES, INCLUDES and CONDITIONS"
+              "title": "Tracking updates"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:documentation/intelligen",
+                "query": "tag:#documentation/intelligen",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +97,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 22.48062015503876,
+        "dimension": 20.73643410852713,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Scheduling/SCHEDULING QUERIES, INCLUDES and CONDITIONS.md",
+                "file": "Notes/Intelligen/Documentation/Tracking updates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SCHEDULING QUERIES, INCLUDES and CONDITIONS"
+              "title": "Backlinks for Tracking updates"
             }
           },
           {
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Scheduling/SCHEDULING QUERIES, INCLUDES and CONDITIONS.md",
+                "file": "Notes/Intelligen/Documentation/Tracking updates.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SCHEDULING QUERIES, INCLUDES and CONDITIONS"
+              "title": "Outline of Tracking updates"
             }
           }
         ]
@@ -201,7 +201,7 @@
       {
         "id": "1114442bb95cf4fa",
         "type": "tabs",
-        "dimension": 58.139534883720934,
+        "dimension": 59.883720930232556,
         "children": [
           {
             "id": "4a8b8a265069ca66",
@@ -229,7 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 491.5
+    "width": 458.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,54 +247,54 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "d6f834d67aedd82d",
+  "active": "9f3e87e3410a6895",
   "lastOpenFiles": [
+    "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
+    "Notes/Intelligen/Documentation/Reusables Uses.md",
+    "Notes/Intelligen/Documentation/Consumables-Reusables-Invetory Uses.md",
+    "Notes/Intelligen/Documentation/Consumables Uses.md",
+    "Notes/Intelligen/Documentation/Tracking updates.md",
+    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
     "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Notes/Intelligen/Engineering/Index.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Domains/Credit System.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Index.md",
-    "Notes/Auth/Projects/RAISE/Engineering/PRs/PR-213 Hosted Service Shutdown Hardening.md",
-    "Notes/Auth/Projects/RAISE/Engineering/PRs/PR-209 Credit System Foundations.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Domains/Credit Escrow Lifecycle.md",
-    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Duplicated Approval Logic.md",
-    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Approval Policy Test Gaps.md",
-    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Authorization Check Ordering In Receive-Results.md",
-    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Auto-Approved Request Notifications.md",
-    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Soft-Cancel Model Bypassed By Services.md",
-    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Functional Test Service Provider Construction.md",
-    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Hosted Service Stop-Dispose Ordering.md",
-    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Documentation Drift Risk.md",
-    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Nullable Wallet Owner Type Under Unique Index.md",
-    "Notes/Auth/Projects/RAISE/Engineering/TechDebt/Migration History Rewrite Risk.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Rules/Receive Results Error Ordering.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Rules/HasResultAccess Contract.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Rules/All Required Dataset Approvals Must Pass.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Rules/Access Request Idempotency.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Rules/Access Request Cancellation Semantics.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Rules/Public Usage-Based Access Persistence.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Rules/Free To Paid Access Cleanup.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Rules/Price Drift Escrow Cap.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Rules/Escrow Release On Failed Experiment.md",
-    "Notes/Auth/Projects/RAISE/Engineering/TechDebt",
-    "Notes/Auth/Projects/RAISE/Engineering/Rules",
-    "Notes/Auth/Projects/RAISE/Engineering/PRs",
-    "Notes/Auth/Projects/RAISE/Engineering/Domains",
-    "Notes/Auth/Projects/RAISE/Engineering",
-    "Notes/Intelligen/Engineering/Reports",
-    "System/Templates/Bases/Intelligen technical debt.base",
-    "System/Templates/Bases/Auth Issues.base",
-    "Notes/Codex/Skills/engineering-doc-report",
-    "Notes/Codex/Skills/engineering-doc-materialize",
+    "Current/2026-scratch-pad.md",
+    "Notes/Home/Ταξίδι/Ημερολόγιο 2026-10.excalidraw.md",
+    "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
+    "Notes/Home/Ταξίδι/April-2026/Πίνακας Κόστους Πλήρους Ταξιδιού.md",
+    "Notes/Home/Ταξίδι/April-2026/Θεσσαλονίκη-Ουτρέχτη-πλάνο.md",
+    "Notes/Home/Ταξίδι/April-2026/Ημερολόγιο 2026-03-04 22.28.15.excalidraw.md",
+    "Notes/Home/Ταξίδι/April-2026/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md",
+    "Notes/Home/Ταξίδι/April-2026/Διαδρομή/Θεσσαλονίκη-Ουτρέχτη.md",
+    "Notes/Home/assets/Ταξίδι/April-2026/Ημερολόγιο 2026-03-04 22.28.15.excalidraw",
+    "Notes/Home/Ταξίδι/April-2026/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md",
+    "Notes/Home/Ταξίδι/April-2026/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md",
+    "Notes/Home/Ταξίδι/April-2026/Λίστες/Λεπτομερής Λίστα Ελέγχου Αυτοκινήτου – 7 Ημέρες Πριν.md",
+    "Notes/Home/Ταξίδι/April-2026/Λίστες/ToDo list for traveling.md",
+    "Notes/Home/Ταξίδι/April-2026/Λίστες/Checklist – Τι Έχω Μέσα Στο Πορτμπαγκάζ.md",
+    "Notes/Home/Ταξίδι/Ημερολόγιο.md",
+    "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-03-04 22.28.15.excalidraw",
+    "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw",
+    "Notes/Home/assets/assets/Ταξίδι/Ημερολόγιο/Drawing 2026-03-04 22.28.15.excalidraw",
+    "Notes/Home/assets/assets/Ταξίδι/April-2026-Θεσσαλονίκη-Ουτρέχτη/Drawing 2026-03-04 22.28.15.excalidraw",
+    "Notes/Home/assets/Ταξίδι/Ημερολόγιο",
+    "Notes/Home/assets/assets/Ταξίδι/Ημερολόγιο/Drawing 2026-05-05 11.33.17.excalidraw",
+    "Notes/Home/assets/assets/Ταξίδι/Ημερολόγιο",
+    "Notes/Home/assets/assets/Ταξίδι/October-2026/Drawing 2026-05-05 11.33.17.excalidraw",
+    "Notes/Home/Ταξίδι/Rates.md",
+    "Notes/Home/Ταξίδι/Αξιοθέατα.md",
+    "Notes/Home/assets/assets/Ταξίδι/October-2026/Ημερολόγιο 2026-05-05 11.33.17.excalidraw",
+    "Notes/Home/assets/Ταξίδι/April-2026/Κρατήσεις/St. Polten/St. Polten-20260222.png",
+    "Notes/Home/assets/Ταξίδι/Αξιοθέατα/Αξιοθέατα-1774475246509.png",
+    "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw/Ημερολόγιο 2026-10.excalidraw-20260505 2.png",
+    "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw/Ημερολόγιο 2026-10.excalidraw-20260505 1.png",
+    "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw/Ημερολόγιο 2026-10.excalidraw-20260505 3.png",
+    "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw/Ημερολόγιο 2026-10.excalidraw-20260505.png",
+    "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
+    "Notes/Home/Ταξίδι/Google account.md",
+    "Notes/Home/Ταξίδι/Furkot.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776765003740.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776763595836.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/intelligen-Backlog-image-8.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1772635195888.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1772635875048.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229486796.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1774515864301.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773318667345.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229680588.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1774515784052.png",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

@@ -12,7 +12,7 @@ tags:
 ---
 ## Summary
 
-Consumables / Reusables / Inventory explanation.
+[[Consumables Uses|Consumables]] / [[Reusables Uses|Reusables]] / [[Inventory Uses|Inventory]] uses explanation.
 
 ## Details
 

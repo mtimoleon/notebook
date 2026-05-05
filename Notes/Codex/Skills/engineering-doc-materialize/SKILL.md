@@ -1,6 +1,6 @@
 ---
 name: engineering-doc-materialize
-description: Use a reviewed PR Analysis Markdown file, usually from artifacts, to create or update Obsidian engineering documentation folders such as PRs, Domains, Rules, TechDebt, and Index.md.
+description: Use a reviewed PR Analysis Markdown file, usually from .local, to create or update Obsidian engineering documentation folders such as PRs, Domains, Rules, TechDebt, and Index.md.
 ---
 
 You are maintaining PR-based engineering documentation for this repository.
@@ -62,9 +62,9 @@ TechDebt/
 4. Detect PR Analysis Markdown file.
 
 Search in this preferred order:
-1. artifacts/*.md
-2. artifacts/pr/*.md
-3. artifacts/analysis/*.md
+1. .local/*.md
+2. .local/pr/*.md
+3. .local/analysis/*.md
 4. current repository root for files matching:
    - PR*.md
    - *analysis*.md

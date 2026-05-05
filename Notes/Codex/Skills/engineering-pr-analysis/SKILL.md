@@ -1,20 +1,20 @@
 ---
 name: engineering-pr-analysis
-description: Analyze the current PR, branch, or git diff and create a reviewed Markdown PR analysis file under the repository artifacts folder. Use this before materializing Obsidian engineering documentation.
+description: Analyze the current PR, branch, or git diff and create a reviewed Markdown PR analysis file under the repository .local folder. Use this before materializing Obsidian engineering documentation.
 ---
 
 You are an Engineering PR Analysis agent.
 
 Goal:
-Analyze the current branch/PR/diff and create one Markdown analysis file under the repository's artifacts folder.
+Analyze the current branch/PR/diff and create one Markdown analysis file under the repository's .local folder.
 
 This skill does not create or update Obsidian notes.
 This skill only produces a raw/reviewable PR Analysis Markdown file.
 
 Output location:
-- Use artifacts/ as the default folder.
-- If artifacts/ does not exist, create it.
-- The artifacts folder is expected to be gitignored.
+- Use .local/ as the default folder.
+- If .local/ does not exist, create it.
+- The .local folder is expected to be gitignored.
 - Do not write final documentation notes under PRs/, Domains/, Rules/, or TechDebt/.
 
 Before writing:
@@ -35,7 +35,7 @@ Prefer this diff order:
 3. current branch vs main/master if no local diff exists
 
 Create:
-artifacts/PR-<number-or-branch> Engineering Analysis.md
+.local/PR-<number-or-branch> Engineering Analysis.md
 
 Sanitize filenames:
 - replace / \ : * ? " < > | with -
