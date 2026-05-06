@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "97e8fbc12842f22d",
+        "id": "40ac18a10dc37a58",
         "type": "tabs",
         "children": [
           {
-            "id": "9f3e87e3410a6895",
+            "id": "819379678be23707",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Tracking updates.md",
+                "file": "Notes/Intelligen/Gantt/Engineering/Domains/Fluidence Gantt Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tracking updates"
+              "title": "Fluidence Gantt Architecture"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#documentation/intelligen",
+                "query": "tag:#documentation/intelligen/gantt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 298.5
   },
   "right": {
     "id": "ed3f7e0552712392",
@@ -97,7 +97,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 20.73643410852713,
+        "dimension": 37.98449612403101,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -105,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Tracking updates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tracking updates"
+              "title": "Backlinks"
             }
           },
           {
@@ -141,7 +140,7 @@
                 "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": "scpCloud"
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -174,12 +173,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 19.379844961240313,
+        "dimension": 27.71317829457364,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -187,13 +186,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Documentation/Tracking updates.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tracking updates"
+              "title": "Outline"
             }
           }
         ]
@@ -201,7 +199,7 @@
       {
         "id": "1114442bb95cf4fa",
         "type": "tabs",
-        "dimension": 59.883720930232556,
+        "dimension": 34.30232558139535,
         "children": [
           {
             "id": "4a8b8a265069ca66",
@@ -247,54 +245,54 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "9f3e87e3410a6895",
+  "active": "4a8b8a265069ca66",
   "lastOpenFiles": [
-    "Notes/Intelligen/Documentation/Operation Entry tracking update.md",
-    "Notes/Intelligen/Documentation/Reusables Uses.md",
-    "Notes/Intelligen/Documentation/Consumables-Reusables-Invetory Uses.md",
-    "Notes/Intelligen/Documentation/Consumables Uses.md",
-    "Notes/Intelligen/Documentation/Tracking updates.md",
-    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
-    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Current/2026-scratch-pad.md",
-    "Notes/Home/Ταξίδι/Ημερολόγιο 2026-10.excalidraw.md",
-    "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
-    "Notes/Home/Ταξίδι/April-2026/Πίνακας Κόστους Πλήρους Ταξιδιού.md",
-    "Notes/Home/Ταξίδι/April-2026/Θεσσαλονίκη-Ουτρέχτη-πλάνο.md",
-    "Notes/Home/Ταξίδι/April-2026/Ημερολόγιο 2026-03-04 22.28.15.excalidraw.md",
-    "Notes/Home/Ταξίδι/April-2026/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md",
-    "Notes/Home/Ταξίδι/April-2026/Διαδρομή/Θεσσαλονίκη-Ουτρέχτη.md",
-    "Notes/Home/assets/Ταξίδι/April-2026/Ημερολόγιο 2026-03-04 22.28.15.excalidraw",
-    "Notes/Home/Ταξίδι/April-2026/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md",
-    "Notes/Home/Ταξίδι/April-2026/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md",
-    "Notes/Home/Ταξίδι/April-2026/Λίστες/Λεπτομερής Λίστα Ελέγχου Αυτοκινήτου – 7 Ημέρες Πριν.md",
-    "Notes/Home/Ταξίδι/April-2026/Λίστες/ToDo list for traveling.md",
-    "Notes/Home/Ταξίδι/April-2026/Λίστες/Checklist – Τι Έχω Μέσα Στο Πορτμπαγκάζ.md",
-    "Notes/Home/Ταξίδι/Ημερολόγιο.md",
-    "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-03-04 22.28.15.excalidraw",
-    "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw",
-    "Notes/Home/assets/assets/Ταξίδι/Ημερολόγιο/Drawing 2026-03-04 22.28.15.excalidraw",
-    "Notes/Home/assets/assets/Ταξίδι/April-2026-Θεσσαλονίκη-Ουτρέχτη/Drawing 2026-03-04 22.28.15.excalidraw",
-    "Notes/Home/assets/Ταξίδι/Ημερολόγιο",
-    "Notes/Home/assets/assets/Ταξίδι/Ημερολόγιο/Drawing 2026-05-05 11.33.17.excalidraw",
-    "Notes/Home/assets/assets/Ταξίδι/Ημερολόγιο",
-    "Notes/Home/assets/assets/Ταξίδι/October-2026/Drawing 2026-05-05 11.33.17.excalidraw",
-    "Notes/Home/Ταξίδι/Rates.md",
-    "Notes/Home/Ταξίδι/Αξιοθέατα.md",
-    "Notes/Home/assets/assets/Ταξίδι/October-2026/Ημερολόγιο 2026-05-05 11.33.17.excalidraw",
+    "Notes/Intelligen/Gantt/Engineering/Domains/Fluidence Gantt Architecture.md",
+    "Notes/Intelligen/Gantt/Engineering/Domains/Fluidence Gantt Input Contracts.md",
+    "Notes/Intelligen/Gantt/Engineering/Domains/Hierarchical Row Model.md",
+    "Notes/Intelligen/Gantt/Engineering/Domains/Timeline Rendering.md",
+    "Notes/Intelligen/Gantt/Engineering/Rules/Drag eligibility and droppable row rule.md",
+    "Notes/Intelligen/Gantt/Engineering/Rules/Bar click resolution rule.md",
+    "Notes/Intelligen/Gantt/Engineering/Rules/Row expansion visibility rule.md",
+    "Notes/Intelligen/Gantt/Engineering/Index.md",
+    "Notes/Codex/Skills/engineering-pr-analysis/SKILL.md",
+    "Notes/Intelligen/Gantt/Engineering/TechDebt/Mouse-First Interaction Model.md",
+    "Notes/Intelligen/Gantt/Engineering/PRs/PR-fluidence-gantt Module Architecture and Rules.md",
+    "Notes/Intelligen/Gantt/Engineering/TechDebt/Monolithic Gantt Orchestrator.md",
+    "Notes/Intelligen/Gantt/Engineering/Rules/Time scale auto-selection rule.md",
+    "Notes/Intelligen/Gantt/Engineering/TechDebt/Public API Drift In Gantt Component.md",
+    "Notes/Intelligen/Gantt/Engineering/Rules/Tooltip visibility rule.md",
+    "Notes/Intelligen/Gantt/Engineering/TechDebt",
+    "Notes/Intelligen/Gantt/Engineering/Rules",
+    "Notes/Intelligen/Gantt/Engineering/PRs",
+    "Notes/Intelligen/Gantt/Engineering/Domains",
+    "Notes/Intelligen/Gantt/Engineering",
+    "Notes/Intelligen/Gantt/Gantt-Backlog.md",
+    "Notes/Intelligen/Appendix/PR-696 Raw Codex Analysis.md",
+    "Notes/Intelligen/Documentation/SKU Implementation Αλλαγές στο Domain και στο Business Logic.md",
+    "Notes/Intelligen/Gantt/Current issues/127-Scroll-improvements.md",
+    "Notes/Intelligen/assets/Gantt/Documentation/Create library package/The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium",
+    "Notes/Intelligen/assets/Gantt/Documentation/Create library package/Obfuscator settings",
+    "Notes/Intelligen/assets/Gantt/Documentation/Create library package",
+    "Notes/Intelligen/assets/Gantt/Documentation/Gantt z-Indexes",
+    "Notes/Intelligen/assets/Gantt/Documentation",
+    "Notes/Intelligen/Gantt/Documentation/Create library package/Obfuscator settings.md",
+    "Notes/Intelligen/Engineering/Domains/Recipe Attributes.md",
+    "Notes/Intelligen/Engineering/PRs/PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes.md",
+    "Notes/Intelligen/Engineering/Rules/One Recipe Attribute Value Per Attribute.md",
+    "Notes/Intelligen/Engineering/Rules/Campaign BOM Must Match Recipe.md",
+    "Notes/Intelligen/Engineering/Domains/Scheduling Conflict Resolution.md",
+    "Clippings/Registration Confirmation Page Non Compliant  Low Emission Zone.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1777987035717.png",
     "Notes/Home/assets/Ταξίδι/April-2026/Κρατήσεις/St. Polten/St. Polten-20260222.png",
     "Notes/Home/assets/Ταξίδι/Αξιοθέατα/Αξιοθέατα-1774475246509.png",
     "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw/Ημερολόγιο 2026-10.excalidraw-20260505 2.png",
     "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw/Ημερολόγιο 2026-10.excalidraw-20260505 1.png",
     "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw/Ημερολόγιο 2026-10.excalidraw-20260505 3.png",
     "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw/Ημερολόγιο 2026-10.excalidraw-20260505.png",
-    "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
-    "Notes/Home/Ταξίδι/Google account.md",
-    "Notes/Home/Ταξίδι/Furkot.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776765003740.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776763595836.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/intelligen-Backlog-image-8.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1772635195888.png",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

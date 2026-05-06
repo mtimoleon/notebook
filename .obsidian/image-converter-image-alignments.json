@@ -669,6 +669,18 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "508fc3e6420358d6abdbdfa0ab2ed9d2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5a20740e2308fcdf3283055a1ff4042c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Current/Drawing 2026-02-16 22.29.48.excalidraw.md": {
@@ -3867,72 +3879,6 @@
       "wrap": false
     }
   },
-  "Clippings/Vehicle registered abroad  Official website for the Crit'Air sticker.md": {
-    "db306036406bb4e066842afb3695acc3": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7d4c1580af3488e61a36787347bb2320": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "593931e7a700520b2bbe7f99b6e8291b": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "91822a3b83273e27086de86c7db59a29": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7c096341b9297946323c779347ba9045": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "50cedf92ffd52ce12b68536e051c8014": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Clippings/Ihr Warenkorb.md": {
-    "5907213292b8006cc5d90af39d46bcc1": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "ad54ea035e4a5bae6049d527d6e0e8f9": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Clippings/Bestellvorgang Bestätigung.md": {
-    "5d499d6ac828e31977f1e75d0b421bf4": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "9c0fa57b7fbc9474322657e3067dc7bd": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Clippings/Registration Confirmation Page Non Compliant  Low Emission Zone.md": {
     "4ba94a781fab1647a537fcc6d07189bc": {
       "position": "left",
@@ -4203,90 +4149,6 @@
       "wrap": false
     }
   },
-  "Notes/Intelligen/Keycloak/Gantt/Gantt-Backlog.md": {
-    "fb4d8b76a953d5bcd02726a38a01412a": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "2b454acfba4a9950a10c0faa256a2bf6": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "60c960331d6471d5d1d1fabf6f048c04": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "235aa7d06de71147d0dfc4a253adee73": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "333e8e02e5eb20fd1cd0550849d470e1": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "1efb2c6c1107a4fc89f08a551e354c51": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "e43d116c71e894a38bfc2ffab7a45f85": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Intelligen/Keycloak/Gantt/Documentation/Scrolling flow.md": {
-    "1d4774613f81b74ffe9ed4bb9b0a8a95": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "e196df5ed34a546e08c7614552e0fc76": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "c8e8900b0082cb75733caf0b4ae1cb9e": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "8ebdb06d4a5b837cf4cf5f81a9eac3a5": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "eaf658da8e46545cfcf2d5adc8aee5de": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Intelligen/Keycloak/Gantt/Documentation/Create library package/The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium.md": {
-    "6f764ed1c7dec384d34325209a1bf76e": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1773229680588.png": {
     "df2b84478ebc9a5e5b3a414c2ee3b495": {
       "position": "left",
@@ -4377,14 +4239,6 @@
       "wrap": false
     },
     "053631cca23087ad6cd7320321bca835": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Auth/Current Issues/Accelup requests.md": {
-    "08942d8a7758f93cadc6154104927ec9": {
       "position": "left",
       "width": "",
       "height": "",
@@ -5985,6 +5839,130 @@
       "wrap": false
     },
     "9f3c6633812d8d84d0307354e7b5c2d5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Gantt/Gantt-Backlog.md": {
+    "fb4d8b76a953d5bcd02726a38a01412a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2b454acfba4a9950a10c0faa256a2bf6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "60c960331d6471d5d1d1fabf6f048c04": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "235aa7d06de71147d0dfc4a253adee73": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "333e8e02e5eb20fd1cd0550849d470e1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1efb2c6c1107a4fc89f08a551e354c51": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e43d116c71e894a38bfc2ffab7a45f85": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fec2c29ffa219d35dcc5c7add9223d95": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "cf266f706e7bbcc87abe2524352bdcd0": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Gantt/Documentation/Scrolling flow.md": {
+    "1d4774613f81b74ffe9ed4bb9b0a8a95": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e196df5ed34a546e08c7614552e0fc76": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c8e8900b0082cb75733caf0b4ae1cb9e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8ebdb06d4a5b837cf4cf5f81a9eac3a5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "eaf658da8e46545cfcf2d5adc8aee5de": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Gantt/Documentation/Create library package/Obfuscator settings.md": {
+    "8fa7564f208272972308c0022f22fbf3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a458d03e2a0c7d6d7ead85c3e244de29": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Gantt/Documentation/Create library package/The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium.md": {
+    "6f764ed1c7dec384d34325209a1bf76e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Codex/Skills/engineering-pr-analysis/SKILL.md": {
+    "b4ebde04acfc3a901c4d9b71be0784cb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "598deb33503ebf98ec1e71ddbcb585f5": {
       "position": "left",
       "width": "",
       "height": "",

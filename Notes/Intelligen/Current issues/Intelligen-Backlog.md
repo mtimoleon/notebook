@@ -11,6 +11,9 @@ product: scpCloud
 
 
 
+- [ ] Check how it is determined if a procedure entry can be modified in `MoveProcedureEntryCommandHandler` line 67 and
+       `Batch.ChangeProcedureEntryEquipmentAndStartByUser` line 618, `ProcedureEntry` line 95, and `OperationEntry` line 461
+      ![[Intelligen-Backlog-1777987035717.png|930x349]]
 - [ ] Επίσης, πρέπει να σκεφτούμε τι θα γίνει αν κάποιος πάει να αλλάξει ένα material που ήδη χρησιμοποιείται σε κάποιο BOM, από Final product σε κάτι άλλο. Δεν θα έπρεπε να το επιτρέψουμε, αλλά κατά προτίμηση χωρίς να κάνουμε query στη βάση. Κάνουμε κάτι αντίστοιχο εδώ: UpdateStorageUnitTypeCommandHandler
 - [ ] Original start upgrade [video](file:///D:/develop-tasks/Recordings/Original-start-end-Recording%202026-04-21%20125124.mp4)
 - [ ] To add original start and sync start in eoc chart (none, planning, original) in production app
