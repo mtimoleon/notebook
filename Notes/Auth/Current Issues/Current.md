@@ -14,7 +14,9 @@ tags: []
 [RSN Development Guide](Current-20260305.pdf)
 [RAISE DMP deliverable](https://aristotleuniversity.sharepoint.com/:w:/s/RAISESuite/IQDZj4A2Uir5R4dhFD49Y9aUActhVbp7UVZqZCl8iOYSP-4?rtime=7tSQlq103kg)
 
-
+Datasets of PKM
+[https://env-rypoi.pkm.gov.gr/index.php?r=export&dt=2026-04-01](https://env-rypoi.pkm.gov.gr/index.php?r=export&dt=2026-04-01)
+[https://env-rypoi.pkm.gov.gr/index.php?r=export](https://env-rypoi.pkm.gov.gr/index.php?r=export)
 
 ### PANEL MANAGEMENT
 

@@ -10,18 +10,11 @@ product: scpCloud
 ---
 
 
-
+- [ ] Planning SchedulingBoardServer.GetSchedulingBoardProductionUpdates, if for some reason the original information link is missing projectTo fails and there is no way to get the production update, only to apply all.
 - [ ] Check how it is determined if a procedure entry can be modified in `MoveProcedureEntryCommandHandler` line 67 and
        `Batch.ChangeProcedureEntryEquipmentAndStartByUser` line 618, `ProcedureEntry` line 95, and `OperationEntry` line 461
       ![[Intelligen-Backlog-1777987035717.png|930x349]]
 - [ ] Επίσης, πρέπει να σκεφτούμε τι θα γίνει αν κάποιος πάει να αλλάξει ένα material που ήδη χρησιμοποιείται σε κάποιο BOM, από Final product σε κάτι άλλο. Δεν θα έπρεπε να το επιτρέψουμε, αλλά κατά προτίμηση χωρίς να κάνουμε query στη βάση. Κάνουμε κάτι αντίστοιχο εδώ: UpdateStorageUnitTypeCommandHandler
-- [ ] Original start upgrade [video](file:///D:/develop-tasks/Recordings/Original-start-end-Recording%202026-04-21%20125124.mp4)
-- [ ] To add original start and sync start in eoc chart (none, planning, original) in production app
-        ![[Intelligen-Backlog-1776763595836.png|930x449]]Να συμμαζέψουμε στο operation entry το original info (original start/end, original staff,  original equipment) ετσι όταν γίνεται update να έχω πλήρως την αρχική πληροφορία
-- [ ] Στο scheduling service TimingInfoType να βάλουμε και type original και μετά να γίνει το plumping στον κώδικα.
-      Also these methods need extension with original (now they have tracking)
-      ![[Intelligen-Backlog-1776765003740.png|930x430]]
-- [ ] Check 560 tests and code
 - [ ] Replace NewtonsoftJson in tests with System.Text.Json
 - [ ] ==Create a mechanism to guarantee that we did not forget to add an entity into import/export service==
 - [ ] Bug in production chart view?
@@ -31,12 +24,6 @@ product: scpCloud
       ![[intelligen-Backlog-image-8.png|538x315]]
 - [ ] Require attention code in some cases according to setting
       ![[intelligen-Backlog-image-6.png|481x357]]
-- [ ] Find a way to display the original start only from the first sync ==@Zlate==
-      ![[intelligen-Backlog-image-5.png|409x301]]
-- [x] Labor chart in production
-      Include in the tracking update, the OperationEntry labor resources
-      ![[Notes/Intelligen/assets/Current issues/Intelligen-Backlog/intelligen-Backlog-image-1.png|628]]
-
 - [ ] Moving chart of resources to production
       We need to add resource info when sending batches to production
 - [ ] Sync, update most of operations but some of them may be not confirmed and the if they are in the past they stay unspecified
@@ -51,8 +38,6 @@ product: scpCloud
 ### Older
 
 - [x] [[535-Scheduling-Horizon]]
-- [ ] Update the tool tip
-      ![[Intelligen-Backlog-1772028170729.png]]
 - [x] Test locally DocumentDB in place of Mongo
 - [x] Backup MongoDB on Azure shared volume
       Will not do, we will go with managed service and documentDB

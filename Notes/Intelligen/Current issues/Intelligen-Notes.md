@@ -12,12 +12,12 @@ docker exec -it sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "pas
 ```
 
 
+Discussion
+[BOM-material changes in regard of Storage units, concurrency problems](file:///D:/develop-tasks/Recordings/Recording%202026-05-13%20113639-Storage-uints-BOM-materials-chenges.mp4)
 
-Move RateUse in common without OutageInstance LatestOutage
-Then new class RateOutageUse will inherit from above and have the LatestOutage
 
-Move ResourceUseProfile to common
-Extract 2 methods from RateUseProfile and move to RateUseProfile
+
+
 
 Create a new ConsumableUse into production application as inherit from RateUse
 
@@ -37,16 +37,11 @@ And then we need to change the scheduling algorithm to take the original
 > ​192.168.56.1 gateway.docker.internal
 > ​127.0.0.1 kubernetes.docker.internal
 
-~~[ipereira@hovione.com](mailto:ipereira@hovione.com) operator 79eb3abe-d61e-472c-886b-1665f7d8dcbe
-​[rbento@hovione.com](mailto:rbento@hovione.com) operator 64b414a7-0dda-44c5-b93d-2b818746b7a4~~
 
 
-- PlanningEocChart.jsx:1285 και στα επόμενα
-  επειδή το string είναι interpolated κάνει evaluation πριν φτάσει εκεί οπότε αν το operation είναι null θα σκάσει.
 - Στο library έχουμε useUTC αλλά στο caption text δεν το λαμβάνει υπόψη.
 - Νομίζω ότι δείχνεις tooltip και σε break bars; Το θέλουμε αυτό;
-- Το tooltip χρειάζεται pointer events none για να μην κάνει flicker.
-- .tooltip css class είναι generic και μπορεί να χαλάει άλλα tooltip. Καλύτερα .gantt-tooltip
+
 
 
 Όταν ένα tooltip εμφανίζεται *πάνω* από το element που “hover-άρεις”, μπορεί να “κλέψει” τα pointer events.

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "40ac18a10dc37a58",
+        "id": "4ec25a8eb003a8a0",
         "type": "tabs",
         "children": [
           {
-            "id": "819379678be23707",
+            "id": "440ac9df2fa02cb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Gantt/Engineering/Domains/Fluidence Gantt Architecture.md",
+                "file": "Notes/Auth/Projects/Accelup/Documentation/Notifications & emails.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fluidence Gantt Architecture"
+              "title": "Notifications & emails"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#documentation/intelligen/gantt",
+                "query": "Recordings",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +97,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 37.98449612403101,
+        "dimension": 29.26356589147287,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -105,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Auth/Projects/Accelup/Documentation/Notifications & emails.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Notifications & emails"
             }
           },
           {
@@ -178,7 +179,7 @@
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 27.71317829457364,
+        "dimension": 27.42248062015504,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -186,12 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/Auth/Projects/Accelup/Documentation/Notifications & emails.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Notifications & emails"
             }
           }
         ]
@@ -199,7 +201,7 @@
       {
         "id": "1114442bb95cf4fa",
         "type": "tabs",
-        "dimension": 34.30232558139535,
+        "dimension": 43.31395348837209,
         "children": [
           {
             "id": "4a8b8a265069ca66",
@@ -245,54 +247,54 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "4a8b8a265069ca66",
+  "active": "440ac9df2fa02cb4",
   "lastOpenFiles": [
-    "Notes/Intelligen/Gantt/Engineering/Domains/Fluidence Gantt Architecture.md",
-    "Notes/Intelligen/Gantt/Engineering/Domains/Fluidence Gantt Input Contracts.md",
-    "Notes/Intelligen/Gantt/Engineering/Domains/Hierarchical Row Model.md",
-    "Notes/Intelligen/Gantt/Engineering/Domains/Timeline Rendering.md",
-    "Notes/Intelligen/Gantt/Engineering/Rules/Drag eligibility and droppable row rule.md",
-    "Notes/Intelligen/Gantt/Engineering/Rules/Bar click resolution rule.md",
-    "Notes/Intelligen/Gantt/Engineering/Rules/Row expansion visibility rule.md",
-    "Notes/Intelligen/Gantt/Engineering/Index.md",
-    "Notes/Codex/Skills/engineering-pr-analysis/SKILL.md",
-    "Notes/Intelligen/Gantt/Engineering/TechDebt/Mouse-First Interaction Model.md",
-    "Notes/Intelligen/Gantt/Engineering/PRs/PR-fluidence-gantt Module Architecture and Rules.md",
-    "Notes/Intelligen/Gantt/Engineering/TechDebt/Monolithic Gantt Orchestrator.md",
-    "Notes/Intelligen/Gantt/Engineering/Rules/Time scale auto-selection rule.md",
-    "Notes/Intelligen/Gantt/Engineering/TechDebt/Public API Drift In Gantt Component.md",
-    "Notes/Intelligen/Gantt/Engineering/Rules/Tooltip visibility rule.md",
+    "Notes/Auth/Projects/RAISE/Documentation/Credit System Documentation.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Rules/Experiment Cost Estimation.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Domains/Usage-Based Pricing.md",
+    "Notes/Auth/Projects/Accelup/Documentation/Notifications & emails.md",
+    "Notes/Auth/Projects/Accelup/Documentation",
+    "Notes/Auth/Projects/Accelup/Documentation/Notifications & emails code flows.md",
+    "Notes/Auth/Current Issues/Accelup requests.md",
+    "Notes/Auth/Projects/Accelup",
+    "Notes/Auth/Current Issues/Backlog.md",
+    "Notes/Auth/assets/Current Issues/Accelup requests/~$Accelup requests-20260224.xlsx",
+    "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
+    "Current/2026-scratch-pad.md",
+    "Clippings/Fee Structures  Explore our trading fees.md",
+    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
+    "Notes/Intelligen/Current issues/566-Wrap-original-start-end-into-info-object.md",
+    "Notes/Intelligen/Current issues/assets/566-Wrap-original-start-end-into-info-object/566-Wrap-original-start-end-into-info-object-1778838117210.png",
+    "Notes/Intelligen/Current issues/assets/566-Wrap-original-start-end-into-info-object",
+    "Notes/Intelligen/Current issues/assets",
+    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1774515864301.png",
+    "Notes/Intelligen/assets/Current issues/566-Wrap-original-start-end-into-info-object/566-Wrap-original-start-end-into-info-object-1778567579027.png",
+    "Notes/Intelligen/assets/Current issues/566-Wrap-original-start-end-into-info-object",
+    "Notes/Intelligen/Current issues/assets/566-Wrap-original-start-end-into-info-object/566-Wrap-original-start-end-into-info-object-1778510895601.png",
+    "Categories/Intelligen Issues.md",
+    "Notes/Intelligen/Completed issues/557-Update-Batch-completion-status-BE.md",
+    "Notes/Auth/Current Issues/Current.md",
+    "Notes/Auth/Projects/RAISE/PID structure Version 2.0/PID RAI Resolver discussion.md",
+    "Notes/Auth/Projects/RAISE/Dataset statistics collection.md",
+    "Notes/Auth/Projects/RAISE/Dataset popularity.md",
+    "Notes/Auth/Projects/RAISE/RAISE Notes.md",
+    "Notes/Auth/Projects/RAISE/OAI-PMH πρωτόκολλο.md",
+    "Notes/Intelligen/Completed issues/542-Copy-operation-to-procedure.md",
+    "Notes/Intelligen/Completed issues/283-Campaign timming sequencing.md",
+    "Notes/Intelligen/Completed issues/266-Scheduling board horizon.md",
+    "Notes/Intelligen/Current issues/Aggregate-verification/Aggregate-verification.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1778160217560.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1778161376769.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1778162478762.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1778163654711.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1778161038229.png",
+    "Notes/Intelligen/Documentation/Batch Sync Business Logic Analysis.md",
     "Notes/Intelligen/Gantt/Engineering/TechDebt",
     "Notes/Intelligen/Gantt/Engineering/Rules",
     "Notes/Intelligen/Gantt/Engineering/PRs",
     "Notes/Intelligen/Gantt/Engineering/Domains",
-    "Notes/Intelligen/Gantt/Engineering",
-    "Notes/Intelligen/Gantt/Gantt-Backlog.md",
-    "Notes/Intelligen/Appendix/PR-696 Raw Codex Analysis.md",
-    "Notes/Intelligen/Documentation/SKU Implementation Αλλαγές στο Domain και στο Business Logic.md",
-    "Notes/Intelligen/Gantt/Current issues/127-Scroll-improvements.md",
-    "Notes/Intelligen/assets/Gantt/Documentation/Create library package/The Ultimate Guide to Getting Started with the Rollup.js JavaScript Bundler  by Craig Buckler  StackAnatomy  Medium",
-    "Notes/Intelligen/assets/Gantt/Documentation/Create library package/Obfuscator settings",
-    "Notes/Intelligen/assets/Gantt/Documentation/Create library package",
-    "Notes/Intelligen/assets/Gantt/Documentation/Gantt z-Indexes",
-    "Notes/Intelligen/assets/Gantt/Documentation",
-    "Notes/Intelligen/Gantt/Documentation/Create library package/Obfuscator settings.md",
-    "Notes/Intelligen/Engineering/Domains/Recipe Attributes.md",
-    "Notes/Intelligen/Engineering/PRs/PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes.md",
-    "Notes/Intelligen/Engineering/Rules/One Recipe Attribute Value Per Attribute.md",
-    "Notes/Intelligen/Engineering/Rules/Campaign BOM Must Match Recipe.md",
-    "Notes/Intelligen/Engineering/Domains/Scheduling Conflict Resolution.md",
-    "Clippings/Registration Confirmation Page Non Compliant  Low Emission Zone.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1777987035717.png",
-    "Notes/Home/assets/Ταξίδι/April-2026/Κρατήσεις/St. Polten/St. Polten-20260222.png",
-    "Notes/Home/assets/Ταξίδι/Αξιοθέατα/Αξιοθέατα-1774475246509.png",
-    "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw/Ημερολόγιο 2026-10.excalidraw-20260505 2.png",
-    "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw/Ημερολόγιο 2026-10.excalidraw-20260505 1.png",
-    "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw/Ημερολόγιο 2026-10.excalidraw-20260505 3.png",
-    "Notes/Home/assets/Ταξίδι/Ημερολόγιο 2026-10.excalidraw/Ημερολόγιο 2026-10.excalidraw-20260505.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776765003740.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1776763595836.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/intelligen-Backlog-image-8.png",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

@@ -4,12 +4,12 @@ categories:
 created: 2026-03-27
 product: scpCloud
 component:
-status: open
+status: completed
 tags:
   - issues/intelligen
 ---
 ## Context
-Batch OperationEtnries where inferedComplitionStatus != completionStatus
+Batch OperationEtnries where inferred ComplitionStatus != completionStatus
 2 endpoints
 GET
 POST

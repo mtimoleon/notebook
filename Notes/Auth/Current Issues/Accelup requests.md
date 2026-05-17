@@ -14,9 +14,6 @@ tags:
 [Relative_email](https://mail.google.com/mail/u/0/?tab=rm&ogbl#label/_%CE%91%CE%A0%CE%98%2FEVOLVE2CARE/FMfcgzQdzcsrPhNkpbcCrHVqVpXJWMxB)
  
 ![[Accelup requests-20260224.xlsx]]
-[Προεπισκόπηση συνημμένου D1.6_EVOLVE2CARE ActionPlan_Final_v3.0.docxΠροεπισκόπηση συνημμένου D1.6_EVOLVE2CARE ActionPlan_Final_v3.0.docx
-
-![](https://mail.google.com/mail/u/0?ui=2&ik=a19c85291a&attid=0.2&permmsgid=msg-f:1864355661084437825&th=19df859891ed2d41&view=snatt&realattid=f_mosnrm7k1&disp=thd&safe=1)
 
 [Second email](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzQgLjRqhpcvWjQQWMHrpBjKdPMR)
 Email attachments:

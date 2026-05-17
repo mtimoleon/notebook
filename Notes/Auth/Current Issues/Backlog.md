@@ -166,7 +166,7 @@ A PID is reserved by the node: Once the results are ready, the node calls the RC
 - [ ] Relative papers for datasets in metadata  
 - [ ] Datasets details to have a PID for ethical approval  
 - [x] EPIC GR NET production user ==EVELINA==
-### **PANEL MANAGEMENT**
+
 - [ ] Infrastructures add properties:  
 - [ ] IsAvailable (boolean)
 - [ ] Organization add property  
@@ -178,3 +178,4 @@ We will add some readonly rows and then we will leave it open to cosumers.
 When a user defined entity of the above is removed we will check if it used by someon else. If not we will remove it also from the db.
 (Initial idea: Services, equipment categories, equipment subcategories, will be added hardcoded by super admin.  
 Devices will be added by consumers.)
+
