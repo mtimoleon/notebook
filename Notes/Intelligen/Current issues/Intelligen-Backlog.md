@@ -10,6 +10,39 @@ product: scpCloud
 ---
 
 
+- [ ] 566 FE updates required
+     1. Medium - Update modal still binds "original" resource slots to planning resources
+		- Evidence: `WebApps/CommonSpa/pages/UpdateModal/UpdateModal.jsx:92-94`
+		- The modal still assigns:
+		    - `operationEntryOriginalAuxiliaryEquipment = props.operationEntry.auxEquipment`
+		    - `operationEntryOriginalStaff = props.operationEntry.staff`
+		- It does not read the original-resource payload.
+		- Impact:
+		    - even with the backend contract in place, the modal shows planning resources instead of the persisted original snapshot
+	 2. Medium - Original aux/staff UI remains commented out in the update modal
+		- Evidence:
+		    - `WebApps/CommonSpa/pages/UpdateModal/UpdateModalAuxiliaryEquipmentReadMode.jsx:22-23,71-72`
+		    - `WebApps/CommonSpa/pages/UpdateModal/UpdateModalStaffReadMode.jsx:22-23,70-71`
+		- The label and read-mode rendering for original auxiliary equipment and original staff are still disabled.
+		- Impact:
+		    - the user cannot actually see the original resource baseline in the modal
+	 3. Medium - Original-only EOC outages are still derived from tracking data only
+		- Evidence:
+		    - `Services/Production/Production.Api/GrpcServers/SchedulingBoardServer.cs:182-189`
+		    - `Services/Production/Production.Api/GrpcServers/SchedulingBoardServer.cs:251-317`
+		- Global task boundaries are calculated only from `trackingData`.
+		- Equipment/staff outages are also collected only from `EocResourceDataTracking`.
+		- Impact:
+		    - `ShowOriginalData` can return original rows without correct outage bars
+	 4. Medium - Original/planning chart rows still depend on a tracking counterpart
+		- Evidence:
+		    - `Services/Production/Production.Api/Services/ChartService.cs:28-31`
+		    - `Services/Production/Production.Api/Services/ChartService.cs:82-124`
+		    - `Services/Production/Production.Api/Services/ChartService.cs:203-206`
+		- `ChartService` explicitly uses tracking rows as the visible anchor.
+		- Original and planning tasks are only merged when a matching tracking task exists.
+		- Impact:
+		    - original-only resources/tasks are hidden instead of being rendered as an independent chart branch
 - [ ] Planning SchedulingBoardServer.GetSchedulingBoardProductionUpdates, if for some reason the original information link is missing projectTo fails and there is no way to get the production update, only to apply all.
 - [ ] Check how it is determined if a procedure entry can be modified in `MoveProcedureEntryCommandHandler` line 67 and
        `Batch.ChangeProcedureEntryEquipmentAndStartByUser` line 618, `ProcedureEntry` line 95, and `OperationEntry` line 461
