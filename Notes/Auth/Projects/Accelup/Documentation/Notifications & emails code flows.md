@@ -204,6 +204,6 @@ flowchart TD
 - Queue/event layer: [NotificationService.cs](C:/Users/michael/developer/accelup/accelup-backend/Enoll/Services/NotificationService.cs)
 - Background aggregation: [NotificationsAggregateService.cs](C:/Users/michael/developer/accelup/accelup-backend/Enoll/Services/NotificationsAggregateService.cs)
 - Stored notification model: [Notification.cs](C:/Users/michael/developer/accelup/accelup-backend/Enoll/Model/Entities/Notification.cs)
-Αν θέλεις, μπορώ στο επόμενο να το μετατρέψω και σε έναν πίνακα `Use case -> Trigger -> Intermediate step -> Final recipients -> Immediate/Queued`, που θα είναι πιο εύκολος για documentation.
+
 
 ## Links

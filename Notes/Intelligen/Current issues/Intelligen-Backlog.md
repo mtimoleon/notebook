@@ -10,10 +10,22 @@ product: scpCloud
 ---
 
 
-- [ ] 566 FE updates required
+- [ ] 568
+	- Default values for staff assignment in operation entry are invalid
+	- Default values for aux equipment may need fix as well
+	- [x] In chart dto we remove useAllCompatibleEquipment but it is used in FE
+	 - [x]  So remove the property from FE and the dto members showing lower.
+		![[Intelligen-Backlog-1779264117634.png|940x373]]
+		![[Intelligen-Backlog-1779264207390.png|940x485]]
+	  
+	- [x]  Need to fix the dto for moving  OperationEntry and add sourceId similar to what we do in staff. Then the following test should pass
+	  ![[Intelligen-Backlog-1779264838382.png|877]]
+	- [x] Fix also in FE, throw the exception only if pool is empty
+	  ![[Intelligen-Backlog-1779265266659.png|940x517]]
+- [ ] **566 FE updates required**
      1. Medium - Update modal still binds "original" resource slots to planning resources
-		- Evidence: `WebApps/CommonSpa/pages/UpdateModal/UpdateModal.jsx:92-94`
-		- The modal still assigns:
+	     - Evidence: `WebApps/CommonSpa/pages/UpdateModal/UpdateModal.jsx:92-94`
+	     - The modal still assigns:
 		    - `operationEntryOriginalAuxiliaryEquipment = props.operationEntry.auxEquipment`
 		    - `operationEntryOriginalStaff = props.operationEntry.staff`
 		- It does not read the original-resource payload.
@@ -47,16 +59,16 @@ product: scpCloud
 - [ ] Check how it is determined if a procedure entry can be modified in `MoveProcedureEntryCommandHandler` line 67 and
        `Batch.ChangeProcedureEntryEquipmentAndStartByUser` line 618, `ProcedureEntry` line 95, and `OperationEntry` line 461
       ![[Intelligen-Backlog-1777987035717.png|930x349]]
-- [ ] Επίσης, πρέπει να σκεφτούμε τι θα γίνει αν κάποιος πάει να αλλάξει ένα material που ήδη χρησιμοποιείται σε κάποιο BOM, από Final product σε κάτι άλλο. Δεν θα έπρεπε να το επιτρέψουμε, αλλά κατά προτίμηση χωρίς να κάνουμε query στη βάση. Κάνουμε κάτι αντίστοιχο εδώ: UpdateStorageUnitTypeCommandHandler
+- [x] Επίσης, πρέπει να σκεφτούμε τι θα γίνει αν κάποιος πάει να αλλάξει ένα material που ήδη χρησιμοποιείται σε κάποιο BOM, από Final product σε κάτι άλλο. Δεν θα έπρεπε να το επιτρέψουμε, αλλά κατά προτίμηση χωρίς να κάνουμε query στη βάση. Κάνουμε κάτι αντίστοιχο εδώ: UpdateStorageUnitTypeCommandHandler
 - [ ] Replace NewtonsoftJson in tests with System.Text.Json
 - [ ] ==Create a mechanism to guarantee that we did not forget to add an entity into import/export service==
 - [ ] Bug in production chart view?
       The same applies to planning app also.
       ![[Intelligen-Backlog-1772191097275.png]]
 - [ ] To be able to change the labor rate or amount in place
-      ![[intelligen-Backlog-image-8.png|538x315]]
+      ![[intelligen-Backlog-image-8.png|877]]
 - [ ] Require attention code in some cases according to setting
-      ![[intelligen-Backlog-image-6.png|481x357]]
+      ![[intelligen-Backlog-image-6.png|446]]
 - [ ] Moving chart of resources to production
       We need to add resource info when sending batches to production
 - [ ] Sync, update most of operations but some of them may be not confirmed and the if they are in the past they stay unspecified

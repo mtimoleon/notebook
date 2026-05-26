@@ -1,5 +1,3 @@
-# Engineering Report 2026-04-26
-
 ## Scope
 - Documentation root: `D:\Notebooks\Notebook\Notes\Intelligen\Engineering`
 - Περίοδος/scope: όλα τα notes

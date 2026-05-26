@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Engineering/Index.md",
+                "file": "Notes/Intelligen/Documentation/Telemetry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "Telemetry"
             }
           }
         ]
@@ -97,7 +97,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 29.26356589147287,
+        "dimension": 45.445736434108525,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Engineering/Index.md",
+                "file": "Notes/Intelligen/Documentation/Telemetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Index"
+              "title": "Backlinks for Telemetry"
             }
           },
           {
@@ -179,7 +179,7 @@
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 45.348837209302324,
+        "dimension": 29.166666666666668,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Engineering/Index.md",
+                "file": "Notes/Intelligen/Documentation/Telemetry.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Index"
+              "title": "Outline of Telemetry"
             }
           }
         ]
@@ -229,7 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458.5
+    "width": 495.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,34 +247,39 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "558a1fb8f18c133a",
+  "active": "43b65ca38b37f2a8",
   "lastOpenFiles": [
-    "Notes/Intelligen/Engineering/Index.md",
-    "Notes/Intelligen/Engineering/Index.md",
+    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
+    "Notes/Intelligen/Documentation/Telemetry.md",
+    "Notes/Intelligen/Documentation/Tracking updates.md",
+    "Notes/Intelligen/Documentation/Test/Υπενθύμιση-διόρθωση για τα τεστς.md",
+    "Notes/Codex/Generic prompt.md",
+    "Notes/Codex/Master-prompt-direct.md",
+    "Notes/Codex/Master-prompt-from-analysis.md",
+    "Notes/Codex/Skills/engineering-pr-analysis/SKILL.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1779265266659.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1779264838382.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1779264207390.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1779264161099.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1779264117634.png",
+    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+    "Notes/Auth/Projects/Accelup/Documentation/Notifications & emails code flows.md",
+    "Notes/Auth/Projects/Accelup/Documentation/Notifications & emails.md",
+    "Notes/Intelligen/Engineering/Domains/Adaptive Recipes and BOMs.md",
     "Notes/Intelligen/Engineering/PRs/PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes.md",
-    "Notes/Intelligen/Engineering/PRs/PR-task-566-Wrap-original-start-end-into-info-object Original Baseline Snapshot and Production Original Views.md",
+    "Notes/Intelligen/Engineering/Reports/Engineering Report 2026-05-19.md",
     "Notes/Intelligen/Engineering/Reports/Engineering Report 2026-04-26.md",
+    "Notes/Intelligen/Engineering/Domains/Workspace Import Export.md",
+    "Notes/Intelligen/Engineering/Domains/Workspace Import Export.md",
+    "Notes/Intelligen/Engineering/Index.md",
+    "Notes/Intelligen/Engineering/Index.md",
+    "Notes/Intelligen/Engineering/PRs/PR-task-566-Wrap-original-start-end-into-info-object Original Baseline Snapshot and Production Original Views.md",
     "Notes/Intelligen/Engineering/Rules/TimingInfoType Original Is Read Only.md",
     "Notes/Intelligen/Engineering/TechDebt/Ambiguous Recipe Attribute Value Import References.md",
     "Notes/Intelligen/Engineering/TechDebt/Original Only Chart Rows Need Independent Merge.md",
     "Notes/Intelligen/Engineering/TechDebt/Original EOC Outages Depend on Tracking Boundaries.md",
     "Notes/Intelligen/Engineering/Rules/First Tracking Sync Captures Immutable Original Snapshot.md",
     "Notes/Intelligen/Engineering/TechDebt/Original Baseline Migration Backfill.md",
-    "Notes/Intelligen/Engineering/TechDebt/Update Modal Original Resources Not Rendered.md",
-    "Notes/Intelligen/Engineering/Domains/Original Baseline Snapshot.md",
-    "Notes/Intelligen/Engineering/Rules/Production Original Views Are Tracking Anchored.md",
-    "Notes/Intelligen/Engineering/Domains/Workspace Import Export 1.md",
-    "Notes/Intelligen/Engineering/Domains/Timing Info Contexts.md",
-    "Notes/Intelligen/Engineering/Domains/Production Original Scheduling Views.md",
-    "Notes/Intelligen/Documentation/Production FilterHelpers Mapping.md",
-    "Notes/Intelligen/Documentation/Filters/Notes.md",
-    "Notes/Intelligen/Documentation/Batch Sync Business Logic Analysis.md",
-    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Notes/Auth/Projects/Accelup/Documentation/Notifications & emails.md",
-    "Notes/Auth/Projects/Accelup/Documentation/Notifications & emails code flows.md",
-    "Notes/Auth/Projects/RAISE/Documentation/Credit System Documentation.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Rules/Experiment Cost Estimation.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Domains/Usage-Based Pricing.md",
     "Notes/Auth/Projects/Accelup/Documentation",
     "Notes/Auth/Projects/Accelup",
     "Notes/Auth/assets/Current Issues/Accelup requests/~$Accelup requests-20260224.xlsx",
@@ -286,15 +291,10 @@
     "Notes/Intelligen/assets/Current issues/566-Wrap-original-start-end-into-info-object",
     "Notes/Intelligen/Current issues/assets/566-Wrap-original-start-end-into-info-object/566-Wrap-original-start-end-into-info-object-1778510895601.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1778160217560.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1778161376769.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1778162478762.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1778163654711.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1778161038229.png",
     "Notes/Intelligen/Gantt/Engineering/TechDebt",
     "Notes/Intelligen/Gantt/Engineering/Rules",
     "Notes/Intelligen/Gantt/Engineering/PRs",
     "Notes/Intelligen/Gantt/Engineering/Domains",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1777987035717.png",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"
