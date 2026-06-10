@@ -4,7 +4,7 @@ created: 2026-02-14
 
 Clipped from: [https://greekonomics.gr/afieroma-stis-ependyseis/](https://greekonomics.gr/afieroma-stis-ependyseis/)
 
-![Exported image](Exported%20image%2020260211194027-0.jpeg)
+![Exported image](ΑΦΙΕΡΩΜΑ%20ΣΤΙΣ%20ΕΠΕΝΔΥΣΕΙΣ%20-%20Greekonomics-20260608.jpeg)
 
 **Τι είναι τα ETF;**  
 Τα **ETF**, ή **Διαπραγματεύσιμα Αμοιβαία Κεφάλαια**, είναι ένα είδος επένδυσης. Μπορείς να τα σκεφτείς σαν **επενδυτικά «καλάθια»** που περιέχουν μέσα πολλές διαφορετικές μετοχές, ομόλογα, ή άλλα περιουσιακά στοιχεία.  

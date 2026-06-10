@@ -1,9 +1,9 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
 created: 2026-04-26
-updated: 2026-04-26
+updated: 2026-06-10
 product: scpCloud
 component: Planning
 tags:
@@ -22,7 +22,10 @@ Changeover matrices define dynamic operation durations based on transitions betw
 - Null from/to values represent transitions from or to idle state.
 - Missing transitions return zero duration.
 - Symmetrical matrices can resolve a reverse transition when the direct pair is absent.
+- A matrix can optionally treat sufficiently long equipment idle time as an idle-state transition.
 - Operations can use `OperationDurationMode.BasedOnChangeoverMatrix`.
+- Forward scheduling uses the neighboring next state, while backward scheduling uses the neighboring previous state.
+- Neighboring state lookup can scan other campaign tasks on the same equipment and read the corresponding batch recipe attribute value through `Campaign.GetCampaignAttributeValueForEquipment(...)`.
 
 ## Flow
 ```mermaid
@@ -44,3 +47,4 @@ flowchart TD
 
 ## Related PRs
 - [[PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes]]
+- [[PR-feature-578-Adaptive-recipes-pt.4 Adaptive Recipes Part 4 Review]]

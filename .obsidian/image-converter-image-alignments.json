@@ -502,6 +502,36 @@
       "height": "",
       "wrap": false
     },
+    "168e2f765a3fcaa110028f562ab9d575": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "40dcd232eb3dfb3c20753e7646cefa6d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "13f119af59fec8ba619ceddf52339af4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9d3f959ddb03018cfb793811e9864244": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "243367663fb65a180dec7bcfd77101ac": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
     "a434e1cfde16fee3b91d463734caadcb": {
       "position": "left",
       "width": "",
@@ -514,31 +544,7 @@
       "height": "",
       "wrap": false
     },
-    "5a20740e2308fcdf3283055a1ff4042c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "2d649f3627a2729e8559c5926b1f46c9": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "168e2f765a3fcaa110028f562ab9d575": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
     "b5f261673274517dcd43878e9db00c00": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "40dcd232eb3dfb3c20753e7646cefa6d": {
       "position": "left",
       "width": "",
       "height": "",
@@ -550,13 +556,49 @@
       "height": "",
       "wrap": false
     },
-    "eeeba82ae5fecdc6ed4efb178f35e81c": {
+    "86d549009b92adb067d45a7917bce5a8": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "9caf9b4bdeb2d8f5cfc06c107ca66c20": {
+    "5a20740e2308fcdf3283055a1ff4042c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e00842ce3698246eef3cd2a1d739b778": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7242a65f4b1583960cce1cf84c955776": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6ec8663a1e325e8edf78c55a838a77ec": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "67315571123e9757247e28a7ca79052a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "dd6a85eee1f3770e05ec5ceabfd65fcd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1d9db9d8efc19b88eae394171e9141e0": {
       "position": "left",
       "width": "",
       "height": "",
@@ -1255,6 +1297,30 @@
       "wrap": false
     },
     "53a461821555bc0e0389c15f5a1423c1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2b3dd69faf08558efa9551c9d3225be8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ad83d7338734038425daa263d4ba1a87": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "07057490d70dd944eaefb9ed145125e8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "650d1baf6143633f8a4d6065e115deea": {
       "position": "left",
       "width": "",
       "height": "",
@@ -3599,6 +3665,18 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "de76fd4fe4335d70ceca5feb78c53a46": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a7e724f47e99bacf3828a5845618f4af": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Intelligen/Completed issues/536-Replace-MongoDB-with-DocumentDB.md": {
@@ -3621,6 +3699,12 @@
       "wrap": false
     },
     "58556653a992418714c8cc0cee9c28b9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1ed866c2fc01ef6ab35535eaf6ca618c": {
       "position": "left",
       "width": "",
       "height": "",
@@ -3997,6 +4081,36 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "e6e708a3319665077c988e54febd512e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "436fcb2b9774ba50e3149a8eafd84b0a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "05e1283106afcaefdc2812ad202582a6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4e0fda6f38983003e3ea3fe98705a7f5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e231778d277c3f96f2e08505086a3b37": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Intelligen/Completed issues/544-Rename-TimingStatus-to-CompletionStatus.md": {
@@ -4007,6 +4121,24 @@
       "wrap": false
     },
     "46b132880dfe088be408d3771bd2484b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1cf28b07abf82d4e1972e9e5a5689929": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d5f266f40d299bef5d225b9321e4aed7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b33724dc401114c73bf543c70956a11d": {
       "position": "left",
       "width": "",
       "height": "",
@@ -4171,6 +4303,18 @@
       "wrap": false
     },
     "c3881fe5b108cb403af1313a0760e183": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e885db6f92c0554a2c152988351d35ff": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c01258bed122baa079501192084b82e4": {
       "position": "left",
       "width": "",
       "height": "",
@@ -5723,80 +5867,6 @@
       "wrap": false
     }
   },
-  "Notes/Home/Ταξίδι/April-2026/Ημερολόγιο 2026-03-04 22.28.15.excalidraw.md": {
-    "7526b6173a84c25aceeb0d18eba08747": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "97f3904ab914d426557a0f5c07a697e3": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "dfc24e0953a3e93c13cfb2e5f08ff016": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "978873e50801b4db9f1c41532a904630": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "49ec9dc5fc6fdd766b9a5468262d1f93": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "a9a5403de3a88145c4731865e3597296": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "9fa04bc38ded68ef89ace318e178f4ae": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "70b2fb5e710b3af1dbf37b6d65fc3268": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "41a7ca46bf2666f3014d2bc36415a6be": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "6bab5020927052a1fd544d70818b7782": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "3b23c4ecba75b57870e5a749c5dad5ab": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "9f3c6633812d8d84d0307354e7b5c2d5": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Notes/Intelligen/Gantt/Gantt-Backlog.md": {
     "fb4d8b76a953d5bcd02726a38a01412a": {
       "position": "left",
@@ -6079,80 +6149,6 @@
       "wrap": false
     }
   },
-  "Notes/Intelligen/Current issues/566-Wrap-original-start-end-into-info-object.md": {
-    "61054326d9215d66ec3ece8e95d87fcd": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "d52f5195f85bfac5d75074ccf9cfa78a": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "573d429e51aef0a82c4a6a9eae8f0073": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "04e3ae64d24a9389d8d873107de6028b": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "6d0a9686b89ce0e79a627dc92ce4c2d5": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0e99bfb1a369568a8ed35f92c8bb3a7e": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "6108394a7549f7e7ef6d4eb0b2db7369": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "3d5643bf1268bdf6e52614db8a226775": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "5fa6464a46f14ea1f6519a542b14dbd6": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "baae6616efecffd4121af0bf4a10639b": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "af30c088f93b881630d93859eeddd944": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "998cfde0805440a409374f97f8de1fa0": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Clippings/Fee Structures  Explore our trading fees.md": {
     "791cbf47d91dbd728bd56f2f1ca33679": {
       "position": "left",
@@ -6235,6 +6231,470 @@
       "wrap": false
     },
     "746d0a069915a2a603db122f7f8be14d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Keycloak/Documentation/Docs.md": {
+    "875c82aa71c193d93d026360189aec67": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ec0fd9514b2132c83134f6621b24f1c6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fd0ab2a23f8ff92b5458d959418ced9c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d9076966a9e91f882bc8115a38c16a80": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "15ee85ef7e742453bb808f3cc470b50f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5843dbbd213a5758408e0af048614856": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Keycloak/Documentation/Documentation - Update realm.md": {
+    "00e1c3d2db85cc681c16d48ae2e64920": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "56bfb2fc6f44825cf3b8cd46885d2e58": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Engineering/PRs/PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes.md": {
+    "609a6be2b472b6354ffa47ae98aab2f5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5c7f3dac1d1108041e18b62da0cbe5af": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4713189f0d8d2e5ae306c76f18b25bd5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "111736aa8cf4b5ae10e5a8a78b87aa45": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Financial predictions.md": {
+    "d2ee346aea44c8001b2409d54bbbe733": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "0de9792bc23f8e7f3db27064710b0d43": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1d35c27365cd43c044ad3d71373913d4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1ec7a105541614b843f24e9da2051d3c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "46d83776ca8df2ee3f56d8c346075cb6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c1c06ce3a33e15d582669bf84b301201": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e455b23b7916eee2ffcc62d6b4192b73": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1ce0060a6105fb0b93e8f525476d4729": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c7f02cddfdc8a5fa04f16752bf35652a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2226ddb50ccd273e21d69a99973798e6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e040c7a3afcd3adb3f3f93fa8fcef85a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c823d81e4086a0e98e974a9f49840be0": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "aaa75c8155d1b8399afa2048306b38a7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1d5cacd50d718921392a933eaa2e79ac": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "165045edf5f48a3134af156a7e4dc522": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "585a3408d1c9c10cb7658aee7329aff1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fc1d84cf680048516f2c87b6ed483adc": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "270b8dc590796a08333fd0da1f382552": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "3c215a3455bdae42079238526ba00fdd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c67172cf50bacc671736fea3028f5fe3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ef84642a2f7038254b70b81ca417c22f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "13474f5c57ffbd703dce931a6697d138": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7224ad5e6b1804062fc56c457107caa9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2c1f6c207bbe851e6e3e968dc259c571": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "19ab07f15247856c2387206580926fe0": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "88325051401461cdc027505ee53477c5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4ea0663859c316ab6b04481f93375e2b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "65b625d8e9413a21e3ce6f865f09b649": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "98a2e7220520cb1dcb90e74ad68cf3a1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fb645d7592c29fd931ebce3b0d981f55": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6b4e3a1edac531e27c6487ba9c5f7433": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "20d2359fc3e26ecb4a4fe3c0ee14df54": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "38675fbefa3e6c5c69e3ea2b750ead57": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4d5eb5b6ea39477037ca46ef8f448959": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5033c0e4db9c25afe0b8b611642892f9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7c498ea88628f1425bc5ae7bb953a0c8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/How The Benner Cycle Predicts 100+ Years of Market Movement.md": {
+    "72e71a34eb37f17189f50dd86fb97125": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Trading view notes.md": {
+    "9644f082cb2d947011848c877e3de334": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "bcd86b1d2afa6c2018b4694e9cfae7d7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "281a7e87475502f7c2384835610cf5be": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "cd01c7852e1cb5dd2e5a67200f1f1ded": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8cc54f5df28784759f7d6803186dffd5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b76568380d8503878125f0807fa5c7b2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f27d95bef07042ecbd03818372b25d0b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7dddbb08faf0bc20d61cd270095a4b15": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "3231bd029781d295be49a77318ce89c4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Quant Knowledge.md": {
+    "e6ae8e5e9fd6c9fa66f4fc0ce9d4fbd0": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9d9318af117f4600e10cd9156b039d0d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6bf69795d49a8ceca3c13c3654bb3c9c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "de617ebdda720d4c2aec888257736686": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fd6c422f98c79cb916e1a4d607510389": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/ΑΦΙΕΡΩΜΑ ΣΤΙΣ ΕΠΕΝΔΥΣΕΙΣ - Greekonomics.md": {
+    "029c72efc483080ae45bd5dcba6d10f1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Trading plan.md": {
+    "e3cc81f8530cfb35540c68de87729fc1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b4db3fcb3b3b2a1b0cba1afaa08c603b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Completed issues/298-implement-import-export-in-FE.md": {
+    "a010968124fff9738e558db2aa186666": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Completed issues/566-Wrap-original-start-end-into-info-object.md": {
+    "6559e6df87d218c0bf4c9b9cf255cf6a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Completed issues/557-Update-Batch-completion-status-BE.md": {
+    "95469fa1f9e552f452d6e927ad78865b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Completed issues/545-Add-Tracking-Labor.md": {
+    "ed5d39095e9da7b4cb207e2d283c3e68": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "52242ff9bb64a990c9da593146d53855": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c218bef5285aad30d3ce26ae308dc7d7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "163ca0e074abbc749458e3eee63a1f55": {
       "position": "left",
       "width": "",
       "height": "",

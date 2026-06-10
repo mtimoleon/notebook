@@ -3,7 +3,7 @@ categories:
   - "[[Work]]"
   - "[[Documentation]]"
 created: 2026-04-26
-updated: 2026-04-26
+updated: 2026-06-10
 product: scpCloud
 component: Planning
 tags:
@@ -22,6 +22,8 @@ Recipe attributes are workspace-scoped dimensions whose values can be attached t
 - `Recipe`, `Material`, and `Batch` can each carry selected recipe attribute values.
 - `Equipment` can use a recipe attribute to choose per-value processing rates.
 - `ChangeoverMatrix` uses recipe attribute values as transition states.
+- `Campaign`-level scheduling can inspect neighboring equipment usage and recover the relevant batch recipe attribute value through `GetCampaignAttributeValueForEquipment(...)`.
+- A batch can inherit its effective recipe attribute values from a BOM product instead of directly from the recipe.
 
 ## Business Meaning
 This model represents SKU-like or product-context choices that affect how a recipe runs, which material is produced, which equipment rate applies, and how long changeovers take.
@@ -53,3 +55,4 @@ flowchart TD
 
 ## Related PRs
 - [[PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes]]
+- [[PR-feature-578-Adaptive-recipes-pt.4 Adaptive Recipes Part 4 Review]]

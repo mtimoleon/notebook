@@ -6,4 +6,4 @@ Clipped from: [https://www.therationalinvestor.com/blog/how-the-benner-cycle-pre
  
          
 
-![zSheIf and Heavy Hardware Sfoves andRnges Estate O...](Exported%20image%2020260211194002-0.png)
+![zSheIf and Heavy Hardware Sfoves andRnges Estate O...](How%20The%20Benner%20Cycle%20Predicts%20100+%20Years%20of%20Market%20Movement-20260608.png)

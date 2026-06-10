@@ -9,57 +9,25 @@ status: backlog
 product: scpCloud
 ---
 
-
-- [ ] 568
-	- Default values for staff assignment in operation entry are invalid
-	- Default values for aux equipment may need fix as well
-	- [x] In chart dto we remove useAllCompatibleEquipment but it is used in FE
-	 - [x]  So remove the property from FE and the dto members showing lower.
-		![[Intelligen-Backlog-1779264117634.png|940x373]]
-		![[Intelligen-Backlog-1779264207390.png|940x485]]
-	  
-	- [x]  Need to fix the dto for moving  OperationEntry and add sourceId similar to what we do in staff. Then the following test should pass
-	  ![[Intelligen-Backlog-1779264838382.png|877]]
-	- [x] Fix also in FE, throw the exception only if pool is empty
-	  ![[Intelligen-Backlog-1779265266659.png|940x517]]
-- [ ] **566 FE updates required**
-     1. Medium - Update modal still binds "original" resource slots to planning resources
-	     - Evidence: `WebApps/CommonSpa/pages/UpdateModal/UpdateModal.jsx:92-94`
-	     - The modal still assigns:
-		    - `operationEntryOriginalAuxiliaryEquipment = props.operationEntry.auxEquipment`
-		    - `operationEntryOriginalStaff = props.operationEntry.staff`
-		- It does not read the original-resource payload.
-		- Impact:
-		    - even with the backend contract in place, the modal shows planning resources instead of the persisted original snapshot
-	 2. Medium - Original aux/staff UI remains commented out in the update modal
-		- Evidence:
-		    - `WebApps/CommonSpa/pages/UpdateModal/UpdateModalAuxiliaryEquipmentReadMode.jsx:22-23,71-72`
-		    - `WebApps/CommonSpa/pages/UpdateModal/UpdateModalStaffReadMode.jsx:22-23,70-71`
-		- The label and read-mode rendering for original auxiliary equipment and original staff are still disabled.
-		- Impact:
-		    - the user cannot actually see the original resource baseline in the modal
-	 3. Medium - Original-only EOC outages are still derived from tracking data only
-		- Evidence:
-		    - `Services/Production/Production.Api/GrpcServers/SchedulingBoardServer.cs:182-189`
-		    - `Services/Production/Production.Api/GrpcServers/SchedulingBoardServer.cs:251-317`
-		- Global task boundaries are calculated only from `trackingData`.
-		- Equipment/staff outages are also collected only from `EocResourceDataTracking`.
-		- Impact:
-		    - `ShowOriginalData` can return original rows without correct outage bars
-	 4. Medium - Original/planning chart rows still depend on a tracking counterpart
-		- Evidence:
-		    - `Services/Production/Production.Api/Services/ChartService.cs:28-31`
-		    - `Services/Production/Production.Api/Services/ChartService.cs:82-124`
-		    - `Services/Production/Production.Api/Services/ChartService.cs:203-206`
-		- `ChartService` explicitly uses tracking rows as the visible anchor.
-		- Original and planning tasks are only merged when a matching tracking task exists.
-		- Impact:
-		    - original-only resources/tasks are hidden instead of being rendered as an independent chart branch
+- [ ] Change over matrices θα μπουνε πάνω στα recipe attributes.
+- [ ] Να μπει η σχέση BOM με adaptive input/output από τη μεριά του ΒΟΜ και αν κάποιος πάει να σβήσει κάποιο adaptive input/output να μη μπορεί να σβηστεί αν είναι σε ΒΟΜ.
+- [ ] When we change recipe association in BOM we should not clear BOM streams, instead we should delete adaptive inputs/outputs associations from streams.
+- [ ] Δες το τελευταίο:
+	Αν το βάζεις σε μικρότερο κόβεις τα τελευταία
+	Αν το βάζεις παραπάνω να μπορεί να κρατήσει τα υφιστάμενα και να κάνει schedule τα υπόλοιπα
+	Στην οθόνη να δείχνει Scheduled 150 of 170 δλδ  no of scheduled from total.
+	![[Intelligen-Backlog-1780642600782.png|940x398]]
+- [ ] Other suggestions from Alexandros
+	![[Intelligen-Backlog-1780642576596.png|940x419]]
+- [ ] Διάφορες εκκρεμότητες
+	![[Intelligen-Backlog-1780405576701.png|940x436]]
+- [ ] Move tolerance const to scheduling service
+    ![[Intelligen-Backlog-1779956706611.png|940x528]]
+  This is where it was declared initially      ![[Intelligen-Backlog-1779956767083.png|940x529]]
 - [ ] Planning SchedulingBoardServer.GetSchedulingBoardProductionUpdates, if for some reason the original information link is missing projectTo fails and there is no way to get the production update, only to apply all.
 - [ ] Check how it is determined if a procedure entry can be modified in `MoveProcedureEntryCommandHandler` line 67 and
        `Batch.ChangeProcedureEntryEquipmentAndStartByUser` line 618, `ProcedureEntry` line 95, and `OperationEntry` line 461
       ![[Intelligen-Backlog-1777987035717.png|930x349]]
-- [x] Επίσης, πρέπει να σκεφτούμε τι θα γίνει αν κάποιος πάει να αλλάξει ένα material που ήδη χρησιμοποιείται σε κάποιο BOM, από Final product σε κάτι άλλο. Δεν θα έπρεπε να το επιτρέψουμε, αλλά κατά προτίμηση χωρίς να κάνουμε query στη βάση. Κάνουμε κάτι αντίστοιχο εδώ: UpdateStorageUnitTypeCommandHandler
 - [ ] Replace NewtonsoftJson in tests with System.Text.Json
 - [ ] ==Create a mechanism to guarantee that we did not forget to add an entity into import/export service==
 - [ ] Bug in production chart view?
@@ -88,7 +56,7 @@ product: scpCloud
       Will not do, we will go with managed service and documentDB
 - [ ] Zoom στο browser και εμφάνιση εφαρμογής σε laptops της Hovione
 - [ ] Export csv for production operations all columns with the other filters (==Zlate==)
-- [ ] (==Zlate==) Create CRUD infrastructure for
+- [x] (==Zlate==) Create CRUD infrastructure for
       RecipeClassification -\> RecipeAttribute
       RecipyType -\> RecipeAttributeValue
 
@@ -98,17 +66,13 @@ product: scpCloud
 ![Exported image](Intelligen-Backlog-20260218%202.png)
 
 - [x] Procedure name must have a value since we are in production operation entry modal
-![Exported image|590](Intelligen-Backlog-20260218%204.png)
+![Exported image|931](Intelligen-Backlog-20260218%204.png)
 
 - [ ] Add comments in production operations columns
-
-![Exported image](Intelligen-Backlog-20260218%203.png)
+	![Exported image](Intelligen-Backlog-20260218%203.png)
  - [ ] Operation entry side panel new tab, like identification, that contains attention codes and comments
-
-
 - [ ] 502 Fix order bug ==Zlate==
-
-![Exported image](Intelligen-Backlog-20260218%201.png)
+	![Exported image](Intelligen-Backlog-20260218%201.png)
 - [ ] In Admin api keycloak service, use httpClient created by httpClientFactory not with new inside service
 [https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory](https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory)
 - [ ] Fix the names of contracts to contain the api name. Ayto na ginei oste na min mperdeyoyme ta contracts kai toys clients

@@ -13,8 +13,8 @@ condition = close\<close[1] and close[1]\<close[2] and close[2]\<close[3] and cl
 if condition  
 strategy.entry("long",strategy.long)   if close\>close[1]  
 strategy.close("long")
-    ![Exported image](Exported%20image%2020260211194023-0.png)   
-![Exported image](Exported%20image%2020260211194024-1.png)  
+    ![Exported image](Quant%20Knowledge-20260608%201.png)   
+![Exported image](Quant%20Knowledge-20260608.png)  
 
 Heston Model
     

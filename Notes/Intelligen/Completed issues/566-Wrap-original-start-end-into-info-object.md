@@ -24,7 +24,7 @@ Sample code:
       3. remove original start/end filter ✔️
       4. na valo kai ta planning start-end sto view ton operations ✔️
 - [x] ~~Production Na zitisoyme to query na kanei join sta procedure entries/operation entries kai operation entries xyma kai pano sto apotelesma ayto na efarmozetai to filtro~~ θα εφαρμόσουμε άλλη λογική τελικά
-- [x] ![[566-Wrap-original-start-end-into-info-object-1778567579027.png|930x657]]
+- [x] ![[566-Wrap-original-start-end-into-info-object-20260602.png|930x657]]
 - [x] SchedulingBoardServer line 766 check code changes for projection (there are linq expressions to get aux equipment and staff that ef cannot translate)
 - [x] Na sviso kai ton legacy kodika, ![[Intelligen-Backlog-1778163654711.png|930x402]]
 - [x] ![[Intelligen-Backlog-1778162478762.png|930x421]]

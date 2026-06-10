@@ -4,7 +4,7 @@ categories:
 created: 2026-03-11
 product:
 component:
-status:
+status: completed
 tags:
   - issues/intelligen
 ---

@@ -18,8 +18,9 @@ tags:
 - Replaces recipe classifications/types with recipe attributes and recipe attribute values.
 - Adds recipe attribute values to recipes, materials, batches, and equipment.
 - Adds BOM/adaptive recipe structures and changeover matrices.
-- Makes scheduling and conflict resolution aware of dynamic changeover operations and BOM-driven batch attributes.
-- Adds Planning API/BFF and WebPlanning UI for managing recipe attributes and values.
+- Makes scheduling and conflict resolution aware of dynamic changeover operations, loop-producing conflicts, and BOM-driven batch attributes.
+- Adds Planning API/BFF and WebPlanning UI for managing BOMs, recipe attributes, and recipe attribute values.
+- Changes the workspace import/export contract to carry recipe attribute/value data across options, materials, recipes, and equipment.
 
 ## Domain Impact
 - [[Recipe Attributes]]
@@ -36,18 +37,19 @@ tags:
 - [[Missing Changeover Matrix Value Means Zero Duration]]
 - [[Recipe Attribute Value Attribute Is Immutable]]
 - [[Equipment Attribute Dependent Rate]]
+- [[Discrete Materials Cannot Be Stock Mixtures]]
 
 ## Risks
-- Existing recipe classification/type data is dropped by the migration rather than visibly migrated.
-- Workspace import/export contracts change from recipe classifications/types to recipe attributes/values.
+- The import/export contract breaks older payloads based on recipe classifications/types.
 - Changeover-aware slot search and dynamic task recalculation increase scheduling regression risk.
-- Name-only import references for recipe attribute values can be ambiguous.
+- `Campaign.UpdateDynamicTasks()` can hide an earlier batch change because it overwrites the accumulated change flag instead of OR-ing it.
+- Re-associating a BOM with a different recipe clears existing BOM streams and needs clear UX expectations.
 
 ## Follow-up
+- Fix the `Campaign.UpdateDynamicTasks()` aggregation bug and add a regression test for multi-batch campaigns.
 - Add or verify production data migration strategy for recipe classifications/types.
 - Add backward-compatible import handling or explicit migration guidance for old exports.
 - Expand regression coverage around dynamic-only procedures, changeover slot search, and cache invalidation.
-- Validate duplicate recipe attribute value names across different attributes during import.
 
 ## Diagrams
 - [[Recipe Attributes]]
@@ -57,8 +59,8 @@ tags:
 
 ## Tech Debt
 - [[Recipe Classification Data Migration Risk]]
-- [[Ambiguous Recipe Attribute Value Import References]]
 - [[Dynamic Scheduling Regression Surface]]
+- [[Dynamic Task Change Propagation]]
 
 ## Raw Analysis
-- `artifacts/PR-task-430-Implement-SKU-in-material Engineering Analysis.md`
+- `.local/PR-430 Engineering Analysis.md`
