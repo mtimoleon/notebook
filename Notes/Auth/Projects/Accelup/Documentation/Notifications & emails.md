@@ -13,189 +13,123 @@ tags:
 Email and notifications inside accelup project.
 ## Details
 
-Παρακάτω είναι ένα ενιαίο high-level διάγραμμα που δείχνει όλα τα βασικά use cases, τη βασική απόφαση `direct email` vs `notifications queue`, και τους τελικούς παραλήπτες.
-```mermaid
-flowchart TD
-    U["Use Case / API Call"] --> C{"Τύπος περίπτωσης;"}
-    C --> ACC["Account / Access"]
-    C --> CON["Contact Us"]
-    C --> MSG["User Message"]
-    C --> BID["Bid Action"]
-    C --> PROJ["Project Create / Edit / File"]
-    C --> STAT["Project Status Change"]
-    C --> ADM["Admin Broadcast"]
-    ACC --> ACCD{"Ποιο account flow;"}
-    ACCD --> REG["Register"]
-    ACCD --> FP["Forgot Password"]
-    ACCD --> RR["Role Request Accept / Deny"]
-    REG --> REG1{"Freelancer role request;"}
-    REG1 -->|Yes| REG2["Direct Email"]
-    REG2 --> REG3["Admins / Contact mailbox"]
-    REG --> REG4{"Skip verification off;"}
-    REG4 -->|Yes| REG5["Direct Email"]
-    REG5 --> REG6["New user"]
-    FP --> FP1["Direct Email"]
-    FP1 --> FP2["User who requested reset"]
-    RR --> RR1["Direct Email"]
-    RR1 --> RR2["User whose request was approved/rejected"]
-    CON --> CON1["Direct Email"]
-    CON1 --> CON2["Admins / Contact mailbox"]
-    CON2 --> CON3{"Admin send succeeded;"}
-    CON3 -->|Yes| CON4["Direct Email"]
-    CON4 --> CON5["Client confirmation email"]
-    MSG --> MSG1["Store message in DB"]
-    MSG1 --> MSG2["Direct Email"]
-    MSG2 --> MSG3["Message recipient"]
-    BID --> BIDD{"Ποιο bid flow;"}
-    BIDD --> BA["Add / Update / Withdraw Bid"]
-    BIDD --> BAC["Accept Bid"]
-    BA --> BA1["Direct Email"]
-    BA1 --> BA2["Project owners"]
-    BAC --> BAC1["Direct Email"]
-    BAC1 --> BAC2["Project owners"]
-    BAC1 --> BAC3["Winning bidder organization users"]
-    BAC1 --> BAC4["Losing bidder organization users"]
-    PROJ --> PROJ1["Create Notification row"]
-    PROJ1 --> Q["Notifications table / queue"]
-    STAT --> STATD{"Ποιο status change;"}
-    STATD --> DISP["In dispute"]
-    STATD --> CANC["Cancelled by Admin"]
-    STATD --> OTH["Other status changes"]
-    DISP --> DISP1["Direct Email"]
-    DISP1 --> DISP2["Project owners"]
-    DISP1 --> DISP3["Winning bid users"]
-    DISP1 --> DISP4["Admins"]
-    CANC --> CANC1["Direct Email"]
-    CANC1 --> CANC2["Bidding organization users"]
-    CANC1 --> CANC3["Winning bid users"]
-    CANC1 --> CANC4["Project owners"]
-    OTH --> OTH1["Create Notification row(s)"]
-    OTH1 --> Q
-    ADM --> ADM1["Direct Email"]
-    ADM1 --> ADM2["Active users"]
-    Q --> AGG{"Background aggregation"}
-    AGG --> MID["Every 20 min: UpdateProjectStatus"]
-    AGG --> LOW["Every 12h: CreateProject / UpdateProjectDetails"]
-    MID --> MID1["Resolve recipients by status rules"]
-    MID1 --> MID2["Email to bidding organization users, if allowed"]
-    MID1 --> MID3["Email to winning bid organization users, if allowed"]
-    LOW --> LOW1["Aggregate projects into batch email"]
-    LOW1 --> LOW2["Advanced active users / interested audience"]
-    MID2 --> SMTP["EmailService -> SMTP"]
-    MID3 --> SMTP
-    LOW2 --> SMTP
-    REG3 --> SMTP
-    REG6 --> SMTP
-    FP2 --> SMTP
-    RR2 --> SMTP
-    CON5 --> SMTP
-    CON2 --> SMTP
-    MSG3 --> SMTP
-    BA2 --> SMTP
-    BAC2 --> SMTP
-    BAC3 --> SMTP
-    BAC4 --> SMTP
-    DISP2 --> SMTP
-    DISP3 --> SMTP
-    DISP4 --> SMTP
-    CANC2 --> SMTP
-    CANC3 --> SMTP
-    CANC4 --> SMTP
-    ADM2 --> SMTP
-    SMTP --> OUT["Outbound emails delivered"]
-    MID --> CLEAN["Processed notification rows deleted"]
-    LOW --> CLEAN
-```
-**Πώς να το διαβάζεις**
-- `Direct Email`: το request οδηγεί κατευθείαν στο `EmailService` και μετά σε SMTP.
-- `Create Notification row`: το request δεν στέλνει αμέσως email. Γράφει event στον πίνακα `Notifications`.
-- `Background aggregation`: ο worker μαζεύει queued notifications και τα μετατρέπει αργότερα σε emails.
-- `Project Status Change` έχει μικτό μοντέλο:
-  - `In dispute` και `Cancelled by Admin` -> direct email
-  - τα υπόλοιπα status changes -> queue -> delayed email
+### Emails and Notifications
+​
+We currently use 4 core services in order to queue, build, and send project-related notification emails:
+​
+- `NotificationQueueService`
+  Responsible for persisting notification rows in the `Notifications` table and reading pending email work.
+​
+- `NotificationsAggregateService`
+  A background service that periodically pulls pending notifications by priority bucket.
+​
+- `NotificationDispatcher`
+  Responsible for grouping pending notifications by type, building email work items, dispatching them through `EmailService`, and marking handled notifications as sent.
+​
+- `EmailService`
+  The service that renders templates and sends emails.
+​
 
-**Το βασικό decision tree σε μία πρόταση**
-- account, contact, messages, bids, admin broadcast, dispute/cancel flows -> `direct email`
-- project create/edit/file upload και τα περισσότερα generic project status updates -> `notifications queue` -> background aggregation -> email
+---
+​
+### Typical Queued Notification Flow
+​
+Most queued project notifications follow this flow:
+​
+1. An endpoint or background worker enqueues a notification through `NotificationQueueService`.
+2. The notification gets stored in the database.
+3. `NotificationsAggregateService` periodically reads pending notifications for a priority bucket.
+4. The aggregate service forwards the pending rows to `NotificationDispatcher`.
+5. `NotificationDispatcher` asks `NotificationEmailWorkItemBuilder` to load the data needed for each notification type.
+6. `NotificationDispatcher` sends each resulting work item through `EmailService`.
+7. Once processing is complete, the handled notifications are marked with `IsEmailSent = true`.
+​
+Notifications with `ShouldSendEmail = false` stay persisted in the table, but they are never returned as pending email work.
+​
 
-Παρακάτω είναι μια πιο καθαρή, business-friendly εκδοχή, με έμφαση στις αποφάσεις και στο πού καταλήγει κάθε ειδοποίηση.
-```mermaid
-flowchart TB
-    START["User action / system event"] --> DECISION{"Immediate ενημέρωση ή batched ενημέρωση;"}
-    DECISION -->|Immediate| DIRECT["Direct Email Flow"]
-    DECISION -->|Batched| QUEUE["Notifications Queue Flow"]
-    DIRECT --> D1["Account events
-    Register verification
-    Password reset
-    Role request created
-    Role request approved/rejected"]
-    DIRECT --> D2["Communication events
-    Contact us
-    New user-to-user message"]
-    DIRECT --> D3["Bid events
-    Bid added
-    Bid updated
-    Bid withdrawn
-    Bid accepted"]
-    DIRECT --> D4["Critical project status events
-    In dispute
-    Cancelled by admin"]
-    DIRECT --> D5["Admin communication
-    Broadcast to active users"]
-    D1 --> D1R["Recipients
-    New user
-    Requesting user
-    Admin mailbox"]
-    D2 --> D2R["Recipients
-    Admin mailbox
-    Message recipient
-    Contact form sender"]
-    D3 --> D3R["Recipients
-    Project owners
-    Winning bidder users
-    Losing bidder users"]
-    D4 --> D4R["Recipients
-    Project owners
-    Winning bid users
-    Bidding organization users
-    Admins"]
-    D5 --> D5R["Recipients
-    Active users"]
-    D1R --> EMAIL["EmailService -> Templates -> SMTP"]
-    D2R --> EMAIL
-    D3R --> EMAIL
-    D4R --> EMAIL
-    D5R --> EMAIL
-    QUEUE --> Q1["Queued project activity
-    Project created
-    Project details updated
-    Project files changed
-    Non-critical project status updates"]
-    Q1 --> STORE["Store lightweight notification record
-    EntityId + Type"]
-    STORE --> WORKER["Background aggregation worker"]
-    WORKER --> W1["Every 20 minutes
-    Process status update notifications"]
-    WORKER --> W2["Every 12 hours
-    Process project create / update notifications"]
-    W1 --> W1R["Recipients decided by status rules
-    Bidding organization users
-    Winning bid organization users"]
-    W2 --> W2R["Recipients decided by audience rules
-    Advanced active users"]
-    W1R --> BATCH["Aggregate / batch email creation"]
-    W2R --> BATCH
-    BATCH --> EMAIL
-    BATCH --> CLEANUP["Processed queue entries removed"]
-    EMAIL --> END["Outbound email delivered"]
-```
-**Η ουσία του συστήματος**
-- Υπάρχουν δύο παράλληλα μονοπάτια: `Direct Email Flow` και `Notifications Queue Flow`.
-- Το direct flow χρησιμοποιείται όταν η ενημέρωση πρέπει να φύγει αμέσως ή είναι πολύ συγκεκριμένη ως προς παραλήπτες.
-- Το queue flow χρησιμοποιείται κυρίως για project-related activity που θέλουν batching και όχι spam με άμεσα πολλά mails.
-**Πρακτικός κανόνας**
-- αν το event είναι προσωπικό, transactional ή κρίσιμο -> direct email
-- αν το event είναι “project activity update” που μπορεί να ομαδοποιηθεί -> queue -> background worker -> batch email
-Αν θέλεις, μπορώ να δώσω και τρίτη εκδοχή, ακόμα πιο executive, σαν one-slide architecture diagram με μόνο 6-7 κουτιά.
+---
+​
+### Instant Emails vs Aggregated Notifications
+​
+Not every email goes through the notification aggregation system.
+​
+Some actions are considered important enough to send emails instantly. In those cases, services or endpoints can call `EmailService` directly instead of enqueueing notifications.
+​
+For project status actions that are still immediate, the controller now calls `NotificationDispatcher` directly. The dispatcher uses the same builder-style payload assembly as the queued flow, but without persisting rows in `Notifications`.
+​
+
+---
+​
+### How Emails Work for Bid-Related Endpoints
+​
+Endpoints such as `AddBid` (and all bid-related endpoints) send emails instantly.
+​
+These endpoints bypass the notification aggregation system entirely and use `EmailService` directly.
+​
+The reasoning here is simple: bid-related actions are usually time-sensitive and users should be informed immediately.
+​
+
+---
+​
+### How Emails Work for `UpdateProjectStatus`
+​
+`UpdateProjectStatus` behaves slightly differently depending on the status being applied.
+​
+#### Statuses That Send Emails Instantly
+​
+If the new project status is:
+​
+- `In_dispute`
+- `Cancelled_by_Admin`
+​
+then emails are sent immediately through `EmailService`.
+​
+These statuses are treated as special/high-importance cases and do not go through the notification aggregation system. They do, however, go through the direct `NotificationDispatcher` + builder path so that recipient discovery and payload assembly stay out of the controller.
+​
+
+---
+​
+#### All Other Statuses
+​
+For every other status update, two notifications are created:
+​
+- `UpdateProjectStatus`
+- `UpdateProjectDetails`
+​
+These notifications are stored in the database and later picked up by `NotificationsAggregateService`.
+​
+
+---
+​
+### Expiry Notifications
+​
+`ProjectExpiryNotificationService` runs periodically and enqueues the following notification types:
+​
+- `ProjectNearExpiryMonthly`
+- `ProjectNearExpiry`
+- `ProjectExpired`
+​
+These are later dispatched through the same queue → dispatcher → builder → email service flow as the rest of the queued project notifications.
+​
+
+---
+​
+### `UpdateProjectStatus` Status Table
+​
+
+| Status               | Flow            | Final Recipients                                                           | Notes                                                       |
+| -------------------- | --------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| `In_dispute`         | Immediate email | Project owners, winning bid organization users, admins                     | Goes through direct `NotificationDispatcher` + builder path |
+| `Cancelled_by_Admin` | Immediate email | Bidding organization users, winning bid organization users, project owners | Goes through direct `NotificationDispatcher` + builder path |
+| `Active`             | Queued          | Bidding organization users, winning bid organization users                 | Goes through `Notifications` + worker                       |
+| `Bidding_closed`     | Queued          | Bidding organization users                                                 | Goes through `Notifications` + worker                       |
+| `Employer_cancelled` | Queued          | Bidding organization users, winning bid organization users                 | Goes through `Notifications` + worker                       |
+| `Closed`             | Queued          | Bidding organization users, winning bid organization users                 | Goes through `Notifications` + worker                       |
+| `Under_development`  | Queued          | Winning bid organization users                                             | Goes through `Notifications` + worker                       |
+| `Bidding_expired`    | Queued          | Bidding organization users                                                 | Goes through `Notifications` + worker                       |
+| `Winner_selected`    | Queued          | Winning bid organization users                                             | Goes through `Notifications` + worker                       |
+| `Payment_pending`    | Queued          | Winning bid organization users                                             | Goes through `Notifications` + worker                       |
+| `Completed`          | Queued          | Bidding organization users, winning bid organization users                 | Goes through `Notifications` + worker                       |
+​
 ## Links
-Αναλυτικά διαγράμματα ανά περίπτωση: [[Notifications & emails code flows]]
+

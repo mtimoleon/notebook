@@ -10,9 +10,16 @@ tags:
 ---
 ## Context
 
+Replace Campaign IsScheduled with HasScheduledBatches
+
 ## Notes
 
+- [ ] IsScheduled -> HasScheduledBatches, will replace export and production member
 - [ ] CampaignDto, CampaignTableDto they both have no of batches and schedule status.
+- [ ] Campaign.UpdateNoOfBatches finish the update.
+- [ ] Campaign.UpdateAmount finish the update, consider allowing no of batches change.
+- [ ] Campaign filters rule column Scheduled 
+- [ ] Schedulingboard filters rule column Scheduled 
 
 - [ ] Για το IsScheduled που βγαίνει από το ChartService, το πιο καθαρό FE usage που βρήκα είναι στο Planning SPA, στο EOC:
 	- PlanningEocChart.jsx
