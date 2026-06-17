@@ -86,7 +86,7 @@
             }
           },
           {
-            "id": "b7d613411cc1146a",
+            "id": "50015107afc22a86",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -108,33 +108,9 @@
               "icon": "lucide-file",
               "title": "Intelligen-Backlog"
             }
-          },
-          {
-            "id": "2adb68ad7e4baa99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Intelligen/Engineering/Domains/Changeover Matrices.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Changeover Matrices"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,11 +142,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#documentation/intelligen",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": true,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -187,8 +163,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -209,6 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +194,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Intelligen-Backlog"
             }
           },
           {
@@ -269,9 +245,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Intelligen-Backlog"
             }
           },
           {
@@ -285,12 +263,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 23.15891472868217,
+        "dimension": 31.782945736434108,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -298,12 +276,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Intelligen-Backlog"
             }
           }
         ]
@@ -311,7 +290,7 @@
       {
         "id": "1114442bb95cf4fa",
         "type": "tabs",
-        "dimension": 28.003875968992247,
+        "dimension": 19.379844961240313,
         "children": [
           {
             "id": "4a8b8a265069ca66",
@@ -358,38 +337,43 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "4a8b8a265069ca66",
+  "active": "50015107afc22a86",
   "lastOpenFiles": [
-    "Notes/Intelligen/Engineering/Domains/Changeover Matrices.md",
-    "Notes/Intelligen/Engineering/Reports/Engineering Report 2026-04-26.md",
-    "Notes/Intelligen/Current issues/585-changeover-matrices.md",
+    "Notes/Intelligen/Current issues/582-Scheduled-Campaign-Batches-update.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Domains/Wallet Ownership.md",
+    "Notes/Auth/Projects/RAISE/Engineering/Rules/Wallet Owner Uniqueness.md",
+    "Notes/Auth/Projects/Panel Management/Database relations.md",
+    "Notes/Resources/Update DocumentDB documents from shell.md",
     "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1781689473054.png",
+    "Notes/Intelligen/Current issues/585-changeover-matrices.md",
+    "Current/2026-scratch-pad.md",
+    "Notes/Auth/Current Issues/AC-46-Drawing 2026-06-16 21.13.18.excalidraw.md",
+    "Notes/Auth/assets/Current Issues/AC-46-Drawing 2026-06-16 21.13.18.excalidraw",
+    "Notes/Auth/assets/Current Issues/Drawing 2026-06-16 21.13.18.excalidraw",
+    "Notes/Auth/assets/Current Issues/AC-46-Drawing 2026-06-16 21.13.18.excalidraw/AC-46-Drawing 2026-06-16 21.13.18.excalidraw-20260616.png",
+    "Current/assets/Drawing 2026-06-16 21.13.18.excalidraw",
+    "Notes/Auth/Projects/Accelup/Documentation/Notifications & emails.md",
+    "Notes/Auth/Current Issues/Backlog.md",
+    "Notes/Auth/Current Issues/Accelup requests.md",
+    "Notes/Auth/Current Issues/Current.md",
+    "Notes/Auth/Current Issues/Restful_Objects.md",
+    "Notes/Intelligen/Engineering/Domains/Changeover Matrices.md",
+    "Notes/Home/Quick notes/Ψηφιακή υπογραφή ιδιωτικού συμφωνητικού.md",
+    "Notes/Home/Quick notes/What to do when your laptop is stolen  PCWorld.md",
+    "Notes/Home/Quick notes/Γενικό.md",
+    "Notes/Home/Quick notes/Κατάθεση πινακίδων μοτοποδηλάτου 50cc - Αναζήτηση Google.md",
+    "Notes/Home/Quick notes/Κεντρικό Μητρώο Πιστώσεων της Τραπέζης της Ελλάδος.md",
+    "Notes/Home/Quick notes/Σημειώσεις.md",
+    "Notes/Home/Quick notes/Σπίτι Διάφορα.md",
+    "Notes/Intelligen/Engineering/Reports/Engineering Report 2026-04-26.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1781596065650.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1781596053712.png",
     "Notes/Intelligen/Current issues/Intelligen-Notes.md",
-    "Notes/Intelligen/Current issues/582-Scheduled-Campaign-Batches-update.md",
     "Notes/Intelligen/assets/Current issues/585-changeover-matrices/585-changeover-matrices-1781517549772.png",
     "Notes/Intelligen/assets/Current issues/585-changeover-matrices",
     "Notes/Intelligen/Documentation/Campaigns/Campaign order.md",
     "Notes/Intelligen/Documentation/Domain/Options set.md",
-    "Notes/Intelligen/Documentation/Domain/Hierarchy.md",
-    "Current/2026-scratch-pad.md",
-    "Notes/Auth/Projects/Accelup/Engineering/Index.md",
-    "Notes/Auth/Projects/Accelup/Engineering/Project Status Email Audiences.md",
-    "Notes/Intelligen/Documentation/Test/Υπενθύμιση-διόρθωση για τα τεστς.md",
-    "Notes/Auth/Projects/Accelup/Engineering/Domains/Project Expiry Reminder Lifecycle.md",
-    "Notes/Auth/Projects/Accelup/Engineering/Domains/Notifications Processing Architecture.md",
-    "Notes/Auth/Projects/Accelup/Engineering/PRs/PR-feature-AC-21_Add_notifications_when_project_expires_or_nears_expiry Notification Flow Split and Project Expiry Reminders.md",
-    "Notes/Auth/Projects/Accelup/Engineering/PRs/PR-feature-AC-19_Add_hide_or_delete_project Hide or Delete Project.md",
-    "Notes/Auth/Projects/Accelup/Engineering/Domains/Project Soft Delete Lifecycle.md",
-    "Notes/Auth/Projects/Accelup/Engineering/TechDebt/No Visible Restore or Undelete Flow for Soft-Deleted Projects.md",
-    "Notes/Auth/Projects/Accelup/Engineering/TechDebt/Soft-Delete Visibility Depends on EF Query Filters and Can Be Bypassed.md",
-    "Notes/Auth/Projects/Accelup/Engineering/Rules/Bid-Rooted Permission Flows Inherit Project Soft-Delete Visibility.md",
-    "Notes/Auth/Projects/Accelup/Engineering/Rules/Project Delete Is Allowed for Owner or Admin.md",
-    "Notes/Auth/Projects/Accelup/Engineering/Domains/Project Deletion Permissions.md",
-    "Notes/Auth/Projects/Accelup/Engineering/TechDebt/ProjectDetailDto Exposes IsEnabled Without Matching Model Evidence.md",
-    "Notes/Auth/Projects/Accelup/Engineering/TechDebt/Message and Review Flows Miss Soft-Delete Guards.md",
-    "Notes/Auth/Projects/Accelup/Engineering/TechDebt/Soft Delete Uses Opt-In Query Helpers Instead of a Global Filter.md",
     "Notes/Auth/Projects/Accelup/Engineering/TechDebt",
     "Notes/Auth/Projects/Accelup/Engineering/Rules",
     "Notes/Auth/Projects/Accelup/Engineering/Domains",
@@ -397,15 +381,10 @@
     "Notes/Auth/Projects/Accelup/Engineering",
     "Current/assets/2026-scratch-pad/2026-scratch-pad-1781073337568.png",
     "Notes/Home/assets/Trading/Black Scholes & other notes",
-    "Notes/Home/assets/Trading/Black Scholes",
-    "Notes/Home/assets/Trading/Trading plan/Trading plan",
-    "Notes/Home/assets/Trading/Trading plan",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1780642600782.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1780642576596.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1780405576701.png",
     "Notes/Home/assets/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw/Pasted Image 20260601004548_191.png",
-    "Notes/Home/assets/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw/Pasted Image 20260601003941_533.png",
-    "Notes/Home/assets/Ταξίδι/April-2026/Ημερολόγιο 2026-03-04 22.28.15.excalidraw/Ημερολόγιο 2026-03-04 22.28.15.excalidraw-20260505.png",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

@@ -490,30 +490,6 @@
       "height": "",
       "wrap": false
     },
-    "987e979f1f1237b3cc62dc7f995763d5": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0183fe0483c6a094b48d84b44fc3f9bd": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "168e2f765a3fcaa110028f562ab9d575": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "40dcd232eb3dfb3c20753e7646cefa6d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
     "13f119af59fec8ba619ceddf52339af4": {
       "position": "left",
       "width": "",
@@ -526,55 +502,7 @@
       "height": "",
       "wrap": false
     },
-    "243367663fb65a180dec7bcfd77101ac": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "a434e1cfde16fee3b91d463734caadcb": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "1b18504af6021266c7385eccb172ec06": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "b5f261673274517dcd43878e9db00c00": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "76b79a26568d230f298268627f273be9": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "86d549009b92adb067d45a7917bce5a8": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "5a20740e2308fcdf3283055a1ff4042c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
     "e00842ce3698246eef3cd2a1d739b778": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7242a65f4b1583960cce1cf84c955776": {
       "position": "left",
       "width": "",
       "height": "",
@@ -586,13 +514,19 @@
       "height": "",
       "wrap": false
     },
-    "67315571123e9757247e28a7ca79052a": {
+    "dd6a85eee1f3770e05ec5ceabfd65fcd": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "dd6a85eee1f3770e05ec5ceabfd65fcd": {
+    "6ec275bc12fb5296bdfa9250957b67bc": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1fe8b857af3755db77b6053c2699fd9b": {
       "position": "left",
       "width": "",
       "height": "",
@@ -604,31 +538,49 @@
       "height": "",
       "wrap": false
     },
-    "2750550910c6f41265cc48aae757d5ac": {
+    "67315571123e9757247e28a7ca79052a": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "c7136f3e90b77a5827a2661e3c4c5ed3": {
+    "7242a65f4b1583960cce1cf84c955776": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "a38d75e857e31b6eda0f3dd04f79a22a": {
+    "86d549009b92adb067d45a7917bce5a8": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "8b852a5199bfbb9ce387609d5002dc5a": {
+    "243367663fb65a180dec7bcfd77101ac": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "d48982927df1e485e9dbc8f56bd6845e": {
+    "5a20740e2308fcdf3283055a1ff4042c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2d649f3627a2729e8559c5926b1f46c9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "eeeba82ae5fecdc6ed4efb178f35e81c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9caf9b4bdeb2d8f5cfc06c107ca66c20": {
       "position": "left",
       "width": "",
       "height": "",
@@ -911,6 +863,18 @@
       "wrap": false
     },
     "d2611a53bc3f154033e7565cc7a41595": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "3639202e1673560f02103c9bd252d70d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4494183b5a3243b50a4769c9c15e0232": {
       "position": "left",
       "width": "",
       "height": "",
@@ -3269,6 +3233,12 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "039f4b8605502fa92dd413b8fbd04ef4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Auth/Projects/Panel Management/Notes.md": {
@@ -4195,6 +4165,18 @@
       "wrap": false
     },
     "babbf9c9062c67982e80bafb21cb964a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "cb0a1b764718e79c021ef44cd312f302": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "92ac70f2b68b1f27aa420cda32883786": {
       "position": "left",
       "width": "",
       "height": "",
@@ -6737,40 +6719,26 @@
       "wrap": false
     }
   },
-  "Notes/Intelligen/Current issues/585-changeover-matrices.md": {
-    "9bd51f0dbaa7dd0f666ab0851b822628": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "076d74d1b3fc3b56800c385392535058": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "e0fbafd11625c77e747355fe2b76847a": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "403fefe6f0a72e927c0e5e1b8257dd4c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "75b3e122079df533f2b351298c53e0c4": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Notes/Intelligen/Current issues/582-Scheduled-Campaign-Batches-update.md": {
     "5afc8ad60d3bffba1c7132d0dee7a93b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4544241787a8b08f28b57716ce44eaea": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6e4dcdd93e2c155a02ff3b9fd9788f99": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "265832df8f239229c780e97bf32c7d6d": {
       "position": "left",
       "width": "",
       "height": "",
@@ -6823,6 +6791,82 @@
       "wrap": false
     },
     "49b0739cc3f6bc1efac2aff13d947d1a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Current issues/585-changeover-matrices.md": {
+    "e0fbafd11625c77e747355fe2b76847a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "403fefe6f0a72e927c0e5e1b8257dd4c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "75b3e122079df533f2b351298c53e0c4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9bd51f0dbaa7dd0f666ab0851b822628": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Quick notes/Σπίτι Διάφορα.md": {
+    "98b634e2705fb48d95ced41b5f9a4d61": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "15dbc6e2a5e9cc4436d2b96850aa46db": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Quick notes/Κεντρικό Μητρώο Πιστώσεων της Τραπέζης της Ελλάδος.md": {
+    "9908985ed3ce0cef3bad376d2d2b5a09": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "09329fd1fcbbb6a0ddda0ac18c47177b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Quick notes/Γενικό.md": {
+    "4773575b3e4264e96120f43eb4c3f5ec": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Auth/Projects/RAISE/Engineering/Rules/Wallet Owner Uniqueness.md": {
+    "f4f1a481db60e5921a5207c127b74f80": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "154837b00697d7a9d0e3aaa8ed8530e0": {
       "position": "left",
       "width": "",
       "height": "",
