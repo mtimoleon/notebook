@@ -34,13 +34,9 @@
 - [[TimingInfoType Original Is Read Only]]
 
 ## Tech Debt
-- [[Ambiguous Recipe Attribute Value Import References]]
 - [[Auxiliary Equipment DTO Required-Count Gaps]]
 - [[Auxiliary Equipment Move Contract Is Single-Selection Shaped]]
-- [[Campaign Override Persistence Has Dual Mapping Signals]]
 - [[Dynamic Scheduling Regression Surface]]
-- [[Dynamic Task Change Propagation]]
 - [[Equipment Incompatibility Is Not Enforced]]
 - [[Recipe Classification Data Migration Risk]]
 - [[Scheduling Entry Point Validation Drift]]
-- [[Update Modal Original Resources Not Rendered]]

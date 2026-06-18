@@ -1,9 +1,9 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
 created: 2026-04-26
-updated: 2026-04-26
+updated: 2026-06-18
 product: scpCloud
 component: Planning
 tags:
@@ -24,3 +24,9 @@ High
 
 ## Fix Direction
 Add a data migration or documented manual migration path before applying this migration to environments with existing recipe classification/type data.
+
+## Master Status
+- Reviewed against master on 2026-06-18.
+- Status: Still open in master
+- Evidence: The adaptive-recipes migration still drops `RecipeClassifications`, `RecipeTypes`, and `Recipes_RecipeTypes` without an evident data migration path in the migration itself.
+

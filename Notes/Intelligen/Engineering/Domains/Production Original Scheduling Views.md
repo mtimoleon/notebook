@@ -3,7 +3,7 @@ categories:
   - "[[Work]]"
   - "[[Documentation]]"
 created: 2026-05-19
-updated: 2026-05-19
+updated: 2026-06-18
 product: scpCloud
 component: Production
 tags:
@@ -20,7 +20,8 @@ Production projections now store and serve an original branch so tables, filters
 - Planning-to-production sync publishes `BatchContentsOriginal` and `EocResourceDataOriginal` in both incremental tracking sync and full republish paths.
 - The `latest-batches` projection persists original payloads beside planning and tracking payloads.
 - Production filter mapping resolves original operation dates by correlating tracking operations to `BatchContentsOriginal` via `_id`.
-- The scheduling board EOC API can return original resource data through `EocResourceDataOriginal`.
+- The scheduling board EOC API can return original resource data through EocResourceDataOriginal.
+- The CommonSpa update modal now consumes original auxiliary equipment and original staff values when rendering original resource slots.
 - Chart merging still uses tracking rows as the anchor, so original data augments tracking rows instead of rendering independently.
 
 ## Rules
@@ -29,7 +30,6 @@ Production projections now store and serve an original branch so tables, filters
 ## Risks
 - [[Original EOC Outages Depend on Tracking Boundaries]]
 - [[Original Only Chart Rows Need Independent Merge]]
-- [[Update Modal Original Resources Not Rendered]]
 
 ## Related PRs
 - [[PR-task-566-Wrap-original-start-end-into-info-object Original Baseline Snapshot and Production Original Views]]

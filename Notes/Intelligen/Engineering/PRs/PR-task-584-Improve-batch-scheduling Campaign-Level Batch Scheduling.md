@@ -32,14 +32,14 @@ tags:
 - [[One Recipe Attribute Value Per Attribute]]
 
 ## Risks
-- Το persistence model για campaign recipe attribute values έχει πλέον δύο campaign-related σήματα και αυξάνει τη γνωστική πολυπλοκότητα του mapping.
+- Κατά το review, το persistence model για campaign recipe attribute values είχε δύο campaign-related σήματα και αύξανε τη γνωστική πολυπλοκότητα του mapping. Αυτό αργότερα καθαρίστηκε στο master.
 - Το scheduling path εξαρτάται περισσότερο από valid adaptive BOM stream mappings και από το σωστό `SchedulingType`.
 - Το import/export contract αλλάζει για scheduling-board payloads που προηγουμένως περίμεναν batch-level BOM ή batch-level recipe attribute override fields.
 
 ## Follow-up
 - Πρόσθεσε regression coverage για `RecipeBased` vs `MaterialBased` layout flows με invalid ή partial BOM mappings.
 - Κλείδωσε με tests το precedence rule των effective recipe attribute values όταν συνυπάρχουν defaults και overrides.
-- Αξιολόγησε αν το persistence model των campaign override values πρέπει να κρατήσει και join table και direct nullable campaign foreign key.
+- Resolved later on master by keeping campaign override persistence on the campaign-owned join-table path.
 
 ## Diagrams
 - [[Adaptive Recipes and BOMs]]
@@ -47,7 +47,7 @@ tags:
 - [[Scheduling Conflict Resolution]]
 
 ## Tech Debt
-- [[Campaign Override Persistence Has Dual Mapping Signals]]
+- The campaign override persistence ambiguity identified during this review was later resolved on master.
 
 ## Raw Analysis
 - `.local/PR-task-584-Improve-batch-scheduling Engineering Analysis.md`

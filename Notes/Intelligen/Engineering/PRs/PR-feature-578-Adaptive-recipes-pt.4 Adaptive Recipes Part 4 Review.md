@@ -55,7 +55,7 @@ tags:
 
 ## Tech Debt
 - [[Dynamic Scheduling Regression Surface]]
-- [[Dynamic Task Change Propagation]]
+- The campaign-level dynamic-task aggregation defect identified during this review was later resolved on master.
 - [[Equipment Incompatibility Is Not Enforced]]
 - [[Scheduling Entry Point Validation Drift]]
 

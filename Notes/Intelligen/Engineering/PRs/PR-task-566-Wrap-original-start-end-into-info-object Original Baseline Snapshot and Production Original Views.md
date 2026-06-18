@@ -36,13 +36,13 @@ tags:
 - Legacy original baseline data is dropped by the migration unless backfilled before schema removal.
 - Original EOC outages still depend on tracking boundaries instead of original boundaries.
 - Chart rendering still hides original-only tasks and resources when no tracking counterpart exists.
-- The update modal backend exposes original resources, but the current UI still renders planning values in the original slots.
+- At review time, the update modal backend exposed original resources, but the UI still rendered planning values in the original slots. This gap was later resolved on master.
 
 ## Follow-up
 - Add SQL backfill for legacy `OriginalStart` and `OriginalDuration` before migration rollout.
 - Expand production regression coverage for `eocDataType=original` and original-only resources.
 - Rework chart merge so original rows can render without a tracking anchor.
-- Enable the original aux/staff UI path in the CommonSpa update modal.
+- Completed later on master: the CommonSpa update modal now renders original auxiliary equipment and staff through the original-resource UI path.
 
 ## Diagrams
 - [[Original Baseline Snapshot]]
@@ -52,7 +52,7 @@ tags:
 - [[Original Baseline Migration Backfill]]
 - [[Original EOC Outages Depend on Tracking Boundaries]]
 - [[Original Only Chart Rows Need Independent Merge]]
-- [[Update Modal Original Resources Not Rendered]]
+- The CommonSpa original-resource rendering gap identified during this review was later resolved on master.
 
 ## Raw Analysis
 - `.local/PR-task-566-Wrap-original-start-end-into-info-object Engineering Analysis.md`

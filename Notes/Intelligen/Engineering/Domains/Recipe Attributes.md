@@ -20,7 +20,9 @@ Recipe attributes are workspace-scoped dimensions whose values can be attached t
 - `Workspace` owns `RecipeAttributes`.
 - `RecipeAttribute` owns `RecipeAttributeValues`.
 - `Recipe` and `Material` can each carry selected recipe attribute values.
-- `Campaign` can carry override values and derive `EffectiveRecipeAttributeValues`.
+- Campaign can carry override values and derive EffectiveRecipeAttributeValues.
+- Workspace import/export qualifies selected values with both the parent recipe attribute name and the value name.
+- Campaign override persistence is modeled through campaign-owned join rows rather than a parallel direct campaign foreign key on recipe attribute values.
 - `Equipment` can use a recipe attribute to choose per-value processing rates.
 - `ChangeoverMatrix` uses recipe attribute values as transition states.
 - `RecipeBased` scheduling resolves effective values from campaign overrides first and recipe defaults second.
@@ -51,8 +53,6 @@ flowchart TD
 
 ## Risks
 - [[Recipe Classification Data Migration Risk]]
-- [[Ambiguous Recipe Attribute Value Import References]]
-- [[Campaign Override Persistence Has Dual Mapping Signals]]
 
 ## Related PRs
 - [[PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes]]

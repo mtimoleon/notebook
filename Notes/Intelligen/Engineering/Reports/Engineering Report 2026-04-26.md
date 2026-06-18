@@ -6,7 +6,7 @@
 ## Executive Summary
 - Το documentation αυτή τη στιγμή αποτυπώνει μια συγκεντρωμένη αλλαγή στο Planning domain που εισήχθη από το [[PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes]].
 - Ο μεγαλύτερος planning κίνδυνος είναι ότι τα recipe attributes πλέον συνδέουν recipe selection, material/SKU context, BOM/adaptive streams, equipment rates, changeover durations και scheduling conflict resolution.
-- Τα debt items με την υψηλότερη προτεραιότητα είναι τα [[Recipe Classification Data Migration Risk]] και [[Ambiguous Recipe Attribute Value Import References]], και τα δύο σημειωμένα ως High risk.
+- Τα debt items με την υψηλότερη προτεραιότητα ήταν το [[Recipe Classification Data Migration Risk]] και η τότε ανοιχτή ασάφεια στα import references των recipe attribute values, και τα δύο σημειωμένα ως High risk.
 - Το [[Dynamic Scheduling Regression Surface]] είναι Medium risk, αλλά ακουμπά core scheduling συμπεριφορά: slot search, dynamic task recalculation, equipment reassignment, batch shifting, conflict resolution και schedule utilization cache invalidation.
 - Δεν υπάρχει ακόμη αρκετό ιστορικό documentation για να αποδειχθούν επαναλαμβανόμενα trends στο χρόνο. Τα περισσότερα συμπεράσματα είναι structural risks από ένα μεγάλο PR analysis snapshot.
 
@@ -19,7 +19,7 @@
 
 ## Recurring Tech Debt
 - Η migration safety εμφανίζεται επανειλημμένα ως ανησυχία. Το [[Recipe Classification Data Migration Risk]] λέει ότι τα `RecipeClassifications`, `RecipeTypes` και `Recipes_RecipeTypes` διαγράφονται χωρίς εμφανές data migration path.
-- Το reference ambiguity εμφανίζεται τόσο στο [[Ambiguous Recipe Attribute Value Import References]] όσο και στο [[Workspace Import Export]]. Recipe attribute values μπορούν να έχουν ίδιο value name κάτω από διαφορετικά attributes, άρα value-name-only resolution δεν είναι ασφαλές.
+- Το reference ambiguity εμφανιζόταν τόσο στο import/export guidance όσο και στο [[Workspace Import Export]]. Recipe attribute values μπορούσαν να έχουν ίδιο value name κάτω από διαφορετικά attributes, άρα value-name-only resolution δεν ήταν ασφαλές.
 - Το scheduling regression risk εμφανίζεται στα [[Dynamic Scheduling Regression Surface]], [[Scheduling Conflict Resolution]] και [[Changeover Matrices]]. Η dynamic duration συμπεριφορά εξαρτάται από neighboring tasks, batch attributes, equipment assignment και cache invalidation.
 
 ## Risky Areas
@@ -45,7 +45,7 @@
 - Τα docs δεν δείχνουν decision record για το γιατί missing changeover matrix values γίνονται zero duration αντί για validation failure, warning ή explicit default configuration.
 
 ## Refactor Opportunities
-- Δημιουργία stable recipe attribute value reference model για import/export που περιλαμβάνει το parent recipe attribute, όπως προτείνει το [[Ambiguous Recipe Attribute Value Import References]].
+- Δημιουργία stable recipe attribute value reference model για import/export που περιλαμβάνει το parent recipe attribute. Αυτό αργότερα υλοποιήθηκε στο master μέσω parent-qualified references.
 - Προσθήκη migration ή documented manual migration path πριν εφαρμοστεί η αφαίρεση recipe classification/type σε environments με υπάρχον data, όπως προτείνει το [[Recipe Classification Data Migration Risk]].
 - Απομόνωση focused scheduling regression fixtures για dynamic-only procedures, slot search direction, changeover overlap και cache invalidation, σύμφωνα με το [[Dynamic Scheduling Regression Surface]].
 - Ενοποίηση των recipe attribute value selection rules σε ένα reference note που συνδέει [[Recipe Attributes]], [[SKU Attribute Values]], [[One Recipe Attribute Value Per Attribute]] και [[Recipe Attribute Value Attribute Is Immutable]].
@@ -54,7 +54,7 @@
 ## Cleanup Suggestions
 - Να ξεκαθαριστεί η ονοματολογική σχέση μεταξύ [[SKU Attribute Values]] και recipe attribute values. Το note περιγράφει selected recipe attribute values σε SKU/material/batch contexts, όχι ξεχωριστό entity type.
 - Δεν βρέθηκαν duplicate notes στο τρέχον index, αλλά αρκετά domains δείχνουν στο ίδιο PR. Μελλοντικά reports θα είναι πιο χρήσιμα αν προστεθούν follow-up PRs στα related domain notes.
-- Προσθήκη links από το [[Workspace Import Export]] στο [[Ambiguous Recipe Attribute Value Import References]] αν δεν συντηρούνται ήδη αλλού, επειδή το debt item αφορά άμεσα import resolution.
+- Διατήρηση σαφούς import-reference guidance δίπλα στο [[Workspace Import Export]] αν το contract αλλάξει ξανά, επειδή το identifier model επηρεάζει άμεσα το import resolution.
 - Προσθήκη links από το [[Scheduling Conflict Resolution]] στο [[Dynamic Scheduling Regression Surface]] σε μελλοντικό expanded test documentation.
 
 ## Suggested Next Actions

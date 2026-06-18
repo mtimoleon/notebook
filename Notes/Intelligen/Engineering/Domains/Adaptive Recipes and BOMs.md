@@ -1,4 +1,4 @@
----
+WARN missing: Adaptive remove risks ---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
@@ -20,7 +20,8 @@ Adaptive recipes use BOM-specific input and output streams plus BOM-derived reci
 - `Campaign` now selects scheduling semantics through `SchedulingType`.
 - `Bom` links a product material to an optional recipe and owns BOM-specific input/output stream mappings.
 - `AdaptiveInput` and `AdaptiveOutput` connect recipe operations to BOM streams.
-- `Campaign.RecipeAttributeValueOverrides` hold campaign-scoped overrides for recipe-based scheduling.
+- Campaign.RecipeAttributeValueOverrides hold campaign-scoped overrides for recipe-based scheduling.
+- Campaign override persistence is modeled through campaign-owned join rows in Campaign_RecipeAttributeValues, so the earlier dual-signal persistence ambiguity is no longer active on master.
 - `Campaign.EffectiveRecipeAttributeValues` resolves the effective scheduling context from campaign overrides or BOM product values, then appends recipe defaults.
 - `Batch.Fill(Recipe)` and `Batch.Fill(Bom)` no longer persist batch-local BOM or attribute state; they materialize runtime procedure and operation entries from the campaign inputs.
 - In material-based mode, operation entry streams are built from the BOM streams whose adaptive mapping targets the current operation.
@@ -45,7 +46,6 @@ flowchart TD
 - [[One Recipe Attribute Value Per Attribute]]
 
 ## Risks
-- [[Campaign Override Persistence Has Dual Mapping Signals]]
 
 ## Related PRs
 - [[PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes]]

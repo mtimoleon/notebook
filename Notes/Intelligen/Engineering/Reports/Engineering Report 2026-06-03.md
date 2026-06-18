@@ -16,7 +16,7 @@
   - Συνδέεται και με το PR [[PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes]] και με το PR [[PR-task-566-Wrap-original-start-end-into-info-object Original Baseline Snapshot and Production Original Views]].
   - Είναι το μόνο domain note που ενώνει δύο διαφορετικά change waves μέσα στο ίδιο 30ήμερο context: contract change για recipe attributes και object-shaped original baseline payloads.
 - `Scheduling Conflict Resolution`
-  - Ενημερώθηκε στις `2026-06-03` και συνδέεται με [[Dynamic Scheduling Regression Surface]] και [[Dynamic Task Change Propagation]].
+  - Ενημερώθηκε στις `2026-06-03` και συνδέεται με [[Dynamic Scheduling Regression Surface]] και με το τότε ανοιχτό dynamic-task propagation defect.
   - Η περιοχή φαίνεται ευαίσθητη, γιατί οι σημειώσεις περιγράφουν validation, dynamic tasks, slot search, cache invalidation, και loop handling στο ίδιο behavior surface.
 - `Original Baseline Snapshot` / `Production Original Scheduling Views` / `Timing Info Contexts`
   - Αποτελούν ενιαίο domain cluster που χτίζει το original branch ως first-class read context.
@@ -24,21 +24,21 @@
 
 ## Recurring Tech Debt
 - Projection/UI divergence
-  - [[Update Modal Original Resources Not Rendered]] δείχνει ότι το backend payload υπάρχει αλλά η UI δεν το καταναλώνει σωστά.
+  - Το original-resource rendering gap στο update modal έδειχνε ότι το backend payload υπήρχε αλλά η UI δεν το κατανάλωνε σωστά. Αυτό αργότερα διορθώθηκε στο master.
   - Το ίδιο pattern εμφανίζεται και στο PR note [[PR-task-566-Wrap-original-start-end-into-info-object Original Baseline Snapshot and Production Original Views]], όπου τα original views υπάρχουν αλλά δεν αποδίδονται πλήρως ανεξάρτητα.
 - Scheduling regression surface
-  - [[Dynamic Scheduling Regression Surface]] και [[Dynamic Task Change Propagation]] δείχνουν ότι η scheduling λογική αλλάζει σε πολλά coupled σημεία ταυτόχρονα.
-  - Το δεύτερο note μάλιστα καταγράφει concrete correctness defect, όχι μόνο γενικό regression risk.
+  - [[Dynamic Scheduling Regression Surface]] και το τότε ανοιχτό dynamic-task propagation defect δείχνουν ότι η scheduling λογική αλλάζει σε πολλά coupled σημεία ταυτόχρονα.
+  - Το δεύτερο finding μάλιστα κατέγραφε concrete correctness defect, όχι μόνο γενικό regression risk, και έχει πλέον resolved στο master.
 - Contract drift / migration pressure
   - [[Workspace Import Export]] περιγράφει δύο ξεχωριστά contract migrations.
   - [[Recipe Classification Data Migration Risk]] κρατά το migration risk για τα recipe classifications/types, αλλά το note set εξακολουθεί να δείχνει ότι το import/export surface είναι σημείο επαναλαμβανόμενης αστάθειας.
 
 ## Risky Areas
 - Planning scheduling core
-  - Evidence: [[Scheduling Conflict Resolution]], [[Dynamic Scheduling Regression Surface]], [[Dynamic Task Change Propagation]]
+  - Evidence: [[Scheduling Conflict Resolution]], [[Dynamic Scheduling Regression Surface]], and the previously documented dynamic-task aggregation defect
   - Ρίσκο: correctness bugs, cache invalidation bugs, conflict loop handling, δύσκολο regression testing.
 - Production original views
-  - Evidence: [[Production Original Scheduling Views]], [[Production Original Views Are Tracking Anchored]], [[Update Modal Original Resources Not Rendered]]
+  - Evidence: [[Production Original Scheduling Views]], [[Production Original Views Are Tracking Anchored]], and the previously documented update-modal original-resource rendering gap
   - Ρίσκο: partial original-data support, projection/UI mismatch, missing independent rendering for original-only rows.
 - Workspace import/export
   - Evidence: [[Workspace Import Export]], [[PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes]]
@@ -83,7 +83,7 @@
 
 ## Suggested Next Actions
 - Δημιουργία των τριών missing tech debt notes που ήδη αναφέρονται από το PR 566 note.
-- Διόρθωση του documented bug στο [[Dynamic Task Change Propagation]] πριν μεγαλώσει άλλο το scheduling surface.
+- Διατήρηση regression coverage γύρω από το πλέον διορθωμένο dynamic-task aggregation path ώστε να μη ξανανοίξει το scheduling surface.
 - Διάσπαση ή αναδιοργάνωση του [[Workspace Import Export]] note ώστε να ξεχωρίζουν contract changes για recipe attributes από original-baseline export behavior.
 - Δημιουργία ενός higher-level domain note για το original-data pipeline από Planning μέχρι Production/UI.
 - Προσθήκη explicit test strategy note ή section για scheduling invariants και original-view rendering invariants.

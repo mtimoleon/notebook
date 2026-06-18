@@ -3,7 +3,7 @@ categories:
   - "[[Work]]"
   - "[[Documentation]]"
 created: 2026-04-26
-updated: 2026-06-10
+updated: 2026-06-18
 product: scpCloud
 component: Planning
 tags:
@@ -25,3 +25,9 @@ Medium
 
 ## Fix Direction
 Keep focused regression examples for dynamic-only procedures, forward/backward slot search, changeover overlap, and higher-precedence campaign cache invalidation.
+
+## Master Status
+- Reviewed against master on 2026-06-18.
+- Status: Still open in master
+- Evidence: The scheduling surface remains broad and sensitive; this review did not find clear evidence that the focused regression coverage described here has been fully locked in.
+

@@ -21,6 +21,7 @@ Scheduling conflict resolution now accounts for dynamic tasks, changeover matrix
 - `ScheduleCampaigns(...)` and `ScheduleFromToCampaigns(...)` call `Campaign.CheckValidationStatus()` before `Campaign.Layout()`.
 - `ScheduleIndependentCampaign(...)` only checks whether `campaign.Recipe` is non-null before layout, so validation strictness differs by entry point.
 - Dynamic tasks include conditional operations and changeover-matrix-based operations.
+- Campaign-level dynamic-task recalculation now accumulates batch changes with OR semantics, so an earlier batch change is not lost when a later batch does not change.
 - Equipment slot search checks whether selected slots create start/end changeover overlap with neighboring lower-precedence tasks.
 - Conflict cleanup recalculates dynamic tasks after shifting or reassignment.
 - Loop-producing intrabatch conflicts are skipped and surfaced as warning messages instead of being retried indefinitely.
@@ -49,7 +50,6 @@ flowchart TD
 ## Risks
 - [[Auxiliary Equipment Move Contract Is Single-Selection Shaped]]
 - [[Dynamic Scheduling Regression Surface]]
-- [[Dynamic Task Change Propagation]]
 - [[Scheduling Entry Point Validation Drift]]
 
 ## Related PRs

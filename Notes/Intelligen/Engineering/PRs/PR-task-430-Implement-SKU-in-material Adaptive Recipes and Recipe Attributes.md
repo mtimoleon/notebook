@@ -42,11 +42,11 @@ tags:
 ## Risks
 - The import/export contract breaks older payloads based on recipe classifications/types.
 - Changeover-aware slot search and dynamic task recalculation increase scheduling regression risk.
-- `Campaign.UpdateDynamicTasks()` can hide an earlier batch change because it overwrites the accumulated change flag instead of OR-ing it.
+- At review time, `Campaign.UpdateDynamicTasks()` could hide an earlier batch change because it overwrote the accumulated change flag instead of OR-ing it. This was later resolved on master.
 - Re-associating a BOM with a different recipe clears existing BOM streams and needs clear UX expectations.
 
 ## Follow-up
-- Fix the `Campaign.UpdateDynamicTasks()` aggregation bug and add a regression test for multi-batch campaigns.
+- The `Campaign.UpdateDynamicTasks()` aggregation bug identified here was later resolved on master; keep the multi-batch regression scenario covered.
 - Add or verify production data migration strategy for recipe classifications/types.
 - Add backward-compatible import handling or explicit migration guidance for old exports.
 - Expand regression coverage around dynamic-only procedures, changeover slot search, and cache invalidation.
@@ -60,7 +60,7 @@ tags:
 ## Tech Debt
 - [[Recipe Classification Data Migration Risk]]
 - [[Dynamic Scheduling Regression Surface]]
-- [[Dynamic Task Change Propagation]]
+- The campaign-level dynamic-task aggregation defect identified during this review was later resolved on master.
 
 ## Raw Analysis
 - `.local/PR-430 Engineering Analysis.md`

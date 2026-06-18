@@ -1,9 +1,9 @@
----
+﻿---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-18
 product: scpCloud
 component: Planning
 tags:
@@ -24,3 +24,9 @@ High
 
 ## Fix Direction
 Enforce incompatibility in a scheduling-critical path. The safest options are to filter incompatible equipment out of compatibility/default-assignment selection or to fail fast when a rate is requested for an incompatible value. Add regression coverage that proves an incompatible equipment/value pair cannot be scheduled.
+
+## Master Status
+- Reviewed against master on 2026-06-18.
+- Status: Still open in master
+- Evidence: `Equipment.GetEquipmentProcessingRate(...)` still returns the matching processing rate without enforcing `IsIncompatible`.
+

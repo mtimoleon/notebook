@@ -86,12 +86,12 @@
             }
           },
           {
-            "id": "74c71d9746aa2c88",
+            "id": "deb75172d7764db2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Engineering/TechDebt/Ambiguous Recipe Attribute Value Import References.md",
+                "file": "Notes/Intelligen/Engineering/PRs/PR-task-584-Improve-batch-scheduling Campaign-Level Batch Scheduling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -106,7 +106,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ambiguous Recipe Attribute Value Import References"
+              "title": "PR-task-584-Improve-batch-scheduling Campaign-Level Batch Scheduling"
             }
           }
         ],
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Engineering/TechDebt/Ambiguous Recipe Attribute Value Import References.md",
+                "file": "Notes/Intelligen/Engineering/PRs/PR-task-584-Improve-batch-scheduling Campaign-Level Batch Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Ambiguous Recipe Attribute Value Import References"
+              "title": "Backlinks for PR-task-584-Improve-batch-scheduling Campaign-Level Batch Scheduling"
             }
           },
           {
@@ -276,13 +276,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Engineering/TechDebt/Ambiguous Recipe Attribute Value Import References.md",
+                "file": "Notes/Intelligen/Engineering/PRs/PR-task-584-Improve-batch-scheduling Campaign-Level Batch Scheduling.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Ambiguous Recipe Attribute Value Import References"
+              "title": "Outline of PR-task-584-Improve-batch-scheduling Campaign-Level Batch Scheduling"
             }
           }
         ]
@@ -337,11 +337,17 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "74c71d9746aa2c88",
+  "active": "deb75172d7764db2",
   "lastOpenFiles": [
     "Notes/Intelligen/Engineering/Index.md",
-    "Notes/Intelligen/Engineering/PRs/PR-task-584-Improve-batch-scheduling Campaign-Level Batch Scheduling.md",
     "Notes/Intelligen/Current issues/582-Scheduled-Campaign-Batches-update.md",
+    "Notes/Intelligen/Engineering/TechDebt/Update Modal Original Resources Not Rendered.md",
+    "Notes/Intelligen/Engineering/TechDebt/Dynamic Scheduling Regression Surface.md",
+    "Notes/Intelligen/Engineering/TechDebt/Campaign Override Persistence Has Dual Mapping Signals.md",
+    "Notes/Intelligen/Engineering/TechDebt/Auxiliary Equipment Move Contract Is Single-Selection Shaped.md",
+    "Notes/Intelligen/Engineering/TechDebt/Auxiliary Equipment DTO Required-Count Gaps.md",
+    "Notes/Intelligen/Engineering/TechDebt/Ambiguous Recipe Attribute Value Import References.md",
+    "Notes/Intelligen/Engineering/PRs/PR-task-584-Improve-batch-scheduling Campaign-Level Batch Scheduling.md",
     "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
     "Notes/Auth/Projects/RAISE/Engineering/Domains/Wallet Ownership.md",
     "Notes/Auth/Projects/RAISE/Engineering/Rules/Wallet Owner Uniqueness.md",
@@ -364,14 +370,8 @@
     "Notes/Home/Quick notes/Ψηφιακή υπογραφή ιδιωτικού συμφωνητικού.md",
     "Notes/Home/Quick notes/What to do when your laptop is stolen  PCWorld.md",
     "Notes/Home/Quick notes/Γενικό.md",
-    "Notes/Home/Quick notes/Κατάθεση πινακίδων μοτοποδηλάτου 50cc - Αναζήτηση Google.md",
-    "Notes/Home/Quick notes/Κεντρικό Μητρώο Πιστώσεων της Τραπέζης της Ελλάδος.md",
-    "Notes/Home/Quick notes/Σημειώσεις.md",
-    "Notes/Home/Quick notes/Σπίτι Διάφορα.md",
-    "Notes/Intelligen/Engineering/Reports/Engineering Report 2026-04-26.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1781596065650.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1781596053712.png",
-    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
     "Notes/Intelligen/assets/Current issues/585-changeover-matrices/585-changeover-matrices-1781517549772.png",
     "Notes/Intelligen/assets/Current issues/585-changeover-matrices",
     "Notes/Auth/Projects/Accelup/Engineering/TechDebt",

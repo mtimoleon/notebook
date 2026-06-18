@@ -5,7 +5,7 @@
 
 ## Executive Summary
 - Η τεκμηρίωση χωρίζεται σε δύο καθαρά clusters αλλαγών: το cluster `PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes` γύρω από recipe attributes/BOMs/dynamic scheduling και το cluster `PR-task-566-Wrap-original-start-end-into-info-object Original Baseline Snapshot and Production Original Views` γύρω από original baseline και production projections.
-- Το Planning παραμένει το πιο ευαίσθητο σημείο του συστήματος: συνδυάζει migration risk (`Recipe Classification Data Migration Risk`), import ambiguity (`Ambiguous Recipe Attribute Value Import References`) και scheduling regression surface (`Dynamic Scheduling Regression Surface`).
+- Το Planning παραμένει το πιο ευαίσθητο σημείο του συστήματος: συνδυάζει migration risk (`Recipe Classification Data Migration Risk`), την τότε import ambiguity στα recipe attribute value references, και scheduling regression surface (`Dynamic Scheduling Regression Surface`).
 - Το νέο original-baseline flow έχει ήδη καλή κάλυψη σε PR, Domain και Rule notes, αλλά η τεκμηρίωσή του είναι ασυνεπής επειδή τρία referenced TechDebt notes λείπουν από το vault.
 - Υπάρχει άμεσο θέμα καθαριότητας τεκμηρίωσης: τα `Workspace Import Export.md` και `Workspace Import Export 1.md` επικαλύπτονται με ίδιο τίτλο note και διαφορετικό περιεχόμενο.
 
@@ -16,15 +16,15 @@
 
 ## Recurring Tech Debt
 - Επαναλαμβανόμενο migration risk: το `Recipe Classification Data Migration Risk` δείχνει απώλεια legacy data στο cluster των recipe attributes, ενώ το PR 566 note αναφέρει αντίστοιχο κίνδυνο απώλειας original baseline data, αλλά το αντίστοιχο TechDebt note δεν υπάρχει στο vault.
-- Επαναλαμβανόμενο import/export fragility: το `Ambiguous Recipe Attribute Value Import References` και το domain `Workspace Import Export` δείχνουν ότι τα contract changes συσσωρεύουν ασάφεια σε identifiers και backward compatibility.
+- Επαναλαμβανόμενο import/export fragility: η τότε ασάφεια στα recipe attribute value references και το domain `Workspace Import Export` δείχνουν ότι τα contract changes συσσωρεύουν ασάφεια σε identifiers και backward compatibility.
 - Επαναλαμβανόμενο scheduling/projection fragility: το `Dynamic Scheduling Regression Surface` δείχνει υψηλή επιφάνεια regressions στο Planning, ενώ το `Production Original Views Are Tracking Anchored` περιγράφει αντίστοιχη ευθραυστότητα στην Production προβολή original δεδομένων.
-- Επαναλαμβανόμενο FE/BE drift: το `Update Modal Original Resources Not Rendered` δείχνει ότι backend contract και UI συμπεριφορά έχουν ήδη αποκλίνει στο cluster του PR 566.
+- Επαναλαμβανόμενο FE/BE drift: το gap original-resource rendering στο update modal έδειχνε ότι backend contract και UI συμπεριφορά είχαν ήδη αποκλίνει στο cluster του PR 566. Αυτό αργότερα διορθώθηκε στο master.
 
 ## Risky Areas
 - Planning migrations: `Recipe Classification Data Migration Risk` και οι κίνδυνοι του PR 566 γύρω από original baseline δείχνουν ότι schema evolution γίνεται χωρίς σταθερά documented backfill patterns.
 - Scheduling logic: τα `Scheduling Conflict Resolution`, `Changeover Matrices` και `Dynamic Scheduling Regression Surface` δείχνουν περιοχή με πολλούς αλληλεξαρτώμενους κανόνες και υψηλή πιθανότητα regression.
 - Cross-boundary Planning -> Production flow: τα `Original Baseline Snapshot` και `Production Original Scheduling Views` δείχνουν ότι η ίδια έννοια μετασχηματίζεται σε πολλά στάδια, άρα ownership και validation boundaries δεν είναι ακόμη πλήρως σταθερά.
-- UI consistency στο CommonSpa: το `Update Modal Original Resources Not Rendered` δείχνει ότι η τεκμηρίωση καταγράφει backend support χωρίς αντίστοιχη UI ετοιμότητα.
+- UI consistency στο CommonSpa: η historical gap around original-resource rendering στο update modal έδειχνε backend support χωρίς αντίστοιχη UI ετοιμότητα. Αυτό αργότερα έκλεισε στο master.
 
 ## Business Rule Volatility
 - Δεν προκύπτει συχνή ιστορική τροποποίηση των ίδιων rule notes μέσα στο διαθέσιμο 30ήμερο corpus. Η τεκμηρίωση δείχνει περισσότερο νέες rule introductions παρά επαναλαμβανόμενες αναθεωρήσεις.
