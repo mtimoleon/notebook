@@ -86,12 +86,12 @@
             }
           },
           {
-            "id": "50015107afc22a86",
+            "id": "74c71d9746aa2c88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
+                "file": "Notes/Intelligen/Engineering/TechDebt/Ambiguous Recipe Attribute Value Import References.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -106,7 +106,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Intelligen-Backlog"
+              "title": "Ambiguous Recipe Attribute Value Import References"
             }
           }
         ],
@@ -176,7 +176,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 48.837209302325576,
+        "dimension": 44.57364341085272,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
+                "file": "Notes/Intelligen/Engineering/TechDebt/Ambiguous Recipe Attribute Value Import References.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Intelligen-Backlog"
+              "title": "Backlinks for Ambiguous Recipe Attribute Value Import References"
             }
           },
           {
@@ -268,7 +268,7 @@
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 31.782945736434108,
+        "dimension": 19.379844961240313,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -276,13 +276,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
+                "file": "Notes/Intelligen/Engineering/TechDebt/Ambiguous Recipe Attribute Value Import References.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intelligen-Backlog"
+              "title": "Outline of Ambiguous Recipe Attribute Value Import References"
             }
           }
         ]
@@ -290,7 +290,7 @@
       {
         "id": "1114442bb95cf4fa",
         "type": "tabs",
-        "dimension": 19.379844961240313,
+        "dimension": 36.04651162790697,
         "children": [
           {
             "id": "4a8b8a265069ca66",
@@ -318,7 +318,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 474.5
+    "width": 492.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -337,14 +337,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "50015107afc22a86",
+  "active": "74c71d9746aa2c88",
   "lastOpenFiles": [
+    "Notes/Intelligen/Engineering/Index.md",
+    "Notes/Intelligen/Engineering/PRs/PR-task-584-Improve-batch-scheduling Campaign-Level Batch Scheduling.md",
     "Notes/Intelligen/Current issues/582-Scheduled-Campaign-Batches-update.md",
+    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
     "Notes/Auth/Projects/RAISE/Engineering/Domains/Wallet Ownership.md",
     "Notes/Auth/Projects/RAISE/Engineering/Rules/Wallet Owner Uniqueness.md",
     "Notes/Auth/Projects/Panel Management/Database relations.md",
     "Notes/Resources/Update DocumentDB documents from shell.md",
-    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1781689473054.png",
     "Notes/Intelligen/Current issues/585-changeover-matrices.md",
     "Current/2026-scratch-pad.md",
@@ -372,8 +374,6 @@
     "Notes/Intelligen/Current issues/Intelligen-Notes.md",
     "Notes/Intelligen/assets/Current issues/585-changeover-matrices/585-changeover-matrices-1781517549772.png",
     "Notes/Intelligen/assets/Current issues/585-changeover-matrices",
-    "Notes/Intelligen/Documentation/Campaigns/Campaign order.md",
-    "Notes/Intelligen/Documentation/Domain/Options set.md",
     "Notes/Auth/Projects/Accelup/Engineering/TechDebt",
     "Notes/Auth/Projects/Accelup/Engineering/Rules",
     "Notes/Auth/Projects/Accelup/Engineering/Domains",

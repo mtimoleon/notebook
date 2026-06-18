@@ -3,7 +3,7 @@ categories:
   - "[[Work]]"
   - "[[Documentation]]"
 created: 2026-04-26
-updated: 2026-06-10
+updated: 2026-06-18
 product: scpCloud
 component: Planning
 tags:
@@ -17,27 +17,27 @@ tags:
 Adaptive recipes use BOM-specific input and output streams plus BOM-derived recipe attribute values so the same recipe can adapt to different product materials and product variants.
 
 ## Current Behavior
-- `Bom` links a product material to an optional recipe.
-- `BomInputStream` and `BomOutputStream` describe BOM-specific stream mappings.
+- `Campaign` now selects scheduling semantics through `SchedulingType`.
+- `Bom` links a product material to an optional recipe and owns BOM-specific input/output stream mappings.
 - `AdaptiveInput` and `AdaptiveOutput` connect recipe operations to BOM streams.
-- `Batch.Fill(recipe, bom)` copies recipe attribute values from the BOM product when a BOM is present, otherwise from the recipe itself.
-- When a batch is filled with a BOM, operation entry streams are built from the BOM streams matching that batch BOM.
-- `Campaign.CheckValidationStatus()` rejects campaigns whose selected BOM belongs to a different recipe than the campaign.
-- Re-associating a BOM with a different recipe clears existing BOM streams.
+- `Campaign.RecipeAttributeValueOverrides` hold campaign-scoped overrides for recipe-based scheduling.
+- `Campaign.EffectiveRecipeAttributeValues` resolves the effective scheduling context from campaign overrides or BOM product values, then appends recipe defaults.
+- `Batch.Fill(Recipe)` and `Batch.Fill(Bom)` no longer persist batch-local BOM or attribute state; they materialize runtime procedure and operation entries from the campaign inputs.
+- In material-based mode, operation entry streams are built from the BOM streams whose adaptive mapping targets the current operation.
+- `Campaign.Layout()` validates recipe-based campaigns against recipe validity and material-based campaigns against BOM validity plus BOM recipe validity.
 
 ## Flow
 ```mermaid
 flowchart TD
-    Product["Product Material"] --> Bom["BOM"]
-    Recipe["Recipe"] --> AdaptiveInput["AdaptiveInput"]
-    Recipe --> AdaptiveOutput["AdaptiveOutput"]
-    Bom --> BomInput["BOM Input Streams"]
-    Bom --> BomOutput["BOM Output Streams"]
-    AdaptiveInput --> BomInput
-    AdaptiveOutput --> BomOutput
-    Campaign["Campaign"] --> Bom
-    Campaign --> Batch["Batch.Fill(recipe, bom)"]
-    Batch --> OperationEntryStreams["OperationEntry input/output streams"]
+    Campaign["Campaign"] --> Mode{"SchedulingType"}
+    Mode -->|"RecipeBased"| Overrides["Campaign override values"]
+    Mode -->|"MaterialBased"| Bom["BOM product context"]
+    Recipe["Recipe defaults"] --> Effective["Effective recipe attribute values"]
+    Overrides --> Effective
+    Bom --> Effective
+    Bom --> Streams["BOM input/output streams"]
+    Streams --> OperationEntry["OperationEntry streams"]
+    Effective --> Duration["Rate and changeover resolution"]
 ```
 
 ## Rules
@@ -45,8 +45,9 @@ flowchart TD
 - [[One Recipe Attribute Value Per Attribute]]
 
 ## Risks
-- BOM stream mappings are reset when a BOM is associated with another recipe.
+- [[Campaign Override Persistence Has Dual Mapping Signals]]
 
 ## Related PRs
 - [[PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes]]
 - [[PR-feature-578-Adaptive-recipes-pt.4 Adaptive Recipes Part 4 Review]]
+- [[PR-task-584-Improve-batch-scheduling Campaign-Level Batch Scheduling]]

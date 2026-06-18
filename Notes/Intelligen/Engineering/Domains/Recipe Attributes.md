@@ -1,9 +1,9 @@
-﻿---
+---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
 created: 2026-04-26
-updated: 2026-06-10
+updated: 2026-06-18
 product: scpCloud
 component: Planning
 tags:
@@ -14,16 +14,18 @@ tags:
 # Recipe Attributes
 
 ## Overview
-Recipe attributes are workspace-scoped dimensions whose values can be attached to recipes, materials, batches, equipment rates, and changeover matrices. They replace the older recipe classification/type model.
+Recipe attributes are workspace-scoped dimensions whose values can be attached to recipes, materials, campaign scheduling overrides, equipment rates, and changeover matrices. Runtime batches consume effective attribute values through their campaign instead of persisting their own selected set.
 
 ## Current Behavior
 - `Workspace` owns `RecipeAttributes`.
 - `RecipeAttribute` owns `RecipeAttributeValues`.
-- `Recipe`, `Material`, and `Batch` can each carry selected recipe attribute values.
+- `Recipe` and `Material` can each carry selected recipe attribute values.
+- `Campaign` can carry override values and derive `EffectiveRecipeAttributeValues`.
 - `Equipment` can use a recipe attribute to choose per-value processing rates.
 - `ChangeoverMatrix` uses recipe attribute values as transition states.
-- `Campaign`-level scheduling can inspect neighboring equipment usage and recover the relevant batch recipe attribute value through `GetCampaignAttributeValueForEquipment(...)`.
-- A batch can inherit its effective recipe attribute values from a BOM product instead of directly from the recipe.
+- `RecipeBased` scheduling resolves effective values from campaign overrides first and recipe defaults second.
+- `MaterialBased` scheduling resolves effective values from the BOM product values first and recipe defaults second.
+- `ProcedureEntry`, `OperationEntry`, and scheduling conflict resolution read attribute context from `Batch.Campaign.EffectiveRecipeAttributeValues`.
 
 ## Business Meaning
 This model represents SKU-like or product-context choices that affect how a recipe runs, which material is produced, which equipment rate applies, and how long changeovers take.
@@ -33,16 +35,14 @@ This model represents SKU-like or product-context choices that affect how a reci
 flowchart TD
     Workspace["Workspace"] --> Attribute["RecipeAttribute"]
     Attribute --> Value["RecipeAttributeValue"]
-    Value --> Recipe["Recipe selection"]
-    Value --> Material["Material SKU selection"]
-    Value --> Equipment["Equipment rate override"]
-    Value --> Matrix["Changeover matrix state"]
-    Recipe --> Batch["Batch attribute values"]
-    Material --> Bom["BOM product"]
-    Bom --> Batch
-    Batch --> Duration["OperationEntry duration"]
-    Equipment --> Duration
-    Matrix --> Duration
+    Value --> Recipe["Recipe defaults"]
+    Value --> Material["Material product values"]
+    Value --> Campaign["Campaign overrides"]
+    Recipe --> Effective["Campaign.EffectiveRecipeAttributeValues"]
+    Material --> Effective
+    Campaign --> Effective
+    Effective --> Equipment["Equipment rate lookup"]
+    Effective --> Matrix["Changeover lookup"]
 ```
 
 ## Rules
@@ -52,7 +52,9 @@ flowchart TD
 ## Risks
 - [[Recipe Classification Data Migration Risk]]
 - [[Ambiguous Recipe Attribute Value Import References]]
+- [[Campaign Override Persistence Has Dual Mapping Signals]]
 
 ## Related PRs
 - [[PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes]]
 - [[PR-feature-578-Adaptive-recipes-pt.4 Adaptive Recipes Part 4 Review]]
+- [[PR-task-584-Improve-batch-scheduling Campaign-Level Batch Scheduling]]

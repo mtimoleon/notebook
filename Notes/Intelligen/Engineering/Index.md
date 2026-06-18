@@ -5,6 +5,7 @@
 - [[PR-feature-578-Adaptive-recipes-pt.4 Adaptive Recipes Part 4 Review]]
 - [[PR-task-430-Implement-SKU-in-material Adaptive Recipes and Recipe Attributes]]
 - [[PR-task-566-Wrap-original-start-end-into-info-object Original Baseline Snapshot and Production Original Views]]
+- [[PR-task-584-Improve-batch-scheduling Campaign-Level Batch Scheduling]]
 
 ## Domains
 - [[Adaptive Recipes and BOMs]]
@@ -36,6 +37,7 @@
 - [[Ambiguous Recipe Attribute Value Import References]]
 - [[Auxiliary Equipment DTO Required-Count Gaps]]
 - [[Auxiliary Equipment Move Contract Is Single-Selection Shaped]]
+- [[Campaign Override Persistence Has Dual Mapping Signals]]
 - [[Dynamic Scheduling Regression Surface]]
 - [[Dynamic Task Change Propagation]]
 - [[Equipment Incompatibility Is Not Enforced]]
