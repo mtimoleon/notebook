@@ -54,5 +54,7 @@ tags:
       - Aυτό λογικά ούτε από το FE έπρεπε να περνάει γιατί είναι hard validation violation (η τιμή θα πρέπει να είναι πάντα >= 0 αλλά strictly > 0 αν το Has Rate Based Duration είναι true.
         - Number και >=0 όποιο radio button κι αν είναι επιλεγμένο και είτε είναι ή όχι checked το Has Rate Based Duration
         - >0 μόνο αν είναι επιλεγμένο το συγκεκριμένο radio button και Has Rate Based Duration είναι checked;
-
+- [x] Changes for the parent token
+      	Delete ChangeoverMatrix
+      	
 ## Links

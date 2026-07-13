@@ -8,14 +8,18 @@ tags:
 status: backlog
 product: scpCloud
 ---
-- [ ] 587 Theoretical rename to  Minimum
-	  - [x] AverageCycleTime rename to  ActualAverageCycleTime
+
+- [x] 591 Add missing members
+      procedureName,
+      ![[Intelligen-Backlog-1782379609764.png|940x224]]
+- [x] 587 Theoretical rename to  Minimum
+	  AverageCycleTime rename to  ActualAverageCycleTime
       Campaign Unschedule και Campaign Recipe change clear theoretical.
       ![[Intelligen-Backlog-1781689473054.png|940x423]]
-- [ ] Change over matrices θα μπουνε πάνω στα recipe attributes.
+- [x] Change over matrices θα μπουνε πάνω στα recipe attributes.
 - [ ] Να μπει η σχέση BOM με adaptive input/output από τη μεριά του ΒΟΜ και αν κάποιος πάει να σβήσει κάποιο adaptive input/output να μη μπορεί να σβηστεί αν είναι σε ΒΟΜ.
 - [ ] When we change recipe association in BOM we should not clear BOM streams, instead we should delete adaptive inputs/outputs associations from streams.
-- [ ] Δες το τελευταίο:
+- [x] Δες το τελευταίο:
 	Αν το βάζεις σε μικρότερο κόβεις τα τελευταία
 	Αν το βάζεις παραπάνω να μπορεί να κρατήσει τα υφιστάμενα και να κάνει schedule τα υπόλοιπα
 	Στην οθόνη να δείχνει Scheduled 150 of 170 δλδ  no of scheduled from total.

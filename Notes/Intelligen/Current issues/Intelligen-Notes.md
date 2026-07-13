@@ -7,6 +7,139 @@ component: Docker
 tags:
   - documentation/intelligen
 ---
+- [ ] Zlate
+1. To track inventory θα φύγει απο το others kai tha paei mesa sto inventory limits me  rename se EnforceInventoryConstraints
+2. An capacity einai 0 na mi ginetai save apo inventory limits
+3. external transfer mode na mi kanei save an capacity einai 0 kai continues
+4. capacity info apagoreyetai save me 0 an inventory limits enforceinventoryConstraints = checked kai external trasnfer mode exei capacity
+![[Intelligen-Notes-1783933015143.png|940x493]]
+
+
+- [ ] NEO 601
+![[Intelligen-Notes-1783932714270.png|940x395]]
+Na mpei sto BOM sidepanel assign recipe na mpei kai to factor (double  RecipeAmountFactor me initial value des pio kato ). Ta amounts toy input kai out streams toy bom tha polaplasiastoyn me to factor.
+An den exei recipe mprosta disabled
+Gia to inital value to default value tha einai 0 opote thelei validation gia to recipe.
+
+
+- [ ] Otan ayjano ta batches enos campaign kai bazei nea prepei to ordering na pairnei timi meta to teleytaio oxi proto.
+![[Intelligen-Notes-1783689636440.png|940x496]]
+
+
+
+Na mpei sto unscheduleCampaignsFromTo o diaxorismos me to method
+
+- [x] NoAction na g;inei pantoy ClientNoAction
+VisibilityOrdering na ginei cascade
+
+- [x] Na diavaso ti diafora NoAction, ClientNoAction
+
+Exo IManyToMany poy exei mesa toy IManyToMany?
+
+DbSet Type, expression 
+
+![[Intelligen-Notes-1783667209181.png|940x551]]
+
+```
+        
+
+    const retrieveRecipe = async (recipe, dragPathObject, showBranches, showSections) => {
+        let showBranchesLocal = false;
+        let showSectionsLocal = false;
+        let forceShowSectionsLocal = false;
+​
+        submitBatchTimeAndValidationStatusRequests();
+​
+        let recipeContentResponse = await recipeService.getRecipeContentById(recipeId);
+​
+        let transformedEntityList = [];
+        let transformedEntityDictionary = {};
+        let retrievedRecipe = null;
+​
+        // Transform data from the server.
+        if (recipeContentResponse.success && recipeContentResponse.successfulResult !== null) {
+            retrievedRecipe = recipeContentResponse.successfulResult;
+		...
+	}​
+	
+	   
+    
+    
+    
+    const submitBatchTimeAndValidationStatusRequests = async () => {
+        const [timesResponse, validityResponse] = await Promise.all([
+            recipeService.getBatchTimeAndCycleTime(recipeId),
+            recipeService.getValidationStatus(recipeId)
+        ]);
+​
+        let batchTime = null;
+        let cycleTime = null;
+        let validationStatus = null;
+​
+        // Transform data from the server.
+        if (timesResponse && timesResponse.successfulResult !== null) {
+​
+            batchTime = timesResponse.successfulResult.batchTime;
+            cycleTime = timesResponse.successfulResult.cycleTime;
+        }
+​
+        //Transform data from the server.
+        if (validityResponse.success && validityResponse.successfulResult !== null)
+            validationStatus = validityResponse.successfulResult;
+​
+        setState(prevState => ({
+            ...prevState,
+            validationStatus: validationStatus,
+            batchTime: batchTime,
+            cycleTime: cycleTime
+        }))
+    }
+    
+    
+                        <div
+                        style={{ display: "flex", alignItems: "baseline", gap: "10px" }}
+                    >
+                        <label className="simple-label">Status</label>
+​
+                        {state.validationStatus !== null
+                            ? state.validationStatus.isValid === true
+                                ? <span style={{ color: "#05C706", fontWeight: "bold" }}>
+                                    Valid
+                                </span>
+                                : <span>
+                                    <button
+                                        type="button"
+                                        className={"link " + ((state.activeEntity.type === "validity" && state.activeEntity.id === state.recipe.entity.id) ? "active" : "") + (isEnabledPropertyFunctions.recipeStatusLink() ? "" : " disabled")}
+                                        style={{ color: "#E02020", fontWeight: "bold" }}
+​
+                                        onClick={(event) => {
+                                            if ((state.activeEntity.type === "validity" && state.activeEntity.id === state.recipe.entity.id) || !isEnabledPropertyFunctions.recipeStatusLink())
+                                                return;
+​
+                                            handleEntityClick(event, state.recipe, state.recipe.entity.id, "validity");
+                                        }}
+                                    >
+                                        Invalid ({state.validationStatus.validityError.length} {state.validationStatus.validityError.length === 1 ? "error" : "errors"})
+                                    </button>
+                                </span>
+                            : <span></span>
+                        }
+                    </div>
+                    
+     
+     
+                 <RecipeValidityInformationSidePanel
+                recipeId={state.activeEntity.type === "validity" ? state.activeEntity.id : null}
+                validityError={state.activeEntity.type === "validity" ? state.validationStatus.validityError : []}
+​
+                onCloseClick={handleSidePanelCloseClick}
+            />
+​
+​
+```
+
+
+
 # Review Notes για Findings 
 ​
 ## Πλαίσιο

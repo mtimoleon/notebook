@@ -1,9 +1,9 @@
-﻿---
+---
 categories:
   - "[[Work]]"
   - "[[Documentation]]"
 created: 2026-04-27
-updated: 2026-04-27
+updated: 2026-06-22
 product: RAISE
 component: Functional Tests
 tags:
@@ -20,6 +20,8 @@ The functional test harness owns the web application factory, HTTP client, and s
 - `SutFixture` explicitly owns and disposes the factory and HTTP client.
 - The test factory now disposes its `ServiceScope`.
 - Credit-related test overrides are applied with `PostConfigure`.
+- Functional tests use an isolated database name per process by default, or a build-specific name through `FUNCTIONAL_TEST_DB`.
+- The web application factory deletes the functional-test database during disposal to reduce cross-run contamination.
 
 ## Rules
 - None currently documented as durable business rules.
@@ -29,3 +31,4 @@ The functional test harness owns the web application factory, HTTP client, and s
 
 ## Related PRs
 - [[PR-213 Hosted Service Shutdown Hardening]]
+- [[PR-343 Streaming Agents and maDMP Workflow]]
