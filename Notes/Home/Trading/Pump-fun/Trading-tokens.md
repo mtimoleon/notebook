@@ -6,6 +6,7 @@ domain: []
 tags:
   - tech/tokens
   - topic/trading
+  - topic/pump-fun
 ---
 Αναφορά [εδώ](https://chatgpt.com/g/g-p-6a2d90c823ec81919a8a1b501dbf7981-meme-coins/c/6a359a29-b140-83eb-96fe-336a4672b286)
 

@@ -34,13 +34,13 @@
             }
           },
           {
-            "id": "844048734b305545",
+            "id": "0b3c200c15d89a5c",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Current issues/585-changeover-matrices.md",
+                "file": "Notes/Intelligen/Current issues/Intelligen-Notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -56,17 +56,17 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "585-changeover-matrices"
+              "title": "Intelligen-Notes"
             }
           },
           {
-            "id": "77ff37c0ad1e98d9",
+            "id": "7eac38763f493133",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Current issues/582-Scheduled-Campaign-Batches-update.md",
+                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -82,16 +82,42 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "582-Scheduled-Campaign-Batches-update"
+              "title": "Intelligen-Backlog"
             }
           },
           {
-            "id": "99290f634be2133a",
+            "id": "664dfc933247af67",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Home/Trading/Pump-fun/!__runs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "!__runs"
+            }
+          },
+          {
+            "id": "a6496dc5abb732bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Home/Trading/Trading-tokens-test.md",
+                "file": "Notes/Home/Trading/Pump-fun/__Deshred-4.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -106,16 +132,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Trading-tokens-test"
+              "title": "__Deshred-4"
             }
           },
           {
-            "id": "cd7fe97aa103c5b8",
+            "id": "d5844981d6aa1107",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Intelligen/Current issues/599-July-2026-demo-fixes.md",
+                "file": "Notes/Home/Trading/Pump-fun/!_Στόχος του project.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -130,11 +156,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "599-July-2026-demo-fixes"
+              "title": "!_Στόχος του project"
+            }
+          },
+          {
+            "id": "c5205a75cc4bf06f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Home/Trading/Pump-fun/!__methodology.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "!__methodology"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -166,7 +216,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "profit",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -191,7 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 304.5
   },
   "right": {
     "id": "ed3f7e0552712392",
@@ -200,7 +250,7 @@
       {
         "id": "3cee5bdb12ecd31b",
         "type": "tabs",
-        "dimension": 44.57364341085272,
+        "dimension": 42.53875968992248,
         "children": [
           {
             "id": "349422fd7dc42d3b",
@@ -208,7 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Current issues/599-July-2026-demo-fixes.md",
+                "file": "Notes/Home/Trading/Pump-fun/!_Στόχος του project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +268,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 599-July-2026-demo-fixes"
+              "title": "Backlinks for !_Στόχος του project"
             }
           },
           {
@@ -227,12 +277,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Auth/Current Issues/Current.md",
+                "file": "Notes/Intelligen/Current issues/601-BOM-recipe-amount-factor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Current"
+              "title": "Outgoing links from 601-BOM-recipe-amount-factor"
             }
           },
           {
@@ -244,7 +294,7 @@
                 "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": ""
+                "searchQuery": "token"
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -292,7 +342,7 @@
       {
         "id": "c159d314176b7de8",
         "type": "tabs",
-        "dimension": 19.379844961240313,
+        "dimension": 30.910852713178294,
         "children": [
           {
             "id": "43b65ca38b37f2a8",
@@ -300,13 +350,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Current issues/599-July-2026-demo-fixes.md",
+                "file": "Notes/Home/Trading/Pump-fun/!_Στόχος του project.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 599-July-2026-demo-fixes"
+              "title": "Outline of !_Στόχος του project"
             }
           }
         ]
@@ -314,7 +364,7 @@
       {
         "id": "1114442bb95cf4fa",
         "type": "tabs",
-        "dimension": 36.04651162790697,
+        "dimension": 26.550387596899228,
         "children": [
           {
             "id": "4a8b8a265069ca66",
@@ -342,7 +392,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 492.5
+    "width": 464.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -358,56 +408,58 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "workspaces:Manage workspace layouts": false,
       "janitor:Janitor: scan vault": false,
-      "realclaudian:Open Claudian": false
+      "realclaudian:Open Claudian": false,
+      "fix-math:Current file": false
     }
   },
-  "active": "d6f834d67aedd82d",
+  "active": "d5844981d6aa1107",
   "lastOpenFiles": [
+    "Notes/Home/Trading/Pump-fun/!_Σήματα.md",
+    "Notes/Home/Trading/Pump-fun/!_Decision rule.md",
+    "Notes/Home/Trading/Pump-fun/!__notes.md",
+    "Notes/Home/Trading/Pump-fun/!__methodology.md",
+    "Notes/Home/Trading/Pump-fun/!__runs.md",
+    "Notes/Home/Trading/Pump-fun/__Deshred-4.md",
+    "Notes/Home/Trading/Pump-fun/__Deshred Πλήρης Κατάσταση.md",
+    "Notes/Home/Trading/Pump-fun/!__model.md",
     "Notes/Intelligen/Current issues/Intelligen-Notes.md",
-    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Notes/Intelligen/Current issues/assets/Intelligen-Notes/Intelligen-Notes-1783933015143.png",
-    "Notes/Intelligen/Current issues/assets/Intelligen-Notes/Intelligen-Notes-1783932714270.png",
-    "Notes/Intelligen/Current issues/assets/Intelligen-Notes",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1783689636440.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1783667209181.png",
     "Current/Drawing 2026-07-07 09.55.49.excalidraw.md",
-    "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
-    "Notes/Intelligen/Current issues/599-July-2026-demo-fixes.md",
-    "Notes/Intelligen/Current issues/585-changeover-matrices.md",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1783408969092.png",
-    "Current/assets/Drawing 2026-07-07 09.55.49.excalidraw/Pasted Image 20260707100039_936.png",
-    "Current/assets/Drawing 2026-07-07 09.55.49.excalidraw/Pasted Image 20260707095805_988.png",
-    "Current/assets/Drawing 2026-07-07 09.55.49.excalidraw",
-    "Current/Untitled.md",
     "Current/2026-scratch-pad.md",
-    "Notes/Home/Επιχείρηση/Τιμολόγηση.md",
-    "Notes/Home/Επιχείρηση/Ρύθμιση τιμολόγιο.md",
-    "Notes/Home/Quick notes/11888-ΔΙΑΓΡΑΦΗ ΑΠΟ ΚΑΤΑΛΟΓΟΥΣ.md",
-    "Notes/Home/assets/Quick notes/11888-ΔΙΑΓΡΑΦΗ ΑΠΟ ΚΑΤΑΛΟΓΟΥΣ/11888-ΔΙΑΓΡΑΦΗ ΑΠΟ ΚΑΤΑΛΟΓΟΥΣ-1782824604505.png",
-    "Notes/Home/Σπίτι/Ασφάλεια.md",
-    "Notes/Intelligen/Current issues/582-Scheduled-Campaign-Batches-update.md",
-    "Notes/Intelligen/assets/Current issues/582-Scheduled-Campaign-Batches-update/582-Scheduled-Campaign-Batches-update-1782740856747.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787128629816.png",
+    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787049723153.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787049566485.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787049016226.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787048437163.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787048332866.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787048296930.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787048232547.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787048212471.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787048022189.png",
+    "Notes/Home/Trading/Pump-fun/!__model_old.md",
+    "Notes/Home/Trading/Pump-fun/Ανάλυση των δεδομένων.md",
+    "Notes/Home/Trading/Pump-fun/Deshred-notes.md",
+    "Notes/Home/Ταξίδι/Ημερολόγιο 2026-10.excalidraw.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
+    "Notes/Intelligen/Current issues/614-Resource-configuration.md",
+    "Notes/Intelligen/Εργασία/Άδειες.md",
+    "Notes/Intelligen/assets/Current issues/614-Resource-configuration",
+    "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/Μεταφορά φορολογικής κατοικίας.md",
+    "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/Κάτοικος εξωτερικού.md",
+    "Clippings/ΑΑΔΕ - Τα Αιτήματα μου.md",
+    "Notes/Home/Trading/Pump-fun/Top Best Solana Meme Coins Trading Bots for Telegram and Web in 2025.md",
+    "Notes/Intelligen/assets/Current issues/Visibility ordering",
+    "Notes/Intelligen/Completed issues/601-BOM-recipe-amount-factor.md",
+    "Clippings/Vector Data in .NET - Building Blocks for AI Part 2.md",
+    "Clippings/Registration Confirmation Page Non Compliant  Low Emission Zone.md",
+    "Notes/Home/assets/Trading/Pump-fun/!__notes",
+    "Notes/Home/assets/Trading/Pump-fun",
+    "Notes/Home/Trading/Pump-fun",
+    "Notes/Intelligen/assets/Completed issues/582-Scheduled-Campaign-Batches-update",
+    "Notes/Intelligen/Current issues/assets/Intelligen-Notes",
+    "Current/assets/Drawing 2026-07-07 09.55.49.excalidraw",
     "Notes/Intelligen/assets/Current issues/582-Scheduled-Campaign-Batches-update",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Backlog/Intelligen-Backlog-1782379609764.png",
-    "Notes/Home/Trading/Trading-tokens-test.md",
-    "Notes/Auth/Projects/RAISE/Architecture/webrtc-dataset-transfer-architecture.md",
-    "Notes/Auth/Projects/RAISE/Architecture/2024-04-24_RAISE_InfoPack-Antonio.md",
-    "Notes/Home/Trading/Trading-tokens.md",
     "Notes/Intelligen/Current issues/assets/582-Scheduled-Campaign-Batches-update",
-    "Notes/Auth/Projects/RAISE/Engineering/PRs/PR-340 Extend Notifications.md",
-    "Notes/Auth/Projects/RAISE/Engineering/PRs/PR-343 Engineering Analysis.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Index.md",
-    "Notes/Auth/Projects/RAISE/Engineering/PRs/PR-343 Streaming Agents and maDMP Workflow.md",
-    "Notes/Auth/Projects/RAISE/Engineering/PR-343 Streaming Agents and maDMP Workflow.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Domains/Functional Test Infrastructure.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Domains/maDMP.md",
-    "Notes/Auth/Projects/RAISE/Engineering/Domains/Dataset Access Requests.md",
-    "Notes/Auth/Projects/RAISE/Engineering/raise-engineering/TechDebt",
-    "Notes/Auth/Projects/RAISE/Engineering/raise-engineering/Rules",
-    "Notes/Auth/Projects/RAISE/Engineering/raise-engineering/PRs",
-    "Notes/Auth/Projects/RAISE/Engineering/raise-engineering/Domains",
-    "Notes/Auth/Projects/RAISE/Engineering/raise-engineering",
-    "Notes/Auth/Projects/e-Consent/Engineering/TechDebt",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

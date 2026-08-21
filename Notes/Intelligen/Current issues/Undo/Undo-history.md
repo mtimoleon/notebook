@@ -4,7 +4,7 @@ categories:
 created: 2026-02-17
 tags:
   - issues/intelligen
-status:
+status: backlog
 product: scpCloud
 component:
 ticket:

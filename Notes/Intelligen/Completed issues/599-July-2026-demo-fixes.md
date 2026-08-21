@@ -4,7 +4,7 @@ categories:
 created: 2026-07-07
 product: scpCloud
 component:
-status: open
+status: completed
 tags:
   - issues/intelligen
 ---

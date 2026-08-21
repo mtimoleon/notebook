@@ -6,6 +6,7 @@ domain: []
 tags:
   - tech/tokens
   - topic/trading
+  - topic/pump-fun
 ---
 
 ## Καλύτερη επιλογή

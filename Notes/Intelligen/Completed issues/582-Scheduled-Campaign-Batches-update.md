@@ -4,7 +4,7 @@ categories:
 created: 2026-06-09
 product: scpCloud
 component:
-status: open
+status: completed
 tags:
   - issues/intelligen
 ---
@@ -36,6 +36,6 @@ Replace Campaign IsScheduled with HasScheduledBatches
 - [x] Update UI
 	![[582-Scheduled-Campaign-Batches-update-1782290876278.png|374]]![[582-Scheduled-Campaign-Batches-update-1782290896104.png|376]]
 - [ ] Change order
-![[582-Scheduled-Campaign-Batches-update-1782740856747.png|623x426]]
+![[582-Scheduled-Campaign-Batches-update-20260713.png|623x426]]
 
 - [ ] Add schedule menu
