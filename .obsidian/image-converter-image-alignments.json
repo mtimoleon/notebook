@@ -681,6 +681,12 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "c9debe6861f11932c8071cc72ee198ea": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Current/Drawing 2026-02-16 22.29.48.excalidraw.md": {
@@ -811,6 +817,12 @@
       "wrap": false
     },
     "e65b2a822a62d27f343e52b10fa09f8d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5c860f3c932990dbd8756c16360715a4": {
       "position": "left",
       "width": "",
       "height": "",
@@ -1416,19 +1428,115 @@
       "height": "",
       "wrap": false
     },
-    "8b674d43278554db5404b7e385c1938e": {
+    "cd99c4404efbed422e14ade95c11f93f": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "e52d6358e7d78d864a2c8e6af82a530d": {
+    "d13a175cd6a06bf5d9e1b229dc16466c": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "616d0e38b67d51a16605a295e3e98438": {
+    "83f8c5bd4b9db1c3e120d4738f6bf892": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "238f1dbb088d0d47f56f417fac0eec33": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "650d1baf6143633f8a4d6065e115deea": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e9e0d0c44e5784043a81c40c73895738": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2b3dd69faf08558efa9551c9d3225be8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7869d8614392dd158e25e5c6dae21a00": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "58bffc56ede93fcb6a2bd7a12acdf5db": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "649489c707120cb40fb9739e8222f492": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f71ffdfad661cc1dd18ff04239bc9c5f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "db545b8b4730a860e616d6999c56fb2f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2dc9c5c737929bc3ab40d66f9272196b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fc006b496b3fb49f171cb0b730c5f314": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1d3713913e10f68e5d62fb582b239952": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ae2f7a7af740e9063a806a1905943db8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "216e1e3c7bb6dd36b65933b672185a5d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "01319ef0f88198dc526dee4700a1fbcd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a043178a1c122843a0df308b643067bd": {
       "position": "left",
       "width": "",
       "height": "",
@@ -2389,6 +2497,12 @@
       "wrap": false
     },
     "662fea1fb30b0d4ead346dea86d0ec70": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b231d6fb2994a0e47282d3a854021b0f": {
       "position": "left",
       "width": "",
       "height": "",
@@ -4429,6 +4543,42 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "a4c92c0eacede22223a9f3136301abbc": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2598f91b426525206c2eb5da60d90ed1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "61898f4dfbc746c325c9faa18a9b690c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e790fb73f5f56d467aaa9062f636fdc4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1bbd4cd6258ebf4ef1a4b9c65f7a4476": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "601c044f0c58ec0c93a6c86b52f01d0e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Intelligen/Completed issues/544-Rename-TimingStatus-to-CompletionStatus.md": {
@@ -4543,6 +4693,24 @@
       "wrap": false
     },
     "b0792b0963ecbdf8cf2913dae31252c8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "171e31afebc1db181ed9766695c6751b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1554a325ad5631934fd7fae3381c9d26": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "74d4f7692089f09f20f9bacc6577a3da": {
       "position": "left",
       "width": "",
       "height": "",
@@ -4665,6 +4833,24 @@
       "wrap": false
     },
     "053631cca23087ad6cd7320321bca835": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f2c4777ea4f09c9e1f0280ec6cb57f67": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "903bb7d04bea566a7c02262d3063b2e2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "402ae0fcbc1c6a9490bd8c86c5464e48": {
       "position": "left",
       "width": "",
       "height": "",
@@ -5505,6 +5691,24 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "1c7c185d9bc2cecc3d56c94f9bbcbd93": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7d98e9d9bdf917fbe9ab45666cacefc2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "90303b777566e30e59b26e19019ae3c9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/assets/assets/Ταξίδι/Ημερολόγιο/Drawing 2026-05-05 11.33.17.excalidraw/Pasted Image 20260505114208_456.png": {
@@ -5549,6 +5753,24 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "f492bd6dc225596abd9d55954e0dadcb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9b47c9c95c4222e6d2a79791058567f0": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b658002c5801086efe1683b43e99ea84": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Ταξίδι/April-2026/Πίνακας Κόστους Πλήρους Ταξιδιού.md": {
@@ -5577,6 +5799,24 @@
       "wrap": false
     },
     "fb4de9a3e8e28d2423b3a15e4908fb6b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8727757f55c56b4d73c2d67780fa26e3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5d22a0dc874f111a853b85b687aed36f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d14169f64357f55b5d2e00c85cd9c04d": {
       "position": "left",
       "width": "",
       "height": "",
@@ -5733,10 +5973,46 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "1c857ec1c984276c959b6ef877f2d28d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a5d20e3c902fd03e67e06d5a9d12411b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c5ebc8545dd5ca1ca93401d77b1c6b99": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Ταξίδι/April-2026/Κρατήσεις/Nis.md": {
     "dc318f026fda6cc59f172c0a1679e68c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "dc7b10eb8b29198739325b9750e796e8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "93818e8d41ff617680666eddca32f85a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7c4220344ad7f16175ad70b5a5e406d3": {
       "position": "left",
       "width": "",
       "height": "",
@@ -5895,300 +6171,20 @@
       "width": "",
       "height": "",
       "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/April-2026/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md": {
-    "b373940b70329e7d089724233b4e28a0": {
+    },
+    "ae906787aa1eb228e183f1ada760b82a": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "9753e44e07c03e538c70be66d3d7e797": {
+    "b143a01b1344321afe5e628a775cbfe0": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "2848204be68762dade5dd3a63f16240b": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "f38e846d9619fed19fc9ff8380c6b65d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7da9472e20e93dd31415604ae4dc5c7f": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "35fa40ca07d8b5e4f6569589de487cfc": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7c310304becf25e7fdeba1168c885e3d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "2a1ed74da255494464e03d283205573c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0d7294fdeea182c12f3cf889f119c66e": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "4601ca3a3f7c21a8a2c96deaca606163": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "4ad9ebe8b1e45ae94691bd37b2c45274": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "a8baaec6a00ffec3d16cd283885ad29e": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "101a7c9225e060199b7e517ed3d9e018": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "cbcce0e39f13b1149a79fcbfa5a411d5": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "b114d41fa6be1ce349bf475b097ca7aa": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "bdc62675b5e47f5dad6fa4311613fccd": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "f810144b6ad1dcc3ebd7e029119727aa": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/April-2026/Λίστες/Checklist – Τι Έχω Μέσα Στο Πορτμπαγκάζ.md": {
-    "155075091f0083ba9f375fb812135d2d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "47cc21836739734172521a4c0d58063c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7b82cd85df9aee00b27d2abb3ebd5cfd": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "cb1963061728e7522bbadf9fefcbcb6d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "1e488ff79391edbb6e996f67f15ffd3c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "b0ab8c98698b98a98a96bf451f0f39bd": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/April-2026/Λίστες/ToDo list for traveling.md": {
-    "f6c2410cc69cc0ff57caa34abc409a6c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "4efc2ac3b6e0310b8dd2bb27f2978612": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "15a9cd46be8565bbb7d039c846146713": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "d62eddcd6ac4234d6e34e93b20b21207": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "6ec29fb83ea7042d6c6e184120a008ad": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "8dd89dd4228536d9bfacd2ec793c0e72": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0577291c03d1740ac21fabfaa0c2cf3a": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "8c88308d6e2e9e522b3a8a9a0c791bb9": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7155ca86a6e5bb48081bdfec4247357b": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "f21a00c8f2f78bfa649a5a0c5a2f6aec": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "c86f85716b8ae01267392a53e7e698a4": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "daadbe0ddb34426ef637b31487aa3b79": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "f843edb89ad4f672f21839469c506edb": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/April-2026/Λίστες/Λεπτομερής Λίστα Ελέγχου Αυτοκινήτου – 7 Ημέρες Πριν.md": {
-    "3be8dbbdb2bf519b5af51537057bbdc5": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "1e47bdd1af15a13c00f8784b469c0434": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "a194f1fc3ca538ec38b2868753048866": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "cae233688dd4b71f1fe2e34d9f222ce8": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "be9dd51ba73910173471857073af32c3": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "ed615d683e412d81fd43909223254190": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Ταξίδι/April-2026/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md": {
-    "cec23178204de028e618928c3ea6e6e6": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "34e3beb82c0aa53c01d783d189ad0311": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "c3be5c1825133cfbd1e2ff483f5629d1": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7a65d777f3b0ba61648a8b5f8bb93cfa": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "378bb08e3b2cbceb45ff5479e0cfd77d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "df67d03fb69ce179d32083dcdfda2ff4": {
+    "cf696138000c61999b590cdea2c1dca5": {
       "position": "left",
       "width": "",
       "height": "",
@@ -7525,6 +7521,24 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "9b0da581f73c83b335c537be841c4105": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5e4de37f962874f9bd826f687eea86bd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "02bc2f9bd2015ccf13ce50480d0874e6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Σπίτι/Ασφάλεια.md": {
@@ -7729,6 +7743,42 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "9020badaf8fadd7c46e7481ec921faa7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "54a78cee05226165a878fa57059f9051": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4be86e7a052a41cd2028ef3f545c0d4c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "02db0de0704b5d2d0c52c1e9cf402faf": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4646a6f60461a98fad78215906c75444": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9af6afcf1c8d5981b10469dbd838b9ea": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Trading/Pump-fun/Trading-tokens.md": {
@@ -7807,6 +7857,24 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "bf0a5593d72b4fb390ba987b991c7a06": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "0b24c4798d554feba066441570ad02a5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b959779e7cec43ac9d5b253561832c8a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Trading/Pump-fun/Deshred-plan.md": {
@@ -7823,6 +7891,24 @@
       "wrap": false
     },
     "2a0ea89fd634973fb04c7a3227b57d1f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f11b6698071135717034b6ddac7e2580": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f028a03ace916c449f2c4e4e91474426": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ca4d87dbc573a087c66a7ee024512f19": {
       "position": "left",
       "width": "",
       "height": "",
@@ -8093,6 +8179,48 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "dcb6d957a49309709268be09154015c0": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "62b4cc9dd5a9374d44a241ddbc365640": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fc1981cd175b1c0c253edf6a714c1045": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ee17547083d7a5459db35bec52f05cd6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "631c26a9872a0fcb4a46f0f67830a337": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d93ef6bc5f4bbc665a50f1357c90647e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "64eea9f2e1e8e6e2d2605600c7914d8f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Clippings/Axiom Trade Solana Trading Bot (Axiom Exchange).md": {
@@ -8249,6 +8377,24 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "119641d4a073d0ac26e417de54c9d601": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "27fe70d3c19742ebd5cf6462f581b172": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "37e726e29ddbbe4445b865cf024e9067": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Trading/Pump-fun/Top Best Solana Meme Coins Trading Bots for Telegram and Web in 2025.md": {
@@ -8363,38 +8509,6 @@
       "wrap": false
     }
   },
-  "Notes/Intelligen/Current issues/614-Resource-configuration.md": {
-    "ec701efb1a67021e8098946ce079d07f": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0ddf8642d0929b8a13220cecbe2a7907": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "d4244cfde503324a641f00325298ee9f": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "eb31ad75eb309ad7342863433a167563": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "89f6aa25be537e7956cb184a38c49aa2": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Notes/Home/Trading/Pump-fun/!__runs.md": {
     "d6a1bba36c88ad4cb0daeba9af5c7236": {
       "position": "left",
@@ -8461,6 +8575,30 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "c76135b03faaec6bf73051186ae3f811": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9b5c79308e0bb907e117ef66c43c7a11": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b36bb48dcf073243a31292b1d5f6fe11": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6b1e45cf52b8d22beda38e76b9823c58": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Trading/Pump-fun/__Deshred Πλήρης Κατάσταση.md": {
@@ -8523,6 +8661,24 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "b83b5aeeef48ff5f0f61975f1bf11b2a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6b137828ae508aca44d651313225d6bb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a463afed12b7c14f4eda2eb383ecdcce": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Trading/Pump-fun/!__model.md": {
@@ -8533,6 +8689,24 @@
       "wrap": false
     },
     "a28e13ab5b5b51524b00cb717218aca8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "64c857954d2b2cbbbaa5aa9682999a91": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9a32dbd77f74806640d2c823dc7d7980": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c8424e0e8f0c3b92d022a53f585f7401": {
       "position": "left",
       "width": "",
       "height": "",
@@ -8551,6 +8725,36 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "f4ba2d265c1e6d2b06c159bd11d856a2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "24f3b865139ce40737ad291db8de4598": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ee3bb8576c44043fb94f5f10c475c035": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2e91126adc08d4ab0879a41085d39516": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "96ae88899b69e174f30016382a1b4e77": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Trading/Pump-fun/!__methodology.md": {
@@ -8561,6 +8765,18 @@
       "wrap": false
     },
     "cc6a3b8d7d26d0517e2c3b1f538a74ac": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2a6c0f2da7b88ed295194984217371f5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "22bfa9bf66e9ecb5734698d47627c0a3": {
       "position": "left",
       "width": "",
       "height": "",
@@ -8589,6 +8805,778 @@
       "wrap": false
     },
     "8febfe6cc78c1e4a6b608982495e3e77": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d69aa4fda2dfb11fc8a9db7ad1a39d7d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5585c1c35a67557e5f4ae9a134a61b72": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "3656deda3318a0e03d8fd172feb30da8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Pump-fun/__Dataset create.md": {
+    "cc8e7ee908a43452a7db73bbf66bf526": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Pump-fun/Data examination.md": {
+    "486f6cdf8a80d371bc395bbe426eb0d3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "89273c77bcbf4d8cb827986b42218595": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fc85d120b3e8744b56ecf837f4a7da01": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Pump-fun/__2026-08-27-Deshred.md": {
+    "2522cf2c2c0b085a31a4af5f43adbb40": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7ef69ea4dc531a09308e936f9fb1a7b5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "be74ebc14986dae82d64ae80da69dfb6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "20b59c48ba0ed42a2a4461860b78690e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5d7294fb7769532924c51cdc8353b6ce": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d2c8e5d5cb99465b5b411c7c54269d78": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "bf21d056f95602b859347815f59d0bc9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Pump-fun/__2026-08-28-Deshred.md": {
+    "b87d8e01ad981b86327a346350d07784": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2e74019da5084433a907e0b5159f8973": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9c5b0de463f96621610fcb45e10f503f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "367bfe9d5c944b2ac45cd8ff50e95ae6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d7786bc55999ea1f8aedb639d030872c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "783106d6695c2e7dc19a7e3a67b62df3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8394a38ed51ea5c6294a9d21f886b1b5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Εργασία/Άδειες.md": {
+    "521205e420b965eeccb53e8aaaaabf1b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "619911666773e3a1a2b4412007fa3bfb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4a7435311b094c6fdf9d3a06753682b7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md": {
+    "65de6380a7c07b773e020790d0955a05": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "922628ca8d83e7a30802a5799de4a073": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2fae5d69dc5d6740f81b89010733d32f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/April-2026/Κρατήσεις/Vienna.md": {
+    "6ae437809913bbf95795838f89a58d00": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "652b7194a7ed5752f38cae6ee7b19518": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4e7558a9c72fa8b0c63dc5515203ef30": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/April-2026/Κρατήσεις/Κρατήσεις-συγκεντρωτικό.md": {
+    "513c052a35e0fa344758bb852bfa7dbd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7d4821fdc1d314ca5176397498039e60": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Λίστες/Checklist – Τι Έχω Μέσα Στο Πορτμπαγκάζ.md": {
+    "155075091f0083ba9f375fb812135d2d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "47cc21836739734172521a4c0d58063c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7b82cd85df9aee00b27d2abb3ebd5cfd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "cb1963061728e7522bbadf9fefcbcb6d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1e488ff79391edbb6e996f67f15ffd3c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b0ab8c98698b98a98a96bf451f0f39bd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9150a1cb126b9abb1bf65496c294ad2c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "64f5261c4a1bc24d2b1d67a238b41032": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "78c70e547dc54bcdcfe796e26e595b1d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md": {
+    "f6c2410cc69cc0ff57caa34abc409a6c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4efc2ac3b6e0310b8dd2bb27f2978612": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "15a9cd46be8565bbb7d039c846146713": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d62eddcd6ac4234d6e34e93b20b21207": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6ec29fb83ea7042d6c6e184120a008ad": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8dd89dd4228536d9bfacd2ec793c0e72": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "0577291c03d1740ac21fabfaa0c2cf3a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8c88308d6e2e9e522b3a8a9a0c791bb9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7155ca86a6e5bb48081bdfec4247357b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f21a00c8f2f78bfa649a5a0c5a2f6aec": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c86f85716b8ae01267392a53e7e698a4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "daadbe0ddb34426ef637b31487aa3b79": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f843edb89ad4f672f21839469c506edb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "31f2dfc4fac9c0ada7d24dfb2920d02b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "0cb01a2df0203e39857b80add07f87e4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c62dbbf778d0e9cf2ed0bbc1710c2a70": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md": {
+    "cec23178204de028e618928c3ea6e6e6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "34e3beb82c0aa53c01d783d189ad0311": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c3be5c1825133cfbd1e2ff483f5629d1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7a65d777f3b0ba61648a8b5f8bb93cfa": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "378bb08e3b2cbceb45ff5479e0cfd77d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "df67d03fb69ce179d32083dcdfda2ff4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d84b55fdb699602b8babb48ccb6b1556": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8da82ba36daa8e46a976d5e284527a0a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9e5aebcdd47f2371be6e7be27ed2e1e4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Λίστες/Λεπτομερής Λίστα Ελέγχου Αυτοκινήτου – 7 Ημέρες Πριν.md": {
+    "3be8dbbdb2bf519b5af51537057bbdc5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1e47bdd1af15a13c00f8784b469c0434": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a194f1fc3ca538ec38b2868753048866": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "cae233688dd4b71f1fe2e34d9f222ce8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "be9dd51ba73910173471857073af32c3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ed615d683e412d81fd43909223254190": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "007955f98def9b6ccfb6947c6450b69a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8e814bc150efc8f4937a122e6dc957e5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "758b0d378769bd42b2139162b2a82109": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/April-2026/Ημερολόγιο 2026-03-04 22.28.15.excalidraw.md": {
+    "681f41ca71c48fefd059dd88995b55fb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "77156615ee44c182bf9862f7b2366db2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "523568d9af4f1f1264f1992b8ed85089": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md": {
+    "c556311fac691b52ea83b835ffdf9a59": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5e7272e76a001592c073e8787e86ee5f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "aa85644d7ad0f19de72246389e33a8c3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "62c07f585c831f543d14fafc1ea42dc3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ad802485dc58b3a3e367dfb2879319fe": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "06f2d09baf0e97bdd7db33e3e08579ac": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4e503bc3bf6b22e5d38dbecc23db7e8c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "829e1a57ef4995169fd012be0f833436": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b69bd32294ae13250ab9da0ab89a772e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Pump-fun/__2026-08-31-Deshred.md": {
+    "b35c2c23a680638b370139cc4ce57ebc": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e4acbf400ff5aa52534570d71d9cfdfb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2096af587f9667249f25bbecd444c514": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-confirmation-4-5.pdf": {
+    "4262f6291e6a878d3e494e41afbfad1c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4a1da9267b67a97920f8c4f40fb58476": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "45157802ba9e6b3a39a7172c6f588449": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a7194d4c3cd5abd7443b59dec0fb408b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "791b0fcac47e249e7ea713973935b582": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7c590fff8fa3a9a1f3a63e950f52ecb6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7f236619efb52fd8d72bf056684e7152": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Pump-fun/__2026-09-01-Deshred.md": {
+    "09481ef89f4621fd0ee418d2475d2f29": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "63532550ae0a089218c56bf9ffc29da3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6d06ffbdc9ae2c47842e0a32a713d1e9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a1be19cd03b8b19ebee1001e0215c8fe": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "37d0fbb31bd8281202cfbdc6317e4b4c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "352c02023265ae9b21432ea9a35da0e8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Current issues/614-Resource-configuration.md": {
+    "c87d4ba26cdd1912a2803b0aa7ebd166": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4dfc3ee071793e93834029dc3f618315": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1d01fbae25bdea49253b946d7f711883": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "dd5e642b879105fe9aa12979e92deae4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f952c8b2718ec3366fb3f66e911f1063": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Pump-fun/__2026-09-02.md": {
+    "f50dab1769446e9b7578b1feaac4032a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e5d9dc7660e4adb1794767b64d7abdc2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "56bca4a311a563ab16e926c0e8767e21": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "942c3aa855ecba2d046b782ec145c3bb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7a3b2422aadb6868dabae57ec6c24b83": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2f17329041535ada44d2de5eaf3b8072": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f319b8e4e4589482c9a54fde0b3f666b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f32dfbe56f5ee9b26c1436e003fec433": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Pump-fun/__2026-09-05.md": {
+    "90c9a55d1d562db8e4a709b2f8485470": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "96dc4ea710a15e5673ebb909a6f10570": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "81a25c7368a333b138d4f7c1692c234b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5d7d8d59e903400a51f552ff62812d94": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f156262ff5a6d6524e8e262e3b1f470b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ec0e68e959de0e21c2c6354281d733b5": {
       "position": "left",
       "width": "",
       "height": "",

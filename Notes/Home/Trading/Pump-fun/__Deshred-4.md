@@ -1022,3 +1022,26 @@ Raw SQLite
     ​
     `TestBuildExactStage2MasterPolicyDataset`
 Αν έχεις αυτά + το συγκεκριμένο zip, μπορούμε πρακτικά να ξαναχτίσουμε, να retrainάρουμε ή να φτιάξουμε Absolute V2 χωρίς να εξαρτόμαστε από το ιστορικό αυτού του νήματος.
+
+### Πρώτα τρέχεις το 
+```bash
+michael@LAPTOP-B63J8AK0 MINGW64 ~/developer/pump-fun-sniper-bot/deshred (deshred)
+
+$bash run_db_three_models_absolute.sh 34   ./databases/deshred.34.db   ./frozen_three_models_absolute_v1   ./temp/db34_absolute
+
+$ bash run_stage2_plus300_dataset.sh
+
+$ bash run_exact_horizons_n1.sh 34 ./databases/deshred.34.db 600
+```
+μετά:
+```bash
+cd tools
+py export_stage2_flow_volume_v2.py \
+  --db 33 \
+  --master ../temp/stage2_plus300/db33/db33_master_plus300.csv \
+  --out-dir db33_flow \
+  --prefix db33 \
+  --pre-ms 150 \
+  --max-ms 1000 \
+  --step-ms 25
+```

@@ -86,13 +86,41 @@
             }
           },
           {
-            "id": "664dfc933247af67",
+            "id": "d55f4abea349f96f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Current/Drawing 2026-07-07 09.55.49.excalidraw.md"
+              },
+              "pinned": true,
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-07-07 09.55.49.excalidraw"
+            }
+          },
+          {
+            "id": "4d2fdd714ba14801",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md"
+              },
+              "pinned": true,
+              "icon": "excalidraw-icon",
+              "title": "Ημερολόγιο 2026-10.excalidraw"
+            }
+          },
+          {
+            "id": "32ac947402e43471",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Home/Trading/Pump-fun/!__runs.md",
+                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -108,83 +136,11 @@
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "!__runs"
-            }
-          },
-          {
-            "id": "a6496dc5abb732bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Home/Trading/Pump-fun/__Deshred-4.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "__Deshred-4"
-            }
-          },
-          {
-            "id": "d5844981d6aa1107",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Home/Trading/Pump-fun/!_Στόχος του project.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "!_Στόχος του project"
-            }
-          },
-          {
-            "id": "c5205a75cc4bf06f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Home/Trading/Pump-fun/!__methodology.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "!__methodology"
+              "title": "Κρατήσεις-συγκεντρωτικό"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -241,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 302.5
   },
   "right": {
     "id": "ed3f7e0552712392",
@@ -258,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Home/Trading/Pump-fun/!_Στόχος του project.md",
+                "file": "Notes/Intelligen/Current issues/Intelligen-Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +224,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for !_Στόχος του project"
+              "title": "Backlinks for Intelligen-Notes"
             }
           },
           {
@@ -350,13 +306,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Home/Trading/Pump-fun/!_Στόχος του project.md",
+                "file": "Notes/Intelligen/Current issues/Intelligen-Notes.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of !_Στόχος του project"
+              "title": "Outline of Intelligen-Notes"
             }
           }
         ]
@@ -412,54 +368,53 @@
       "fix-math:Current file": false
     }
   },
-  "active": "d5844981d6aa1107",
+  "active": "0b3c200c15d89a5c",
   "lastOpenFiles": [
-    "Notes/Home/Trading/Pump-fun/!_Σήματα.md",
-    "Notes/Home/Trading/Pump-fun/!_Decision rule.md",
-    "Notes/Home/Trading/Pump-fun/!__notes.md",
-    "Notes/Home/Trading/Pump-fun/!__methodology.md",
-    "Notes/Home/Trading/Pump-fun/!__runs.md",
-    "Notes/Home/Trading/Pump-fun/__Deshred-4.md",
-    "Notes/Home/Trading/Pump-fun/__Deshred Πλήρης Κατάσταση.md",
-    "Notes/Home/Trading/Pump-fun/!__model.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-confirmation-4-5.pdf",
+    "Notes/Home/Trading/Pump-fun/__2026-08-28-Deshred.md",
+    "Notes/Home/Trading/Pump-fun/__2026-09-05.md",
     "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+    "Notes/Home/Trading/Pump-fun/__2026-08-27-Deshred.md",
+    "Notes/Home/Trading/Pump-fun/__2026-09-02.md",
+    "Notes/Home/Trading/Pump-fun/!__runs.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Assafenburg-Booking.com_ Confirmation.pdf",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1788424235261.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1788424218212.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1788423828972.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1788422852432.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1788421816421.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1788421702046.png",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Vienna-Booking.com_ Confirmation-5-6.pdf",
+    "Notes/Intelligen/Current issues/614-Resource-configuration.md",
+    "Notes/Home/Trading/Pump-fun/__2026-09-01-Deshred.md",
     "Current/Drawing 2026-07-07 09.55.49.excalidraw.md",
     "Current/2026-scratch-pad.md",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787128629816.png",
     "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787049723153.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787049566485.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787049016226.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787048437163.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787048332866.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787048296930.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787048232547.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787048212471.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787048022189.png",
-    "Notes/Home/Trading/Pump-fun/!__model_old.md",
-    "Notes/Home/Trading/Pump-fun/Ανάλυση των δεδομένων.md",
-    "Notes/Home/Trading/Pump-fun/Deshred-notes.md",
-    "Notes/Home/Ταξίδι/Ημερολόγιο 2026-10.excalidraw.md",
+    "Notes/Home/Trading/Pump-fun/_Deshred-trajectory model.md",
+    "Notes/Home/Trading/Pump-fun/__2026-08-31-Deshred.md",
+    "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
+    "Notes/Home/Επιχείρηση/Τιμολόγηση.md",
+    "Notes/Home/Επιχείρηση/Ρύθμιση τιμολόγιο.md",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
-    "Notes/Intelligen/Current issues/614-Resource-configuration.md",
-    "Notes/Intelligen/Εργασία/Άδειες.md",
+    "Notes/Home/Ταξίδι/April-2026/Κρατήσεις/Nis.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις",
+    "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
+    "Notes/Home/Ταξίδι/Rates.md",
+    "Notes/Home/Ταξίδι/Αξιοθέατα.md",
+    "Notes/Home/Ταξίδι/April-2026/Πίνακας Κόστους Πλήρους Ταξιδιού.md",
+    "Notes/Home/Ταξίδι/April-2026/Θεσσαλονίκη-Ουτρέχτη-πλάνο.md",
+    "Notes/Home/Ταξίδι/April-2026/Ημερολόγιο 2026-03-04 22.28.15.excalidraw.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787834594673.png",
+    "Current/assets/Drawing 2026-07-07 09.55.49.excalidraw/Pasted Image 20260825232512_159.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787649785394.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787649504738.png",
     "Notes/Intelligen/assets/Current issues/614-Resource-configuration",
-    "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/Μεταφορά φορολογικής κατοικίας.md",
-    "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/Κάτοικος εξωτερικού.md",
-    "Clippings/ΑΑΔΕ - Τα Αιτήματα μου.md",
-    "Notes/Home/Trading/Pump-fun/Top Best Solana Meme Coins Trading Bots for Telegram and Web in 2025.md",
     "Notes/Intelligen/assets/Current issues/Visibility ordering",
-    "Notes/Intelligen/Completed issues/601-BOM-recipe-amount-factor.md",
-    "Clippings/Vector Data in .NET - Building Blocks for AI Part 2.md",
-    "Clippings/Registration Confirmation Page Non Compliant  Low Emission Zone.md",
     "Notes/Home/assets/Trading/Pump-fun/!__notes",
     "Notes/Home/assets/Trading/Pump-fun",
     "Notes/Home/Trading/Pump-fun",
     "Notes/Intelligen/assets/Completed issues/582-Scheduled-Campaign-Batches-update",
-    "Notes/Intelligen/Current issues/assets/Intelligen-Notes",
-    "Current/assets/Drawing 2026-07-07 09.55.49.excalidraw",
-    "Notes/Intelligen/assets/Current issues/582-Scheduled-Campaign-Batches-update",
-    "Notes/Intelligen/Current issues/assets/582-Scheduled-Campaign-Batches-update",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

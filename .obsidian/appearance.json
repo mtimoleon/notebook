@@ -2,7 +2,8 @@
   "enabledCssSnippets": [
     "no-strike-through-on-todo-check",
     "image-height",
-    "mermaid"
+    "mermaid",
+    "highlight-color"
   ],
   "cssTheme": "",
   "accentColor": "",

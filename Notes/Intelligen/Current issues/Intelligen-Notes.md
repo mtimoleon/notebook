@@ -8,6 +8,39 @@ tags:
   - documentation/intelligen
 ---
 
+### 632-Operation-duration-based-on-recipe-attribute
+#### george
+Recipe Operation duration depends from recipe attributes through change over matrices  only, for now.
+![[Intelligen-Notes-1788423828972.png|823]]
+
+Add  **Based on recipe attribute** kai apo kato epilegeis paromoia me ayto
+![[Intelligen-Notes-1788424218212.png|1010x295]]
+
+### other fixes-checks
+![[Intelligen-Notes-1788422852432.png|742]]
+
+- kai sto storage unit calendar bgazei error gia amountid.
+- 
+### fix examples list
+
+Tabs: Tutorials, Examples, Experimental
+
+
+![[Intelligen-Notes-1788421702046.png|547]]
+
+Στο example θα βλέπεις μόνο ένα εντρυ που θα έχει όλες τις παραλλαγές.
+Δηλαδή με βάση το παρακάτω το example θα είναι Polymer Resin
+![[Intelligen-Notes-1788421816421.png|1010x474]]
+
+Άρα πίσω 3 λίστες και θα επιστρέφουμε ένα αντικέιμενο
+```json
+{
+	tutorials:[],
+	examples:[],
+	experiments:[]
+}
+```
+
 
 
 
@@ -15,7 +48,7 @@ tags:
 ### error messages display
 
 
-![[Intelligen-Notes-1787048022189.png|1010x581]]
+![[Intelligen-Notes-1787048022189.png]]
 
 Add more error categories 
 - Otan recipe based -> is missing recipe
@@ -23,7 +56,7 @@ Add more error categories
 -  -"-                             -> BOM missing recipe
 - 
 
-![[Intelligen-Notes-1787048212471.png|1010x661]]
+![[Intelligen-Notes-1787048212471.png|646]]
 
 
 Kaleitai sto layout
@@ -35,21 +68,22 @@ Mallon prin mpoyme sti diadiaksia toy layout
 ![[Intelligen-Notes-1787048332866.png|998]]
 
 
-![[Intelligen-Notes-1787048437163.png|441]]
+![[Intelligen-Notes-1787048437163.png]]
 
 
-![[Intelligen-Notes-1787049016226.png|1010x347]]
-
-
-
+![[Intelligen-Notes-1787049016226.png]]
 
 
 
-### Visibility ordering
-What to do with visibility ordering and line charts in production app. Currently only Labor is used in line charts.
-- [x] Κατά το χτίσιμο των γραμμών του eoc ή και του πίνακα της σελίδας visibility, aν ένα storage unit για παράδειγμα αλλάξει μονάδες και δεν συμφωνεί με αυτό που έχουμε στη βάση τότε silently θα το γυρνάμε στη reference τιμή αυτού που είναι στη βάση με την κατάλληλη μετατροπή. Έτσι κατα το save πχ της λίστας θα γραφτεί στην νέα τιμή και θα συμφωνεί με τη βάση.
 
-- [ ] na ftiaxnv to ορδερινγ κατα το update, δηλαδή αν είναι 1,3,4,6 -> 1,2,3,4 να διώξει τα κενά.
+
+
+
+
+
+
+
+
 
 ```
 public partial class _600suinventorytracking : Migration
