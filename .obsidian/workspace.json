@@ -138,9 +138,33 @@
               "icon": "lucide-file",
               "title": "Κρατήσεις-συγκεντρωτικό"
             }
+          },
+          {
+            "id": "fb557260fc4af4a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Home/Trading/Pump-fun/__solana_guard.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "__solana_guard"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -214,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+                "file": "Notes/Home/Trading/Pump-fun/__solana_guard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +248,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Intelligen-Notes"
+              "title": "Backlinks for __solana_guard"
             }
           },
           {
@@ -306,13 +330,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+                "file": "Notes/Home/Trading/Pump-fun/__solana_guard.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intelligen-Notes"
+              "title": "Outline of __solana_guard"
             }
           }
         ]
@@ -368,13 +392,19 @@
       "fix-math:Current file": false
     }
   },
-  "active": "0b3c200c15d89a5c",
+  "active": "fb557260fc4af4a9",
   "lastOpenFiles": [
+    "Notes/Home/Trading/Pump-fun/__migrations.md",
+    "Notes/Home/Trading/Pump-fun/__solana_guard.md",
+    "Notes/Home/Trading/Pump-fun/__2026-09-09.md",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
+    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789117978103.png",
+    "Notes/Home/Trading/Pump-fun/__2026-09-05.md",
+    "Notes/Home/Trading/Pump-fun/__2026-09-08.md",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-confirmation-4-5.pdf",
     "Notes/Home/Trading/Pump-fun/__2026-08-28-Deshred.md",
-    "Notes/Home/Trading/Pump-fun/__2026-09-05.md",
-    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
     "Notes/Home/Trading/Pump-fun/__2026-08-27-Deshred.md",
     "Notes/Home/Trading/Pump-fun/__2026-09-02.md",
     "Notes/Home/Trading/Pump-fun/!__runs.md",
@@ -396,19 +426,14 @@
     "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
     "Notes/Home/Επιχείρηση/Τιμολόγηση.md",
     "Notes/Home/Επιχείρηση/Ρύθμιση τιμολόγιο.md",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
     "Notes/Home/Ταξίδι/April-2026/Κρατήσεις/Nis.md",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις",
     "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
     "Notes/Home/Ταξίδι/Rates.md",
     "Notes/Home/Ταξίδι/Αξιοθέατα.md",
-    "Notes/Home/Ταξίδι/April-2026/Πίνακας Κόστους Πλήρους Ταξιδιού.md",
-    "Notes/Home/Ταξίδι/April-2026/Θεσσαλονίκη-Ουτρέχτη-πλάνο.md",
-    "Notes/Home/Ταξίδι/April-2026/Ημερολόγιο 2026-03-04 22.28.15.excalidraw.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787834594673.png",
     "Current/assets/Drawing 2026-07-07 09.55.49.excalidraw/Pasted Image 20260825232512_159.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787649785394.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1787649504738.png",
     "Notes/Intelligen/assets/Current issues/614-Resource-configuration",
     "Notes/Intelligen/assets/Current issues/Visibility ordering",
     "Notes/Home/assets/Trading/Pump-fun/!__notes",

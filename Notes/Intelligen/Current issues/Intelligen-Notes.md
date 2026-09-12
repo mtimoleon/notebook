@@ -7,6 +7,15 @@ component: Docker
 tags:
   - documentation/intelligen
 ---
+### 602
+![[Intelligen-Notes-1789117978103.png|1010x560]]
+
+### 614
+- Simplify handler reusable code
+- ~~Move enumeration locator to helpers~~
+- ~~Resource type enumeration property write to db~~
+- ~~FE does not need to send ordering~~
+- Refactoring ChartService
 
 ### 632-Operation-duration-based-on-recipe-attribute
 #### george
@@ -16,11 +25,7 @@ Recipe Operation duration depends from recipe attributes through change over mat
 Add  **Based on recipe attribute** kai apo kato epilegeis paromoia me ayto
 ![[Intelligen-Notes-1788424218212.png|1010x295]]
 
-### other fixes-checks
-![[Intelligen-Notes-1788422852432.png|742]]
 
-- kai sto storage unit calendar bgazei error gia amountid.
-- 
 ### fix examples list
 
 Tabs: Tutorials, Examples, Experimental
