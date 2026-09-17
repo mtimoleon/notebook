@@ -1368,24 +1368,6 @@
       "height": "",
       "wrap": false
     },
-    "935e2134921fbd117425661d281e565c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "b95efe4aff1cdfd4fbf6bbe6bd286feb": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "781e793d1f7e9a826a5ef0315c284efb": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
     "747f716329c5765d9c1ac07b2d757ae2": {
       "position": "left",
       "width": "",
@@ -1428,55 +1410,7 @@
       "height": "",
       "wrap": false
     },
-    "cd99c4404efbed422e14ade95c11f93f": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "d13a175cd6a06bf5d9e1b229dc16466c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "83f8c5bd4b9db1c3e120d4738f6bf892": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "238f1dbb088d0d47f56f417fac0eec33": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "650d1baf6143633f8a4d6065e115deea": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "e9e0d0c44e5784043a81c40c73895738": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "2b3dd69faf08558efa9551c9d3225be8": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
     "7869d8614392dd158e25e5c6dae21a00": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "58bffc56ede93fcb6a2bd7a12acdf5db": {
       "position": "left",
       "width": "",
       "height": "",
@@ -1488,31 +1422,7 @@
       "height": "",
       "wrap": false
     },
-    "f71ffdfad661cc1dd18ff04239bc9c5f": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "db545b8b4730a860e616d6999c56fb2f": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "2dc9c5c737929bc3ab40d66f9272196b": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
     "fc006b496b3fb49f171cb0b730c5f314": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "1d3713913e10f68e5d62fb582b239952": {
       "position": "left",
       "width": "",
       "height": "",
@@ -1524,31 +1434,37 @@
       "height": "",
       "wrap": false
     },
-    "216e1e3c7bb6dd36b65933b672185a5d": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "01319ef0f88198dc526dee4700a1fbcd": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "a043178a1c122843a0df308b643067bd": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
     "836276884fef2383574e97e8d3a5a192": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "2c033ab49464bfb2e849e0371495677a": {
+    "d6b97751dc988936a724db3eb903c806": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "791e885351753cce53fc8f025282c474": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fb8a87d0defe7e8b98fdf2fd2009dcf6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e4b8cd9bd1db9a2aebb8942c318a9473": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "34c4a1b853c0f774894724406c106df2": {
       "position": "left",
       "width": "",
       "height": "",
@@ -9511,38 +9427,6 @@
       "wrap": false
     }
   },
-  "Notes/Intelligen/Current issues/614-Resource-configuration.md": {
-    "c87d4ba26cdd1912a2803b0aa7ebd166": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "4dfc3ee071793e93834029dc3f618315": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "1d01fbae25bdea49253b946d7f711883": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "dd5e642b879105fe9aa12979e92deae4": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "f952c8b2718ec3366fb3f66e911f1063": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "Notes/Home/Trading/Pump-fun/__2026-09-02.md": {
     "f50dab1769446e9b7578b1feaac4032a": {
       "position": "left",
@@ -9653,6 +9537,40 @@
       "wrap": false
     },
     "8165ebb42d7a9207e2def7e6a055c7f4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Pump-fun/__2026-09-13.md": {
+    "78b2735f01b134ab87bfce73e644ae82": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "68a36fbbbc383a6387c835ad8a3c94e6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "0f5a581ceda1864ed866ec4fb97181a8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2751d3efb0a096891c15bc608fd2085f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Pump-fun/__migrations.md": {
+    "2961d08bf64981d016773af541e05787": {
       "position": "left",
       "width": "",
       "height": "",

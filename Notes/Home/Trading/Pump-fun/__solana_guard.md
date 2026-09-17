@@ -1,4 +1,70 @@
 
+## Τελικοί κανόνες BUY Guard
+Με την προσθήκη του νέου rule, ο guard θα εφαρμόζει:
+1. Δέχεται ακριβώς: bonding curve, mint, buyer signer και Instructions Sysvar.
+2. Ο buyer πρέπει να είναι ένα από τα δύο hardcoded wallets.
+3. Μέγιστο BUY ανά transaction: `0.15 SOL`.
+4. `spendable_quote_in > 0`.
+5. `min_tokens_out > 0`.
+6. Η curve πρέπει να ανήκει στο επίσημο Pump program.
+7. Η curve πρέπει να είναι το σωστό PDA του mint και να έχει έγκυρο discriminator.
+8. Η curve πρέπει να είναι ενεργή: `complete = false`.
+9. `current_real_token_reserves > 0`.
+10. Υφιστάμενο economic rule:
+```text
+current_real_token_reserves <= max_real_token_reserves
+```
+11. Νέο economic rule:
+```text
+current_real_quote_reserves <= max_real_quote_reserves
+```
+Ο client θα υπολογίζει:
+```text
+max_real_quote_reserves = create_real_quote_reserves + Δ
+```
+12. Προαιρετικά: `current_slot <= max_execution_slot`.
+13. Το αμέσως επόμενο instruction πρέπει να είναι Pump `buy_exact_quote_in_v2`.
+14. Wallet, mint, curve, spend και `min_tokens_out` πρέπει να ταυτίζονται ακριβώς με το BUY.
+15. Ελέγχονται το Pump account layout, βασικά PDAs/ATAs, program IDs και signer/writable flags.
+16. Οποιαδήποτε αποτυχία ακυρώνει ολόκληρη την transaction πριν εκτελεστεί το BUY.
+Το νέο quote-reserve rule δεν έχει ακόμη υλοποιηθεί ή γίνει mainnet upgrade. Η ονομασία `real_quote_reserves` είναι η σημερινή επίσημη ονομασία του παλιού `real_sol_reserves`. [Pump public documentation](https://github.com/pump-fun/pump-public-docs)
+
+
+
+
+
+
+Ο guard εφαρμόζει εσωτερικά τα εξής rules, με αυτή τη λογική:
+1. Δέχεται ακριβώς 4 accounts: curve, mint, user και Instructions Sysvar.
+2. Ο user πρέπει να είναι signer και ένα από τα δύο επιτρεπόμενα wallets.
+3. Το `spendable_quote_in` πρέπει να είναι `> 0` και `≤ 0.15 SOL` για το συγκεκριμένο wallet.
+4. Το `min_tokens_out` πρέπει να είναι θετικό.
+5. Η bonding curve πρέπει:
+    - να ανήκει στο επίσημο Pump program,
+    - να είναι το σωστό PDA για το mint,
+    - να έχει σωστό discriminator,
+    - να μην είναι complete,
+    - να έχει `real_token_reserve > 0`.
+6. Εφαρμόζει το economic rule:
+```
+current_real_token_reserve <= MaxRealTokenReserve
+```
+Το `MaxRealTokenReserve` δίνεται από τον client ανά BUY και είναι XOR-obfuscated.
+​
+7. Αν ενεργοποιηθεί slot check:
+```
+current_slot <= max_execution_slot
+```
+1. Το αμέσως επόμενο instruction πρέπει να είναι Pump `buy_exact_quote_in_v2`.
+2. Πρέπει να ταιριάζουν ακριβώς mint, curve, wallet, ποσό και `min_tokens_out`.
+3. Ελέγχει το layout των 27 Pump accounts, βασικά PDAs/ATAs, program IDs και signer/writable flags.
+    ​
+    Αν αποτύχει οποιοδήποτε rule, αποτυγχάνει ολόκληρη η transaction και το Pump BUY δεν εκτελείται. Το reserve threshold δεν είναι σταθερό on-chain· το `0.15 SOL` και τα δύο wallets είναι hardcoded.
+
+
+
+
+
 Παρακάτω είναι το operational manual του σημερινού `UE Guard v0`, βασισμένο στο τελευταίο ZIP και στο πραγματικό source. Έλεγξα επίσης το σημερινό επίσημο Pump IDL: το `buy_exact_quote_in_v2`, ο discriminator και το 27-account layout που περιμένει ο guard εξακολουθούν να συμφωνούν με το Pump interface.
 ## 1. Τι είναι το chain program
 Το `UE Guard` **δεν εκτελεί το BUY με CPI**.
@@ -429,3 +495,4 @@ confirmed execution
 SELL ALL
 ```
 Αυτή είναι η αρχιτεκτονική που πρέπει να θεωρούμε reference για την έκδοση χρήσης.
+

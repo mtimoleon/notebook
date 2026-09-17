@@ -7,15 +7,56 @@ component: Docker
 tags:
   - documentation/intelligen
 ---
+
+
+
+
+
+
+
+Ordering of campaign in scheduling board view.
+
+
+
+
+
+
+### 642 improve change overs performance
+procedure me change over operation eite stin arxi i sto telos i kai sta dyo kai sxetizontai me to task
+
+![[Intelligen-Notes-1789543915608.png|1010x402]]
+
+![[Intelligen-Notes-1789544018365.png|1010x707]]
+![[Intelligen-Notes-1789544142828.png|1010x462]]
+
+
+Double link list 
+
+![[Intelligen-Notes-1789544845949.png|1010x446]]
+
+![[Intelligen-Notes-1789545962665.png|1010x642]]
+
+
+
+
+
+
+### 638
+- `VisibilityOrderingConfiguration`: 8 (`6 Include...`, `BarHeight`, `LineChartHeight`).
+- `Operation`: 4 (`HasConstantDuration`, `RateBasedAmountScalesWithBatchSize`, `RequiredNumberOfStaff`, `RequiredNumberOfAuxiliaryEquipment`).
+- `Labor`: 1 (`HasUnlimitedPersons`).
+- `Campaign`: 1 (`BatchScaleFactor`).
+- `OperationStream`: 1 (`ScaleFactor`).
+- `StorageUnit`: 1 (`HighInventoryLimit`).
+
+VisibilityOrderingConfiguration , Operation, Labor, Campaign, OperationStream, StorageUnit
+
+
+
 ### 602
 ![[Intelligen-Notes-1789117978103.png|1010x560]]
 
-### 614
-- Simplify handler reusable code
-- ~~Move enumeration locator to helpers~~
-- ~~Resource type enumeration property write to db~~
-- ~~FE does not need to send ordering~~
-- Refactoring ChartService
+
 
 ### 632-Operation-duration-based-on-recipe-attribute
 #### george
@@ -24,6 +65,10 @@ Recipe Operation duration depends from recipe attributes through change over mat
 
 Add  **Based on recipe attribute** kai apo kato epilegeis paromoia me ayto
 ![[Intelligen-Notes-1788424218212.png|1010x295]]
+
+
+
+
 
 
 ### fix examples list
