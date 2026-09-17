@@ -9,22 +9,10 @@ tags:
 ---
 
 
-
-
-
-
-
-Ordering of campaign in scheduling board view.
-
-
-
-
-
-
 ### 642 improve change overs performance
 procedure me change over operation eite stin arxi i sto telos i kai sta dyo kai sxetizontai me to task
 
-![[Intelligen-Notes-1789543915608.png|1010x402]]
+![[Intelligen-Notes-1789543915608.png|1007]]
 
 ![[Intelligen-Notes-1789544018365.png|1010x707]]
 ![[Intelligen-Notes-1789544142828.png|1010x462]]

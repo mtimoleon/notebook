@@ -162,9 +162,33 @@
               "icon": "lucide-file",
               "title": "__2026-09-13"
             }
+          },
+          {
+            "id": "8e213d164699a966",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Κρατήσεις-συγκεντρωτικό"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -238,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,7 +272,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Intelligen-Notes"
+              "title": "Backlinks for Κρατήσεις-συγκεντρωτικό"
             }
           },
           {
@@ -300,10 +324,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Notes.md"
+                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Intelligen-Notes"
+              "title": "File properties for Κρατήσεις-συγκεντρωτικό"
             }
           }
         ],
@@ -320,13 +344,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intelligen-Notes"
+              "title": "Outline of Κρατήσεις-συγκεντρωτικό"
             }
           }
         ]
@@ -362,7 +386,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 453.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -381,11 +405,15 @@
       "fix-math:Current file": false
     }
   },
-  "active": "0b3c200c15d89a5c",
+  "active": "32ac947402e43471",
   "lastOpenFiles": [
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-Booking.com_ Confirmation-27-28.pdf",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Gyor-Booking.com_ Confirmation-26-27.pdf",
+    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789626125457.png",
     "Notes/Home/Trading/Pump-fun/__2026-09-13.md",
-    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789556018275.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789555923635.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789555734307.png",
@@ -395,11 +423,8 @@
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789545962665.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789544845949.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789544142828.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789544018365.png",
     "Notes/Home/Trading/Pump-fun/__solana_guard.md",
     "Current/Drawing 2026-07-07 09.55.49.excalidraw.md",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Leipzig-Booking.com_Confirmation-25-26.pdf",
     "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
     "Notes/Home/Trading/Pump-fun/__migrations.md",
@@ -428,7 +453,6 @@
     "Notes/Intelligen/assets/Current issues/Visibility ordering",
     "Notes/Home/assets/Trading/Pump-fun/!__notes",
     "Notes/Home/assets/Trading/Pump-fun",
-    "Notes/Home/Trading/Pump-fun",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"
