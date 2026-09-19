@@ -98,97 +98,9 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2026-07-07 09.55.49.excalidraw"
             }
-          },
-          {
-            "id": "4d2fdd714ba14801",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md"
-              },
-              "pinned": true,
-              "icon": "excalidraw-icon",
-              "title": "Ημερολόγιο 2026-10.excalidraw"
-            }
-          },
-          {
-            "id": "32ac947402e43471",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Κρατήσεις-συγκεντρωτικό"
-            }
-          },
-          {
-            "id": "7447a2bfddc89b21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Home/Trading/Pump-fun/__2026-09-13.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "__2026-09-13"
-            }
-          },
-          {
-            "id": "8e213d164699a966",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Κρατήσεις-συγκεντρωτικό"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -220,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "τιμολό",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -262,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
+                "file": "Current/Drawing 2026-07-07 09.55.49.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,7 +184,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Κρατήσεις-συγκεντρωτικό"
+              "title": "Backlinks for Drawing 2026-07-07 09.55.49.excalidraw"
             }
           },
           {
@@ -324,10 +236,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md"
+                "file": "Current/Drawing 2026-07-07 09.55.49.excalidraw.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Κρατήσεις-συγκεντρωτικό"
+              "title": "File properties for Drawing 2026-07-07 09.55.49.excalidraw"
             }
           }
         ],
@@ -344,13 +256,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
+                "file": "Current/Drawing 2026-07-07 09.55.49.excalidraw.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Κρατήσεις-συγκεντρωτικό"
+              "title": "Outline of Drawing 2026-07-07 09.55.49.excalidraw"
             }
           }
         ]
@@ -405,54 +317,54 @@
       "fix-math:Current file": false
     }
   },
-  "active": "32ac947402e43471",
+  "active": "d55f4abea349f96f",
   "lastOpenFiles": [
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-Booking.com_ Confirmation-27-28.pdf",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Gyor-Booking.com_ Confirmation-26-27.pdf",
-    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789626125457.png",
-    "Notes/Home/Trading/Pump-fun/__2026-09-13.md",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789556018275.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789555923635.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789555734307.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789555587436.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789555441349.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789549040623.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789545962665.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789544845949.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789544142828.png",
-    "Notes/Home/Trading/Pump-fun/__solana_guard.md",
-    "Current/Drawing 2026-07-07 09.55.49.excalidraw.md",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Leipzig-Booking.com_Confirmation-25-26.pdf",
-    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Notes/Home/Trading/Pump-fun/__migrations.md",
-    "Notes/Intelligen/Completed issues/614-Resource-configuration.md",
-    "Notes/Home/Trading/Pump-fun/__2026-09-09.md",
-    "Notes/Home/Trading/Pump-fun/__2026-09-08.md",
-    "Notes/Home/Trading/Pump-fun/__2026-09-05.md",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-confirmation-4-5.pdf",
-    "Notes/Home/Trading/Pump-fun/__2026-08-28-Deshred.md",
-    "Notes/Home/Trading/Pump-fun/__2026-08-27-Deshred.md",
-    "Notes/Home/Trading/Pump-fun/__2026-09-02.md",
-    "Notes/Home/Trading/Pump-fun/!__runs.md",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Assafenburg-Booking.com_ Confirmation.pdf",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Vienna-Booking.com_ Confirmation-5-6.pdf",
-    "Notes/Home/Trading/Pump-fun/__2026-09-01-Deshred.md",
-    "Current/2026-scratch-pad.md",
-    "Notes/Home/Trading/Pump-fun/_Deshred-trajectory model.md",
-    "Notes/Home/Trading/Pump-fun/__2026-08-31-Deshred.md",
-    "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
     "Notes/Home/Επιχείρηση/Τιμολόγηση.md",
     "Notes/Home/Επιχείρηση/Ρύθμιση τιμολόγιο.md",
-    "Notes/Home/Ταξίδι/April-2026/Κρατήσεις/Nis.md",
+    "Notes/Home/Quick notes/Mεταβίβαση μοτοποδηλάτου/Mεταβίβαση μοτοποδηλάτου και τι δικαιολογητικά χρειάζονταιUntitled 1.md",
+    "Notes/Home/Quick notes/Mεταβίβαση μοτοποδηλάτου/Mεταβίβαση μοτοποδηλάτου ΚΕΠ.md",
+    "Notes/Home/Quick notes/11888-ΔΙΑΓΡΑΦΗ ΑΠΟ ΚΑΤΑΛΟΓΟΥΣ.md",
+    "Notes/Home/Quick notes/ALPHA BANK - Πρόγραμμα Προστασίας Αγορών & Διπλασιασμού Εγγύησης.md",
+    "Notes/Home/Quick notes/Γενικό.md",
+    "Notes/Home/Επιχείρηση/myPOS.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
+    "Notes/Home/Trading/Pump-fun/__2026-09-18.md",
+    "Notes/Intelligen/Engineering/Domains/Scheduling Conflict Resolution.md",
+    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789730934122.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789730797767.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789730398392.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789730306398.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789730235742.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789729611824.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789729533196.png",
+    "Notes/Intelligen/Documentation/Algorithms/Scheduling service.md",
+    "Notes/Intelligen/Documentation/Scheduling/SCHEDULING QUERIES, INCLUDES and CONDITIONS.md",
+    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
+    "Current/Drawing 2026-07-07 09.55.49.excalidraw.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
+    "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md",
+    "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md",
+    "Notes/Home/Ταξίδι/Λίστες/Λεπτομερής Λίστα Ελέγχου Αυτοκινήτου – 7 Ημέρες Πριν.md",
+    "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md",
+    "Notes/Home/Ταξίδι/Λίστες/Checklist – Τι Έχω Μέσα Στο Πορτμπαγκάζ.md",
+    "Notes/Home/Trading/Pump-fun/__2026-09-13.md",
+    "Current/2026-scratch-pad.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-Booking.com_ Confirmation-27-28.pdf",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Gyor-Booking.com_ Confirmation-26-27.pdf",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789626125457.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789556018275.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789555923635.png",
+    "Notes/Home/Trading/Pump-fun/__solana_guard.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Leipzig-Booking.com_Confirmation-25-26.pdf",
+    "Notes/Home/Trading/Pump-fun/__migrations.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-confirmation-4-5.pdf",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Assafenburg-Booking.com_ Confirmation.pdf",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Vienna-Booking.com_ Confirmation-5-6.pdf",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις",
-    "Notes/Home/Ταξίδι/12x Royal Canin Hondenvoer Nat Hypoallergenic 400 gr.md",
     "Notes/Intelligen/assets/Current issues/614-Resource-configuration",
     "Notes/Intelligen/assets/Current issues/Visibility ordering",
     "Notes/Home/assets/Trading/Pump-fun/!__notes",
-    "Notes/Home/assets/Trading/Pump-fun",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

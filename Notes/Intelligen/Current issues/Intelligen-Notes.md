@@ -8,7 +8,42 @@ tags:
   - documentation/intelligen
 ---
 
+Να ξεκινάνε με το min toy schedulingBoard start kai schedule start.
+![[Intelligen-Notes-1789730398392.png|1010x676]]
 
+Εδω να το πάρουμε από το campaign to start , pleon to exei
+![[Intelligen-Notes-1789730797767.png|1010x652]]
+
+Neo property TimeSpan MakeSpan να μπει στο SchedulingBoard.cs και θα φαίνεται  , δες κάτω
+
+![[Intelligen-Notes-1789730934122.png|1010x460]]
+
+
+
+## renames
+#### Overuse -> Overallocation
+
+![[Intelligen-Notes-1789730306398.png|640]]
+
+
+Staff aux equipment kai main equipment
+
+![[Intelligen-Notes-1789729533196.png|1010x598]]
+
+
+
+
+Consumables profile ->continues profile
+Reusable\<use\> -> Discrete\<use\> dld to prefix tha allaxei
+
+
+![[Intelligen-Notes-1789730235742.png|1010x376]]
+
+
+
+
+
+![[Intelligen-Notes-1789729611824.png|1010x682]]
 ### 642 improve change overs performance
 procedure me change over operation eite stin arxi i sto telos i kai sta dyo kai sxetizontai me to task
 
@@ -29,21 +64,6 @@ Double link list
 
 
 
-### 638
-- `VisibilityOrderingConfiguration`: 8 (`6 Include...`, `BarHeight`, `LineChartHeight`).
-- `Operation`: 4 (`HasConstantDuration`, `RateBasedAmountScalesWithBatchSize`, `RequiredNumberOfStaff`, `RequiredNumberOfAuxiliaryEquipment`).
-- `Labor`: 1 (`HasUnlimitedPersons`).
-- `Campaign`: 1 (`BatchScaleFactor`).
-- `OperationStream`: 1 (`ScaleFactor`).
-- `StorageUnit`: 1 (`HighInventoryLimit`).
-
-VisibilityOrderingConfiguration , Operation, Labor, Campaign, OperationStream, StorageUnit
-
-
-
-### 602
-![[Intelligen-Notes-1789117978103.png|1010x560]]
-
 
 
 ### 632-Operation-duration-based-on-recipe-attribute
@@ -56,28 +76,6 @@ Add  **Based on recipe attribute** kai apo kato epilegeis paromoia me ayto
 
 
 
-
-
-
-### fix examples list
-
-Tabs: Tutorials, Examples, Experimental
-
-
-![[Intelligen-Notes-1788421702046.png|547]]
-
-Στο example θα βλέπεις μόνο ένα εντρυ που θα έχει όλες τις παραλλαγές.
-Δηλαδή με βάση το παρακάτω το example θα είναι Polymer Resin
-![[Intelligen-Notes-1788421816421.png|1010x474]]
-
-Άρα πίσω 3 λίστες και θα επιστρέφουμε ένα αντικέιμενο
-```json
-{
-	tutorials:[],
-	examples:[],
-	experiments:[]
-}
-```
 
 
 
@@ -603,6 +601,7 @@ VisibilityOrdering na ginei cascade
 ​
 ​
 ```
+
 
 
 
