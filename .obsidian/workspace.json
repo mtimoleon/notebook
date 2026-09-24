@@ -86,21 +86,57 @@
             }
           },
           {
-            "id": "d55f4abea349f96f",
+            "id": "d3fa19942fa03b3d",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Current/Drawing 2026-07-07 09.55.49.excalidraw.md"
+                "file": "Notes/Home/Trading/Pump-fun/___2026-09-18.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "pinned": true,
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-07 09.55.49.excalidraw"
+              "icon": "lucide-file",
+              "title": "___2026-09-18"
+            }
+          },
+          {
+            "id": "6c5ec4f37ec2940a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ToDo list for traveling"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -157,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 305.5
   },
   "right": {
     "id": "ed3f7e0552712392",
@@ -174,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Current/Drawing 2026-07-07 09.55.49.excalidraw.md",
+                "file": "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +220,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Drawing 2026-07-07 09.55.49.excalidraw"
+              "title": "Backlinks for ToDo list for traveling"
             }
           },
           {
@@ -236,10 +272,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Current/Drawing 2026-07-07 09.55.49.excalidraw.md"
+                "file": "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Drawing 2026-07-07 09.55.49.excalidraw"
+              "title": "File properties for ToDo list for traveling"
             }
           }
         ],
@@ -256,13 +292,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Current/Drawing 2026-07-07 09.55.49.excalidraw.md",
+                "file": "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2026-07-07 09.55.49.excalidraw"
+              "title": "Outline of ToDo list for traveling"
             }
           }
         ]
@@ -317,8 +353,22 @@
       "fix-math:Current file": false
     }
   },
-  "active": "d55f4abea349f96f",
+  "active": "6c5ec4f37ec2940a",
   "lastOpenFiles": [
+    "Notes/Home/Trading/Pump-fun/___2026-09-18.md",
+    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1790156904978.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1790156529940.png",
+    "Notes/Home/Trading/Pump-fun/__2026-09-01-Deshred.md",
+    "Notes/Home/Trading/Pump-fun/__2026-08-31-Deshred.md",
+    "Notes/Home/Trading/Pump-fun/__2026-08-28-Deshred.md",
+    "Notes/Home/Trading/Pump-fun/__2026-08-27-Deshred.md",
+    "Notes/Home/Trading/Pump-fun/___First Buy strategy.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
+    "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md",
+    "Current/Drawing 2026-07-07 09.55.49.excalidraw.md",
+    "Notes/Home/Trading/Pump-fun/!_Στόχος του project.md",
+    "Notes/Home/Trading/Pump-fun/__2026-09-13.md",
     "Notes/Home/Επιχείρηση/Τιμολόγηση.md",
     "Notes/Home/Επιχείρηση/Ρύθμιση τιμολόγιο.md",
     "Notes/Home/Quick notes/Mεταβίβαση μοτοποδηλάτου/Mεταβίβαση μοτοποδηλάτου και τι δικαιολογητικά χρειάζονταιUntitled 1.md",
@@ -327,10 +377,7 @@
     "Notes/Home/Quick notes/ALPHA BANK - Πρόγραμμα Προστασίας Αγορών & Διπλασιασμού Εγγύησης.md",
     "Notes/Home/Quick notes/Γενικό.md",
     "Notes/Home/Επιχείρηση/myPOS.md",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
-    "Notes/Home/Trading/Pump-fun/__2026-09-18.md",
     "Notes/Intelligen/Engineering/Domains/Scheduling Conflict Resolution.md",
-    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789730934122.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789730797767.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789730398392.png",
@@ -341,23 +388,11 @@
     "Notes/Intelligen/Documentation/Algorithms/Scheduling service.md",
     "Notes/Intelligen/Documentation/Scheduling/SCHEDULING QUERIES, INCLUDES and CONDITIONS.md",
     "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Current/Drawing 2026-07-07 09.55.49.excalidraw.md",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
-    "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md",
-    "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md",
-    "Notes/Home/Ταξίδι/Λίστες/Λεπτομερής Λίστα Ελέγχου Αυτοκινήτου – 7 Ημέρες Πριν.md",
-    "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md",
-    "Notes/Home/Ταξίδι/Λίστες/Checklist – Τι Έχω Μέσα Στο Πορτμπαγκάζ.md",
-    "Notes/Home/Trading/Pump-fun/__2026-09-13.md",
-    "Current/2026-scratch-pad.md",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-Booking.com_ Confirmation-27-28.pdf",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Gyor-Booking.com_ Confirmation-26-27.pdf",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789626125457.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789556018275.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789555923635.png",
-    "Notes/Home/Trading/Pump-fun/__solana_guard.md",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Leipzig-Booking.com_Confirmation-25-26.pdf",
-    "Notes/Home/Trading/Pump-fun/__migrations.md",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-confirmation-4-5.pdf",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Assafenburg-Booking.com_ Confirmation.pdf",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Vienna-Booking.com_ Confirmation-5-6.pdf",

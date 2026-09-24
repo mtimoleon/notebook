@@ -1410,36 +1410,6 @@
       "height": "",
       "wrap": false
     },
-    "7869d8614392dd158e25e5c6dae21a00": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "649489c707120cb40fb9739e8222f492": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "fc006b496b3fb49f171cb0b730c5f314": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "ae2f7a7af740e9063a806a1905943db8": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "836276884fef2383574e97e8d3a5a192": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
     "d6b97751dc988936a724db3eb903c806": {
       "position": "left",
       "width": "",
@@ -1483,102 +1453,6 @@
       "wrap": false
     },
     "bb0d02a13d9e703e84367085be4c6996": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "650d1baf6143633f8a4d6065e115deea": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "e9e0d0c44e5784043a81c40c73895738": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "68a832a6821e1723e30efc0ea35b6c8c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0ee3d3d51d87445f2c8a609af9b5c349": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "25d383558655b927af7d84392920ce56": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "38ba75e590ed88d007d9545b09758f69": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "2cbd818304f340f244c0b367e92f608e": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "92ad6b809f1107936831816290e40f4e": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "b0e8837f2e0b8a282c7ec8d4c18a2903": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "8e3aaf023326be0af3060d903542634a": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "6c5ec83c34d213d207e9cbc940a622c4": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7e98381b985acf0f1f45c1049a17d131": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "643f056170b8a1fa7ce05c53aa984b3c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0c44b9aa1b7ca80c3a9b1983c845aded": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "a65934b993d2851b9fb20f372337c200": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "255c78131695fcda3d0bab87791f2ebe": {
       "position": "left",
       "width": "",
       "height": "",
@@ -9055,6 +8929,30 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "0c7c92788b8a44c10bc847d9cd52f50a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8a7353c876dcdc54552cdf100ec2a111": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ccd27e968e21f6b678306013d96fbd95": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a3751565b397d8b68c26dde7b054ebf0": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Trading/Pump-fun/__Dataset create.md": {
@@ -9447,6 +9345,24 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "efc6d8e16d09c2f607af0e77d557b870": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "faf0a992f78e1773ac9cd2ba27258be4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8d405a4b24511bb381503826e1b16b80": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md": {
@@ -9703,6 +9619,18 @@
       "wrap": false
     },
     "cde57581f8ec2a80827c685ea9186618": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "616715dd31476e796ed6d4681419f7eb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5bbaee345b084f727a8d7c5bfa78cd0b": {
       "position": "left",
       "width": "",
       "height": "",
@@ -9969,60 +9897,40 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "c8692c07dcd860a1f11f38e92ede9c2c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7ca190bafa1193f22f4aa62212dbfc9a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2aa084ba6a19f4d48ddcfb298f99debe": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b889003c3e3edd2237c39c324f35be22": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "15cce017edeaa6cd7ad28f51f455fd4b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Trading/Pump-fun/__migrations.md": {
     "2961d08bf64981d016773af541e05787": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "Notes/Home/Trading/Pump-fun/__2026-09-18.md": {
-    "860b07c14fd3c5e3c1e9a9b401825213": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0ff99afd47b59a997b41a742514b1892": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "18d831f7ad1ee60062520e5e74e57e98": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "73037cf67b247b7c22e16cf172aab20b": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "2bafd91e83d1b77be937fb293f70199b": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "51c709168820a9117ba1c60492e928de": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "7d149f8c14e7c1288c16d573e6a7dbd7": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "4e48df072db595abfd9581a910401f52": {
       "position": "left",
       "width": "",
       "height": "",
@@ -10251,6 +10159,162 @@
       "wrap": false
     },
     "b32d33c14d8523ab5c25486f73eb1179": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Pump-fun/___First Buy strategy.md": {
+    "d7096a49443f1758c2dbd7db69dfa852": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d188808c2df0129c0b57b64d7ef7261b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fc401f2550c1716d296b1998322c860a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b9908d7b272de54a0fae77bf367174d5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b76e4a4afd742078454f5546dca303a9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "bef7e7b4060fa631613cce0ef6217946": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Pump-fun/___2026-09-18.md": {
+    "c9d67f84edd02390f897a84f92d16740": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d090377c9e3ddde667b363780ff15b16": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d85d9dd08fff1cef8837d22200e65e13": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4d6634852dc1942ae18dbdb7c75916ec": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "07b289b8528f8c81e1dfe6d832715b7c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "036c8241c5ba0e65298a4e2002e91eca": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fd7e8fe9fff7cdcfb02346dfd519ada3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6177837369be8c17880423f616e14f8a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c2890ad56e6443e41aa86d283c7fa18e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "719fc4b95c2fd0af0e1605b32871c70e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e6607df3a5a16b25427e700482937006": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md": {
+    "0b9116df7fa5981c78f0ebad8206d6f4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "490469cf666ed8fe4ceea8ff9d78ef6c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d11ab1f4fb850d968808c7fea61e1164": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "74b8cf6ee98870c97425b9390acdd2d6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "848f2f350b46d1100029c93a0be61c98": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "3819a64662706ef74bd670dd04449521": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b3b810ebfb67312b478e70928126fa30": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "bc31b5d2bb5cdac692aa59e1908855e4": {
       "position": "left",
       "width": "",
       "height": "",

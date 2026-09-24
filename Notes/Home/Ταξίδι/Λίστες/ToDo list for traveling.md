@@ -35,7 +35,7 @@ Web: [https://dealer.citroen.gr/giannirisae/](https://dealer.citroen.gr/gianniri
 
 
 #### Λάσυ
-- [ ] Λάσυ αγορά βαλιτσάκι ταξιδίου
+- [x] Λάσυ αγορά βαλιτσάκι ταξιδίου
 - [x] EU Pet Passport
 - [x] Microchip καταχωρημένο
 - [x] Εμβόλιο λύσσας >21 ημέρες

@@ -7,43 +7,6 @@ component: Docker
 tags:
   - documentation/intelligen
 ---
-
-Να ξεκινάνε με το min toy schedulingBoard start kai schedule start.
-![[Intelligen-Notes-1789730398392.png|1010x676]]
-
-Εδω να το πάρουμε από το campaign to start , pleon to exei
-![[Intelligen-Notes-1789730797767.png|1010x652]]
-
-Neo property TimeSpan MakeSpan να μπει στο SchedulingBoard.cs και θα φαίνεται  , δες κάτω
-
-![[Intelligen-Notes-1789730934122.png|1010x460]]
-
-
-
-## renames
-#### Overuse -> Overallocation
-
-![[Intelligen-Notes-1789730306398.png|640]]
-
-
-Staff aux equipment kai main equipment
-
-![[Intelligen-Notes-1789729533196.png|1010x598]]
-
-
-
-
-Consumables profile ->continues profile
-Reusable\<use\> -> Discrete\<use\> dld to prefix tha allaxei
-
-
-![[Intelligen-Notes-1789730235742.png|1010x376]]
-
-
-
-
-
-![[Intelligen-Notes-1789729611824.png|1010x682]]
 ### 642 improve change overs performance
 procedure me change over operation eite stin arxi i sto telos i kai sta dyo kai sxetizontai me to task
 
@@ -58,26 +21,6 @@ Double link list
 ![[Intelligen-Notes-1789544845949.png|1010x446]]
 
 ![[Intelligen-Notes-1789545962665.png|1010x642]]
-
-
-
-
-
-
-
-
-### 632-Operation-duration-based-on-recipe-attribute
-#### george
-Recipe Operation duration depends from recipe attributes through change over matrices  only, for now.
-![[Intelligen-Notes-1788423828972.png|823]]
-
-Add  **Based on recipe attribute** kai apo kato epilegeis paromoia me ayto
-![[Intelligen-Notes-1788424218212.png|1010x295]]
-
-
-
-
-
 
 
 
@@ -605,25 +548,9 @@ VisibilityOrdering na ginei cascade
 
 
 
-# Review Notes για Findings 
-​
-## Πλαίσιο
-Το note αυτό συγκεντρώνει με πλήρη εξήγηση τα τρία βασικά σημεία που προέκυψαν από το review του branch:
-​
-- branch υπό review: `feature/578-Adaptive-recipes-pt.4`
-- base branch: `master`
-- merge base: `82ea4e39fbcce72917c692a0f878b05e65d7d5aa`
-​
-Ο στόχος του note δεν είναι απλώς να πει "υπάρχει bug", αλλά να εξηγήσει:
-​
-- ποια ακριβώς είναι η ροή του κώδικα
-- γιατί η συμπεριφορά που βλέπουμε είναι προβληματική
-- πότε το κάθε finding είναι ισχυρό και πότε είναι πιο αδύναμο
-- ποια είναι η πρακτική επίπτωση στο scheduling
+
 ​
 
----
-​
 ## Finding 1
 ​
 ### Σύντομη διατύπωση
