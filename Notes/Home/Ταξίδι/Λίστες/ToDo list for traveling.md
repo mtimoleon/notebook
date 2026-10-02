@@ -44,7 +44,7 @@ Web: [https://dealer.citroen.gr/giannirisae/](https://dealer.citroen.gr/gianniri
 #### Διαμονή
 - [ ] Να κλείσω διαμονές ξενοδοχεία 
 - [ ] Vodafοne πρόγραμμα για χώρες εκτός ΕΟΧ
-- [ ] Έκδοση διαβατηρίων
+- [x] Έκδοση διαβατηρίων
 - [ ] Ευρωπαϊκή Κάρτα Υγείας- Αναμένουμε τα πλαστικά
 
 #### Offline applications

@@ -8,84 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1e8df55b0890e1ca",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Current/2026-scratch-pad.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "2026-scratch-pad"
-            }
-          },
-          {
-            "id": "0b3c200c15d89a5c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Notes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Intelligen-Notes"
-            }
-          },
-          {
-            "id": "7eac38763f493133",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Intelligen-Backlog"
-            }
-          },
-          {
             "id": "d3fa19942fa03b3d",
             "type": "leaf",
             "pinned": true,
@@ -112,12 +34,13 @@
             }
           },
           {
-            "id": "6c5ec4f37ec2940a",
+            "id": "758d4a6d5cf2ae53",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md",
+                "file": "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -131,12 +54,25 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "ToDo list for traveling"
+              "title": "Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση"
+            }
+          },
+          {
+            "id": "b794f63e9f23d25f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Ημερολόγιο 2026-10.excalidraw"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,7 +129,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 311.5
   },
   "right": {
     "id": "ed3f7e0552712392",
@@ -210,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md",
+                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +156,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ToDo list for traveling"
+              "title": "Backlinks for Ημερολόγιο 2026-10.excalidraw"
             }
           },
           {
@@ -272,10 +208,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md"
+                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for ToDo list for traveling"
+              "title": "File properties for Ημερολόγιο 2026-10.excalidraw"
             }
           }
         ],
@@ -292,13 +228,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md",
+                "file": "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ToDo list for traveling"
+              "title": "Outline of Ημερολόγιο 2026-10.excalidraw"
             }
           }
         ]
@@ -353,47 +289,48 @@
       "fix-math:Current file": false
     }
   },
-  "active": "6c5ec4f37ec2940a",
+  "active": "b794f63e9f23d25f",
   "lastOpenFiles": [
+    "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md",
     "Notes/Home/Trading/Pump-fun/___2026-09-18.md",
+    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
     "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+    "Current/2026-scratch-pad.md",
+    "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md",
+    "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md",
+    "Notes/Home/Ταξίδι/Λίστες/Checklist – Τι Έχω Μέσα Στο Πορτμπαγκάζ.md",
+    "Notes/Home/Ταξίδι/Rates.md",
+    "Notes/Home/Ταξίδι/April-2026/Διόδια.md",
+    "Notes/Home/Ταξίδι/Λίστες/Λεπτομερής Λίστα Ελέγχου Αυτοκινήτου – 7 Ημέρες Πριν.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
+    "Current/Drawing 2026-07-07 09.55.49.excalidraw.md",
+    "Current/News Digest.md",
+    "Current/Drawing 2026-02-16 22.29.48.excalidraw.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1790944197308.png",
+    "Notes/Home/Επιχείρηση/Τιμολόγηση.md",
+    "Notes/Home/Επιχείρηση/Ρύθμιση τιμολόγιο.md",
+    "Notes/Home/Trading/Pump-fun/___First Buy strategy.md",
+    "Notes/Home/Συντάξεις/Ένσημα Μιχάλης.md",
+    "Notes/Home/Συντάξεις/Ιστορικό ασφάλισης.md",
+    "Notes/Home/Συντάξεις/Σύνταξη για τους ελεύθερους επαγγελματίες - syntaxeis.com.md",
+    "Notes/Home/Συντάξεις/Σύνταξη.md",
+    "Notes/Home/Συντάξεις/Συνοπτικό ιστορικό Μιχάλη.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1790677942839.png",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Leipzig-Booking.com_Confirmation-25-26.pdf",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-Booking.com_ Confirmation-27-28.pdf",
+    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-confirmation-4-5.pdf",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1790156904978.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1790156529940.png",
     "Notes/Home/Trading/Pump-fun/__2026-09-01-Deshred.md",
     "Notes/Home/Trading/Pump-fun/__2026-08-31-Deshred.md",
-    "Notes/Home/Trading/Pump-fun/__2026-08-28-Deshred.md",
-    "Notes/Home/Trading/Pump-fun/__2026-08-27-Deshred.md",
-    "Notes/Home/Trading/Pump-fun/___First Buy strategy.md",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
-    "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md",
-    "Current/Drawing 2026-07-07 09.55.49.excalidraw.md",
-    "Notes/Home/Trading/Pump-fun/!_Στόχος του project.md",
-    "Notes/Home/Trading/Pump-fun/__2026-09-13.md",
-    "Notes/Home/Επιχείρηση/Τιμολόγηση.md",
-    "Notes/Home/Επιχείρηση/Ρύθμιση τιμολόγιο.md",
-    "Notes/Home/Quick notes/Mεταβίβαση μοτοποδηλάτου/Mεταβίβαση μοτοποδηλάτου και τι δικαιολογητικά χρειάζονταιUntitled 1.md",
-    "Notes/Home/Quick notes/Mεταβίβαση μοτοποδηλάτου/Mεταβίβαση μοτοποδηλάτου ΚΕΠ.md",
-    "Notes/Home/Quick notes/11888-ΔΙΑΓΡΑΦΗ ΑΠΟ ΚΑΤΑΛΟΓΟΥΣ.md",
-    "Notes/Home/Quick notes/ALPHA BANK - Πρόγραμμα Προστασίας Αγορών & Διπλασιασμού Εγγύησης.md",
-    "Notes/Home/Quick notes/Γενικό.md",
-    "Notes/Home/Επιχείρηση/myPOS.md",
-    "Notes/Intelligen/Engineering/Domains/Scheduling Conflict Resolution.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789730934122.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789730797767.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789730398392.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789730306398.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789730235742.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789729611824.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789729533196.png",
-    "Notes/Intelligen/Documentation/Algorithms/Scheduling service.md",
-    "Notes/Intelligen/Documentation/Scheduling/SCHEDULING QUERIES, INCLUDES and CONDITIONS.md",
-    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-Booking.com_ Confirmation-27-28.pdf",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Gyor-Booking.com_ Confirmation-26-27.pdf",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1789626125457.png",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Leipzig-Booking.com_Confirmation-25-26.pdf",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-confirmation-4-5.pdf",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Assafenburg-Booking.com_ Confirmation.pdf",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Vienna-Booking.com_ Confirmation-5-6.pdf",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις",

@@ -687,6 +687,12 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "909290d451dbf9560e2460adee98e9c6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Current/Drawing 2026-02-16 22.29.48.excalidraw.md": {
@@ -823,6 +829,18 @@
       "wrap": false
     },
     "5c860f3c932990dbd8756c16360715a4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b76fcb7bc262bf9fe2ea1cd053323c90": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1935d7ff7247de515addc583a5668d12": {
       "position": "left",
       "width": "",
       "height": "",
@@ -1356,18 +1374,6 @@
     }
   },
   "Notes/Intelligen/Current issues/Intelligen-Notes.md": {
-    "9371f55dc0bb71ba9cf2f9190ccb530e": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "a4e16ca6a472f89813a96718bed92a56": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
     "747f716329c5765d9c1ac07b2d757ae2": {
       "position": "left",
       "width": "",
@@ -1440,19 +1446,37 @@
       "height": "",
       "wrap": false
     },
-    "1de173163c0e739c1b3414fe042ddecd": {
+    "650d1baf6143633f8a4d6065e115deea": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "5e8208674896f2b7f635334cfea62202": {
+    "e9e0d0c44e5784043a81c40c73895738": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "bb0d02a13d9e703e84367085be4c6996": {
+    "393e0cb4135d5ddce92fe560e3bb340c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2da9b8cc079547b303d060a73f1c7bbb": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "0cbbe5ed92fc8d6506f2b77d6ebbff56": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "dc53c6ef3d56647aa1f6d1aa0ea62624": {
       "position": "left",
       "width": "",
       "height": "",
@@ -2041,6 +2065,18 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "02b44e9c49dbbdf4ececf7187f6a926a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7ff0df88168a61bdd41d1b3f991f57cf": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Αλέξανδρος/Κάτοικος εξωτερικού/CLAIM_OTHERCOUNTRIES.pdf.md": {
@@ -2455,6 +2491,12 @@
       "wrap": false
     },
     "b637a7b06bf7218c4e0aa16cddfd3333": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2a36fa2b1168e9f67f72c73246917b45": {
       "position": "left",
       "width": "",
       "height": "",
@@ -3999,6 +4041,12 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "b8114d9bed09c01e2b090a291b42628e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Resources/Azure DocumentDB Notes.md": {
@@ -4531,6 +4579,18 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "bf863305b8e17017f8d46b2b34cd21db": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e2274472fd3f8e795e1768a5d7dee723": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Intelligen/Completed issues/544-Rename-TimingStatus-to-CompletionStatus.md": {
@@ -4803,6 +4863,42 @@
       "wrap": false
     },
     "402ae0fcbc1c6a9490bd8c86c5464e48": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f094c7dd3ca4880f9f05ac66d6707ade": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "3d09b8660790809e108f5e1321ae2b3d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "273775999284ff68e0d4c82c2348ad6b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "28e556e2eff117bc018c5c23fa744863": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4b98294772ac286b8038ac8113233e22": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "28b8c86c1ec5f6bdb866b43e1427123f": {
       "position": "left",
       "width": "",
       "height": "",
@@ -5731,6 +5827,18 @@
       "wrap": false
     },
     "b658002c5801086efe1683b43e99ea84": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5bab67c8a3f9fabfd5fcea1e7111011d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "193c031dc23c32994e4b5254da49962d": {
       "position": "left",
       "width": "",
       "height": "",
@@ -7563,6 +7671,12 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "b55d978b73a0ab855dc743094ecb7400": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Σπίτι/Ασφάλεια.md": {
@@ -7877,6 +7991,18 @@
       "wrap": false
     },
     "db6e6c5bde2004e69189230146cc4cb2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "afd787d1902c5e0413d31810ee7e1c64": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e8ede72d5b6e258dfbfc106eec644e2d": {
       "position": "left",
       "width": "",
       "height": "",
@@ -9157,6 +9283,18 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "2f92a5da3217b865c60d77f9e63b1f2e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ff4bcdcd2af5943bab4f9701f797d6bf": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Ταξίδι/April-2026/Κρατήσεις/Vienna.md": {
@@ -9243,6 +9381,18 @@
       "wrap": false
     },
     "78c70e547dc54bcdcfe796e26e595b1d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8c932d37babff2b7c5bd65aaa3b50b59": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a5056b6acdaa71e0f3af27b3e9b6fd07": {
       "position": "left",
       "width": "",
       "height": "",
@@ -9363,6 +9513,18 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "154eee9cdb6638d1be62fb639ebb4a81": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ab43128da7672e6568642f26b3d57daa": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md": {
@@ -9419,6 +9581,18 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "ab702ccc04437bd5a74a9aa82d4f5d26": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ee236c42c813781493e4c456ecde9a07": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Ταξίδι/Λίστες/Λεπτομερής Λίστα Ελέγχου Αυτοκινήτου – 7 Ημέρες Πριν.md": {
@@ -9471,6 +9645,18 @@
       "wrap": false
     },
     "758b0d378769bd42b2139162b2a82109": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8a7a854a619120fccab7c782223a3f08": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "69bd715968169b8cd42b8172808e36fe": {
       "position": "left",
       "width": "",
       "height": "",
@@ -9695,6 +9881,30 @@
       "wrap": false
     },
     "7f236619efb52fd8d72bf056684e7152": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d8b8778bf5ce62e19083450370a6aae6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "719b944383cc618987884d79076f6182": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2c64f746fa09b52f3f78b8ee01404147": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ce29d36529f77b38815b2144c91de732": {
       "position": "left",
       "width": "",
       "height": "",
@@ -10201,6 +10411,12 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "7d652affffd914586012fa5decb48f4d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Trading/Pump-fun/___2026-09-18.md": {
@@ -10269,6 +10485,24 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "de45ef3494181663b0a1cccf5bb1735a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "663ce9cf0f27f7c328397eeb03b8f3b9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2ae3ccb9fa894085e30c0417b2d6dac9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md": {
@@ -10315,6 +10549,180 @@
       "wrap": false
     },
     "bc31b5d2bb5cdac692aa59e1908855e4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "bf292586880bdcfbc1eb5cc52815cb89": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "c26d42036cc1d2827fff2cea704e15b1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-Booking.com_ Confirmation-27-28.pdf": {
+    "280e127bd6390f78feb9deb2c954b5e8": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "12e742a343651ce7c39ec8d45e94ac19": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "930f9a0ac928ce2f7ce6eedc0daf39f9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "faa0640d5600be5cf202e9832967ce84": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a6a9cdf19b913141ebbfbe606e84c5df": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "cd4d9e278dda0df87a24f9c70779ddd2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Leipzig-Booking.com_Confirmation-25-26.pdf": {
+    "9729c599a16f0cb5e564177472de5437": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "e7957ad2d1edf50f274d881794b8412d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "058174ff173ff79c89428cea657e896f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d90f1cc0cb5e0ba469da3ca2ac4f8126": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "0d868b102816e3d91cf50e5ca2e66136": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d7c355df63ab95889df359c1fc213fe7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Συντάξεις/Συνοπτικό ιστορικό Μιχάλη.md": {
+    "6427da21c750872f2f8f4015729a5163": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9c5ecdb96c326c5f2644054494e5c8dc": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5aaf2469b7d4b3113683c086693e7989": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "4fd69be2081cc51b55a1cba7c76a1970": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ea16ee950a6b9ac7c2d12c04ceaa951a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a7e1a030794100943be8f001131b5256": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Συντάξεις/Σύνταξη για τους ελεύθερους επαγγελματίες - syntaxeis.com.md": {
+    "348fddeb495c6d034ae1ec3acc6e10e1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "85ec6980e49b6afa064b836cb5fe9529": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "049c033f911dd60236d145b069d1124e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fa7f18c18bb4f910ce66a3ad52eb4f58": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "aee0b5aaacef4a01d4cefdabc45f213f": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Συντάξεις/Ιστορικό ασφάλισης.md": {
+    "c539b093a3a894dc3a9b09a5406570bd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Συντάξεις/Ένσημα Μιχάλης.md": {
+    "046e504481fd81cd326749a85024e72d": {
       "position": "left",
       "width": "",
       "height": "",
