@@ -94,9 +94,9 @@ Exit ακριβώς στο 30% ^yacgr2NA
 development/collector-20260724-132208.db ^6jvdWu3u
 
 ## Embedded Files
-84c80bc6ce32377f80b4a9ab9688f4119d0ef13f: [[Pasted Image 20260730000603_624.png]]
+84c80bc6ce32377f80b4a9ab9688f4119d0ef13f: [[__Σημειώσεις-Trading-20261101 1.png]]
 
-8ab17db0cc76038f1eb54f272550bd4bab1c69a3: [[Pasted Image 20260825232512_159.png]]
+8ab17db0cc76038f1eb54f272550bd4bab1c69a3: [[__Σημειώσεις-Trading-20261101.png]]
 
 %%
 ## Drawing

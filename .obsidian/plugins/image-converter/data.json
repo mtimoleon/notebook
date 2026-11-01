@@ -240,7 +240,7 @@
   },
   "ProcessCurrentNoteconvertTo": "disabled",
   "ProcessCurrentNotequality": 0.8,
-  "ProcessCurrentNoteResizeModalresizeMode": "Height",
+  "ProcessCurrentNoteResizeModalresizeMode": "Width",
   "ProcessCurrentNoteresizeModaldesiredWidth": 600,
   "ProcessCurrentNoteresizeModaldesiredHeight": 200,
   "ProcessCurrentNoteresizeModaldesiredLength": 800,

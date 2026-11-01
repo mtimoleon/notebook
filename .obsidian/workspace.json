@@ -4,19 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "5b154e690bbbc639",
+        "id": "828cb0629d341b67",
         "type": "tabs",
         "children": [
           {
-            "id": "18b675b30b995361",
+            "id": "d5504b8deb838712",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Notes/Home/Games/RIVEN.md"
+                "file": "Current/Organize obsidian.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "RIVEN"
+              "icon": "lucide-file",
+              "title": "Organize obsidian"
             }
           }
         ]
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Home/Games/RIVEN.md",
+                "file": "Current/Organize obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for RIVEN"
+              "title": "Backlinks for Organize obsidian"
             }
           },
           {
@@ -155,10 +167,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Notes/Home/Games/RIVEN.md"
+                "file": "Current/Organize obsidian.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for RIVEN"
+              "title": "File properties for Organize obsidian"
             }
           }
         ],
@@ -175,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Home/Games/RIVEN.md",
+                "file": "Current/Organize obsidian.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RIVEN"
+              "title": "Outline of Organize obsidian"
             }
           }
         ]
@@ -236,8 +248,17 @@
       "fix-math:Current file": false
     }
   },
-  "active": "18b675b30b995361",
+  "active": "d5504b8deb838712",
   "lastOpenFiles": [
+    "Current/News Digest.md",
+    "Current/2026-scratch-pad.md",
+    "Current/__Σημειώσεις-Trading.md",
+    "Current/assets/__Σημειώσεις-Trading",
+    "Current/__Σημειώσεις-1.md",
+    "Current/assets/Σημειώσεις-Trading",
+    "Current/Organize obsidian.md",
+    "Notes/Home/Games/RIVEN.md",
+    "Notes/Home/Games/QUERN.md",
     "Notes/Home/assets/Games/RIVEN",
     "Notes/Home/assets/Games/RIVEN/RIVEN-20261101.png",
     "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 1.png",
@@ -249,8 +270,6 @@
     "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 7.png",
     "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 8.png",
     "Notes/Home/ΤΣΜΕΔΕ/Επικοινωνία  e-ΕΦΚΑ.md",
-    "Notes/Home/Games/RIVEN.md",
-    "Notes/Home/Games/QUERN.md",
     "Notes/Home/assets/Games/QUERN",
     "Notes/Home/Games/QUERN.excalidraw.md",
     "Notes/Home/assets/Games/QUERN/QUERN-20261101.png",
@@ -276,15 +295,7 @@
     "Notes/Home/Υγεία/Μιχάλης ιστορικό.md",
     "Notes/Home/Υγεία/Πνευμονολόγοι.md",
     "Notes/Home/Υγεία/Συνταγή οφθαλμίατρος Μιχάλης.md",
-    "Notes/Home/C3/Διάφορα.md",
-    "Notes/Home/C3/Mirascript.md",
-    "Notes/Home/C3/OSRMA ULTRA LIFE.md",
-    "Notes/Home/C3/OSRAM SUPER.md",
-    "Notes/Home/C3/NIGHT BREAKER SILVER.md",
     "Notes/Home/assets/Συντάξεις/Ένσημα Μάγδας/~$Υπολογισμός ενσήμων.xlsx",
-    "Notes/Intelligen/assets/Current issues/VM upgrade",
-    "Notes/Intelligen/assets/Current issues/Audit",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-Booking.com_ Confirmation-27-28.pdf",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"
