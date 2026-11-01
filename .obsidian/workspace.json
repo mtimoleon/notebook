@@ -11,24 +11,12 @@
             "id": "18b675b30b995361",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Notes/Home/Υγεία/SYBIL/Predictions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Notes/Home/Games/RIVEN.md"
               },
-              "icon": "lucide-file",
-              "title": "Predictions"
+              "icon": "excalidraw-icon",
+              "title": "RIVEN"
             }
           }
         ]
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Home/Υγεία/SYBIL/Predictions.md",
+                "file": "Notes/Home/Games/RIVEN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Predictions"
+              "title": "Backlinks for RIVEN"
             }
           },
           {
@@ -167,10 +155,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Notes/Home/Υγεία/SYBIL/Predictions.md"
+                "file": "Notes/Home/Games/RIVEN.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Predictions"
+              "title": "File properties for RIVEN"
             }
           }
         ],
@@ -187,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Home/Υγεία/SYBIL/Predictions.md",
+                "file": "Notes/Home/Games/RIVEN.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Predictions"
+              "title": "Outline of RIVEN"
             }
           }
         ]
@@ -250,6 +238,30 @@
   },
   "active": "18b675b30b995361",
   "lastOpenFiles": [
+    "Notes/Home/assets/Games/RIVEN",
+    "Notes/Home/assets/Games/RIVEN/RIVEN-20261101.png",
+    "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 1.png",
+    "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 2.png",
+    "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 3.png",
+    "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 4.png",
+    "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 5.png",
+    "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 6.png",
+    "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 7.png",
+    "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 8.png",
+    "Notes/Home/ΤΣΜΕΔΕ/Επικοινωνία  e-ΕΦΚΑ.md",
+    "Notes/Home/Games/RIVEN.md",
+    "Notes/Home/Games/QUERN.md",
+    "Notes/Home/assets/Games/QUERN",
+    "Notes/Home/Games/QUERN.excalidraw.md",
+    "Notes/Home/assets/Games/QUERN/QUERN-20261101.png",
+    "Notes/Home/assets/Games/Drawing 2026-11-01 15.28.01.excalidraw",
+    "Notes/Home/Games/Untitled.canvas",
+    "Notes/Home/assets/Games/QUERN.excalidraw",
+    "Notes/Home/assets/Games/RIVEN.excalidraw",
+    "Notes/Home/assets/Games/Drawing 2026-11-01 15.24.56.excalidraw",
+    "Notes/Home/Games/RRIVEN.md",
+    "Notes/Home/ΤΣΜΕΔΕ/ΤΣΜΕΔΕ-διακοπή.md",
+    "Notes/Home/Υγεία/SYBIL/Predictions.md",
     "Notes/Home/Υγεία/SYBIL/Using Sybil Docker Container on a Remote Server.md",
     "Notes/Home/Υγεία/SYBIL/Github repositories.md",
     "Notes/Home/Υγεία/SYBIL/Which tools from open source sybil repo should use to create a lung cancer prediction with sybil.md",
@@ -269,33 +281,10 @@
     "Notes/Home/C3/OSRMA ULTRA LIFE.md",
     "Notes/Home/C3/OSRAM SUPER.md",
     "Notes/Home/C3/NIGHT BREAKER SILVER.md",
-    "Notes/Home/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού.md",
-    "Notes/Home/C3/Service.md",
-    "Notes/Home/C3/Λάμπες.md",
-    "Notes/Home/C3/Xenon.md",
-    "Notes/Home/C3/Υαλοκαθαριστήρες.md",
-    "Notes/Home/C3/C3.md",
-    "Notes/Home/Συντάξεις/Ιστορικό ασφάλισης.md",
-    "Notes/Home/Συντάξεις/Σύνταξη για τους ελεύθερους επαγγελματίες - syntaxeis.com.md",
     "Notes/Home/assets/Συντάξεις/Ένσημα Μάγδας/~$Υπολογισμός ενσήμων.xlsx",
-    "Notes/Intelligen/assets/Current issues/VM upgrade/VM upgrade-1793342283936.png",
     "Notes/Intelligen/assets/Current issues/VM upgrade",
-    "Notes/Intelligen/assets/Current issues/Audit/Audit-1793293106114.png",
     "Notes/Intelligen/assets/Current issues/Audit",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1793273805177.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1793272867260.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1793272474073.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1793261377501.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1792399112298.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1792398273477.png",
-    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1792398209073.png",
-    "Notes/Intelligen/Current issues/assets/Intelligen-Notes/Intelligen-Notes-1791894326419.png",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-Booking.com_ Confirmation-27-28.pdf",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Leipzig-Booking.com_Confirmation-25-26.pdf",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-confirmation-4-5.pdf",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Gyor-Booking.com_ Confirmation-26-27.pdf",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Assafenburg-Booking.com_ Confirmation.pdf",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Vienna-Booking.com_ Confirmation-5-6.pdf",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"

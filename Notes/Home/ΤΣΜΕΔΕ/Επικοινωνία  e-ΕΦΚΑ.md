@@ -8,11 +8,12 @@ Clipped from: [https://www.efka.gov.gr/el/epikoinonia](https://www.efka.gov.gr/e
 
 ![e myEFKA live ... ! A TAXlSNET , , , eEcDKA . 1555...](Exported%20image%2020260211200218-1.jpeg)
 
+
 ![Exported image](Exported%20image%2020260211200219-2.png)   
+
 ![[ReprintActivityChange.pdf]]
 
-Τοπική Διεύθυνση e-ΕΦΚΑ ΣΤ΄ Θεσσαλονίκης με έδρα την Καλαμαριά  
- ==A-==   ==A==   ==A+==  ==Υπογράμμιση υπερσυνδέσμων==
+
  
 **Τοπική Διεύθυνση e-ΕΦΚΑ ΣΤ΄ Θεσσαλονίκης με έδρα την Καλαμαριά**  
 Εθνικής Αντίστασης 62, ΤΚ 55133, Καλαμαριά  
