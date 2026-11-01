@@ -10,9 +10,8 @@ created: 2024-12-28
  
 Also see docker images
  
-|   |
-|---|
-|\|   \|<br>\|---\|<br>\|How to use Sybil AI running on docker\|<br>\|[https://www.perplexity.ai/search/how-to-use-sybil-ai-running-on-f1aaLVZYRmG1GJkr2MfEgQ](https://www.perplexity.ai/search/how-to-use-sybil-ai-running-on-f1aaLVZYRmG1GJkr2MfEgQ)\|<br>\|Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question.\||
+| How to use Sybil AI running on docker<br>[https://www.perplexity.ai/search/how-to-use-sybil-ai-running-on-f1aaLVZYRmG1GJkr2MfEgQ](https://www.perplexity.ai/search/how-to-use-sybil-ai-running-on-f1aaLVZYRmG1GJkr2MfEgQ)<br>Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question. |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
    
 
 Download data:  

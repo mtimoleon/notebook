@@ -4,42 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1a2f065735dfeb26",
+        "id": "5b154e690bbbc639",
         "type": "tabs",
         "children": [
           {
-            "id": "146e74e1b8492e8c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Intelligen/Current issues/Intelligen-Notes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Intelligen-Notes"
-            }
-          },
-          {
-            "id": "cac68c2ffd046829",
+            "id": "18b675b30b995361",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Home/Trading/Pump-fun/__2026-10-20.md",
+                "file": "Notes/Home/Υγεία/SYBIL/Predictions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -54,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "__2026-10-20"
+              "title": "Predictions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Home/Trading/Pump-fun/__2026-10-20.md",
+                "file": "Notes/Home/Υγεία/SYBIL/Predictions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for __2026-10-20"
+              "title": "Backlinks for Predictions"
             }
           },
           {
@@ -194,10 +167,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Notes/Home/Trading/Pump-fun/__2026-10-20.md"
+                "file": "Notes/Home/Υγεία/SYBIL/Predictions.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for __2026-10-20"
+              "title": "File properties for Predictions"
             }
           }
         ],
@@ -214,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Home/Trading/Pump-fun/__2026-10-20.md",
+                "file": "Notes/Home/Υγεία/SYBIL/Predictions.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of __2026-10-20"
+              "title": "Outline of Predictions"
             }
           }
         ]
@@ -256,7 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5
+    "width": 379.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -275,53 +248,54 @@
       "fix-math:Current file": false
     }
   },
-  "active": "cac68c2ffd046829",
+  "active": "18b675b30b995361",
   "lastOpenFiles": [
-    "Notes/Home/Trading/Pump-fun/___2026-09-18.md",
-    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
-    "Notes/Intelligen/Current issues/VM upgrade.md",
+    "Notes/Home/Υγεία/SYBIL/Using Sybil Docker Container on a Remote Server.md",
+    "Notes/Home/Υγεία/SYBIL/Github repositories.md",
+    "Notes/Home/Υγεία/SYBIL/Which tools from open source sybil repo should use to create a lung cancer prediction with sybil.md",
+    "Notes/Home/Υγεία/SYBIL/Open Source Availability.md",
+    "Notes/Home/Υγεία/SYBIL/Broader availability of Sybil or similar AI tools for public use.md",
+    "Notes/Home/Υγεία/SYBIL/Public place on internet for sybil use.md",
+    "Notes/Home/Υγεία/SYBIL/Use sybil for mine ldct.md",
+    "Notes/Home/Υγεία/https--www.perplexity.ai-page-briacell-says-breast-cancer-pa-Xs0peTfcTByb5FVCUyw2mQ.md",
+    "Notes/Home/assets/Υγεία/https--www.perplexity.ai-page-briacell-says-breast-cancer-pa-Xs0peTfcTByb5FVCUyw2mQ/Συνημμένο.pdf",
+    "Notes/Home/Υγεία/Σύνδρομο Παγωμένου Ώμου — Οδηγός Ασκήσεων.md",
+    "Notes/Home/Υγεία/Ασκήσεις για ζάλη.md",
+    "Notes/Home/Υγεία/Μιχάλης ιστορικό.md",
+    "Notes/Home/Υγεία/Πνευμονολόγοι.md",
+    "Notes/Home/Υγεία/Συνταγή οφθαλμίατρος Μιχάλης.md",
+    "Notes/Home/C3/Διάφορα.md",
+    "Notes/Home/C3/Mirascript.md",
+    "Notes/Home/C3/OSRMA ULTRA LIFE.md",
+    "Notes/Home/C3/OSRAM SUPER.md",
+    "Notes/Home/C3/NIGHT BREAKER SILVER.md",
+    "Notes/Home/C3/Άδεια κυκλοφορίας αυτοκινήτου Επεξήγηση κάθε κωδικού.md",
+    "Notes/Home/C3/Service.md",
+    "Notes/Home/C3/Λάμπες.md",
+    "Notes/Home/C3/Xenon.md",
+    "Notes/Home/C3/Υαλοκαθαριστήρες.md",
+    "Notes/Home/C3/C3.md",
+    "Notes/Home/Συντάξεις/Ιστορικό ασφάλισης.md",
+    "Notes/Home/Συντάξεις/Σύνταξη για τους ελεύθερους επαγγελματίες - syntaxeis.com.md",
+    "Notes/Home/assets/Συντάξεις/Ένσημα Μάγδας/~$Υπολογισμός ενσήμων.xlsx",
     "Notes/Intelligen/assets/Current issues/VM upgrade/VM upgrade-1793342283936.png",
     "Notes/Intelligen/assets/Current issues/VM upgrade",
-    "Notes/Intelligen/Current issues/Audit.md",
     "Notes/Intelligen/assets/Current issues/Audit/Audit-1793293106114.png",
     "Notes/Intelligen/assets/Current issues/Audit",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1793273805177.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1793272867260.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1793272474073.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1793261377501.png",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Ημερολόγιο 2026-10.excalidraw.md",
-    "Notes/Home/Trading/Pump-fun/__2026-10-20.md",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1792399112298.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1792398273477.png",
     "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1792398209073.png",
-    "Notes/Auth/Projects/RAISE/Engineering/PRs/PR-209 Credit System Foundations.md",
     "Notes/Intelligen/Current issues/assets/Intelligen-Notes/Intelligen-Notes-1791894326419.png",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις-συγκεντρωτικό.md",
-    "Notes/Interests/AI/Algorithms/Markov Decision Process/Markov Decision Process.md",
-    "Notes/Interests/AI/Algorithms/Markov Decision Process/The Mathematics of 2048 Optimal Play with Markov Decision Processes.md",
-    "Notes/Interests/AI/Algorithms/Data science/ML Notes.md",
-    "Notes/Interests/AI/Algorithms/Data science/Data centric ML.md",
-    "Notes/Interests/AI/Algorithms/Machine learning/SuttonBartoI-Reinforcement Learning Introduction.md",
-    "Notes/Interests/AI/Algorithms/Machine learning/Demystifying 6 key machine learning algorithms.md",
-    "Notes/Interests/AI/Algorithms/Machine learning/Data science.md",
-    "Notes/Interests/AI/Algorithms/Πως να φτιάξετε ένα chatbot για τα έγγραφα σας με το μοντέλο GPT  WebZein.md",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-Booking.com_ Confirmation-27-28.pdf",
-    "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου – 7 Ημέρες Πριν την Αναχώρηση.md",
-    "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md",
-    "Notes/Intelligen/Current issues/Intelligen-Backlog.md",
-    "Current/2026-scratch-pad.md",
-    "Notes/Home/Ταξίδι/Λίστες/ToDo list for traveling.md",
-    "Notes/Home/Ταξίδι/Λίστες/Checklist – Τι Έχω Μέσα Στο Πορτμπαγκάζ.md",
-    "Notes/Home/Ταξίδι/Rates.md",
-    "Notes/Home/Ταξίδι/April-2026/Διόδια.md",
-    "Notes/Home/Ταξίδι/Λίστες/Λεπτομερής Λίστα Ελέγχου Αυτοκινήτου – 7 Ημέρες Πριν.md",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Leipzig-Booking.com_Confirmation-25-26.pdf",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Novi-sad-confirmation-4-5.pdf",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Gyor-Booking.com_ Confirmation-26-27.pdf",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Assafenburg-Booking.com_ Confirmation.pdf",
     "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις/Vienna-Booking.com_ Confirmation-5-6.pdf",
-    "Notes/Home/Ταξίδι/Οκτώβριος-2026/Κρατήσεις",
-    "Notes/Intelligen/assets/Current issues/614-Resource-configuration",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",
     "Test/Untitled/Untitled.canvas"
