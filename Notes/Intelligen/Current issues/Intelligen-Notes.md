@@ -7,17 +7,25 @@ component: Docker
 tags:
   - documentation/intelligen
 ---
-Current size = Standard D2s v3
-vCpus = 2
-RAM = 8 GiB
-Threads per core = 2
 
-![[Intelligen-Notes-1790944197308.png|1010x31]]
+- Na βάλουμε OrderBy\(OrderNumber\) στο GetRecipeResourcesQueryable στο IncludeExtension.
 
 
 
 
-![[Intelligen-Notes-1790677942839.png|1010x762]]
+
+Μετακινήθηκε ένα planning task αρκετά δεξιότερα (MF-1 Clean Tank)
+![[Intelligen-Notes-1793272474073.png|1010x387]]
+
+min of start scheduling board, planning start, tracking start
+max of planning end, tracking end
+
+
+
+
+
+
+
 
 ### error messages display
 

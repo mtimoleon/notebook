@@ -1416,67 +1416,19 @@
       "height": "",
       "wrap": false
     },
-    "d6b97751dc988936a724db3eb903c806": {
+    "189a7f71f85da74dd09005596f34f3ea": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "791e885351753cce53fc8f025282c474": {
+    "d8d7d77ee171b60347f6f0a947ec0c2b": {
       "position": "left",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "fb8a87d0defe7e8b98fdf2fd2009dcf6": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "e4b8cd9bd1db9a2aebb8942c318a9473": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "34c4a1b853c0f774894724406c106df2": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "650d1baf6143633f8a4d6065e115deea": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "e9e0d0c44e5784043a81c40c73895738": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "393e0cb4135d5ddce92fe560e3bb340c": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "2da9b8cc079547b303d060a73f1c7bbb": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0cbbe5ed92fc8d6506f2b77d6ebbff56": {
-      "position": "left",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "dc53c6ef3d56647aa1f6d1aa0ea62624": {
+    "cd99c4404efbed422e14ade95c11f93f": {
       "position": "left",
       "width": "",
       "height": "",
@@ -10503,6 +10455,12 @@
       "width": "",
       "height": "",
       "wrap": false
+    },
+    "face2b1eb5dc0f345c5304442d5f2fc1": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
     }
   },
   "Notes/Home/Ταξίδι/Λίστες/Λίστα Ελέγχου Αυτοκινήτου – Συνεργείο.md": {
@@ -10723,6 +10681,300 @@
   },
   "Notes/Home/Συντάξεις/Ένσημα Μιχάλης.md": {
     "046e504481fd81cd326749a85024e72d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Interests/AI/Algorithms/Machine learning/Data science.md": {
+    "f64a7fe71b43a3b9aa214445af017ad7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b75c91d53ffd17576cf857e439299c3c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2b735fe7518303416588ce92de948058": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8b1bd68f7e7cbc7657e06f978b79a6c9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "990ecd1a7db5cb30d89c7c7d557f3e18": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Interests/AI/Algorithms/Machine learning/Demystifying 6 key machine learning algorithms.md": {
+    "603861be5c616607d339d2a2e100593d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "239d99028866fbc631b410483147fa30": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "fa569d217b04261047002c5ff3ef8927": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8c73b6d72b4e516be242d8a86e77dbc2": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ce3db55f16e21b543e59110372ea9ff4": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "83a402fd2fb7149ebd206e0012641d60": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "38359dfdc78997768b6e0b13964e4044": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6498449656fb1a0fe0d21bd720ebf6f3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "076066589073c5dd8dac532e547abf50": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Interests/AI/Algorithms/Data science/Data centric ML.md": {
+    "f9777c21fae201376795b59c7847de3e": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "db8c2d3e9ab7c30dd44ecaf619bbf4f6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "44b34c262b548ba541a79c0e4fd15621": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "89c72b3149cb18f0964af1e1e8eb16f9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "8397cdef91f5d4af359ceee597669f27": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Interests/AI/Algorithms/Data science/ML Notes.md": {
+    "66f9575bb24f0598fdbc1c58b48fdf8d": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "b3cde10eab56c8727a89d2a32ad74193": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "5a95b9f0396e219edd4f74da628b9fa7": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "476c1ce6ef28ac4e0afdcfec43fe5bc0": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "64b1ea287afdaf7b8bdae2ed324b30aa": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a6af811eb8b18d95ec221f7799184215": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ff0cc1d241ec8a3cfe39be14743694b5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2c811c1fe493884a093ad3c4dedf56ff": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a40e066e11bd638d41cb24e148037cc6": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "ba8d2f4c3c3393ecb5a7756d5edd9000": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Interests/AI/Algorithms/Markov Decision Process/Markov Decision Process.md": {
+    "a0cd84534d0d6bc5372026dc136b75da": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Auth/Projects/RAISE/Engineering/PRs/PR-209 Credit System Foundations.md": {
+    "f1ac960ebe9f9712a9dbde96b288772c": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "f41b1bb546702c69be78600b8f244267": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "7034cd94a3481cbfc8d7f6428d4fe378": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Current issues/Audit.md": {
+    "ebf97a2600467b136b2694cf59c1a78a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "caee03e5f2cd1a79a8f88527fc3b6e48": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "3c9af6eda2fa12753156de30e144554a": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "26f02a74f6b1613d36f16e25572f7ef9": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "9fff565d8cc3dadd1f9a4bae8fa19aa3": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "35f9b686ecd3ab21e346c4dd0c4b710b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Intelligen/Current issues/VM upgrade.md": {
+    "931f6b73470f5095baefb22a9c197e73": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d835109ed62595e68ab388dec8ac0eda": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "245f41836f499c0e45b7ae19bcb0763b": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "77bd23cacae20350d480aeb458d22762": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "1592f33f08541fce849a90a4df117abd": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "cdc5b75c6efe9c7301026ebee2ba5ec5": {
+      "position": "left",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "Notes/Home/Trading/Pump-fun/__2026-10-20.md": {
+    "4e70335f829f21f263cc53e032d69118": {
       "position": "left",
       "width": "",
       "height": "",
