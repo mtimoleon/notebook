@@ -7,6 +7,20 @@ component: Docker
 tags:
   - documentation/intelligen
 ---
+![[Intelligen-Notes-1793787408350.png|863]]
+
+
+![[Intelligen-Notes-1793787343011.png|1015]]
+
+
+![[Intelligen-Notes-1793630780949.png|1010x397]]
+
+
+
+
+![[Intelligen-Notes-1793620584648.png|1010x758]]
+
+
 
 - Na βάλουμε OrderBy\(OrderNumber\) στο GetRecipeResourcesQueryable στο IncludeExtension.
 

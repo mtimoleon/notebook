@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "828cb0629d341b67",
+        "id": "3d88e255392d37f0",
         "type": "tabs",
         "children": [
           {
-            "id": "d5504b8deb838712",
+            "id": "15045a05bf84b4d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Current/Organize obsidian.md",
+                "file": "Notes/Intelligen/Current issues/On premises deployment.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Organize obsidian"
+              "title": "On premises deployment"
             }
           }
         ]
@@ -51,7 +51,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 309.5
   },
   "right": {
     "id": "ed3f7e0552712392",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Current/Organize obsidian.md",
+                "file": "Notes/Intelligen/Current issues/On premises deployment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Organize obsidian"
+              "title": "Backlinks for On premises deployment"
             }
           },
           {
@@ -167,10 +167,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Current/Organize obsidian.md"
+                "file": "Notes/Intelligen/Current issues/On premises deployment.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Organize obsidian"
+              "title": "File properties for On premises deployment"
             }
           }
         ],
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Current/Organize obsidian.md",
+                "file": "Notes/Intelligen/Current issues/On premises deployment.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Organize obsidian"
+              "title": "Outline of On premises deployment"
             }
           }
         ]
@@ -248,15 +248,28 @@
       "fix-math:Current file": false
     }
   },
-  "active": "d5504b8deb838712",
+  "active": "15045a05bf84b4d7",
   "lastOpenFiles": [
+    "Notes/Intelligen/Current issues/Intelligen-Notes.md",
+    "Notes/Auth/Projects/RAISE/Architecture/federated-learning.md",
+    "Notes/Auth/Projects/RAISE/Architecture/Architecture.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1793787408350.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1793787343011.png",
+    "Notes/Auth/Projects/RAISE/Architecture/webrtc-dataset-transfer-architecture.md",
+    "Notes/Auth/Projects/RAISE/Architecture/D3.1 RAI Cloud services' specifications v3.0.md",
+    "Notes/Auth/Projects/RAISE/Architecture/2024-04-24_RAISE_InfoPack-Antonio.md",
+    "Notes/Intelligen/Current issues/On premises deployment.md",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1793630780949.png",
+    "Notes/Intelligen/assets/Current issues/Intelligen-Notes/Intelligen-Notes-1793620584648.png",
+    "Notes/Home/Trading/Pump-fun/__2026-10-20.md",
+    "Notes/Home/Trading/Pump-fun/___2026-09-18.md",
+    "Current/__Σημειώσεις-Trading.md",
+    "Current/Organize obsidian.md",
     "Current/News Digest.md",
     "Current/2026-scratch-pad.md",
-    "Current/__Σημειώσεις-Trading.md",
     "Current/assets/__Σημειώσεις-Trading",
     "Current/__Σημειώσεις-1.md",
     "Current/assets/Σημειώσεις-Trading",
-    "Current/Organize obsidian.md",
     "Notes/Home/Games/RIVEN.md",
     "Notes/Home/Games/QUERN.md",
     "Notes/Home/assets/Games/RIVEN",
@@ -266,13 +279,9 @@
     "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 3.png",
     "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 4.png",
     "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 5.png",
-    "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 6.png",
-    "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 7.png",
-    "Notes/Home/assets/Games/RIVEN/RIVEN-20261101 8.png",
     "Notes/Home/ΤΣΜΕΔΕ/Επικοινωνία  e-ΕΦΚΑ.md",
     "Notes/Home/assets/Games/QUERN",
     "Notes/Home/Games/QUERN.excalidraw.md",
-    "Notes/Home/assets/Games/QUERN/QUERN-20261101.png",
     "Notes/Home/assets/Games/Drawing 2026-11-01 15.28.01.excalidraw",
     "Notes/Home/Games/Untitled.canvas",
     "Notes/Home/assets/Games/QUERN.excalidraw",
@@ -286,15 +295,7 @@
     "Notes/Home/Υγεία/SYBIL/Which tools from open source sybil repo should use to create a lung cancer prediction with sybil.md",
     "Notes/Home/Υγεία/SYBIL/Open Source Availability.md",
     "Notes/Home/Υγεία/SYBIL/Broader availability of Sybil or similar AI tools for public use.md",
-    "Notes/Home/Υγεία/SYBIL/Public place on internet for sybil use.md",
-    "Notes/Home/Υγεία/SYBIL/Use sybil for mine ldct.md",
-    "Notes/Home/Υγεία/https--www.perplexity.ai-page-briacell-says-breast-cancer-pa-Xs0peTfcTByb5FVCUyw2mQ.md",
     "Notes/Home/assets/Υγεία/https--www.perplexity.ai-page-briacell-says-breast-cancer-pa-Xs0peTfcTByb5FVCUyw2mQ/Συνημμένο.pdf",
-    "Notes/Home/Υγεία/Σύνδρομο Παγωμένου Ώμου — Οδηγός Ασκήσεων.md",
-    "Notes/Home/Υγεία/Ασκήσεις για ζάλη.md",
-    "Notes/Home/Υγεία/Μιχάλης ιστορικό.md",
-    "Notes/Home/Υγεία/Πνευμονολόγοι.md",
-    "Notes/Home/Υγεία/Συνταγή οφθαλμίατρος Μιχάλης.md",
     "Notes/Home/assets/Συντάξεις/Ένσημα Μάγδας/~$Υπολογισμός ενσήμων.xlsx",
     "Test/Untitled 1.canvas",
     "Test/attachements/batch-c-0-deps.canvas",

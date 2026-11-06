@@ -5,7 +5,9 @@
     "mermaid",
     "highlight-color"
   ],
-  "cssTheme": "",
+  "cssTheme": "Cupertino",
   "accentColor": "",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "nativeMenus": false
 }
